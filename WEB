@@ -1,0 +1,859 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Art of Meaning Interiors — bespoke mural-led spaces by Magdalena Babicka." />
+  <title>Art of Meaning / Interiors</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap" rel="stylesheet" />
+
+  <style>
+    :root {
+      --ink: #111111;
+      --ink-soft: #171716;
+      --plaster: #eae5dc;
+      --mist: #c8c0b4;
+      --gold: #c5a059;
+      --clay: #9f6751;
+      --line: rgba(234, 229, 220, 0.18);
+      --serif: "Playfair Display", Georgia, serif;
+      --sans: "Manrope", Arial, sans-serif;
+      --mono: "DM Mono", monospace;
+    }
+
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      overflow-x: hidden;
+      color: var(--plaster);
+      background: var(--ink);
+      font-family: var(--sans);
+    }
+
+    a { color: inherit; text-decoration: none; }
+    button { font: inherit; }
+
+    .grain {
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      z-index: 20;
+      opacity: .055;
+      background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 180 180' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.85'/%3E%3C/svg%3E");
+    }
+
+    .eyebrow {
+      color: var(--gold);
+      font: 500 10px/1.4 var(--mono);
+      letter-spacing: .18em;
+      text-transform: uppercase;
+    }
+
+    .nav {
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: 15;
+      display: flex;
+      width: 100%;
+      align-items: center;
+      justify-content: space-between;
+      padding: 23px 4vw;
+      border-bottom: 1px solid transparent;
+      transition: background .4s ease, border-color .4s ease, padding .4s ease;
+    }
+
+    .nav.is-scrolled {
+      padding-block: 16px;
+      border-color: var(--line);
+      background: rgba(17, 17, 17, .89);
+      backdrop-filter: blur(14px);
+    }
+
+    .brand {
+      font: 500 11px/1.1 var(--mono);
+      letter-spacing: .11em;
+      text-transform: uppercase;
+    }
+
+    .brand span { color: var(--gold); }
+
+    .nav-links {
+      display: flex;
+      gap: clamp(16px, 2vw, 36px);
+      align-items: center;
+      font: 500 10px/1 var(--mono);
+      letter-spacing: .11em;
+      text-transform: uppercase;
+    }
+
+    .nav-links a {
+      position: relative;
+      opacity: .82;
+      transition: opacity .25s ease;
+    }
+
+    .nav-links a::after {
+      position: absolute;
+      right: 0;
+      bottom: -7px;
+      left: 0;
+      height: 1px;
+      background: var(--gold);
+      content: "";
+      transform: scaleX(0);
+      transform-origin: right;
+      transition: transform .3s ease;
+    }
+
+    .nav-links a:hover { opacity: 1; }
+    .nav-links a:hover::after {
+      transform: scaleX(1);
+      transform-origin: left;
+    }
+
+    .menu-toggle {
+      display: none;
+      border: 0;
+      color: var(--plaster);
+      background: none;
+      cursor: pointer;
+    }
+
+    .hero {
+      display: grid;
+      min-height: 100svh;
+      grid-template-columns: minmax(0, .92fr) minmax(0, 1.08fr);
+      background: var(--ink);
+    }
+
+    .hero-copy {
+      position: relative;
+      display: flex;
+      min-height: 100svh;
+      flex-direction: column;
+      justify-content: flex-end;
+      padding: 12rem 7vw 8vw;
+      overflow: hidden;
+    }
+
+    .hero-copy::before {
+      position: absolute;
+      top: 19%;
+      left: -13rem;
+      width: 32rem;
+      height: 32rem;
+      border: 1px solid rgba(197, 160, 89, .17);
+      border-radius: 50%;
+      content: "";
+    }
+
+    h1, h2, h3, p { margin-top: 0; }
+
+    h1 {
+      position: relative;
+      max-width: 730px;
+      margin: 20px 0 28px;
+      font: 500 clamp(3.4rem, 5.3vw, 6.5rem)/.94 var(--serif);
+      letter-spacing: -.055em;
+    }
+
+    h1 em {
+      color: var(--gold);
+      font-weight: 500;
+    }
+
+    .hero-description {
+      max-width: 430px;
+      margin-bottom: 50px;
+      color: var(--mist);
+      font-size: 14px;
+      line-height: 1.85;
+    }
+
+    .hero-meta {
+      display: flex;
+      gap: 25px;
+      align-items: center;
+      color: var(--plaster);
+      font: 500 10px/1.4 var(--mono);
+      letter-spacing: .08em;
+      text-transform: uppercase;
+    }
+
+    .line-link {
+      display: inline-flex;
+      gap: 13px;
+      align-items: center;
+      padding-bottom: 7px;
+      border-bottom: 1px solid var(--gold);
+      transition: color .25s ease, gap .25s ease;
+    }
+
+    .line-link:hover { gap: 20px; color: var(--gold); }
+
+    .hero-art {
+      position: relative;
+      min-height: 100svh;
+      overflow: hidden;
+    }
+
+    .hero-art img {
+      width: 100%;
+      height: 100%;
+      min-height: 100svh;
+      object-fit: cover;
+      filter: saturate(.8) contrast(1.05);
+    }
+
+    .hero-art::after {
+      position: absolute;
+      inset: 0;
+      background:
+        linear-gradient(90deg, rgba(17, 17, 17, .34), transparent 40%),
+        linear-gradient(0deg, rgba(17, 17, 17, .36), transparent 45%);
+      content: "";
+    }
+
+    .hero-project {
+      position: absolute;
+      z-index: 1;
+      right: 7%;
+      bottom: 8%;
+      width: min(345px, 62%);
+      padding: 23px;
+      border: 1px solid rgba(234, 229, 220, .36);
+      background: rgba(17, 17, 17, .3);
+      backdrop-filter: blur(6px);
+    }
+
+    .hero-project p {
+      margin: 7px 0 0;
+      font: 500 11px/1.5 var(--mono);
+      letter-spacing: .04em;
+      text-transform: uppercase;
+    }
+
+    .section-intro {
+      display: grid;
+      gap: 50px;
+      padding: clamp(90px, 13vw, 180px) 7vw 75px;
+      grid-template-columns: .7fr 1.3fr;
+      align-items: end;
+    }
+
+    .section-intro h2 {
+      max-width: 740px;
+      margin: 0;
+      font: 500 clamp(2.7rem, 5vw, 5.7rem)/.96 var(--serif);
+      letter-spacing: -.045em;
+    }
+
+    .section-intro h2 em { color: var(--gold); }
+
+    .section-intro p {
+      max-width: 410px;
+      margin: 0 0 5px auto;
+      color: var(--mist);
+      font-size: 14px;
+      line-height: 1.85;
+    }
+
+    .gallery {
+      display: grid;
+      padding: 0 2.5vw 12vw;
+      grid-template-columns: repeat(12, 1fr);
+      gap: 2.5vw;
+    }
+
+    .project {
+      position: relative;
+      min-height: 580px;
+      overflow: hidden;
+      background: #292723;
+      cursor: pointer;
+      isolation: isolate;
+    }
+
+    .project:nth-child(1) { grid-column: 1 / span 7; }
+    .project:nth-child(2) { grid-column: 8 / span 5; margin-top: 14vw; }
+    .project:nth-child(3) { grid-column: 2 / span 5; margin-top: -1vw; }
+    .project:nth-child(4) { grid-column: 7 / span 6; margin-top: 8vw; }
+
+    .project-media,
+    .project-media img,
+    .project-overlay { position: absolute; inset: 0; }
+
+    .project-media { overflow: hidden; }
+    .project-media img {
+      width: 112%;
+      height: 112%;
+      object-fit: cover;
+      transform: translate(-5%, -5%) scale(1.03);
+      filter: saturate(.72) contrast(1.06);
+      transition: transform 1s cubic-bezier(.2, .7, 0, 1), filter .65s ease;
+    }
+
+    .project:nth-child(3) .project-media img,
+    .project:nth-child(4) .project-media img { opacity: .55; }
+
+    .project-overlay {
+      background: linear-gradient(0deg, rgba(10, 10, 10, .92), transparent 65%);
+      transition: background .45s ease;
+    }
+
+    .project:hover .project-media img {
+      transform: translate(var(--mx, -5%), var(--my, -5%)) scale(1.12);
+      filter: saturate(1) contrast(1.1);
+    }
+
+    .project:hover .project-overlay {
+      background: linear-gradient(0deg, rgba(10, 10, 10, .95), rgba(10, 10, 10, .06) 72%);
+    }
+
+    .project-number {
+      position: absolute;
+      z-index: 2;
+      top: 25px;
+      left: 27px;
+      font: 500 10px var(--mono);
+      letter-spacing: .12em;
+      color: var(--plaster);
+    }
+
+    .project-content {
+      position: absolute;
+      z-index: 2;
+      right: 28px;
+      bottom: 28px;
+      left: 28px;
+    }
+
+    .project-tag {
+      display: inline-block;
+      margin-bottom: 14px;
+      padding: 7px 9px;
+      border: 1px solid rgba(234, 229, 220, .48);
+      color: var(--plaster);
+      font: 500 9px var(--mono);
+      letter-spacing: .14em;
+      text-transform: uppercase;
+    }
+
+    .project h3 {
+      max-width: 520px;
+      margin-bottom: 10px;
+      font: 500 clamp(1.85rem, 3vw, 3rem)/1 var(--serif);
+      letter-spacing: -.04em;
+    }
+
+    .project p {
+      max-width: 480px;
+      max-height: 0;
+      margin: 0;
+      overflow: hidden;
+      color: #e9e2d7;
+      font-size: 12px;
+      line-height: 1.75;
+      opacity: 0;
+      transition: max-height .55s ease, opacity .35s ease, margin .45s ease;
+    }
+
+    .project:hover p {
+      max-height: 100px;
+      margin-top: 14px;
+      opacity: 1;
+    }
+
+    .genesis {
+      padding: clamp(90px, 10vw, 150px) 4vw;
+      background: var(--plaster);
+      color: var(--ink);
+    }
+
+    .genesis-heading {
+      display: flex;
+      justify-content: space-between;
+      gap: 35px;
+      align-items: end;
+      max-width: 1300px;
+      margin: 0 auto 50px;
+    }
+
+    .genesis h2 {
+      max-width: 700px;
+      margin: 12px 0 0;
+      font: 500 clamp(2.6rem, 5vw, 5.4rem)/.97 var(--serif);
+      letter-spacing: -.05em;
+    }
+
+    .genesis-text {
+      max-width: 330px;
+      margin: 0;
+      color: #615d55;
+      font-size: 13px;
+      line-height: 1.8;
+    }
+
+    .comparison {
+      position: relative;
+      max-width: 1300px;
+      height: min(67vw, 735px);
+      min-height: 440px;
+      margin: auto;
+      overflow: hidden;
+      background: #8f887d;
+      cursor: ew-resize;
+      touch-action: none;
+      user-select: none;
+    }
+
+    .comparison img {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .before img { filter: saturate(.34) brightness(.92); }
+
+    .after {
+      position: absolute;
+      inset: 0 auto 0 0;
+      width: 50%;
+      overflow: hidden;
+      border-right: 1px solid var(--gold);
+    }
+
+    .after img {
+      width: 100%;
+      max-width: none;
+      filter: saturate(1.1) contrast(1.08);
+    }
+
+    .compare-label {
+      position: absolute;
+      z-index: 3;
+      top: 21px;
+      padding: 8px 11px;
+      color: var(--plaster);
+      background: rgba(17, 17, 17, .62);
+      font: 500 9px var(--mono);
+      letter-spacing: .14em;
+      text-transform: uppercase;
+    }
+
+    .label-before { right: 21px; }
+    .label-after { left: 21px; }
+
+    .handle {
+      position: absolute;
+      z-index: 5;
+      top: 50%;
+      left: 50%;
+      display: grid;
+      width: 50px;
+      height: 50px;
+      place-items: center;
+      border: 1px solid var(--gold);
+      border-radius: 50%;
+      color: var(--gold);
+      background: var(--ink);
+      transform: translate(-50%, -50%);
+    }
+
+    .handle::before,
+    .handle::after {
+      width: 8px;
+      height: 8px;
+      content: "";
+      border-top: 1px solid currentColor;
+      border-right: 1px solid currentColor;
+    }
+
+    .handle::before { transform: rotate(-135deg) translate(-2px, 2px); }
+    .handle::after { transform: rotate(45deg) translate(-2px, 2px); }
+
+    .genesis-note {
+      max-width: 1300px;
+      margin: 18px auto 0;
+      color: #696258;
+      font: 500 10px/1.5 var(--mono);
+      letter-spacing: .08em;
+      text-transform: uppercase;
+    }
+
+    .contact {
+      position: relative;
+      padding: clamp(90px, 13vw, 170px) 7vw 40px;
+      overflow: hidden;
+      background: var(--ink-soft);
+    }
+
+    .contact::before {
+      position: absolute;
+      right: -11vw;
+      bottom: -20vw;
+      width: 55vw;
+      height: 55vw;
+      border: 1px solid rgba(197, 160, 89, .19);
+      border-radius: 50%;
+      content: "";
+    }
+
+    .contact h2 {
+      position: relative;
+      max-width: 920px;
+      margin: 18px 0 48px;
+      font: 500 clamp(3.3rem, 7vw, 8rem)/.9 var(--serif);
+      letter-spacing: -.06em;
+    }
+
+    .contact h2 em { color: var(--gold); }
+
+    .contact-links {
+      position: relative;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px 46px;
+      margin-bottom: 100px;
+    }
+
+    .contact-links a {
+      font: 500 clamp(1rem, 2vw, 1.45rem)/1.4 var(--sans);
+      transition: color .25s ease;
+    }
+
+    .contact-links a:hover { color: var(--gold); }
+
+    .footer-bottom {
+      position: relative;
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+      padding-top: 23px;
+      border-top: 1px solid var(--line);
+      color: #a69e91;
+      font: 500 9px/1.4 var(--mono);
+      letter-spacing: .1em;
+      text-transform: uppercase;
+    }
+
+    @media (max-width: 800px) {
+      .nav-links {
+        position: fixed;
+        top: 0;
+        right: 0;
+        display: flex;
+        width: min(290px, 80vw);
+        height: 100svh;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        padding: 35px;
+        background: #171716;
+        box-shadow: -20px 0 45px rgba(0, 0, 0, .3);
+        transform: translateX(105%);
+        transition: transform .35s ease;
+      }
+
+      .nav-links.is-open { transform: translateX(0); }
+      .menu-toggle { position: relative; z-index: 2; display: block; }
+
+      .hero { grid-template-columns: 1fr; }
+      .hero-art { min-height: 54svh; grid-row: 1; }
+      .hero-art img { min-height: 54svh; }
+      .hero-copy { min-height: auto; padding: 80px 7vw 70px; }
+      .hero-project { right: 7%; bottom: 8%; }
+
+      .section-intro,
+      .genesis-heading { grid-template-columns: 1fr; display: grid; }
+      .section-intro p { margin: 0; }
+
+      .gallery { display: grid; grid-template-columns: 1fr; gap: 20px; padding-inline: 4vw; }
+      .project,
+      .project:nth-child(n) { grid-column: auto; min-height: 470px; margin-top: 0; }
+
+      .comparison { height: 108vw; min-height: 400px; }
+      .genesis-heading { margin-bottom: 32px; }
+      .footer-bottom { flex-direction: column; }
+    }
+
+    @media (max-width: 450px) {
+      h1 { font-size: 3.1rem; }
+      .hero-meta { align-items: flex-start; flex-direction: column; }
+      .project { min-height: 430px; }
+      .project-content { right: 20px; bottom: 21px; left: 20px; }
+      .project-number { top: 20px; left: 20px; }
+      .project:hover p { max-height: 130px; }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="grain"></div>
+
+  <header class="nav" id="top">
+    <a class="brand" href="#top">ART OF MEANING <span>/</span> INTERIORS</a>
+
+    <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false">
+      MENU
+    </button>
+
+    <nav class="nav-links" id="navLinks" aria-label="Main navigation">
+      <a href="#work">Selected Spaces</a>
+      <a href="#genesis">Artistic Genesis</a>
+      <a href="#contact">Commissions</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <div class="eyebrow">Interiors as a living canvas / 01</div>
+        <h1 id="hero-title">Spaces with a Soul:<br />Where <em>Murals</em> Shape Architecture.</h1>
+        <p class="hero-description">
+          Art of Meaning creates singular interiors for residences, boutique hospitality,
+          and visionary venues where every wall, ceiling, and passage becomes part of a
+          larger emotional composition.
+        </p>
+        <div class="hero-meta">
+          <a class="line-link" href="#work">Enter the collection <span>→</span></a>
+          <span>Warsaw / Worldwide</span>
+        </div>
+      </div>
+
+      <div class="hero-art">
+        <img
+          src="https://images.unsplash.com/photo-1618220179428-22790b461013?auto=format&fit=crop&w=1800&q=90"
+          alt="Sculptural, art-led luxury interior"
+        />
+        <div class="hero-project">
+          <div class="eyebrow">Flagship canvas / private commission</div>
+          <p>A monumental mural study in shadow, mineral colour, and warm light.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="work" aria-labelledby="work-title">
+      <div class="section-intro">
+        <div class="eyebrow">Selected spatial narratives / 02</div>
+        <div>
+          <h2 id="work-title">Four rooms. Four worlds. One <em>unmistakable</em> signature.</h2>
+          <p>
+            These concepts begin with atmosphere rather than decoration. They give a
+            property a memory, a rhythm, and an image guests or inhabitants carry with them.
+          </p>
+        </div>
+      </div>
+
+      <div class="gallery">
+        <article class="project" data-parallax>
+          <div class="project-media">
+            <img
+              src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1500&q=90"
+              alt="Classical high-ceiling apartment"
+            />
+          </div>
+          <div class="project-overlay"></div>
+          <span class="project-number">01 — RESIDENTIAL</span>
+          <div class="project-content">
+            <span class="project-tag">Private residence</span>
+            <h3>The Classical Sanctuary</h3>
+            <p>
+              Traditional mouldings, herringbone oak and quiet sculpture meet an ethereal
+              cloud-inspired ceiling mural: a contemporary fresco that gives the formal
+              salon its stillness and grandeur.
+            </p>
+          </div>
+        </article>
+
+        <article class="project" data-parallax>
+          <div class="project-media">
+            <img
+              src="https://images.unsplash.com/photo-1514933651103-005eec06c04b?auto=format&fit=crop&w=1300&q=90"
+              alt="Moody luxury cocktail bar interior"
+            />
+          </div>
+          <div class="project-overlay"></div>
+          <span class="project-number">02 — HOSPITALITY</span>
+          <div class="project-content">
+            <span class="project-tag">Restaurant / cocktail lounge</span>
+            <h3>The Avant-Garde Lounge</h3>
+            <p>
+              A deep-toned nocturnal room where a textured mural moves through columns,
+              corners and ceiling planes, turning the architecture into one immersive,
+              sculptural gesture.
+            </p>
+          </div>
+        </article>
+
+        <article class="project" data-parallax>
+          <div class="project-media">
+            <img
+              src="https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?auto=format&fit=crop&w=1300&q=90"
+              alt="Refined boutique hotel lounge"
+            />
+          </div>
+          <div class="project-overlay"></div>
+          <span class="project-number">03 — IN DEVELOPMENT</span>
+          <div class="project-content">
+            <span class="project-tag">Future commission</span>
+            <h3>Boutique Hospitality Concept</h3>
+            <p>
+              A reserved canvas for an intimate hotel or destination restaurant seeking a
+              visual identity beyond the expected: tactile, cinematic and rooted in place.
+            </p>
+          </div>
+        </article>
+
+        <article class="project" data-parallax>
+          <div class="project-media">
+            <img
+              src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1500&q=90"
+              alt="Contemporary luxury residential architecture"
+            />
+          </div>
+          <div class="project-overlay"></div>
+          <span class="project-number">04 — OPEN CANVAS</span>
+          <div class="project-content">
+            <span class="project-tag">Private / commercial</span>
+            <h3>Next Curated Space</h3>
+            <p>
+              Your architecture, translated into a site-specific artwork. An original
+              spatial story waiting to be drawn across its surfaces.
+            </p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="genesis" id="genesis" aria-labelledby="genesis-title">
+      <div class="genesis-heading">
+        <div>
+          <div class="eyebrow">The artistic genesis / 03</div>
+          <h2 id="genesis-title">A room can be renovated. Or it can be <em>transformed.</em></h2>
+        </div>
+        <p class="genesis-text">
+          Drag the gold marker to reveal how bespoke wall and ceiling artwork shifts the
+          scale, depth and emotional temperature of a space.
+        </p>
+      </div>
+
+      <div class="comparison" id="comparison" aria-label="Interactive before and after comparison">
+        <div class="before">
+          <img
+            src="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=1800&q=90"
+            alt="Architectural space before mural treatment"
+          />
+        </div>
+
+        <div class="after" id="afterImage">
+          <img
+            src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1800&q=90"
+            alt="Completed rich interior with artistic mural treatment"
+          />
+        </div>
+
+        <span class="compare-label label-after">After / Art integrated</span>
+        <span class="compare-label label-before">Before / Architectural shell</span>
+        <div class="handle" id="handle" aria-hidden="true"></div>
+      </div>
+
+      <p class="genesis-note">Drag horizontally / bespoke art direction by Magdalena Babicka</p>
+    </section>
+
+    <footer class="contact" id="contact">
+      <div class="eyebrow">Private commissions / 04</div>
+      <h2>Give your space<br />a <em>deeper story.</em></h2>
+
+      <div class="contact-links">
+        <a href="mailto:kontakt@artofmeaning.pl">kontakt@artofmeaning.pl</a>
+        <a class="line-link" href="mailto:kontakt@artofmeaning.pl?subject=Luxury%20Interior%20Commission">
+          Begin a luxury commission <span>→</span>
+        </a>
+      </div>
+
+      <div class="footer-bottom">
+        <span>© 2026 Art of Meaning by Magdalena Babicka</span>
+        <span>Fine art / interiors / murals</span>
+        <a href="#top">Back to top ↑</a>
+      </div>
+    </footer>
+  </main>
+
+  <script>
+    const nav = document.querySelector(".nav");
+    const menuToggle = document.getElementById("menuToggle");
+    const navLinks = document.getElementById("navLinks");
+
+    window.addEventListener("scroll", () => {
+      nav.classList.toggle("is-scrolled", window.scrollY > 30);
+    });
+
+    menuToggle.addEventListener("click", () => {
+      const open = navLinks.classList.toggle("is-open");
+      menuToggle.setAttribute("aria-expanded", open);
+      menuToggle.textContent = open ? "CLOSE" : "MENU";
+    });
+
+    navLinks.querySelectorAll("a").forEach((link) => {
+      link.addEventListener("click", () => {
+        navLinks.classList.remove("is-open");
+        menuToggle.setAttribute("aria-expanded", "false");
+        menuToggle.textContent = "MENU";
+      });
+    });
+
+    document.querySelectorAll("[data-parallax]").forEach((project) => {
+      project.addEventListener("mousemove", (event) => {
+        const rect = project.getBoundingClientRect();
+        const x = (event.clientX - rect.left) / rect.width - 0.5;
+        const y = (event.clientY - rect.top) / rect.height - 0.5;
+        project.style.setProperty("--mx", `${-5 + x * 4}%`);
+        project.style.setProperty("--my", `${-5 + y * 4}%`);
+      });
+
+      project.addEventListener("mouseleave", () => {
+        project.style.removeProperty("--mx");
+        project.style.removeProperty("--my");
+      });
+    });
+
+    const comparison = document.getElementById("comparison");
+    const afterImage = document.getElementById("afterImage");
+    const handle = document.getElementById("handle");
+    let dragging = false;
+
+    function setComparisonPosition(clientX) {
+      const rect = comparison.getBoundingClientRect();
+      const percentage = Math.max(0, Math.min(100, ((clientX - rect.left) / rect.width) * 100));
+      afterImage.style.width = `${percentage}%`;
+      handle.style.left = `${percentage}%`;
+    }
+
+    comparison.addEventListener("pointerdown", (event) => {
+      dragging = true;
+      comparison.setPointerCapture(event.pointerId);
+      setComparisonPosition(event.clientX);
+    });
+
+    comparison.addEventListener("pointermove", (event) => {
+      if (dragging) setComparisonPosition(event.clientX);
+    });
+
+    comparison.addEventListener("pointerup", () => {
+      dragging = false;
+    });
+
+    comparison.addEventListener("pointercancel", () => {
+      dragging = false;
+    });
+  </script>
+</body>
+</html>
