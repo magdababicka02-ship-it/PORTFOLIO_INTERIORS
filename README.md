@@ -17,6 +17,7 @@ Otwórz plik index.html przez serwer HTTP. Na własnym komputerze użyj adresu l
 - `site.js`: wspólna nawigacja i stopka, treści PL/EN, galerie, filmy, suwak i formularz.
 - `styles.css`: oryginalny Cinzel, lokalny Montserrat, granat #07172C i jasne tło #F3F0E9, układy responsywne.
 - `assets/`: autentyczne materiały z przekazanych archiwów. Lokalnie hostowane fonty nie wymagają dostępu do Google Fonts.
+- Projekty murali zaczynają się od lokalnego wideo; pełne filmy otwierają się w odtwarzaczu YouTube po kliknięciu. Każdy ma wersję lokalną do wyboru. ID filmów i adres playlist są w `catalog.js`; zamknięcie odtwarzacza usuwa iframe. W testach YouTube jest zastąpiony odpowiedzią testową, więc nie potwierdzają one odtwarzania przez zewnętrzny serwis.
 - `PRZEGLAD-I-MATERIALY.md`: źródła i szczegółowa lista braków.
 
 Język jest wybierany parametrem `?lang=pl` / `?lang=en`; przełącznik zachowuje ścieżkę, inne parametry i fragment. Główna galeria malarstwa zachowuje stary adres `obrazy-na-zamowienie.html`, a `malarstwo.html` jest aliasem.

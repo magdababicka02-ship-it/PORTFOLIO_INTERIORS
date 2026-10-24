@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-24T22:15:23.831Z",
+  "date": "2026-10-24T22:49:24.093Z",
   "results": [
     {
       "route": "index.html",
@@ -139,8 +139,24 @@
     "responsiveChecks": 15,
     "originalVideosWithAudio": 5,
     "muteAndPlaybackControls": "passed on both heroes",
-    "muralVideos": "3 loaded successfully",
+    "muralVideos": "3 local fallbacks loaded successfully; 3 YouTube embeds configured with offline stubs (live playback unverified)",
     "modalFocusRestore": "passed",
     "browserErrors": []
+  },
+  "muralProjectChecks": {
+    "responsiveChecks": 24,
+    "widths": [
+      320,
+      390,
+      768,
+      1440
+    ],
+    "languages": [
+      "pl",
+      "en"
+    ],
+    "projects": 3,
+    "immediateVideoHero": "passed; reduced motion uses completed mural poster",
+    "youTubePlayback": "not verified; external network returns HTTP 403"
   }
 }

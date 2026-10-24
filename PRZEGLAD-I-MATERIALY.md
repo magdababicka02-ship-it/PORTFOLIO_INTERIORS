@@ -24,9 +24,9 @@ Stan: 25 października 2026 r.
 
 ## Kolekcja i dostępność
 - Zachowano 10 prac z pierwotnego eksportu.
-- Dodano „Who is hunting” oraz „It’s Just Business, Darling”. Dla drugiego obrazu podłączono przekazaną interpretację PDF.
+- Dodano „Who is hunting?” oraz „It’s Just Business, Darling”. Interpretacja PDF jest zachowana w materiałach, ale jej odnośnik usunięto z interfejsu na prośbę właścicielki.
 - Cztery prace oznaczone wcześniej SOLD trafiają do archiwum: Miasto sukcesu, João, Terracotta Muse, Michałek.
-- Pozostałe statusy są niepotwierdzone. Filtr „Dostępne” nie przypisuje dostępności na podstawie domysłu.
+- Osiem prac spoza archiwum ma potwierdzony przez właścicielkę status „Dostępne”. Filtr pokazuje wszystkie osiem; na stronach prac także widnieje informacja o dostępności.
 - Uzupełniono osiem cen przekazanych przez właścicielkę (EUR): It’s Just Business, Darling — 2600; Pocałunek Meduzy — 2400; Who is hunting? — 2400; UNFROZEN — 2200; Electric Embrace — 2100; Silent Horizon — 2000; Red Temptation — 900; Arc de Triomf — 450. Ceny są widoczne stale na kaflach i stronach prac. Nie dopisano cen historycznych czterech sprzedanych obrazów.
 - Sześć wnętrz prezentowanych jest jako koncepcje / wizualizacje, nie jako ukończone realizacje.
 
@@ -39,7 +39,7 @@ Stan: 25 października 2026 r.
 - YouTube: https://www.youtube.com/watch?v=xieT466Avz8 — poprawiono błędny drugi znak zapytania w oryginalnym URL na kanoniczny adres z zachowaniem ID filmu.
 - Telefon: +48 533 128 055.
 - E-mail oraz wszystkie nowe mailto: contact@artofmeaning.art.
-- Zewnętrzne adresy odzyskano z przekazanego HTML. Brama sieciowa zwraca HTTP 403 dla strony źródłowej i usługi wysyłkowej, więc nie potwierdzono tutaj ich dostępności. Filmy odtwarzają się lokalnie, bez zależności od YouTube.
+- Zewnętrzne adresy odzyskano z przekazanego HTML, a adres playlist od właścicielki. Brama sieciowa zwraca HTTP 403 dla strony źródłowej, YouTube i usługi wysyłkowej, więc nie potwierdzono tutaj ich dostępności. Lokalne wersje filmów nie zależą od YouTube.
 
 ## Formularz — rzeczywiste działanie
 - Waliduje wymagane pola i składnię e-maila, z komunikatami PL/EN.
@@ -50,10 +50,10 @@ Stan: 25 października 2026 r.
 - Dotychczasowa polityka prywatności zachowana w assets/documents/privacy-policy-pl.html ze zaktualizowanym e-mailem. Strona polityki ma wspólny interfejs i informację o rzeczywistym obecnym działaniu formularza. Dokument prawny wymaga przeglądu przed publikacją.
 
 ## Konkretne braki do uzupełnienia
-1. Oryginał fotografii rodzinnego portretu z makiety. Michałek jest odrębną istniejącą pracą i nie został przedstawiony jako ten portret rodzinny.
+1. Plik fotografii rodzinnego portretu: właścicielka przesłała właściwe ujęcie jako obraz w wiadomości, ale nie udostępniono go narzędziom jako pliku ani identyfikatora do pobrania. Potrzebny załącznik JPG/PNG lub ZIP. Michałek jest odrębną istniejącą pracą i nie został przedstawiony jako ten portret rodzinny.
 2. Pasujące ujęcie „przed” / bez malowidła dla Nokturnu. Żaden dostarczony plik nie pokazuje tego samego wnętrza przed zmianą. Lewa strona suwaka jawnie informuje o brakującym materiale; prawa pokazuje koncepcję z malowidłem. Nie zestawiono dwóch różnych wnętrz jako metamorfozy.
 3. Dokumenty „Zakres współpracy” i „Kwestionariusz projektowy” w PDF — brak plików, więc nie utworzono pozornych linków pobierania.
-4. Aktualna dostępność ośmiu prac spoza archiwum. Wszystkie ich ceny i walutę EUR uzupełniono. João, Terracotta Muse, Michałek i Miasto sukcesu / City of Success są oznaczone SOLD zgodnie z potwierdzeniem właścicielki.
+4. Ceny, waluta i dostępność są uzupełnione: osiem prac dostępnych oraz João, Terracotta Muse, Michałek i Miasto sukcesu / City of Success w archiwum SOLD. Nie są już brakującymi danymi.
 5. Technika dwóch nowych obrazów. Wymiary obu uzupełniono: 100 × 70 cm. Opis „It’s Just Business, Darling” opracowano na podstawie przekazanej interpretacji PDF; opis „Who is hunting?” w wersji PL/EN na podstawie nowego tekstu autorskiego właścicielki, z zachowaniem jego znaczenia.
 6. Potwierdzone nazwy i opisy projektowe dla trzech plików variation: reception, living, dressing. Obecne podpisy jedynie opisują widoczne koncepcje.
 7. Aktywacja adresu odbiorcy w FormSubmit i potwierdzenie rzeczywistego dostarczenia wiadomości; przegląd polityki prywatności i jej pełne tłumaczenie prawne EN.
@@ -68,8 +68,12 @@ Stan: 25 października 2026 r.
 
 ## Ostatnie dopracowanie
 
-- Przywrócono pełny wstęp, 10 kompletnych opisów obrazów oraz 3 autentyczne opinie z przekazanego eksportu HTML. Bezpośredni odczyt aktualnej strony źródłowej był zablokowany HTTP 403.
+- Przywrócono wstęp, 10 kompletnych opisów obrazów oraz 3 autentyczne opinie z przekazanego eksportu HTML. Wstęp następnie zmieniono na prośbę właścicielki, usuwając zapowiedź bezpłatnej wyceny. Bezpośredni odczyt aktualnej strony źródłowej był zablokowany HTTP 403.
 - Dodatkowo przywrócono 3 oryginalne opinie o muralach. Opisy murali rozbudowano na podstawie OPISY_DO_MURALI_2025.pdf.
 - Opinie dostępne są na odpowiednich stronach prac, a opinie o obrazach także na głównej stronie galerii. Zachowano autorów, tekst źródłowy i tłumaczenia EN; nie utworzono fikcyjnych rekomendacji.
 - Dwa nowe obrazy mają potwierdzone wymiary 100 × 70 cm. Osiem podanych cen w EUR jest widocznych w galerii i szczegółach. Cztery wskazane prace są w archiwum i mają widoczne oznaczenie SOLD.
 - Wszystkie dawne linki do zewnętrznych formularzy usunięto. Obecna integracja wysyłki wymaga aktywacji skrzynki zgodnie z README.
+- Kontakt w PL/EN informuje o współpracy zdalnej w Polsce i Hiszpanii.
+- Trzy strony projektów murali rozpoczynają się dużym ujęciem wideo z lokalnego oryginału. Autoodtwarzanie jest wyciszone i respektuje ograniczenie ruchu. Dostępne są pauza i sterowanie dźwiękiem.
+- Przyciski filmów otwierają pełny odtwarzacz YouTube w trybie rozszerzonej prywatności, z wcześniej potwierdzonymi ID realizacji. Odtwarzacz ładuje się po kliknięciu, zamknięcie usuwa iframe i przywraca fokus; można wybrać film lokalny lub bezpośredni link YouTube.
+- Dodano odnośnik do publicznych playlist właścicielki: https://www.youtube.com/@artofmeaning_YT/playlists. Odczyt playlist i rzeczywiste odtwarzanie YouTube są zablokowane w środowisku przez HTTP 403; nie przypisano niezweryfikowanych nowych filmów. Testy sprawdzają adresy osadzeń z atrapą odpowiedzi oraz odtwarzanie rzeczywistych lokalnych kopii.
