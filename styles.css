@@ -24,3 +24,31 @@
 .mural-project{width:100%;min-width:0}
 .contact-main{grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr)}
 @media(max-width:900px){.contact-main{grid-template-columns:1fr}.contact-main h1{font-size:clamp(32px,7vw,56px)}}
+.brand-name small{font-family:var(--serif);font-size:.55em;letter-spacing:.025em;line-height:1.4}
+.site-header .brand-name,.site-header .brand-name small{color:#fff}
+.brand img{border-radius:50%;flex-shrink:0;object-fit:contain}
+.sold-tag{position:absolute;top:15px;left:15px;z-index:2;padding:5px 12px;background:var(--navy);border:1px solid var(--gold);color:var(--cream);font-size:10px;letter-spacing:.16em;pointer-events:none}
+.detail-copy{margin-top:25px;max-width:70ch}
+.art-caption span.price{text-decoration:none;font-variant-numeric:tabular-nums}
+.detail-price{font:400 16px/1.5 var(--sans);margin-top:18px;color:var(--cream);font-variant-numeric:tabular-nums}
+.detail-copy p{font-size:14px;line-height:1.85;margin-top:0}
+.detail-copy p+p{margin-top:20px}
+.detail-grid{align-items:start}
+.detail-image{position:sticky;top:28px}
+.reviews-section{padding-block:60px 75px}
+.reviews-section h2{font-size:clamp(30px,3.6vw,49px);max-width:950px}
+.reviews-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:35px;margin-top:35px}
+.client-review{margin-block:45px;padding:27px 0;border-block:1px solid var(--line)}
+.client-review blockquote{margin:0;font-size:14px;line-height:1.85}
+.client-review figcaption{margin-top:20px;font-size:12px;color:var(--gold-light)}
+.client-review figcaption span,.client-review figcaption small{display:block;margin-top:7px;font-size:10px}
+.light .client-review{border-color:rgba(7,23,44,.25);margin:0}
+.light .client-review figcaption{color:var(--navy)}
+.form-trap{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);pointer-events:none}
+.contact-form[aria-busy=true] .solid{opacity:.7;cursor:wait}
+.form-status[data-state=error]{color:#852b2b}
+.form-status[data-state=accepted]{color:#254832}
+.activation-panel{padding-block:40px;border-top:1px solid var(--line)}
+.activation-panel h2{font-size:30px}.activation-panel p{max-width:800px;margin:20px 0;font-size:13px}
+@media(max-width:900px){.reviews-grid{grid-template-columns:1fr;gap:25px}.client-review blockquote{font-size:13px}}
+@media(max-width:650px){.detail-image{position:static}.detail-copy p{font-size:13px}.sold-tag{top:10px;left:10px;font-size:9px;padding:4px 9px}.reviews-section{padding-block:45px 55px}}
