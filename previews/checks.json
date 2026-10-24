@@ -1,0 +1,146 @@
+{
+  "date": "2026-10-24T21:15:21.133Z",
+  "results": [
+    {
+      "route": "index.html",
+      "lang": "pl",
+      "viewport": "1440",
+      "result": "pass"
+    },
+    {
+      "route": "murale.html",
+      "lang": "pl",
+      "viewport": "1440",
+      "result": "pass"
+    },
+    {
+      "route": "wnetrza.html",
+      "lang": "pl",
+      "viewport": "1440",
+      "result": "pass"
+    },
+    {
+      "route": "obrazy-na-zamowienie.html",
+      "lang": "pl",
+      "viewport": "1440",
+      "result": "pass"
+    },
+    {
+      "route": "kontakt.html",
+      "lang": "pl",
+      "viewport": "1440",
+      "result": "pass"
+    },
+    {
+      "route": "index.html",
+      "lang": "en",
+      "viewport": "1440",
+      "result": "pass"
+    },
+    {
+      "route": "murale.html",
+      "lang": "en",
+      "viewport": "1440",
+      "result": "pass"
+    },
+    {
+      "route": "wnetrza.html",
+      "lang": "en",
+      "viewport": "1440",
+      "result": "pass"
+    },
+    {
+      "route": "obrazy-na-zamowienie.html",
+      "lang": "en",
+      "viewport": "1440",
+      "result": "pass"
+    },
+    {
+      "route": "kontakt.html",
+      "lang": "en",
+      "viewport": "1440",
+      "result": "pass"
+    },
+    {
+      "route": "index.html",
+      "lang": "pl",
+      "viewport": "390",
+      "result": "pass"
+    },
+    {
+      "route": "murale.html",
+      "lang": "pl",
+      "viewport": "390",
+      "result": "pass"
+    },
+    {
+      "route": "wnetrza.html",
+      "lang": "pl",
+      "viewport": "390",
+      "result": "pass"
+    },
+    {
+      "route": "obrazy-na-zamowienie.html",
+      "lang": "pl",
+      "viewport": "390",
+      "result": "pass"
+    },
+    {
+      "route": "kontakt.html",
+      "lang": "pl",
+      "viewport": "390",
+      "result": "pass"
+    },
+    {
+      "route": "index.html",
+      "lang": "en",
+      "viewport": "390",
+      "result": "pass"
+    },
+    {
+      "route": "murale.html",
+      "lang": "en",
+      "viewport": "390",
+      "result": "pass"
+    },
+    {
+      "route": "wnetrza.html",
+      "lang": "en",
+      "viewport": "390",
+      "result": "pass"
+    },
+    {
+      "route": "obrazy-na-zamowienie.html",
+      "lang": "en",
+      "viewport": "390",
+      "result": "pass"
+    },
+    {
+      "route": "kontakt.html",
+      "lang": "en",
+      "viewport": "390",
+      "result": "pass"
+    },
+    {
+      "interactions": "filters, full collections, hover stability, keyboard reveal, menu, modal focus, local video metadata, keyboard slider, required fields, invalid email, honest mail draft, preserved detailed paths, local links",
+      "result": "pass"
+    }
+  ],
+  "localLinksChecked": 48,
+  "detailRoutesChecked": 16,
+  "externalLinks": "Recovered from original HTML; live availability unverified due to network HTTP 403.",
+  "form": "No message sent. Mailto draft tested; server submission not configured.",
+  "additionalChecks": {
+    "responsiveWidths": [
+      320,
+      768,
+      1024
+    ],
+    "responsiveChecks": 15,
+    "originalVideosWithAudio": 5,
+    "muteAndPlaybackControls": "passed on both heroes",
+    "muralVideos": "3 loaded successfully",
+    "modalFocusRestore": "passed",
+    "browserErrors": []
+  }
+}

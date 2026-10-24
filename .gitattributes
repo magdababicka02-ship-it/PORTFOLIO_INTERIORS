@@ -1,0 +1,2 @@
+# Preserve supplied PDF documents byte for byte and display them as binary in Git.
+*.pdf binary

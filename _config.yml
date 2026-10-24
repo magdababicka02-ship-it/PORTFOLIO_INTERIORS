@@ -1,0 +1,8 @@
+# GitHub Pages publishes the prepared site from main / (root).
+# Keep the previous template, review artifacts and tooling in Git, outside the site.
+exclude:
+  - archive
+  - previews
+  - scripts
+  - README.md
+  - PRZEGLAD-I-MATERIALY.md
