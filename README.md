@@ -22,6 +22,8 @@ Otwórz plik index.html przez serwer HTTP. Na własnym komputerze użyj adresu l
 
 Język jest wybierany parametrem `?lang=pl` / `?lang=en`; przełącznik zachowuje ścieżkę, inne parametry i fragment. Główna galeria malarstwa zachowuje stary adres `obrazy-na-zamowienie.html`, a `malarstwo.html` jest aliasem.
 
+Po zmianie `catalog.js`, `site.js` lub `styles.css` uruchom `node scripts/version-assets.cjs` i zapisz zmienione pliki HTML razem z zasobami. Skrypt dodaje do adresów skróty zawartości, aby przeglądarka pobrała nową wersję zamiast korzystać z wcześniej zapisanych skryptów i stylów. Nie wymaga zależności ani procesu budowania strony.
+
 ## Formularz
 
 Formularz wysyła zapytanie przez HTTPS POST do FormSubmit dla `contact@artofmeaning.art`, bez otwierania programu pocztowego. Konfiguracja jest w `AOM.contact` w `catalog.js`. Nie ma klucza prywatnego w kodzie. Akceptacja wymaga poprawnej odpowiedzi HTTP oraz `success: true`; błąd, odmowa lub przekroczenie czasu zachowują treść formularza i udostępniają bezpośredni kontakt e-mail. Komunikat dotyczy przyjęcia przez usługę wysyłkową, nie gwarantuje odczytania ani dostarczenia do skrzynki.

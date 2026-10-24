@@ -178,5 +178,16 @@
     "preservedAspectRatio": true,
     "placeholderRemoved": true,
     "browserErrors": []
+  },
+  "cachedReleaseUpgrade": {
+    "date": "2026-10-24T23:16:48.635Z",
+    "staleCacheReproduced": true,
+    "versionedAssetsFetched": [
+      "/styles.css?v=fdf9198677cb",
+      "/catalog.js?v=1ca5d262bd7e",
+      "/site.js?v=28c8be69037f"
+    ],
+    "familyPortraitLoadedAfterUpgrade": true,
+    "naturalWidth": 1254
   }
 }
