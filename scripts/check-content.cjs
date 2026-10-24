@@ -12,6 +12,8 @@ const normalize=s=>s.replace(/\s+/g,' ').trim();
   assert.ok(normalize(await page.locator('.painting-intro').innerText()).includes(original.introduction));
   assert.equal(await page.locator('.reviews-grid .client-review').count(),3);
   await page.locator('[data-art-filter=archive]').click();assert.equal(await page.locator('.art-card:visible .sold-tag').count(),4);
+  await page.locator('.art-card:visible img').evaluateAll(imgs=>Promise.all(imgs.map(img=>{img.loading='eager';return img.decode();})));
+  assert.ok(await page.locator('.art-card:visible img').evaluateAll(imgs=>imgs.every(img=>img.naturalWidth>0)));
   const archive=await page.locator('.art-card:visible').evaluateAll(cards=>cards.map(c=>c.querySelector('h3').textContent));
   assert.deepEqual(archive.sort(),['Miasto sukcesu','João','Terracotta Muse','Michałek'].sort());
   for(const [id,source] of Object.entries(original.paintings)){
