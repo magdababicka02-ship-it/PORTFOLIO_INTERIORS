@@ -2,6 +2,7 @@
 window.AOM = {
   "email": "contact@artofmeaning.art",
   "phone": "+48533128055",
+  "familyPortrait": "family-portrait.png",
   "social": [
     {
       "name": "Instagram",
@@ -421,7 +422,6 @@ window.AOM = {
     }
   ],
   "missing": {
-    "familyPortrait": null,
     "beforeInterior": null,
     "offerPdf": null,
     "briefPdf": null,

@@ -50,7 +50,7 @@ Stan: 25 października 2026 r.
 - Dotychczasowa polityka prywatności zachowana w assets/documents/privacy-policy-pl.html ze zaktualizowanym e-mailem. Strona polityki ma wspólny interfejs i informację o rzeczywistym obecnym działaniu formularza. Dokument prawny wymaga przeglądu przed publikacją.
 
 ## Konkretne braki do uzupełnienia
-1. Plik fotografii rodzinnego portretu: właścicielka przesłała właściwe ujęcie jako obraz w wiadomości, ale nie udostępniono go narzędziom jako pliku ani identyfikatora do pobrania. Potrzebny załącznik JPG/PNG lub ZIP. Michałek jest odrębną istniejącą pracą i nie został przedstawiony jako ten portret rodzinny.
+1. Portret rodzinny — uzupełniono: oryginalny PNG z archiwum „Rodzinny portret na drewnianej sztaludze.rar” umieszczono w sekcji zamówień. Plik zachowano bez zmian i kadrowania, z podpisem PL/EN „Portret rodzinny — przykład zamówienia”. Michałek pozostaje odrębną istniejącą pracą.
 2. Pasujące ujęcie „przed” / bez malowidła dla Nokturnu. Żaden dostarczony plik nie pokazuje tego samego wnętrza przed zmianą. Lewa strona suwaka jawnie informuje o brakującym materiale; prawa pokazuje koncepcję z malowidłem. Nie zestawiono dwóch różnych wnętrz jako metamorfozy.
 3. Dokumenty „Zakres współpracy” i „Kwestionariusz projektowy” w PDF — brak plików, więc nie utworzono pozornych linków pobierania.
 4. Ceny, waluta i dostępność są uzupełnione: osiem prac dostępnych oraz João, Terracotta Muse, Michałek i Miasto sukcesu / City of Success w archiwum SOLD. Nie są już brakującymi danymi.

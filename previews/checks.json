@@ -158,5 +158,25 @@
     "projects": 3,
     "immediateVideoHero": "passed; reduced motion uses completed mural poster",
     "youTubePlayback": "not verified; external network returns HTTP 403"
+  },
+  "familyPortraitChecks": {
+    "date": "2026-10-24T23:08:02.300Z",
+    "pages": 2,
+    "languages": [
+      "pl",
+      "en"
+    ],
+    "widths": [
+      320,
+      390,
+      768,
+      1024,
+      1440
+    ],
+    "checks": 20,
+    "imageDimensions": "1254 × 1254",
+    "preservedAspectRatio": true,
+    "placeholderRemoved": true,
+    "browserErrors": []
   }
 }

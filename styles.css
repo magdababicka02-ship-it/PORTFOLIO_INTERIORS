@@ -29,6 +29,10 @@
 .brand img{border-radius:50%;flex-shrink:0;object-fit:contain}
 .sold-tag{position:absolute;top:15px;left:15px;z-index:2;padding:5px 12px;background:var(--navy);border:1px solid var(--gold);color:var(--cream);font-size:10px;letter-spacing:.16em;pointer-events:none}
 .detail-copy{margin-top:25px;max-width:70ch}
+.commission-image.has-artwork{display:block;aspect-ratio:auto;padding:0;background:transparent;text-align:left}
+.commission-image.has-artwork::before{display:none}
+.commission-image.has-artwork img{display:block;width:100%;height:auto;object-fit:contain}
+.commission-image.has-artwork figcaption{margin-top:12px;font-size:11px;line-height:1.6}
 .art-caption span.price{text-decoration:none;font-variant-numeric:tabular-nums}
 .detail-price{font:400 16px/1.5 var(--sans);margin-top:18px;color:var(--cream);font-variant-numeric:tabular-nums}
 .detail-copy p{font-size:14px;line-height:1.85;margin-top:0}
