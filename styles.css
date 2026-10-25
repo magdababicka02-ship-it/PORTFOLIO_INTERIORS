@@ -27,6 +27,13 @@
 .brand-name small{font-family:var(--serif);font-size:.55em;letter-spacing:.025em;line-height:1.4}
 .site-header .brand-name,.site-header .brand-name small{color:#fff}
 .brand img{border-radius:50%;flex-shrink:0;object-fit:contain}
+.about .portrait{aspect-ratio:3/4}
+.about .portrait img{object-fit:contain;object-position:center}
+.about .eyebrow{margin-bottom:18px}
+.artist-quote{margin:28px 0;padding:4px 0 4px 22px;border-left:1px solid var(--gold)}
+.about .artist-quote p{margin:0;font-style:italic}
+.artist-quote cite{display:block;font-size:11px;font-style:normal;margin-top:12px;color:var(--muted)}
+.painting-cover img{object-position:50% 24%}
 .brand-primary{gap:16px}
 .brand-mark{display:block;width:68px;height:68px;flex:none}
 .brand-lettering{display:block;width:260px;height:auto;aspect-ratio:1992/312;flex:none;filter:brightness(0) invert(1)}

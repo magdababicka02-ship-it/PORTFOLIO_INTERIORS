@@ -11,12 +11,13 @@ fs.mkdirSync(out, { recursive: true });
   for(const mobile of [false,true]) {
     const context=await browser.newContext({viewport:mobile?{width:390,height:844}:{width:1440,height:1000},isMobile:mobile,hasTouch:mobile,reducedMotion:'reduce'});
     const page=await context.newPage();page.on('pageerror',e=>errors.push(e.message));
-    for(const lang of ['pl','en']) for(const route of routes) {
+    for(const lang of ['pl','en','es']) for(const route of routes) {
       await page.goto(base+route+'?lang='+lang,{waitUntil:'domcontentloaded'});
       await page.evaluate(async()=>{await document.fonts.ready;document.querySelectorAll('img').forEach(i=>i.loading='eager');await Promise.all([...document.images].map(i=>i.decode().catch(()=>{})));document.querySelectorAll('video').forEach(v=>v.pause());});
       assert.equal(await page.locator('html').getAttribute('lang'),lang);
       assert.equal(await page.locator('h1').count(),1,route+' h1');
       assert.equal(await page.locator('#main-nav>a').count(),5,route+' nav');
+      assert.equal(await page.locator('#main-nav .languages a').count(),3,route+' languages');
       assert.equal(await page.locator('a[href="#"]').count(),0,route+' empty links');
       const overflow=await page.evaluate(()=>({doc:document.documentElement.scrollWidth,window:innerWidth}));
       assert.ok(overflow.doc<=(mobile?390:1440)+1,`${route} ${lang} ${mobile} horizontal overflow ${JSON.stringify(overflow)}`);
@@ -29,7 +30,7 @@ fs.mkdirSync(out, { recursive: true });
       const emails=await page.locator('a[href^="mailto:"]').evaluateAll(els=>els.map(e=>e.href));
       assert.ok(emails.every(x=>x.startsWith('mailto:contact@artofmeaning.art')));
       if(mobile){assert.equal(await page.locator('#main-nav').isVisible(),false);await page.locator('.menu-toggle').click();assert.equal(await page.locator('#main-nav').isVisible(),true);await page.keyboard.press('Escape');assert.equal(await page.locator('#main-nav').isVisible(),false);}
-      if(lang==='pl')await page.screenshot({path:out+'/'+route.replace('.html','')+'-'+(mobile?'mobile':'desktop')+'.png',fullPage:true});
+      if(lang!=='en')await page.screenshot({path:out+'/'+route.replace('.html','')+(lang==='es'?'-es':'')+'-'+(mobile?'mobile':'desktop')+'.png',fullPage:true});
       results.push({route,lang,viewport:mobile?'390':'1440',result:'pass'});
     }
     await context.close();
@@ -70,7 +71,9 @@ fs.mkdirSync(out, { recursive: true });
   for(const url of urls){const response=await page.request.get(url);assert.ok(response.ok(),url+' broken local link '+response.status());}
   assert.deepEqual(errors,[],'browser errors');
   results.push({interactions:'filters, full collections, hover stability, keyboard reveal, menu, modal focus, local video metadata, keyboard slider, required fields, invalid email, HTTP form success, rejection and network failure with retained content (service mocked; no email sent), preserved detailed paths, local links',result:'pass'});
-  fs.writeFileSync(out+'/checks.json',JSON.stringify({date:new Date().toISOString(),results,localLinksChecked:urls.size,detailRoutesChecked:detailPaths.length,externalLinks:'Recovered from original HTML; live availability unverified due to network HTTP 403.',form:'No message sent. FormSubmit POST acceptance, 503 and network failure tested with interception. No real email sent. Recipient activation and inbox delivery remain unverified.'},null,2));
-  console.log(JSON.stringify({pageChecks:results.length-1,detailRoutes:detailPaths.length,localLinks:urls.size,browserErrors:errors,screenshots:10,interactions:'pass'}));
+  const screenshots=results.filter(result=>result.lang==='pl'||result.lang==='es').length;
+  const previousReport=fs.existsSync(out+'/checks.json')?JSON.parse(fs.readFileSync(out+'/checks.json','utf8')):{};
+  fs.writeFileSync(out+'/checks.json',JSON.stringify({...previousReport,date:new Date().toISOString(),results,screenshots,localLinksChecked:urls.size,detailRoutesChecked:detailPaths.length,externalLinks:'Recovered from original HTML; live availability unverified due to network HTTP 403.',form:'No message sent. FormSubmit POST acceptance, 503 and network failure tested with interception. No real email sent. Recipient activation and inbox delivery remain unverified.'},null,2));
+  console.log(JSON.stringify({pageChecks:results.length-1,detailRoutes:detailPaths.length,localLinks:urls.size,browserErrors:errors,screenshots,interactions:'pass'}));
   await browser.close();
 })().catch(e=>{console.error(e);process.exit(1)});

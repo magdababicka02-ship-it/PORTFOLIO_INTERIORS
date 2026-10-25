@@ -13,17 +13,18 @@ Otwórz plik index.html przez serwer HTTP. Na własnym komputerze użyj adresu l
 
 ## Edycja
 
-- `catalog.js`: prace, opisy PL/EN, pliki, wymiary, statusy, ceny w EUR, konfiguracja formularza oraz linki do social mediów. `null` oznacza brak potwierdzonych danych.
-- `site.js`: wspólna nawigacja i stopka, treści PL/EN, galerie, filmy, suwak i formularz.
+- `catalog.js`: prace i opisy PL/EN/ES (kolejno trzy elementy każdej tablicy językowej), pliki, wymiary, statusy, ceny w EUR, konfiguracja formularza oraz linki do social mediów. `null` oznacza brak potwierdzonych danych.
+- `site.js`: wspólna nawigacja i stopka, treści, galerie, filmy, suwak i formularz.
+- `i18n-es.js`: hiszpańskie teksty interfejsu, indeksowane angielskim tekstem wywołań `t()`. Po zmianie angielskiego tekstu należy zaktualizować odpowiadający mu klucz. Nazwy własne i oryginalne tytuły prac pozostają zachowane.
 - `styles.css`: oryginalny Cinzel, lokalny Montserrat, granat #07172C i jasne tło #F3F0E9, układy responsywne.
 - `assets/`: autentyczne materiały z przekazanych archiwów. Lokalnie hostowane fonty nie wymagają dostępu do Google Fonts.
 - `assets/brand/`: cztery oryginalne PNG z archiwum logo. Wspólne nagłówki i stopki wyświetlają znak oraz oryginalne litery przez kadry SVG; pliki PNG pozostają nietknięte. Biały logotyp uzyskano filtrem CSS. Złoty wariant jest użyty w stopce Wnętrz. Ikona przeglądarki także pochodzi z dostarczonych plików.
 - Projekty murali zaczynają się od lokalnego wideo; pełne filmy otwierają się w odtwarzaczu YouTube po kliknięciu. Każdy ma wersję lokalną do wyboru. ID filmów i adres playlist są w `catalog.js`; zamknięcie odtwarzacza usuwa iframe. W testach YouTube jest zastąpiony odpowiedzią testową, więc nie potwierdzają one odtwarzania przez zewnętrzny serwis.
 - `PRZEGLAD-I-MATERIALY.md`: źródła i szczegółowa lista braków.
 
-Język jest wybierany parametrem `?lang=pl` / `?lang=en`; przełącznik zachowuje ścieżkę, inne parametry i fragment. Główna galeria malarstwa zachowuje stary adres `obrazy-na-zamowienie.html`, a `malarstwo.html` jest aliasem.
+Język jest wybierany parametrem `?lang=pl` / `?lang=en` / `?lang=es`; przełącznik PL | EN | ES zachowuje ścieżkę, inne parametry i fragment. Główna galeria malarstwa zachowuje stary adres `obrazy-na-zamowienie.html`, a `malarstwo.html` jest aliasem.
 
-Po zmianie `catalog.js`, `site.js` lub `styles.css` uruchom `node scripts/version-assets.cjs` i zapisz zmienione pliki HTML razem z zasobami. Skrypt dodaje do adresów skróty zawartości, aby przeglądarka pobrała nową wersję zamiast korzystać z wcześniej zapisanych skryptów i stylów. Nie wymaga zależności ani procesu budowania strony.
+Po zmianie `catalog.js`, `site.js`, `i18n-es.js` lub `styles.css` uruchom `node scripts/version-assets.cjs` i zapisz zmienione pliki HTML razem z zasobami. Skrypt dodaje do adresów skróty zawartości, aby przeglądarka pobrała nową wersję zamiast korzystać z wcześniej zapisanych skryptów i stylów. Nie wymaga zależności ani procesu budowania strony.
 
 ## Formularz
 
@@ -46,10 +47,11 @@ Testy można powtórzyć przy uruchomionym serwerze. Wymagają Playwright i Chro
 CHROMIUM_PATH=/usr/bin/chromium node scripts/check.cjs
 CHROMIUM_PATH=/usr/bin/chromium node scripts/check-extra.cjs
 CHROMIUM_PATH=/usr/bin/chromium node scripts/check-content.cjs
+CHROMIUM_PATH=/usr/bin/chromium node scripts/check-languages.cjs
 ```
 
 Opcjonalny `AOM_BASE_URL` pozwala wskazać inny adres serwera.
 
-`previews/checks.json` zawiera wyniki kontroli przeglądarkowej: pięć stron × dwa języki × dwa rozmiary, obrazki, linki lokalne, galerie i filtry, odtwarzanie filmów, menu, suwak, okna dialogowe i formularz. Scenariusze formularza obejmują zaakceptowanie POST, odmowę HTTP i błąd połączenia, z przechwyceniem usługi. Dodatkowy test treści porównuje pełne polskie opisy i autentyczne opinie z utrwalonym eksportem, sprawdza SOLD, nowe wymiary, biały logotyp, brak dawnych formularzy oraz panel aktywacji bez jego wysyłania. `previews` zawiera zrzuty desktop/telefon. Brama sieciowa nie pozwala tutaj potwierdzić dostępności strony źródłowej i usługi wysyłkowej.
+`previews/checks.json` zawiera wyniki kontroli przeglądarkowej: pięć stron × trzy języki × dwa rozmiary, obrazki, linki lokalne, galerie i filtry, odtwarzanie filmów, menu, suwak, okna dialogowe i formularz. Scenariusze formularza obejmują zaakceptowanie POST, odmowę HTTP i błąd połączenia, z przechwyceniem usługi. Dodatkowy test treści porównuje pełne polskie opisy i autentyczne opinie z utrwalonym eksportem, sprawdza SOLD, nowe wymiary, biały logotyp, brak dawnych formularzy oraz panel aktywacji bez jego wysyłania. Test językowy sprawdza wszystkie 22 podstrony po hiszpańsku na telefonie i komputerze, zachowanie adresu przy zmianie języka, nowy portret i tekst sekcji artystki, okładkę kota oraz komunikaty formularza ES. `previews` zawiera zrzuty desktop/telefon. Brama sieciowa nie pozwala tutaj potwierdzić dostępności strony źródłowej i usługi wysyłkowej.
 
 Do uzupełnienia pozostają materiały z raportu oraz aktywacja skrzynki i weryfikacja odbioru formularza. Polityka prywatności wymaga przeglądu właścicielki. Kopia poprzedniego szablonu w `archive` służy wyłącznie do porównania i jest wykluczona z publikacji przez `_config.yml`.
