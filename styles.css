@@ -34,6 +34,48 @@
 .about .artist-quote p{margin:0;font-style:italic}
 .artist-quote cite{display:block;font-size:11px;font-style:normal;margin-top:12px;color:var(--muted)}
 .painting-cover img{object-position:50% 24%}
+.featured-project-link{display:block}
+.comparison-layer img{object-position:center top}
+.project-comparison .comparison{aspect-ratio:2400/1792;min-height:0}
+.interior-project-hero{position:relative;min-height:clamp(540px,54vw,780px);display:flex;align-items:flex-end;overflow:hidden}
+.project-hero-image{position:absolute;inset:0;object-fit:cover;object-position:center 35%}
+.interior-project-hero .hero-shade{background:linear-gradient(0deg,rgba(2,13,25,.93),rgba(2,13,25,.08) 85%),linear-gradient(90deg,rgba(2,13,25,.3),transparent)}
+.project-hero-copy{position:relative;width:100%;padding-block:120px 65px}
+.project-hero-copy h1{font-size:clamp(42px,7.4vw,108px);max-width:1250px}
+.project-hero-copy .eyebrow{font-size:9px;letter-spacing:.14em;max-width:850px}
+.project-signature{font:400 clamp(20px,2.5vw,35px)/1.3 var(--serif);margin-top:18px}
+.project-subtitle{font-size:13px;max-width:720px;margin-top:15px}
+.project-intro{display:grid;grid-template-columns:minmax(0,.85fr) minmax(0,1.15fr);gap:7vw;align-items:center;padding-block:90px}
+.project-intro h2,.project-reading h2,.project-materials h2{font-size:clamp(29px,3.4vw,49px)}
+.project-prose{max-width:75ch}
+.project-prose p{font-size:14px;line-height:1.9;margin-top:22px}
+.project-prose p:first-child{margin-top:24px}
+.project-visual{min-width:0}
+.project-visual img{display:block;width:100%;height:auto}
+.project-visual figcaption{font-size:10px;line-height:1.6;color:var(--muted);margin-top:13px}
+.project-image-open{display:block;position:relative;border:0;padding:0;width:100%;background:var(--navy-deep);overflow:hidden;text-align:left}
+.project-image-open img{transition:filter .25s}
+.project-image-open:hover img{filter:brightness(.9)}
+.project-image-action{position:absolute;right:14px;bottom:14px;display:flex;align-items:center;gap:18px;background:var(--navy);color:var(--cream);border:1px solid var(--gold);padding:8px 12px;font-size:10px}
+.interior-project-facts{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px 30px;margin:30px 0 0;padding-top:25px;border-top:1px solid var(--line)}
+.interior-project-facts dt{font-size:9px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin-bottom:7px}
+.interior-project-facts dd{font-size:12px;margin:0;line-height:1.6}
+.project-reading{display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr);gap:65px;align-items:start}
+.project-art .project-reading{padding-block:75px}
+.project-art .project-prose p:first-child{margin-top:0}
+.project-materials{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,.8fr);gap:65px;align-items:center;padding-block:85px}
+.project-landscape{padding-bottom:85px}
+.project-landscape .project-reading{margin-bottom:38px}
+.project-landscape .project-prose p:first-child{margin-top:0}
+.project-enquiry{padding-block:75px}
+.project-enquiry h2{font-size:clamp(31px,4.1vw,58px);max-width:1050px}
+.project-enquiry>p{margin-top:20px;max-width:750px;font-size:13px}
+.project-viewer{padding:15px 25px 30px}
+.project-viewer h2{font-size:24px;margin-bottom:20px}
+.project-viewer img{display:block;max-height:70vh;object-fit:contain;width:100%;height:auto}
+.project-viewer .arrow-link{font-size:12px;margin-top:20px}
+@media(max-width:900px){.project-intro{gap:35px;padding-block:60px}.project-reading,.project-materials{gap:35px}.project-prose p{font-size:13px}.project-materials{grid-template-columns:minmax(0,1fr) minmax(0,1fr)}.project-hero-copy{padding-bottom:55px}}
+@media(max-width:650px){.interior-project-hero{min-height:580px}.project-hero-copy{padding-block:85px 45px}.project-hero-copy h1{font-size:45px}.project-signature{font-size:24px}.project-subtitle{font-size:12px}.project-intro,.project-reading,.project-materials{grid-template-columns:1fr;gap:35px}.project-intro{padding-block:50px}.project-arrival{max-width:100%}.project-intro h2,.project-reading h2,.project-materials h2{font-size:33px}.project-art .project-reading{padding-block:50px}.project-materials{padding-block:50px}.project-landscape{padding-bottom:50px}.project-landscape .project-reading{gap:0;margin-bottom:28px}.project-landscape .project-prose p:first-child{margin-top:22px}.project-image-action{right:10px;bottom:10px;font-size:9px;padding:7px 10px;gap:12px}.project-enquiry{padding-block:50px}.project-enquiry h2{font-size:34px}.project-viewer{padding:10px 16px 25px}.project-viewer h2{font-size:20px}.project-viewer .arrow-link{font-size:10px}}
 .brand-primary{gap:16px}
 .brand-mark{display:block;width:68px;height:68px;flex:none}
 .brand-lettering{display:block;width:260px;height:auto;aspect-ratio:1992/312;flex:none;filter:brightness(0) invert(1)}

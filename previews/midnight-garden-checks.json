@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-25T17:14:04.498Z",
+  "languages": [
+    "pl",
+    "en",
+    "es"
+  ],
+  "projectLinkNavigation": "passed, including keyboard",
+  "responsiveChecks": 15,
+  "sourceVisuals": 5,
+  "projectImages": 6,
+  "conceptStatusVisible": true,
+  "lightboxAndFocus": "passed",
+  "comparisonKeyboardAndExtremes": "passed",
+  "portfolioConceptsPreserved": 6,
+  "contactLinks": 2,
+  "browserErrors": []
+}

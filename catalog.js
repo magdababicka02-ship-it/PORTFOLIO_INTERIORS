@@ -415,6 +415,241 @@ window.AOM = {
   ],
   "interiors": [
     {
+      "id": "nocturne",
+      "image": "midnight-garden/view-1.webp",
+      "title": [
+        "Midnight Garden",
+        "Midnight Garden",
+        "Midnight Garden"
+      ],
+      "type": "commercial",
+      "projectPage": "midnight-garden.html",
+      "project": {
+        "slug": "midnight-garden",
+        "year": 2026,
+        "subtitle": [
+          "Śródziemnomorska przestrzeń, w której sztuka staje się architekturą",
+          "An Art-Led Mediterranean Lounge",
+          "Un lounge mediterráneo concebido desde el arte"
+        ],
+        "tagline": [
+          "Gdzie sztuka staje się architekturą.",
+          "Where Art Becomes Architecture.",
+          "Donde el arte se convierte en arquitectura."
+        ],
+        "status": [
+          "Projekt koncepcyjny · Wizualizacje wspomagane AI",
+          "Concept project · AI-assisted visualisations",
+          "Proyecto conceptual · Visualizaciones asistidas por IA"
+        ],
+        "shortStatus": [
+          "Koncepcja / wizualizacje AI",
+          "Concept / AI-assisted visualisations",
+          "Propuesta / visualizaciones asistidas por IA"
+        ],
+        "seoTitle": [
+          "Midnight Garden | Wnętrze inspirowane sztuką",
+          "Midnight Garden | Art-Led Interior Design",
+          "Midnight Garden | Interiorismo y arte de autor"
+        ],
+        "seoDescription": [
+          "Poznaj Midnight Garden: koncepcję śródziemnomorskiej przestrzeni lounge, w której botaniczne malowidło sufitowe łączy się z architekturą i naturalnymi materiałami.",
+          "Explore Midnight Garden, a Mediterranean luxury lounge concept where bespoke botanical ceiling art, natural materials and architecture come together.",
+          "Descubra Midnight Garden: un concepto de lounge mediterráneo donde la pintura botánica de autor en el techo, los materiales naturales y la arquitectura forman un conjunto."
+        ],
+        "hero": {
+          "image": "midnight-garden/view-1.webp",
+          "width": 2400,
+          "height": 1792,
+          "alt": [
+            "Midnight Garden — śródziemnomorski lounge z granatowym malowidłem botanicznym na suficie",
+            "Midnight Garden — Mediterranean lounge with a midnight-blue botanical ceiling artwork",
+            "Midnight Garden — lounge mediterráneo con pintura botánica azul marino en el techo"
+          ],
+          "caption": [
+            "Widok ogólny · autorska koncepcja wnętrza",
+            "The vision · an original interior concept",
+            "Vista general · propuesta de interiorismo de autor"
+          ]
+        },
+        "arrival": {
+          "image": "midnight-garden/view-5.webp",
+          "width": 1086,
+          "height": 1448,
+          "alt": [
+            "Wejście do Midnight Garden z widokiem na malowany sufit, bar i oliwny ogród",
+            "Arrival at Midnight Garden, with views of the painted ceiling, bar and olive-tree courtyard",
+            "Entrada a Midnight Garden con vistas al techo pintado, la barra y el patio con olivos"
+          ],
+          "caption": [
+            "Wejście · pierwsze spotkanie z przestrzenią",
+            "The arrival · a first encounter with the space",
+            "La llegada · el primer encuentro con el espacio"
+          ]
+        },
+        "materialVisual": {
+          "image": "midnight-garden/view-3.webp",
+          "width": 2400,
+          "height": 1792,
+          "alt": [
+            "Detal strefy barowej Midnight Garden: granatowa ceramika, drewno orzechowe i malowidło sufitowe",
+            "Midnight Garden bar detail: navy glazed ceramic, walnut and the ceiling artwork",
+            "Detalle de la barra de Midnight Garden: cerámica esmaltada azul marino, nogal y pintura en el techo"
+          ],
+          "caption": [
+            "Materiały · ceramika, orzech i ciepłe światło",
+            "Materiality · ceramic, walnut and warm light",
+            "Materiales · cerámica, nogal y luz cálida"
+          ]
+        },
+        "landscapeVisual": {
+          "image": "midnight-garden/view-6.webp",
+          "width": 4800,
+          "height": 3584,
+          "alt": [
+            "Midnight Garden od strony ogrodu: drzewo oliwne, tafla wody i wnętrze z malowidłem",
+            "Midnight Garden seen from the courtyard: an olive tree, reflective water and the art-led interior",
+            "Midnight Garden visto desde el jardín: un olivo, una lámina de agua y el interior con pintura mural"
+          ],
+          "caption": [
+            "Wnętrze i krajobraz · śródziemnomorski wieczór",
+            "Interior and landscape · a Mediterranean evening",
+            "Interior y paisaje · un atardecer mediterráneo"
+          ]
+        },
+        "comparison": {
+          "before": {
+            "image": "midnight-garden/view-2.webp",
+            "width": 2400,
+            "height": 1792,
+            "alt": [
+              "Midnight Garden — wariant koncepcji bez malowidła sufitowego",
+              "Midnight Garden — concept without bespoke ceiling art",
+              "Midnight Garden — propuesta sin pintura de autor en el techo"
+            ],
+            "caption": [
+              "Bez malowidła sufitowego",
+              "Without ceiling art",
+              "Sin pintura en el techo"
+            ]
+          },
+          "after": {
+            "image": "midnight-garden/view-1.webp",
+            "width": 2400,
+            "height": 1792,
+            "alt": [
+              "Midnight Garden — wariant koncepcji z botanicznym malowidłem sufitowym",
+              "Midnight Garden — concept with bespoke botanical ceiling art",
+              "Midnight Garden — propuesta con pintura botánica de autor en el techo"
+            ],
+            "caption": [
+              "Z autorskim malowidłem",
+              "With bespoke ceiling art",
+              "Con pintura de autor en el techo"
+            ]
+          }
+        },
+        "facts": [
+          {
+            "label": [
+              "Typ projektu",
+              "Project type",
+              "Tipo de proyecto"
+            ],
+            "value": [
+              "Koncepcja lounge / hospitality",
+              "Luxury hospitality / lounge concept",
+              "Concepto de lounge / hostelería"
+            ]
+          },
+          {
+            "label": [
+              "Rok",
+              "Year",
+              "Año"
+            ],
+            "value": [
+              "2026",
+              "2026",
+              "2026"
+            ]
+          },
+          {
+            "label": [
+              "Kierunek artystyczny",
+              "Creative direction",
+              "Dirección creativa"
+            ],
+            "value": [
+              "Art of Meaning",
+              "Art of Meaning",
+              "Art of Meaning"
+            ]
+          },
+          {
+            "label": [
+              "Zakres",
+              "Focus",
+              "Enfoque"
+            ],
+            "value": [
+              "Projekt wnętrza + autorskie malowidło sufitowe",
+              "Interior design + bespoke ceiling art",
+              "Diseño de interiores + pintura de autor en el techo"
+            ]
+          }
+        ],
+        "introduction": {
+          "heading": [
+            "Sztuka w centrum wnętrza.",
+            "Art at the heart of the interior.",
+            "El arte en el centro del espacio."
+          ],
+          "body": [
+            "Midnight Garden to autorska koncepcja luksusowej przestrzeni lounge, w której malarstwo, architektura i natura tworzą jedną, spójną opowieść.\n\nProjekt powstał z idei nadania sztuce roli wykraczającej poza tradycyjną dekorację wnętrza.",
+            "A contemporary Mediterranean retreat where bespoke art, sculptural design, and natural materials come together to create an immersive spatial experience.\n\nMidnight Garden explores the relationship between art, architecture, and atmosphere.\n\nInspired by the quiet elegance of Mediterranean evenings, the concept brings together contemporary Italian-inspired furniture, natural stone, rich walnut finishes, and a distinctive ceiling artwork.",
+            "Midnight Garden es una propuesta de lounge de lujo en la que la pintura, la arquitectura y la naturaleza forman una única historia coherente.\n\nEl proyecto nace de la idea de dar al arte un papel que vaya más allá de la decoración tradicional. Inspirado en la elegancia serena de los atardeceres mediterráneos, reúne mobiliario escultórico, piedra natural, acabados en nogal y una pintura de autor en el techo."
+          ]
+        },
+        "art": {
+          "heading": [
+            "Sztuka jako część architektury",
+            "Art as an architectural experience",
+            "El arte como experiencia arquitectónica"
+          ],
+          "body": [
+            "Centralnym elementem kompozycji jest projekt monumentalnego malowidła sufitowego inspirowanego organicznymi formami śródziemnomorskiej roślinności.\n\nGłęboki granat, antyczne złoto i subtelne odcienie oliwkowej zieleni tworzą malarską strukturę, która nadaje przestrzeni indywidualny charakter.\n\nOrnament nie stanowi jedynie dekoracji. Prowadzi wzrok, buduje rytm wnętrza i nawiązuje do otaczającego krajobrazu.",
+            "At the heart of the space, an expansive midnight-blue botanical composition unfolds overhead. Delicate branches in antique gold and muted olive tones transform the ceiling into an immersive artistic statement, creating a dialogue between the architecture and the surrounding landscape.\n\nRather than treating artwork as a final decorative layer, Midnight Garden places artistic expression at the centre of the design process.\n\nThe ceiling becomes a defining architectural feature, establishing rhythm, movement, and identity throughout the interior.\n\nIts organic forms echo the branches of the olive trees outside, blurring the boundary between the built environment and nature.",
+            "El elemento central de la composición es el diseño de una pintura monumental para el techo, inspirada en las formas orgánicas de la vegetación mediterránea.\n\nEl azul marino profundo, el oro envejecido y los sutiles tonos verde oliva crean una estructura pictórica que aporta identidad al espacio. En lugar de tratar la obra como una última capa decorativa, Midnight Garden sitúa la expresión artística en el centro del proceso de diseño.\n\nEl ornamento guía la mirada, marca el ritmo del interior y dialoga con el paisaje. Sus formas recuerdan las ramas de los olivos del exterior y difuminan la frontera entre la arquitectura y la naturaleza."
+          ]
+        },
+        "materials": {
+          "heading": [
+            "Dialog materiałów",
+            "Materiality & atmosphere",
+            "El diálogo de los materiales"
+          ],
+          "body": [
+            "Rzeźbiarskie formy jasnych sof kontrastują z ciemnym kamieniem, naturalnym trawertynem i głębokimi odcieniami drewna orzechowego.\n\nStrefę barową wyróżnia szkliwiona ceramika w odcieniu midnight blue, której nieregularna powierzchnia subtelnie odbija ciepłe światło.\n\nMiękkie tkaniny, koniakowe akcenty i starannie dobrane faktury równoważą wyrazisty charakter malowidła.",
+            "A sculptural bar clad in deep navy glazed ceramic anchors the social space, complemented by warm walnut shelving, natural travertine, and carefully balanced lighting.\n\nCurved ivory seating and cognac-toned accents introduce softness, creating an elegant contrast with the expressive ceiling artwork.\n\nEvery material is selected to support a cohesive visual identity — sophisticated, tactile, and timeless.",
+            "Las formas escultóricas de los sofás claros contrastan con la piedra oscura, el travertino natural y los tonos profundos del nogal.\n\nLa barra se distingue por su cerámica esmaltada en azul marino, cuya superficie irregular refleja sutilmente la luz cálida. La acompañan estanterías de nogal y una iluminación cuidadosamente equilibrada.\n\nLos tejidos suaves, los acentos en color coñac y las texturas seleccionadas equilibran la fuerza de la pintura del techo. Cada material contribuye a una identidad visual coherente, táctil y atemporal."
+          ]
+        },
+        "landscape": {
+          "heading": [
+            "Architektura otwarta na naturę",
+            "Between interior & landscape",
+            "Arquitectura abierta a la naturaleza"
+          ],
+          "body": [
+            "Przestrzeń płynnie łączy się ze śródziemnomorskim ogrodem. Centralnie usytuowane drzewo oliwne, tafla wody i daleki horyzont tworzą naturalne przedłużenie wnętrza.\n\nO zmierzchu światło wydobywa głębię materiałów, a malowany sufit staje się niemal teatralnym elementem architektury.\n\nMidnight Garden to opowieść o projektowaniu, w którym estetyka, sztuka i doświadczenie przestrzeni pozostają nierozłączne.",
+            "The lounge opens toward a Mediterranean courtyard, where a mature olive tree, reflective water, and distant coastal views extend the visual experience beyond the architecture.\n\nAs daylight fades, warm architectural lighting reveals the richness of the materials and the subtle depth of the ceiling artwork.\n\nThe result is a space designed not simply to be seen, but to be experienced.",
+            "El espacio se abre de forma natural hacia un jardín mediterráneo. Un olivo maduro, la lámina de agua y el horizonte lejano prolongan la experiencia visual más allá de la arquitectura.\n\nAl atardecer, la iluminación cálida revela la profundidad de los materiales y la riqueza de la pintura del techo, que adquiere una presencia casi teatral.\n\nMidnight Garden es una historia de diseño en la que la estética, el arte y la experiencia del espacio resultan inseparables: un lugar pensado para ser vivido, además de contemplado."
+          ]
+        }
+      }
+    },
+    {
       "id": "reception",
       "image": "interior-reception.png",
       "title": [
@@ -433,16 +668,6 @@ window.AOM = {
         "Un salón bañado en luz cálida"
       ],
       "type": "residential"
-    },
-    {
-      "id": "nocturne",
-      "image": "interior-nocturne.png",
-      "title": [
-        "Nokturn w śródziemnomorskim salonie",
-        "Nocturne in a Mediterranean lounge",
-        "Nocturno en un salón mediterráneo"
-      ],
-      "type": "commercial"
     },
     {
       "id": "fresco",
@@ -476,7 +701,6 @@ window.AOM = {
     }
   ],
   "missing": {
-    "beforeInterior": null,
     "offerPdf": null,
     "briefPdf": null,
     "formActivationConfirmed": false
