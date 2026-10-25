@@ -62,6 +62,8 @@ Wyniki testu Midnight Garden są w `previews/midnight-garden-checks.json`. Test 
 
 Oryginalne PNG i PDF Midnight Garden są zachowane w `archive/midnight-garden-originals/`, wykluczonym z publikacji. Strona używa pełnowymiarowych, bezstratnych WebP; po konwersji sprawdzono zgodność każdego piksela z PNG. Ujęcie 2 pokazuje wariant bez malowidła, a 1 z malowidłem. Suwak prezentuje studium koncepcyjne.
 
+Oba suwaki — na stronie Wnętrza i podstronie Midnight Garden — pokazują całe pomieszczenie w oryginalnych proporcjach 2400:1792, zgodnie z drugim zrzutem referencyjnym właścicielki. Nie kadrują porównania do samego sufitu.
+
 Zdjęcia Puerto Banús są w `assets/images/puerto-banus/`, z oryginalną rozdzielczością i bajtami JPEG (pliki JFIF otrzymały rozszerzenie `.jpg`). PDF źródłowy zachowano w `archive/puerto-banus-originals/source-guide.pdf`. Opis PL/EN pochodzi z przekazanego dokumentu, ES jest tłumaczeniem. Nie dopisano roku, nazwiska fotografa ani autorstwa widocznych dzieł sztuki. Dokument służy jako materiał źródłowy; sugerowany adres domenowy i instrukcje publikacyjne nie zastępują poleceń właścicielki. Wyniki testów nowej podstrony: `previews/puerto-banus-checks.json`, podglądy: `previews/puerto-banus-{desktop,mobile}.png`.
 
 Do uzupełnienia pozostają materiały z raportu oraz aktywacja skrzynki i weryfikacja odbioru formularza. Polityka prywatności wymaga przeglądu właścicielki. Kopia poprzedniego szablonu w `archive` służy wyłącznie do porównania i jest wykluczona z publikacji przez `_config.yml`.

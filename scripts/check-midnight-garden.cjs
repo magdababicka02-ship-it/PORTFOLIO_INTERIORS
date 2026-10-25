@@ -88,6 +88,8 @@ const languages=['pl','en','es'];
    assert.equal(await page.locator('.comparison-missing').count(),0);
    await page.locator('.comparison').scrollIntoViewIfNeeded();
    await page.locator('.comparison img').evaluateAll(images=>Promise.all(images.map(image=>{image.loading='eager';return image.decode()})));
+   const ratio=await page.locator('.comparison').evaluate(element=>{const box=element.getBoundingClientRect();const image=element.querySelector('img');return [box.width/box.height,image.naturalWidth/image.naturalHeight];});
+   assert.ok(Math.abs(ratio[0]-ratio[1])<.005,'Interiors comparison shows the full room, without ceiling-only cropping');
    await page.evaluate(()=>new Promise(resolve=>requestAnimationFrame(()=>requestAnimationFrame(resolve))));
    await page.locator('.comparison-section').screenshot({path:path.join(out,'midnight-comparison-'+(width===390?'mobile':'desktop')+'.png')});
    await page.locator('#more-interiors').click();assert.equal(await page.locator('.interior-card').count(),7,'Other projects retained alongside Puerto Banús');
