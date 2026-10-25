@@ -647,7 +647,9 @@ window.AOM = {
             "El espacio se abre de forma natural hacia un jardín mediterráneo. Un olivo maduro, la lámina de agua y el horizonte lejano prolongan la experiencia visual más allá de la arquitectura.\n\nAl atardecer, la iluminación cálida revela la profundidad de los materiales y la riqueza de la pintura del techo, que adquiere una presencia casi teatral.\n\nMidnight Garden es una historia de diseño en la que la estética, el arte y la experiencia del espacio resultan inseparables: un lugar pensado para ser vivido, además de contemplado."
           ]
         }
-      }
+      },
+      "curatedRank": 1,
+      "featuredRank": 1
     },
     {
       "id": "puerto-banus",
@@ -1017,7 +1019,9 @@ window.AOM = {
             ]
           }
         ]
-      }
+      },
+      "curatedRank": 2,
+      "featuredRank": 2
     },
     {
       "id": "private-spa-bathroom",
@@ -1560,7 +1564,9 @@ window.AOM = {
           }
         },
         "completedPhotography": []
-      }
+      },
+      "curatedRank": 4,
+      "featuredRank": 4
     },
     {
       "id": "atmosphere-driven-apartment",
@@ -1993,6 +1999,333 @@ window.AOM = {
             "Porozmawiajmy o wnętrzu, w którym estetyka, funkcja i codzienny komfort tworzą spójną całość.",
             "Discuss an interior where aesthetics, function and everyday comfort form a considered whole.",
             "Hablemos de un interior en el que estética, función y comodidad cotidiana formen un conjunto cuidado."
+          ]
+        }
+      },
+      "curatedRank": 3,
+      "featuredRank": 3
+    },
+    {
+      "id": "spisak-studio",
+      "type": "commercial",
+      "curatedRank": 5,
+      "editorialGroup": "creative",
+      "image": "spisak-studio/02_studio_overview.jpg",
+      "title": [
+        "SPISAK STUDIO",
+        "SPISAK STUDIO",
+        "SPISAK STUDIO"
+      ],
+      "projectPage": "spisak-studio.html",
+      "project": {
+        "slug": "spisak-studio",
+        "kind": "studio-editorial",
+        "tagline": [
+          "Przestrzeń dla wielu historii.",
+          "Spaces for Stories.",
+          "Un espacio para historias."
+        ],
+        "location": [
+          "Katowice, Polska",
+          "Katowice, Poland",
+          "Katowice, Polonia"
+        ],
+        "status": [
+          "Studio fotograficzne / koncepcja aranżacji i kierunek kreatywny",
+          "Photography studio / Interior Concept & Creative Direction",
+          "Estudio fotográfico / concepto de interiorismo y dirección creativa"
+        ],
+        "shortStatus": [
+          "Przestrzeń kreatywna / autorska aranżacja",
+          "Creative space / interior styling concept",
+          "Espacio creativo / concepto de interiorismo"
+        ],
+        "seoTitle": [
+          "Spisak Studio Katowice | Projekt aranżacji studia fotograficznego",
+          "Spisak Studio Katowice | Creative Interior Concept",
+          "Spisak Studio Katowice | Concepto de interiorismo creativo"
+        ],
+        "seoDescription": [
+          "Autorska koncepcja aranżacji studia fotograficznego w Katowicach: strefy zdjęciowe, meble, kolor, roślinność i światło. Projekt Art of Meaning.",
+          "A creative photography studio interior in Katowice, shaped through flexible shooting zones, furniture, colour and atmospheric lighting.",
+          "Un estudio fotográfico creativo en Katowice: zonas flexibles, mobiliario, color e iluminación ambiental."
+        ],
+        "hero": {
+          "image": "spisak-studio/02_studio_overview.jpg",
+          "width": 600,
+          "height": 588,
+          "kind": "photo",
+          "caption": [
+            "Studio — jasne i ciemne tło w jednej przestrzeni",
+            "The studio — light and dark settings within one space",
+            "El estudio — fondos claros y oscuros en un mismo espacio"
+          ],
+          "alt": [
+            "Spisak Studio — Studio — jasne i ciemne tło w jednej przestrzeni",
+            "Spisak Studio — The studio — light and dark settings within one space",
+            "Spisak Studio — El estudio — fondos claros y oscuros en un mismo espacio"
+          ]
+        },
+        "opening": {
+          "label": [
+            "Art of Meaning / Przestrzenie kreatywne",
+            "Art of Meaning / Creative spaces",
+            "Art of Meaning / Espacios creativos"
+          ],
+          "body": [
+            "Spisak Studio to przestrzeń fotograficzna, której charakter zmienia się wraz ze światłem, aranżacją i rytmem sesji. W jednym wnętrzu powstały trzy odmienne nastroje: jasny, naturalny set, kameralna scena wieczorna oraz kontrastowa strefa editorialowa.",
+            "Spisak Studio is a flexible creative space where photography and atmosphere shape one another. Natural light, vintage-inspired furnishings, layered textiles and botanical elements establish distinct shooting environments within a coherent visual identity.",
+            "Spisak Studio es un espacio creativo y flexible para fotografía. La luz natural, el mobiliario de inspiración vintage, los textiles y la vegetación crean diferentes escenarios dentro de una identidad visual coherente."
+          ]
+        },
+        "sections": [
+          {
+            "id": "swiatlo",
+            "eyebrow": [
+              "Naturalne światło",
+              "Natural light",
+              "Luz natural"
+            ],
+            "heading": [
+              "Światło jako scenografia.",
+              "Light as a setting.",
+              "La luz como escenario."
+            ],
+            "body": [
+              "Łukowe przeszklenia i charakterystyczne okna stają się naturalną oprawą dla sesji. Zieleń, faktury i meble pracują ze światłem, zamiast konkurować z architekturą.",
+              "Arched glazing and distinctive windows become a natural setting for photography. Greenery, textures and furnishings work with the light, allowing the existing architecture to frame the scene.",
+              "Los ventanales arqueados y las ventanas singulares se convierten en un escenario natural para las sesiones. La vegetación, las texturas y el mobiliario dialogan con la luz y dejan que la arquitectura existente enmarque la escena."
+            ],
+            "visuals": [
+              {
+                "image": "spisak-studio/01_architectural_windows.jpg",
+                "width": 720,
+                "height": 926,
+                "kind": "photo",
+                "caption": [
+                  "Naturalne światło, łukowe okna i roślinność",
+                  "Natural light, arched windows and greenery",
+                  "Luz natural, ventanas arqueadas y vegetación"
+                ],
+                "alt": [
+                  "Spisak Studio — Naturalne światło, łukowe okna i roślinność",
+                  "Spisak Studio — Natural light, arched windows and greenery",
+                  "Spisak Studio — Luz natural, ventanas arqueadas y vegetación"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "trzy-nastroje",
+            "eyebrow": [
+              "Trzy nastroje",
+              "Three moods",
+              "Tres ambientes"
+            ],
+            "heading": [
+              "Trzy nastroje. Jedna przestrzeń.",
+              "Three moods. One space.",
+              "Tres ambientes. Un espacio."
+            ],
+            "body": [
+              "Ten sam adres, różne opowieści wizualne. Światło, tkaniny i zmiana tła pozwalają dopasować atmosferę do charakteru sesji.",
+              "One address, different visual stories. Light, textiles and contrasting backdrops allow the atmosphere to follow the character of each shoot.",
+              "Una misma dirección, distintas historias visuales. La luz, los tejidos y los fondos de contraste permiten adaptar la atmósfera al carácter de cada sesión."
+            ],
+            "visuals": [
+              {
+                "image": "spisak-studio/03_soft_daylight_set.jpg",
+                "width": 720,
+                "height": 691,
+                "kind": "photo",
+                "caption": [
+                  "The Soft Set — naturalne światło i miękkie tekstylia",
+                  "The Soft Set — natural light and soft textiles",
+                  "The Soft Set — luz natural y tejidos suaves"
+                ],
+                "alt": [
+                  "Spisak Studio — The Soft Set — naturalne światło i miękkie tekstylia",
+                  "Spisak Studio — The Soft Set — natural light and soft textiles",
+                  "Spisak Studio — The Soft Set — luz natural y tejidos suaves"
+                ]
+              },
+              {
+                "image": "spisak-studio/04_evening_set.jpg",
+                "width": 720,
+                "height": 698,
+                "kind": "photo",
+                "caption": [
+                  "The Evening Set — ciepłe światło i kameralny nastrój",
+                  "The Evening Set — warm light and an intimate atmosphere",
+                  "The Evening Set — luz cálida y un ambiente íntimo"
+                ],
+                "alt": [
+                  "Spisak Studio — The Evening Set — ciepłe światło i kameralny nastrój",
+                  "Spisak Studio — The Evening Set — warm light and an intimate atmosphere",
+                  "Spisak Studio — The Evening Set — luz cálida y un ambiente íntimo"
+                ]
+              },
+              {
+                "image": "spisak-studio/05_dark_editorial_set.jpg",
+                "width": 600,
+                "height": 597,
+                "kind": "photo",
+                "caption": [
+                  "The Dark Set — vintage’owy fotel i kontrastowe tło",
+                  "The Dark Set — a vintage-inspired armchair and a contrasting backdrop",
+                  "The Dark Set — una butaca de inspiración vintage y un fondo de contraste"
+                ],
+                "alt": [
+                  "Spisak Studio — The Dark Set — vintage’owy fotel i kontrastowe tło",
+                  "Spisak Studio — The Dark Set — a vintage-inspired armchair and a contrasting backdrop",
+                  "Spisak Studio — The Dark Set — una butaca de inspiración vintage y un fondo de contraste"
+                ]
+              }
+            ],
+            "moods": [
+              {
+                "name": [
+                  "The Soft Set",
+                  "The Soft Set",
+                  "The Soft Set"
+                ],
+                "description": [
+                  "Jasne tekstylia, roślinność i neutralne tło. Miękka, naturalna scena dla portretów i codziennych opowieści.",
+                  "Light textiles, greenery and a neutral backdrop. A soft, natural setting for portraits and everyday stories.",
+                  "Tejidos claros, vegetación y un fondo neutro. Un escenario suave y natural para retratos e historias cotidianas."
+                ]
+              },
+              {
+                "name": [
+                  "The Evening Set",
+                  "The Evening Set",
+                  "The Evening Set"
+                ],
+                "description": [
+                  "Rozproszone źródła światła, ciepłe faktury i kameralny rytm. Znana przestrzeń zyskuje bardziej intymny charakter.",
+                  "Diffused lighting, warm textures and an intimate rhythm. A familiar space takes on a quieter, more personal character.",
+                  "Luz difusa, texturas cálidas y un ritmo íntimo. Un espacio conocido adquiere un carácter más personal."
+                ]
+              },
+              {
+                "name": [
+                  "The Dark Set",
+                  "The Dark Set",
+                  "The Dark Set"
+                ],
+                "description": [
+                  "Głęboka zieleń, ciemne tło, vintage’owy fotel i pojedyncza lampa. Kontrastowa scena dla wyrazistej fotografii.",
+                  "Deep green, a dark backdrop, a vintage-inspired armchair and a single lamp. A contrasting set for expressive photography.",
+                  "Verde intenso, un fondo oscuro, una butaca de inspiración vintage y una sola lámpara. Un escenario de contraste para una fotografía expresiva."
+                ]
+              }
+            ]
+          },
+          {
+            "id": "atmosfera",
+            "eyebrow": [
+              "Sztuka atmosfery",
+              "The art of atmosphere",
+              "El arte de la atmósfera"
+            ],
+            "heading": [
+              "Atmosfera tkwi w detalach.",
+              "The Art of Atmosphere.",
+              "El arte de la atmósfera."
+            ],
+            "body": [
+              "Miękkie tekstylia, naturalne faktury i bogata roślinność łączą różne sceny. To detale nadają im wspólną tożsamość.",
+              "Layered textiles, natural textures and abundant greenery connect the different settings. Details give them a shared identity.",
+              "Los tejidos superpuestos, las texturas naturales y la vegetación conectan los distintos escenarios. Los detalles les dan una identidad común."
+            ],
+            "visuals": [
+              {
+                "image": "spisak-studio/06_botanical_daylight_detail.jpg",
+                "width": 600,
+                "height": 578,
+                "kind": "photo",
+                "caption": [
+                  "Światło, roślinność i naturalne faktury",
+                  "Light, greenery and natural textures",
+                  "Luz, vegetación y texturas naturales"
+                ],
+                "alt": [
+                  "Spisak Studio — Światło, roślinność i naturalne faktury",
+                  "Spisak Studio — Light, greenery and natural textures",
+                  "Spisak Studio — Luz, vegetación y texturas naturales"
+                ]
+              },
+              {
+                "image": "spisak-studio/07_warm_details_optional.jpg",
+                "width": 720,
+                "height": 992,
+                "kind": "photo",
+                "caption": [
+                  "Miękkie tkaniny i ciepłe akcenty światła",
+                  "Soft textiles and warm accents of light",
+                  "Tejidos suaves y acentos de luz cálida"
+                ],
+                "alt": [
+                  "Spisak Studio — Miękkie tkaniny i ciepłe akcenty światła",
+                  "Spisak Studio — Soft textiles and warm accents of light",
+                  "Spisak Studio — Tejidos suaves y acentos de luz cálida"
+                ]
+              }
+            ]
+          }
+        ],
+        "contribution": {
+          "eyebrow": [
+            "Kierunek kreatywny",
+            "Creative direction",
+            "Dirección creativa"
+          ],
+          "heading": [
+            "Jedna przestrzeń. Różne scenariusze.",
+            "One space. Different stories.",
+            "Un espacio. Distintas historias."
+          ],
+          "body": [
+            "Moja praca obejmowała stworzenie głównej koncepcji aranżacji, podział przestrzeni na strefy, dobór mebli, kolorystyki oraz koncepcję oświetlenia. Vintage’owe formy, miękkie tekstylia i bogata roślinność pozwalają budować różnorodne opowieści wizualne przy zachowaniu jednej spójnej tożsamości studia.\n\nProjekt pokazuje, jak za pomocą prostych środków aranżacyjnych można uczynić przestrzeń narzędziem kreatywnej pracy.",
+            "My contribution focused on the overall interior styling concept, spatial zoning, furniture and colour selection, and a lighting concept supporting different photographic moods.\n\nThe studio demonstrates how thoughtful spatial styling can turn one interior into a versatile setting for visual storytelling.",
+            "Mi trabajo abarcó el concepto general de interiorismo, la zonificación, la selección de mobiliario y colores y el concepto de iluminación, con el fin de crear distintos ambientes para las sesiones fotográficas.\n\nEl estudio muestra cómo una puesta en escena cuidada puede convertir un interior en un entorno versátil para contar historias visuales."
+          ],
+          "byline": [
+            "Magdalena Babicka / koncepcja aranżacji i kierunek kreatywny",
+            "Magdalena Babicka / Interior Concept & Creative Direction",
+            "Magdalena Babicka / concepto de interiorismo y dirección creativa"
+          ],
+          "scope": [
+            [
+              "Strefy zdjęciowe",
+              "Space zoning",
+              "Zonificación"
+            ],
+            [
+              "Dobór mebli",
+              "Furniture selection",
+              "Selección de mobiliario"
+            ],
+            [
+              "Kolorystyka",
+              "Colour palette",
+              "Paleta de colores"
+            ],
+            [
+              "Koncepcja oświetlenia",
+              "Lighting concept",
+              "Concepto de iluminación"
+            ],
+            [
+              "Aranżacja wnętrza",
+              "Interior styling",
+              "Estilismo de interiores"
+            ]
+          ],
+          "cta": [
+            "Porozmawiajmy o Twojej przestrzeni",
+            "Discuss your creative space",
+            "Consulte sobre su espacio creativo"
           ]
         }
       }

@@ -230,5 +230,10 @@ window.AOM_ES = {
   "From concept to detail": "Del concepto al detalle",
   "Scope and role": "Alcance y función",
   "Design development board": "Panel de desarrollo del proyecto",
-  "Bespoke joinery": "Mobiliario a medida"
+  "Bespoke joinery": "Mobiliario a medida",
+  "Featured work": "Proyectos destacados",
+  "Selected creative spaces": "Espacios creativos seleccionados",
+  "Design studies": "Estudios de diseño",
+  "Explore the studio": "Descubrir el estudio",
+  "View the full portfolio": "Ver el portfolio completo"
 };

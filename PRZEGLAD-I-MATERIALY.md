@@ -4,7 +4,7 @@ Stan: 25 października 2026 r.
 ## Wdrożone strony
 - `index.html` — Portfolio / strona główna: film, trzy obszary twórczości, sekcja Magdaleny, stopka.
 - `murale.html` — hero wideo, trzy szerokie realizacje z oryginalnymi ikonami, gwiazdkami, filmami i parametrami, proces w siatce 2 × 2, kontakt.
-- `wnetrza.html` — hero, cztery zakresy współpracy, miejsce na dokumenty, portfolio i filtry, sześć koncepcji, suwak, kontakt.
+- `wnetrza.html` — hero, cztery zakresy współpracy, miejsce na dokumenty, kuratorowane portfolio i filtry, pięć podstron projektów i pięć zachowanych studiów, suwak, kontakt.
 - `midnight-garden.html` — osobna podstrona projektu z hero, opisem i metryką z dokumentu właścicielki, wizualizacjami wnętrza i ogrodu, powiększaniem obrazów oraz studium sufitu bez malowidła i z malowidłem.
 - `obrazy-na-zamowienie.html` — cztery pierwsze obrazy zgodnie z makietą, pełna kolekcja dwunastu prac po rozwinięciu, filtry, stale widoczne ceny ośmiu obrazów, sekcja zamówień. Alias: `malarstwo.html`.
 - `kontakt.html` — układ z makiety z granatowym headerem, formularz POST na contact@artofmeaning.art przez FormSubmit, kontakt bezpośredni i social media.
@@ -94,6 +94,16 @@ Stan: 25 października 2026 r.
 - Angielskie wezwania do kontaktu mają profesjonalny, prosty ton („Discuss your project”, „Arrange a consultation”, „Contact me”). Wersja hiszpańska ma słownik 220 tekstów interfejsu oraz 90 pól językowych katalogu, w tym pełne opisy obrazów, murali, koncepcji i autentyczne opinie. Tłumaczenia opinii są oznaczone; autorzy i teksty źródłowe PL/EN pozostają zachowane.
 - Formularz przekazuje kod języka wraz z zapytaniem, dzięki czemu odbiorczyni wie, w jakiej wersji strony zostało przygotowane zgłoszenie. Dane odbiorcy i sposób aktywacji pozostają zgodne z sekcją formularza powyżej.
 - Sprawdzono wszystkie 23 aktywne podstrony w ES na desktopie i telefonie (46 kontroli), zachowanie kontekstu przy przełączaniu PL/EN/ES, pełną jakość portretu, zgodność opisów kafli z referencją oraz hiszpańską walidację i reakcje formularza na akceptację i odmowę wysyłki. Żadnej prawdziwej wiadomości nie wysłano.
+
+## Spisak Studio
+
+- Dodano `spisak-studio.html`, w kategorii „Commercial”. Źródła: ZIP z siedmioma fotografiami, README, manifest i czternastostronicowy PDF. Osobny PDF i wersja w ZIP są identyczne — jeden oryginał zachowano w archiwum poza Pages.
+- Dane: Katowice, Polska; koncepcja aranżacji i kierunek kreatywny; strefy zdjęciowe, dobór mebli i kolorów, koncepcja światła oraz styling. Nie przypisano autorce architektonicznej przebudowy, dokumentacji lub wykonawstwa.
+- Układ magazynowy jest dedykowany temu projektowi: duży tytuł i przesunięte zdjęcie ogólne, pionowy kadr okien, różne skale trzech scen, dwa przesunięte detale i zamknięcie z rzeczywistym zakresem pracy. Istniejące cztery projekty zachowują swoje kompozycje.
+- Siedem oryginalnych JPEG skopiowano bez zmiany bajtów. Fotografie 600–720 px nie są rozciągane ponad natywną szerokość, nawet w oknie powiększenia. Zdjęcie ogólne jest niemal kwadratowe; pokazano je w całości, bez tworzenia sztucznej panoramy. Oryginalny przewód w detalu pozostał widoczny. Nie użyto generatywnego retuszu ani nowych obrazów.
+- Jawne `featuredRank` i `curatedRank` ustalają kolejność: Midnight Garden, Puerto Banús, Atmosphere-Driven Apartment, Private Spa Bathroom; niżej Spisak Studio. Pięć studiów projektowych pozostaje w kolekcji, wyraźnie oznaczonych i dostępnych przez rozwinięcie lub filtry. Hero Wnętrz nadal pokazuje Midnight Garden. Nie skopiowano nieaktualnej notatki briefu sugerującej, że Atmosphere-Driven Apartment nie jest jeszcze opublikowane.
+- `previews/spisak-studio-checks.json`: PL/EN/ES, 18 kombinacji języka i szerokości 320–1920 px, 21 powiększeń z przywróceniem fokusu, poprawne źródła i proporcje zdjęć, brak powiększania ponad natywną szerokość, rzeczywiście różne skale scen, kontakt oraz filtry. Odwrócenie całej tablicy katalogu w teście nie zmieniło jawnej kolejności projektów wiodących.
+- `previews/spisak-preservation-checks.json`: 24 porównania głównej treści czterech wcześniejszych podstron przed i po zmianie — identyczny HTML. Po pominięciu dodanych rang i nowego wpisu wcześniejszy katalog jest identyczny. Podglądy: `previews/spisak-studio-{desktop,mobile}.png`.
 
 ## Atmosphere-Driven Apartment
 

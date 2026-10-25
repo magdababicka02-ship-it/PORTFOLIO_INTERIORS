@@ -92,10 +92,10 @@ const languages=['pl','en','es'];
    assert.ok(Math.abs(ratio[0]-ratio[1])<.005,'Interiors comparison shows the full room, without ceiling-only cropping');
    await page.evaluate(()=>new Promise(resolve=>requestAnimationFrame(()=>requestAnimationFrame(resolve))));
    await page.locator('.comparison-section').screenshot({path:path.join(out,'midnight-comparison-'+(width===390?'mobile':'desktop')+'.png')});
-   await page.locator('#more-interiors').click();assert.equal(await page.locator('.interior-card').count(),9,'Other projects retained alongside Puerto Banús and Private Spa Bathroom');
+   await page.locator('#more-interiors').click();assert.equal(await page.locator('.interior-card').count(),10,'Other projects retained alongside Puerto Banús and Private Spa Bathroom');
   }
   assert.deepEqual(errors,[]);
-  const result={date:new Date().toISOString(),languages,projectLinkNavigation:'passed, including keyboard',responsiveChecks,sourceVisuals:5,projectImages:6,conceptStatusVisible:true,lightboxAndFocus:'passed',comparisonKeyboardAndExtremes:'passed',portfolioProjects:9,contactLinks:2,browserErrors:errors};
+  const result={date:new Date().toISOString(),languages,projectLinkNavigation:'passed, including keyboard',responsiveChecks,sourceVisuals:5,projectImages:6,conceptStatusVisible:true,lightboxAndFocus:'passed',comparisonKeyboardAndExtremes:'passed',portfolioProjects:10,contactLinks:2,browserErrors:errors};
   fs.writeFileSync(path.join(out,'midnight-garden-checks.json'),JSON.stringify(result,null,2));console.log(JSON.stringify(result));
  }finally{await browser.close();}
 })().catch(error=>{console.error(error);process.exit(1)});
