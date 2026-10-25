@@ -95,6 +95,16 @@ Stan: 25 października 2026 r.
 - Formularz przekazuje kod języka wraz z zapytaniem, dzięki czemu odbiorczyni wie, w jakiej wersji strony zostało przygotowane zgłoszenie. Dane odbiorcy i sposób aktywacji pozostają zgodne z sekcją formularza powyżej.
 - Sprawdzono wszystkie 23 aktywne podstrony w ES na desktopie i telefonie (46 kontroli), zachowanie kontekstu przy przełączaniu PL/EN/ES, pełną jakość portretu, zgodność opisów kafli z referencją oraz hiszpańską walidację i reakcje formularza na akceptację i odmowę wysyłki. Żadnej prawdziwej wiadomości nie wysłano.
 
+## Private Spa Bathroom
+
+- Dodano `private-spa-bathroom.html` w kategorii „Commercial” zgodnie z prośbą właścicielki. Dane z `project-content.json`: Gliwice, Polska; główna projektantka; realizacja w toku. Prywatny charakter pomieszczenia pozostaje jasno opisany.
+- Źródła: `CODEX_README.md`, `project-content.json`, plansza PDF oraz `assets.rar`. Pełna prezentacja `Private_Spa_Bathroom_Codex_Presentation_v2.pdf` przekroczyła limit pobierania 32 MiB i nie została odczytana. Dostarczone później assets zawierają wszystkie dziewięć plików wymienionych w JSON, więc nie trzeba było wycinać rozmytych fragmentów planszy.
+- Opublikowano bez zmiany bajtów: wizualizację 1649 × 2048, dwa zdjęcia stanu istniejącego 1200 × 1600, planszę i pięć oryginalnych wycinków dokumentacji. Zdjęcia „przed”, render i rysunki są podpisane zgodnie z charakterem materiału. Nie publikowano fikcyjnych zdjęć „po”, marek, metrażu ani terminów ukończenia.
+- Uproszczony rzut pokazano jako element dostarczonej planszy, z informacją, że nie jest rysunkiem wykonawczym. Oryginalne rzuty i przekroje są dostępne oddzielnie, z powiększaniem i odnośnikiem do pełnego pliku. Polskie opisy techniczne zachowano. Plansza PDF jest dostępna przez rzeczywisty odnośnik; żaden nowy schemat ani wymiar nie został wymyślony.
+- Opis i zakres pracy przygotowano w PL/EN/ES na podstawie faktów z JSON i materiałów wizualnych. Status realizacji i rola projektantki są widoczne. Nie dodano danych klienta; wykorzystane fragmenty dokumentacji nie zawierają tabliczek z danymi osobowymi.
+- Wyniki w `previews/private-spa-checks.json`: 15 kombinacji szerokości i języka, 27 otwarć i zamknięć powiększenia z przywróceniem fokusu, pięć oryginalnych rysunków, działający PDF, przejście klawiaturą z „Commercial”, brak błędów JavaScript. Podglądy w `previews/private-spa-{desktop,mobile}.png`.
+- W portfolio zachowano wszystkie wcześniejsze siedem wpisów. Trzy projekty z gotowymi podstronami są teraz widoczne od razu, a pełna kolekcja zawiera osiem pozycji. Dane wcześniejszego katalogu porównano z poprzednim commitem — pozostały identyczne.
+
 ## Midnight Garden
 
 - Dotychczasową roboczą nazwę „Nokturn w śródziemnomorskim salonie” zastąpiono nazwą z przekazanego dossier: Midnight Garden. Kafel w portfolio oraz hero Wnętrz prowadzą do `midnight-garden.html`; projekt jest widoczny jako pierwszy. Pozostałe koncepcje zachowano.

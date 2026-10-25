@@ -81,8 +81,18 @@
 .photographic-project-hero .hero-actions{align-items:flex-start;flex-direction:column;gap:22px}
 .project-credit{font-size:11px;line-height:1.8;color:var(--muted);margin-top:24px;padding-left:16px;border-left:1px solid var(--gold)}
 .project-intro-copy{min-width:0;overflow-wrap:anywhere;hyphens:auto}
+.project-intro-text{display:block;max-width:1120px}
+.project-intro-text .project-prose{max-width:none;columns:2;column-gap:45px}
+.project-intro-text .project-prose p{break-inside:avoid}
+.project-intro-text .project-prose p:first-child{margin-top:22px}
+.project-intro-text .interior-project-facts{grid-template-columns:repeat(4,minmax(0,1fr))}
+.project-scope-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px 40px;list-style:none;margin-top:30px;padding:0}
+.project-scope-list li{padding:16px 0;border-top:1px solid var(--line);font-size:13px}
+.project-document{margin-top:28px;font-size:12px}
+@media(max-width:650px){.project-intro-text .project-prose{columns:1}.project-intro-text .interior-project-facts{grid-template-columns:repeat(2,minmax(0,1fr))}.project-scope-list{grid-template-columns:1fr;gap:5px}}
 .photo-project-section{padding-block:75px}
 .photo-project-section .project-reading{margin-bottom:38px}
+.photo-project-section .project-reading>div{min-width:0;overflow-wrap:anywhere;hyphens:auto}
 .photo-project-section .project-prose p:first-child{margin-top:0}
 .photo-project-gallery{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:38px;align-items:start}
 .photo-project-gallery-3{grid-template-columns:repeat(3,minmax(0,1fr));gap:26px}

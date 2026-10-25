@@ -1020,6 +1020,422 @@ window.AOM = {
       }
     },
     {
+      "id": "private-spa-bathroom",
+      "image": "private-spa-bathroom/design-visualisation.png",
+      "title": [
+        "Private Spa Bathroom",
+        "Private Spa Bathroom",
+        "Private Spa Bathroom"
+      ],
+      "type": "commercial",
+      "projectPage": "private-spa-bathroom.html",
+      "project": {
+        "slug": "private-spa-bathroom",
+        "kind": "study",
+        "subtitle": [
+          "Gliwice · Polska",
+          "Gliwice · Poland",
+          "Gliwice · Polonia"
+        ],
+        "tagline": [
+          "Studium przemiany przestrzeni.",
+          "A Study in Spatial Transformation.",
+          "Un estudio de transformación espacial."
+        ],
+        "status": [
+          "Realizacja w toku · Wizualizacja koncepcji",
+          "Implementation in progress · Design visualisation",
+          "Obra en curso · Visualización del proyecto"
+        ],
+        "shortStatus": [
+          "Realizacja w toku / projekt wnętrza",
+          "Implementation in progress / interior design",
+          "Obra en curso / diseño de interiores"
+        ],
+        "seoTitle": [
+          "Private Spa Bathroom, Gliwice | Projekt wnętrza",
+          "Private Spa Bathroom, Gliwice | Interior Design",
+          "Private Spa Bathroom, Gliwice | Diseño de interiores"
+        ],
+        "seoDescription": [
+          "Koncepcja prywatnej łazienki w Gliwicach: planowanie funkcjonalne, zabudowa na wymiar, oświetlenie i dokumentacja techniczna. Projekt Magdaleny Babickiej, realizacja w toku.",
+          "A private bathroom in Gliwice: spatial planning, bespoke joinery, lighting and technical documentation by Magdalena Babicka. Implementation in progress.",
+          "Un baño privado en Gliwice: distribución, mobiliario a medida, iluminación y documentación técnica de Magdalena Babicka. Obra en curso."
+        ],
+        "hero": {
+          "image": "private-spa-bathroom/design-visualisation.png",
+          "width": 1649,
+          "height": 2048,
+          "kind": "visualisation",
+          "caption": [
+            "Wizualizacja koncepcji — realizacja w toku",
+            "Design visualisation — implementation in progress",
+            "Visualización del proyecto — obra en curso"
+          ],
+          "alt": [
+            "Private Spa Bathroom — Wizualizacja koncepcji — realizacja w toku",
+            "Private Spa Bathroom — Design visualisation — implementation in progress",
+            "Private Spa Bathroom — Visualización del proyecto — obra en curso"
+          ]
+        },
+        "facts": [
+          {
+            "label": [
+              "Lokalizacja",
+              "Location",
+              "Ubicación"
+            ],
+            "value": [
+              "Gliwice, Polska",
+              "Gliwice, Poland",
+              "Gliwice, Polonia"
+            ]
+          },
+          {
+            "label": [
+              "Typ projektu",
+              "Project type",
+              "Tipo de proyecto"
+            ],
+            "value": [
+              "Prywatna łazienka",
+              "Private bathroom",
+              "Baño privado"
+            ]
+          },
+          {
+            "label": [
+              "Rola",
+              "Role",
+              "Función"
+            ],
+            "value": [
+              "Magdalena Babicka · główna projektantka wnętrza",
+              "Magdalena Babicka · Lead Interior Designer",
+              "Magdalena Babicka · diseñadora de interiores principal"
+            ]
+          },
+          {
+            "label": [
+              "Status",
+              "Status",
+              "Estado"
+            ],
+            "value": [
+              "Realizacja w toku",
+              "Implementation in progress",
+              "Obra en curso"
+            ]
+          }
+        ],
+        "introduction": {
+          "heading": [
+            "Codzienny rytuał, przemyślany na nowo.",
+            "An everyday ritual, reconsidered.",
+            "Una nueva mirada al ritual cotidiano."
+          ],
+          "body": [
+            "Private Spa Bathroom to projekt prywatnej łazienki w Gliwicach, w którym funkcjonalność spotyka się z atmosferą domowej strefy wyciszenia. Punktem wyjścia jest uważne uporządkowanie przestrzeni — od układu wyposażenia po światło i detale zabudowy.\n\nKoncepcja łączy ciepłe, stonowane barwy, odcienie drewna i miękkie oświetlenie. Za spokojnym obrazem wnętrza stoi praca nad rzutami, rozwiązaniami na wymiar oraz koordynacją instalacji i wykonawstwa.",
+            "Private Spa Bathroom is a private bathroom project in Gliwice, where practical planning meets the calm atmosphere of a personal retreat. The starting point is a considered organisation of the space, from the layout of fittings to lighting and joinery details.\n\nThe concept brings together warm, restrained tones, timber colours and soft lighting. Behind this calm interior lies work on spatial plans, bespoke solutions and coordination of building services and contractors.",
+            "Private Spa Bathroom es un proyecto de baño privado en Gliwice que combina una distribución práctica con la calma de un refugio personal. El punto de partida es una organización cuidada del espacio, desde la disposición del equipamiento hasta la iluminación y los detalles del mobiliario.\n\nEl concepto reúne tonos cálidos y contenidos, colores de madera y una luz suave. Detrás de esta imagen serena hay un trabajo de planificación, soluciones a medida y coordinación de instalaciones y contratistas."
+          ]
+        },
+        "credit": [
+          "Projekt jest w trakcie realizacji. Wizualizacja przedstawia zamierzony kierunek; fotografie dokumentują stan przed remontem.",
+          "Implementation is in progress. The visualisation presents the design intent; photographs document the existing conditions.",
+          "El proyecto está en fase de ejecución. La visualización presenta la propuesta de diseño; las fotografías documentan el estado previo a la reforma."
+        ],
+        "sections": [
+          {
+            "id": "stan-istniejacy",
+            "eyebrow": [
+              "Punkt wyjścia",
+              "The starting point",
+              "El punto de partida"
+            ],
+            "heading": [
+              "Przed zmianą.",
+              "Before the transformation.",
+              "Antes de la transformación."
+            ],
+            "body": [
+              "Autentyczne zdjęcia pokazują stan łazienki i widok od wejścia przed remontem. To kontekst dla decyzji funkcjonalnych i materiałowych przedstawionych w projekcie.",
+              "Authentic photographs show the bathroom and the view from the entrance before renovation. They provide context for the spatial and material decisions developed in the project.",
+              "Las fotografías originales muestran el baño y la vista desde la entrada antes de la reforma. Aportan el contexto para las decisiones de distribución y materiales del proyecto."
+            ],
+            "visuals": [
+              {
+                "image": "private-spa-bathroom/before-entry.jpg",
+                "width": 1200,
+                "height": 1600,
+                "kind": "photo",
+                "caption": [
+                  "Stan przed remontem — widok od wejścia",
+                  "Existing conditions — view from the entrance",
+                  "Estado previo a la reforma — vista desde la entrada"
+                ],
+                "alt": [
+                  "Private Spa Bathroom — Stan przed remontem — widok od wejścia",
+                  "Private Spa Bathroom — Existing conditions — view from the entrance",
+                  "Private Spa Bathroom — Estado previo a la reforma — vista desde la entrada"
+                ]
+              },
+              {
+                "image": "private-spa-bathroom/before-bathroom.jpg",
+                "width": 1200,
+                "height": 1600,
+                "kind": "photo",
+                "caption": [
+                  "Stan przed remontem — wnętrze łazienki",
+                  "Existing conditions — bathroom interior",
+                  "Estado previo a la reforma — interior del baño"
+                ],
+                "alt": [
+                  "Private Spa Bathroom — Stan przed remontem — wnętrze łazienki",
+                  "Private Spa Bathroom — Existing conditions — bathroom interior",
+                  "Private Spa Bathroom — Estado previo a la reforma — interior del baño"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "planowanie",
+            "eyebrow": [
+              "Planowanie przestrzeni",
+              "Spatial planning",
+              "Planificación espacial"
+            ],
+            "heading": [
+              "Logika układu.",
+              "The logic of the layout.",
+              "La lógica de la distribución."
+            ],
+            "body": [
+              "Plansza zestawia uproszczony schemat funkcjonalny z fragmentami oryginalnego rzutu, przekroju zabudowy i wizualizacją. Schemat służy objaśnieniu projektu; nie jest rysunkiem do realizacji. Rozwiązania i wymiary należy odczytywać z dokumentacji technicznej.",
+              "The board brings a simplified spatial diagram together with excerpts from the original plan, a joinery section and the design visualisation. The diagram explains the project; it is not a construction drawing. Technical documentation remains the reference for dimensions and execution.",
+              "El panel reúne un esquema funcional simplificado, extractos del plano original, una sección del mobiliario y la visualización. El esquema sirve para explicar el proyecto; no es un plano de ejecución. Las dimensiones y los detalles constructivos deben consultarse en la documentación técnica."
+            ],
+            "visuals": [
+              {
+                "image": "private-spa-bathroom/editorial-board-preview.png",
+                "width": 2143,
+                "height": 1516,
+                "kind": "drawing",
+                "caption": [
+                  "Plansza projektowa — schemat funkcjonalny i fragmenty oryginalnej dokumentacji",
+                  "Project board — spatial diagram and original drawing excerpts",
+                  "Panel del proyecto — esquema funcional y extractos de la documentación original"
+                ],
+                "alt": [
+                  "Private Spa Bathroom — Plansza projektowa — schemat funkcjonalny i fragmenty oryginalnej dokumentacji",
+                  "Private Spa Bathroom — Project board — spatial diagram and original drawing excerpts",
+                  "Private Spa Bathroom — Panel del proyecto — esquema funcional y extractos de la documentación original"
+                ]
+              }
+            ],
+            "document": "private-spa-bathroom-board.pdf",
+            "documentLabel": [
+              "Otwórz planszę projektową — PDF (PL / EN)",
+              "Open the project board — PDF (PL / EN)",
+              "Abrir el panel del proyecto — PDF (PL / EN)"
+            ]
+          },
+          {
+            "id": "dokumentacja",
+            "eyebrow": [
+              "Dokumentacja techniczna",
+              "Technical documentation",
+              "Documentación técnica"
+            ],
+            "heading": [
+              "Od koncepcji do detalu.",
+              "From concept to detail.",
+              "Del concepto al detalle."
+            ],
+            "body": [
+              "Oryginalne fragmenty dokumentacji pokazują rzut, przekroje, zabudowę oraz rozwiązania instalacyjne. Każdy rysunek można powiększyć i otworzyć w pełnej rozdzielczości. Zachowano oryginalne oznaczenia i opisy w języku polskim.",
+              "Original drawing excerpts show the plan, sections, joinery and building services. Each drawing can be enlarged and opened at full resolution. Original annotations and descriptions remain in Polish.",
+              "Los extractos originales muestran la planta, las secciones, el mobiliario y las instalaciones. Cada dibujo puede ampliarse y abrirse a su resolución completa. Se conservan las anotaciones y descripciones originales en polaco."
+            ],
+            "visuals": [
+              {
+                "image": "private-spa-bathroom/real-plan.png",
+                "width": 1119,
+                "height": 1386,
+                "kind": "drawing",
+                "caption": [
+                  "Oryginalny rzut funkcjonalny",
+                  "Original spatial plan",
+                  "Plano de distribución original"
+                ],
+                "alt": [
+                  "Private Spa Bathroom — Oryginalny rzut funkcjonalny",
+                  "Private Spa Bathroom — Original spatial plan",
+                  "Private Spa Bathroom — Plano de distribución original"
+                ]
+              },
+              {
+                "image": "private-spa-bathroom/real-joinery-section.png",
+                "width": 1239,
+                "height": 1365,
+                "kind": "drawing",
+                "caption": [
+                  "Zabudowa na wymiar — oryginalny przekrój",
+                  "Bespoke joinery — original section",
+                  "Mobiliario a medida — sección original"
+                ],
+                "alt": [
+                  "Private Spa Bathroom — Zabudowa na wymiar — oryginalny przekrój",
+                  "Private Spa Bathroom — Bespoke joinery — original section",
+                  "Private Spa Bathroom — Mobiliario a medida — sección original"
+                ]
+              },
+              {
+                "image": "private-spa-bathroom/real-bathroom-section.png",
+                "width": 1335,
+                "height": 1365,
+                "kind": "drawing",
+                "caption": [
+                  "Łazienka — oryginalny przekrój",
+                  "Bathroom — original section",
+                  "Baño — sección original"
+                ],
+                "alt": [
+                  "Private Spa Bathroom — Łazienka — oryginalny przekrój",
+                  "Private Spa Bathroom — Bathroom — original section",
+                  "Private Spa Bathroom — Baño — sección original"
+                ]
+              },
+              {
+                "image": "private-spa-bathroom/real-water-plan.png",
+                "width": 1293,
+                "height": 1467,
+                "kind": "drawing",
+                "caption": [
+                  "Oryginalny rysunek instalacji wodno-kanalizacyjnej",
+                  "Original plumbing drawing",
+                  "Plano original de fontanería y saneamiento"
+                ],
+                "alt": [
+                  "Private Spa Bathroom — Oryginalny rysunek instalacji wodno-kanalizacyjnej",
+                  "Private Spa Bathroom — Original plumbing drawing",
+                  "Private Spa Bathroom — Plano original de fontanería y saneamiento"
+                ]
+              },
+              {
+                "image": "private-spa-bathroom/real-electric-plan.png",
+                "width": 1500,
+                "height": 1473,
+                "kind": "drawing",
+                "caption": [
+                  "Oryginalny rysunek instalacji elektrycznej",
+                  "Original electrical drawing",
+                  "Plano original de la instalación eléctrica"
+                ],
+                "alt": [
+                  "Private Spa Bathroom — Oryginalny rysunek instalacji elektrycznej",
+                  "Private Spa Bathroom — Original electrical drawing",
+                  "Private Spa Bathroom — Plano original de la instalación eléctrica"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "materialy",
+            "eyebrow": [
+              "Materiały i światło",
+              "Materials and light",
+              "Materiales y luz"
+            ],
+            "heading": [
+              "Spokój budowany światłem.",
+              "Calm, shaped by light.",
+              "La calma a través de la luz."
+            ],
+            "body": [
+              "Ciepłe beże, odcienie drewna i delikatne akcenty w kolorze złota tworzą spójną paletę koncepcji. Oświetlenie podkreśla płaszczyzny i proporcje, a zabudowa porządkuje codzienne funkcje łazienki. Wizualizacja przedstawia założenia projektu na etapie realizacji.",
+              "Warm beiges, timber tones and subtle gold-coloured accents form a cohesive concept palette. Lighting emphasises surfaces and proportions, while joinery organises the everyday functions of the bathroom. The visualisation presents the design intent during implementation.",
+              "Los beiges cálidos, los tonos de madera y los discretos acentos dorados forman una paleta coherente. La iluminación destaca los planos y las proporciones, mientras el mobiliario organiza las funciones cotidianas del baño. La visualización muestra la propuesta de diseño durante la ejecución."
+            ],
+            "visuals": [
+              {
+                "image": "private-spa-bathroom/design-visualisation.png",
+                "width": 1649,
+                "height": 2048,
+                "kind": "visualisation",
+                "caption": [
+                  "Wizualizacja koncepcji — realizacja w toku",
+                  "Design visualisation — implementation in progress",
+                  "Visualización del proyecto — obra en curso"
+                ],
+                "alt": [
+                  "Private Spa Bathroom — Wizualizacja koncepcji — realizacja w toku",
+                  "Private Spa Bathroom — Design visualisation — implementation in progress",
+                  "Private Spa Bathroom — Visualización del proyecto — obra en curso"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "zakres-projektu",
+            "eyebrow": [
+              "Zakres i rola",
+              "Scope and role",
+              "Alcance y función"
+            ],
+            "heading": [
+              "Spójność na każdym etapie.",
+              "Continuity at every stage.",
+              "Coherencia en cada fase."
+            ],
+            "body": [
+              "Jako główna projektantka łączę kierunek estetyczny z planowaniem funkcjonalnym, dokumentacją i współpracą z wykonawcami. Zakres projektu obejmuje:",
+              "As lead interior designer, I bring together the aesthetic direction, spatial planning, documentation and collaboration with contractors. The project scope includes:",
+              "Como diseñadora de interiores principal, conecto la dirección estética con la distribución, la documentación y la colaboración con los contratistas. El alcance del proyecto incluye:"
+            ],
+            "visuals": [],
+            "items": [
+              [
+                "Koncepcja wnętrza",
+                "Interior design concept",
+                "Concepto de interiorismo"
+              ],
+              [
+                "Planowanie funkcjonalne",
+                "Space planning",
+                "Distribución del espacio"
+              ],
+              [
+                "Dokumentacja techniczna",
+                "Technical documentation",
+                "Documentación técnica"
+              ],
+              [
+                "Zabudowa na wymiar",
+                "Bespoke joinery",
+                "Mobiliario a medida"
+              ],
+              [
+                "Projekt oświetlenia",
+                "Lighting design",
+                "Diseño de iluminación"
+              ],
+              [
+                "Koordynacja instalacji wodno-kanalizacyjnej i elektrycznej",
+                "Plumbing and electrical coordination",
+                "Coordinación de fontanería e instalación eléctrica"
+              ],
+              [
+                "Współpraca z wykonawcami",
+                "Contractor collaboration",
+                "Colaboración con contratistas"
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    {
       "id": "reception",
       "image": "interior-reception.png",
       "title": [

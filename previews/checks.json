@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-25T20:27:12.607Z",
+  "date": "2026-10-25T21:02:58.833Z",
   "results": [
     {
       "route": "index.html",
@@ -186,8 +186,8 @@
       "result": "pass"
     }
   ],
-  "localLinksChecked": 47,
-  "detailRoutesChecked": 17,
+  "localLinksChecked": 48,
+  "detailRoutesChecked": 19,
   "externalLinks": "Recovered from original HTML; live availability unverified due to network HTTP 403.",
   "form": "No message sent. FormSubmit POST acceptance, 503 and network failure tested with interception. No real email sent. Recipient activation and inbox delivery remain unverified.",
   "additionalChecks": {
@@ -273,9 +273,9 @@
     "browserErrors": []
   },
   "languageAndArtistChecks": {
-    "date": "2026-10-25T20:27:19.552Z",
-    "spanishPages": 48,
-    "activePages": 24,
+    "date": "2026-10-25T21:03:51.863Z",
+    "spanishPages": 50,
+    "activePages": 25,
     "languages": [
       "pl",
       "en",

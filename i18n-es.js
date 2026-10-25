@@ -222,5 +222,7 @@ window.AOM_ES = {
   "Open the full-size visualisation": "Abrir la visualización a tamaño completo",
   "Enlarge photograph": "Ampliar la fotografía",
   "Open the full-size photograph": "Abrir la fotografía a tamaño completo",
-  "Project overview": "Sobre el proyecto"
+  "Project overview": "Sobre el proyecto",
+  "Enlarge drawing": "Ampliar el dibujo",
+  "Open the full-size drawing": "Abrir el dibujo a tamaño completo"
 };

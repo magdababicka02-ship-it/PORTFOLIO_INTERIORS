@@ -1,0 +1,33 @@
+{
+  "project_slug": "private-spa-bathroom",
+  "title": "Private Spa Bathroom",
+  "subtitle": "A Study in Spatial Transformation",
+  "location": "Gliwice, Poland",
+  "role": "Lead Interior Designer",
+  "status": "Implementation in Progress",
+  "scope": [
+    "Interior Design Concept",
+    "Space Planning",
+    "Technical Documentation",
+    "Bespoke Joinery",
+    "Lighting Design",
+    "Plumbing & Electrical Coordination",
+    "Contractor Collaboration"
+  ],
+  "asset_roles": {
+    "design-visualisation.png": "design render, not completed construction",
+    "before-entry.jpg": "actual existing photo",
+    "before-bathroom.jpg": "actual existing photo",
+    "editorial-board-preview.png": "editorial floor plan + sourced drawing excerpts",
+    "real-plan.png": "authentic floor plan extract from supplied original",
+    "real-joinery-section.png": "authentic technical joinery elevation",
+    "real-bathroom-section.png": "authentic architectural section",
+    "real-water-plan.png": "authentic plumbing technical extract",
+    "real-electric-plan.png": "authentic electrical technical extract"
+  },
+  "notes": [
+    "Simplified plan reconstructed only from technical original, schematic for editorial display, not construction",
+    "Title blocks with personally identifying information are not included",
+    "Completed photographs planned for a later stage; avoid calling render After"
+  ]
+}
