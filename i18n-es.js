@@ -219,5 +219,8 @@ window.AOM_ES = {
   "Create a space with its own story.": "Creemos un espacio con su propia historia.",
   "An interior concept or bespoke artwork — discuss the direction of your project.": "Un proyecto de interiorismo o una pintura de autor: hablemos de la orientación de su proyecto.",
   "Enquire about bespoke ceiling art": "Consultar sobre pintura de autor",
-  "Open the full-size visualisation": "Abrir la visualización a tamaño completo"
+  "Open the full-size visualisation": "Abrir la visualización a tamaño completo",
+  "Enlarge photograph": "Ampliar la fotografía",
+  "Open the full-size photograph": "Abrir la fotografía a tamaño completo",
+  "Project overview": "Sobre el proyecto"
 };

@@ -16,6 +16,7 @@ Otwórz plik index.html przez serwer HTTP. Na własnym komputerze użyj adresu l
 - `catalog.js`: prace i opisy PL/EN/ES (kolejno trzy elementy każdej tablicy językowej), pliki, wymiary, statusy, ceny w EUR, konfiguracja formularza oraz linki do social mediów. `null` oznacza brak potwierdzonych danych.
 - `site.js`: wspólna nawigacja i stopka, treści, galerie, filmy, suwak i formularz.
 - `midnight-garden.html`: podstrona projektu wnętrza. Opis PL/EN/ES, metryka, wizualizacje i porównanie są w obiekcie `project` wpisu Midnight Garden w `catalog.js`. Zachowano dotychczasowy identyfikator katalogowy `nocturne`; publiczna nazwa i adres to Midnight Garden oraz `midnight-garden.html`.
+- `puerto-banus-residence.html`: fotograficzna podstrona Puerto Banús Residence. Zawiera 11 oryginalnych zdjęć, opis i zakres współpracy z zespołem NOVA KASYANOV w PL/EN/ES. Wpis jest w „Commercial” na prośbę właścicielki; jego typ merytoryczny pozostaje rezydencjalny. `project.kind: photography` wybiera układ zdjęciowy, a `sections[].visuals` definiuje galerie z powiększaniem. Pozostałe sześć wpisów portfolio zachowano.
 - `i18n-es.js`: hiszpańskie teksty interfejsu, indeksowane angielskim tekstem wywołań `t()`. Po zmianie angielskiego tekstu należy zaktualizować odpowiadający mu klucz. Nazwy własne i oryginalne tytuły prac pozostają zachowane.
 - `styles.css`: oryginalny Cinzel, lokalny Montserrat, granat #07172C i jasne tło #F3F0E9, układy responsywne.
 - `assets/`: autentyczne materiały z przekazanych archiwów. Lokalnie hostowane fonty nie wymagają dostępu do Google Fonts.
@@ -50,14 +51,17 @@ CHROMIUM_PATH=/usr/bin/chromium node scripts/check-extra.cjs
 CHROMIUM_PATH=/usr/bin/chromium node scripts/check-content.cjs
 CHROMIUM_PATH=/usr/bin/chromium node scripts/check-languages.cjs
 CHROMIUM_PATH=/usr/bin/chromium node scripts/check-midnight-garden.cjs
+CHROMIUM_PATH=/usr/bin/chromium node scripts/check-puerto-banus.cjs
 ```
 
 Opcjonalny `AOM_BASE_URL` pozwala wskazać inny adres serwera.
 
-`previews/checks.json` zawiera wyniki kontroli przeglądarkowej: pięć stron × trzy języki × dwa rozmiary, obrazki, linki lokalne, galerie i filtry, odtwarzanie filmów, menu, suwak, okna dialogowe i formularz. Scenariusze formularza obejmują zaakceptowanie POST, odmowę HTTP i błąd połączenia, z przechwyceniem usługi. Dodatkowy test treści porównuje pełne polskie opisy i autentyczne opinie z utrwalonym eksportem, sprawdza SOLD, nowe wymiary, biały logotyp, brak dawnych formularzy oraz panel aktywacji bez jego wysyłania. Test językowy sprawdza wszystkie 23 podstrony po hiszpańsku na telefonie i komputerze, zachowanie adresu przy zmianie języka, nowy portret i tekst sekcji artystki, okładkę kota oraz komunikaty formularza ES. `previews` zawiera zrzuty desktop/telefon. Brama sieciowa nie pozwala tutaj potwierdzić dostępności strony źródłowej i usługi wysyłkowej.
+`previews/checks.json` zawiera wyniki kontroli przeglądarkowej: pięć stron × trzy języki × dwa rozmiary, obrazki, linki lokalne, galerie i filtry, odtwarzanie filmów, menu, suwak, okna dialogowe i formularz. Scenariusze formularza obejmują zaakceptowanie POST, odmowę HTTP i błąd połączenia, z przechwyceniem usługi. Dodatkowy test treści porównuje pełne polskie opisy i autentyczne opinie z utrwalonym eksportem, sprawdza SOLD, nowe wymiary, biały logotyp, brak dawnych formularzy oraz panel aktywacji bez jego wysyłania. Test językowy sprawdza wszystkie 24 podstrony po hiszpańsku na telefonie i komputerze, zachowanie adresu przy zmianie języka, nowy portret i tekst sekcji artystki, okładkę kota oraz komunikaty formularza ES. `previews` zawiera zrzuty desktop/telefon. Brama sieciowa nie pozwala tutaj potwierdzić dostępności strony źródłowej i usługi wysyłkowej.
 
 Wyniki testu Midnight Garden są w `previews/midnight-garden-checks.json`. Test sprawdza przejście z kafla do podstrony, trzy języki, 15 kombinacji szerokości i języka, powiększanie obrazów, suwak, metrykę i odnośniki kontaktowe.
 
 Oryginalne PNG i PDF Midnight Garden są zachowane w `archive/midnight-garden-originals/`, wykluczonym z publikacji. Strona używa pełnowymiarowych, bezstratnych WebP; po konwersji sprawdzono zgodność każdego piksela z PNG. Ujęcie 2 pokazuje wariant bez malowidła, a 1 z malowidłem. Suwak prezentuje studium koncepcyjne.
+
+Zdjęcia Puerto Banús są w `assets/images/puerto-banus/`, z oryginalną rozdzielczością i bajtami JPEG (pliki JFIF otrzymały rozszerzenie `.jpg`). PDF źródłowy zachowano w `archive/puerto-banus-originals/source-guide.pdf`. Opis PL/EN pochodzi z przekazanego dokumentu, ES jest tłumaczeniem. Nie dopisano roku, nazwiska fotografa ani autorstwa widocznych dzieł sztuki. Dokument służy jako materiał źródłowy; sugerowany adres domenowy i instrukcje publikacyjne nie zastępują poleceń właścicielki. Wyniki testów nowej podstrony: `previews/puerto-banus-checks.json`, podglądy: `previews/puerto-banus-{desktop,mobile}.png`.
 
 Do uzupełnienia pozostają materiały z raportu oraz aktywacja skrzynki i weryfikacja odbioru formularza. Polityka prywatności wymaga przeglądu właścicielki. Kopia poprzedniego szablonu w `archive` służy wyłącznie do porównania i jest wykluczona z publikacji przez `_config.yml`.

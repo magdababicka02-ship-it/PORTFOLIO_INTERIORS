@@ -650,6 +650,376 @@ window.AOM = {
       }
     },
     {
+      "id": "puerto-banus",
+      "image": "puerto-banus/view-1.jpg",
+      "title": [
+        "Puerto Banús Residence",
+        "Puerto Banús Residence",
+        "Puerto Banús Residence"
+      ],
+      "type": "commercial",
+      "projectPage": "puerto-banus-residence.html",
+      "project": {
+        "slug": "puerto-banus-residence",
+        "kind": "photography",
+        "subtitle": [
+          "Puerto Banús · Marbella · Hiszpania",
+          "Puerto Banús · Marbella · Spain",
+          "Puerto Banús · Marbella · España"
+        ],
+        "tagline": [
+          "Współczesna elegancja nad Morzem Śródziemnym.",
+          "Contemporary Mediterranean Living.",
+          "Elegancia contemporánea junto al Mediterráneo."
+        ],
+        "status": [
+          "Realizacja · współpraca z zespołem NOVA KASYANOV",
+          "Completed project · collaboration with the NOVA KASYANOV team",
+          "Proyecto realizado · colaboración con el equipo NOVA KASYANOV"
+        ],
+        "shortStatus": [
+          "Realizacja / współpraca projektowa",
+          "Completed project / design collaboration",
+          "Proyecto realizado / colaboración de diseño"
+        ],
+        "seoTitle": [
+          "Puerto Banús Residence, Marbella | Projekt wnętrza",
+          "Puerto Banús Residence, Marbella | Interior Design Portfolio",
+          "Puerto Banús Residence, Marbella | Portfolio de interiorismo"
+        ],
+        "seoDescription": [
+          "Projekt rezydencjalny w Puerto Banús, Marbella, we współpracy z zespołem NOVA KASYANOV. Układy funkcjonalne, dobór mebli i tkanin do sypialni głównej oraz śródziemnomorska paleta materiałów.",
+          "Discover a collaborative residential interior in Puerto Banús, Marbella, featuring considered furniture layouts, a calm bedroom palette and refined Mediterranean materials.",
+          "Un proyecto residencial en Puerto Banús, Marbella, en colaboración con el equipo NOVA KASYANOV: distribución, selección de mobiliario y tejidos para el dormitorio principal y materiales mediterráneos."
+        ],
+        "hero": {
+          "image": "puerto-banus/view-1.jpg",
+          "width": 1920,
+          "height": 2835,
+          "kind": "photo",
+          "caption": [
+            "Taras z widokiem na Morze Śródziemne",
+            "Terrace overlooking the Mediterranean",
+            "Terraza con vistas al Mediterráneo"
+          ],
+          "alt": [
+            "Puerto Banús Residence — Taras z widokiem na Morze Śródziemne",
+            "Puerto Banús Residence — Terrace overlooking the Mediterranean",
+            "Puerto Banús Residence — Terraza con vistas al Mediterráneo"
+          ]
+        },
+        "arrival": {
+          "image": "puerto-banus/view-4.jpg",
+          "width": 1920,
+          "height": 2875,
+          "kind": "photo",
+          "caption": [
+            "Sypialnia główna — miękkie faktury i ciepłe światło",
+            "Master bedroom — soft textures and warm light",
+            "Dormitorio principal: texturas suaves y luz cálida"
+          ],
+          "alt": [
+            "Puerto Banús Residence — Sypialnia główna — miękkie faktury i ciepłe światło",
+            "Puerto Banús Residence — Master bedroom — soft textures and warm light",
+            "Puerto Banús Residence — Dormitorio principal: texturas suaves y luz cálida"
+          ]
+        },
+        "facts": [
+          {
+            "label": [
+              "Lokalizacja",
+              "Location",
+              "Ubicación"
+            ],
+            "value": [
+              "Puerto Banús, Marbella, Hiszpania",
+              "Puerto Banús, Marbella, Spain",
+              "Puerto Banús, Marbella, España"
+            ]
+          },
+          {
+            "label": [
+              "Typ projektu",
+              "Project type",
+              "Tipo de proyecto"
+            ],
+            "value": [
+              "Wnętrze rezydencjalne premium",
+              "Luxury residential interior",
+              "Interior residencial de alta gama"
+            ]
+          },
+          {
+            "label": [
+              "Zespół projektowy",
+              "Design team",
+              "Equipo de diseño"
+            ],
+            "value": [
+              "NOVA KASYANOV",
+              "NOVA KASYANOV",
+              "NOVA KASYANOV"
+            ]
+          },
+          {
+            "label": [
+              "Mój udział",
+              "My contribution",
+              "Mi contribución"
+            ],
+            "value": [
+              "Opracowanie rzutów, układów meblowych oraz dobór mebli i tkanin do sypialni głównej.",
+              "Floor plan development, furniture layouts, master bedroom furniture selection and fabric selection.",
+              "Desarrollo de planos, distribución del mobiliario y selección de muebles y tejidos para el dormitorio principal."
+            ]
+          }
+        ],
+        "introduction": {
+          "heading": [
+            "Współczesna przestrzeń ze śródziemnomorską duszą.",
+            "Contemporary living, with a Mediterranean soul.",
+            "Una forma de vivir contemporánea, con alma mediterránea."
+          ],
+          "body": [
+            "Projekt wnętrza rezydencjalnego w Puerto Banús łączy współczesną elegancję ze swobodą śródziemnomorskiego stylu życia. Naturalne faktury, warstwowo zestawione tkaniny i starannie dobrane formy mebli budują spokojną, a jednocześnie wyrazistą atmosferę.\n\nW ramach współpracy z zespołem NOVA KASYANOV odpowiadałam za rozwijanie rzutów i układów funkcjonalnych mebli, z uwzględnieniem komunikacji, komfortu użytkowania i spójności kompozycyjnej. Mój zakres obejmował również dobór wyposażenia oraz tkanin do głównej sypialni.",
+            "Set along the Mediterranean coast in Puerto Banús, this residential project balances contemporary elegance with the relaxed atmosphere of coastal living. Natural textures, layered textiles and a carefully considered selection of furniture create an interior that feels composed yet inviting.\n\nWorking as part of the NOVA KASYANOV design team, I contributed to floor plan development and furniture layouts, supporting the relationship between circulation, comfort and visual harmony. My involvement also included selecting furniture and fabrics for the master bedroom, with an emphasis on material balance and a cohesive, understated atmosphere.",
+            "Este proyecto residencial en Puerto Banús combina la elegancia contemporánea con la naturalidad de la vida mediterránea. Las texturas naturales, los tejidos superpuestos y una cuidada selección de formas crean un ambiente sereno y, al mismo tiempo, expresivo.\n\nComo parte del equipo de diseño NOVA KASYANOV, participé en el desarrollo de planos y distribuciones del mobiliario, atendiendo a la circulación, la comodidad y la armonía visual. Mi contribución también incluyó la selección de muebles y tejidos para el dormitorio principal, buscando un equilibrio material y una atmósfera coherente y discreta."
+          ]
+        },
+        "credit": [
+          "Wybrana współpraca projektowa z zespołem NOVA KASYANOV. Indywidualny zakres Magdaleny Babickiej przedstawiono w metryce projektu.",
+          "Selected collaborative work with the NOVA KASYANOV design team. Magdalena Babicka’s individual contribution is detailed in the project credits.",
+          "Colaboración seleccionada con el equipo de diseño NOVA KASYANOV. La contribución individual de Magdalena Babicka se detalla en los créditos del proyecto."
+        ],
+        "sections": [
+          {
+            "id": "sypialnia",
+            "eyebrow": [
+              "Sypialnia główna",
+              "Master bedroom",
+              "Dormitorio principal"
+            ],
+            "heading": [
+              "Miękkość ukryta w detalach.",
+              "Softness in the details.",
+              "La suavidad de los detalles."
+            ],
+            "body": [
+              "Sypialnia łączy warstwowo dobrane tkaniny, subtelne oświetlenie i ciepłe, neutralne wykończenia. W ramach pracy zespołowej dobierałam meble oraz tkaniny, budując spokojny, przyjemny w odbiorze charakter tej części wnętrza.",
+              "The bedroom combines carefully layered fabrics, restrained lighting and warm neutral finishes. As part of the wider design team, I selected furniture and fabrics to help create a calm, tactile environment with a contemporary character.",
+              "El dormitorio combina tejidos cuidadosamente superpuestos, iluminación contenida y acabados cálidos y neutros. Como parte del equipo de diseño, seleccioné muebles y tejidos para crear un ambiente sereno, táctil y contemporáneo."
+            ],
+            "visuals": [
+              {
+                "image": "puerto-banus/view-2.jpg",
+                "width": 1920,
+                "height": 2807,
+                "kind": "photo",
+                "caption": [
+                  "Sypialnia główna — kompozycja tkanin i oświetlenia",
+                  "Master bedroom — fabrics and lighting",
+                  "Dormitorio principal: tejidos e iluminación"
+                ],
+                "alt": [
+                  "Puerto Banús Residence — Sypialnia główna — kompozycja tkanin i oświetlenia",
+                  "Puerto Banús Residence — Master bedroom — fabrics and lighting",
+                  "Puerto Banús Residence — Dormitorio principal: tejidos e iluminación"
+                ]
+              },
+              {
+                "image": "puerto-banus/view-5.jpg",
+                "width": 1920,
+                "height": 2863,
+                "kind": "photo",
+                "caption": [
+                  "Sypialnia główna — detal wyposażenia",
+                  "Master bedroom — furniture detail",
+                  "Dormitorio principal: detalle del mobiliario"
+                ],
+                "alt": [
+                  "Puerto Banús Residence — Sypialnia główna — detal wyposażenia",
+                  "Puerto Banús Residence — Master bedroom — furniture detail",
+                  "Puerto Banús Residence — Dormitorio principal: detalle del mobiliario"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "salon",
+            "eyebrow": [
+              "Salon i jadalnia",
+              "Living and dining",
+              "Salón y comedor"
+            ],
+            "heading": [
+              "Wyrazista, wyważona kompozycja.",
+              "An expressive yet balanced interior.",
+              "Una composición expresiva y equilibrada."
+            ],
+            "body": [
+              "Zaokrąglone siedziska, stoliki o rzeźbiarskich formach i wyrazista sztuka tworzą kontrast z ciepłą, stonowaną bazą. Układ mebli wyznacza rytm przestrzeni, porządkuje komunikację i otwiera wnętrze na taras oraz morski horyzont.",
+              "Curved seating, sculptural occasional tables and a bold artwork create contrast within a restrained, warm setting. The furniture layout establishes a spatial rhythm, supports circulation and opens the interior towards the terrace and the sea.",
+              "Los asientos curvos, las mesas auxiliares de formas escultóricas y una obra de arte expresiva contrastan con una base cálida y contenida. La distribución del mobiliario marca el ritmo del espacio, facilita la circulación y abre el interior a la terraza y al horizonte marino."
+            ],
+            "visuals": [
+              {
+                "image": "puerto-banus/view-3.jpg",
+                "width": 1920,
+                "height": 2926,
+                "kind": "photo",
+                "caption": [
+                  "Salon — rzeźbiarskie meble i wyrazista kompozycja",
+                  "Living area — sculptural furniture and expressive composition",
+                  "Salón: mobiliario escultórico y una composición expresiva"
+                ],
+                "alt": [
+                  "Puerto Banús Residence — Salon — rzeźbiarskie meble i wyrazista kompozycja",
+                  "Puerto Banús Residence — Living area — sculptural furniture and expressive composition",
+                  "Puerto Banús Residence — Salón: mobiliario escultórico y una composición expresiva"
+                ]
+              },
+              {
+                "image": "puerto-banus/view-10.jpg",
+                "width": 1920,
+                "height": 2803,
+                "kind": "photo",
+                "caption": [
+                  "Strefa wypoczynku otwarta na taras",
+                  "Seating area opening onto the terrace",
+                  "Zona de estar abierta a la terraza"
+                ],
+                "alt": [
+                  "Puerto Banús Residence — Strefa wypoczynku otwarta na taras",
+                  "Puerto Banús Residence — Seating area opening onto the terrace",
+                  "Puerto Banús Residence — Zona de estar abierta a la terraza"
+                ]
+              },
+              {
+                "image": "puerto-banus/view-11.jpg",
+                "width": 1920,
+                "height": 2856,
+                "kind": "photo",
+                "caption": [
+                  "Jadalnia — układ mebli i oświetlenie",
+                  "Dining area — furniture layout and lighting",
+                  "Comedor: distribución del mobiliario e iluminación"
+                ],
+                "alt": [
+                  "Puerto Banús Residence — Jadalnia — układ mebli i oświetlenie",
+                  "Puerto Banús Residence — Dining area — furniture layout and lighting",
+                  "Puerto Banús Residence — Comedor: distribución del mobiliario e iluminación"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "materialy",
+            "eyebrow": [
+              "Materiały i detale",
+              "Materials and details",
+              "Materiales y detalles"
+            ],
+            "heading": [
+              "Głębia materiału.",
+              "Material contrasts.",
+              "Contrastes materiales."
+            ],
+            "body": [
+              "Charakter wnętrza tworzą ciepłe drewno orzechowe, kamień o wyrazistym rysunku, miękkie tapicerki i dopracowane detale. Jasne płaszczyzny zabudowy i subtelne metaliczne akcenty równoważą intensywność kamienia, zachowując spójny, czytelny język materiałów.",
+              "The wider project brings together rich walnut finishes, expressive dark stone, soft upholstery and selected contemporary design pieces. Light-toned cabinetry and muted metallic accents balance the stone, creating a refined, tactile material language.",
+              "El conjunto del proyecto reúne acabados de nogal, piedra oscura de vetas marcadas, tapicerías suaves y piezas de diseño contemporáneo. La carpintería clara y los discretos acentos metálicos equilibran la intensidad de la piedra y crean un lenguaje material refinado y táctil."
+            ],
+            "visuals": [
+              {
+                "image": "puerto-banus/view-6.jpg",
+                "width": 1920,
+                "height": 1608,
+                "kind": "photo",
+                "caption": [
+                  "Kuchnia — orzech i kamień o wyrazistym rysunku",
+                  "Kitchen — walnut and richly veined stone",
+                  "Cocina: nogal y piedra de vetas marcadas"
+                ],
+                "alt": [
+                  "Puerto Banús Residence — Kuchnia — orzech i kamień o wyrazistym rysunku",
+                  "Puerto Banús Residence — Kitchen — walnut and richly veined stone",
+                  "Puerto Banús Residence — Cocina: nogal y piedra de vetas marcadas"
+                ]
+              },
+              {
+                "image": "puerto-banus/view-9.jpg",
+                "width": 1920,
+                "height": 1963,
+                "kind": "photo",
+                "caption": [
+                  "Kamień i armatura — detal kuchni",
+                  "Stone and fittings — a kitchen detail",
+                  "Piedra y grifería: detalle de la cocina"
+                ],
+                "alt": [
+                  "Puerto Banús Residence — Kamień i armatura — detal kuchni",
+                  "Puerto Banús Residence — Stone and fittings — a kitchen detail",
+                  "Puerto Banús Residence — Piedra y grifería: detalle de la cocina"
+                ]
+              },
+              {
+                "image": "puerto-banus/view-8.jpg",
+                "width": 1920,
+                "height": 2833,
+                "kind": "photo",
+                "caption": [
+                  "Zabudowa — drewno, kamień i otwarte półki",
+                  "Joinery — timber, stone and open shelving",
+                  "Carpintería: madera, piedra y estantes abiertos"
+                ],
+                "alt": [
+                  "Puerto Banús Residence — Zabudowa — drewno, kamień i otwarte półki",
+                  "Puerto Banús Residence — Joinery — timber, stone and open shelving",
+                  "Puerto Banús Residence — Carpintería: madera, piedra y estantes abiertos"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "horyzont",
+            "eyebrow": [
+              "Śródziemnomorski horyzont",
+              "The Mediterranean horizon",
+              "El horizonte mediterráneo"
+            ],
+            "heading": [
+              "W dialogu z morzem.",
+              "Living with the horizon.",
+              "Vivir junto al horizonte."
+            ],
+            "body": [
+              "Widok na morze stanowi spokojny punkt odniesienia dla całej rezydencji. Błękitne akcenty tarasu łączą krajobraz z miękką paletą wnętrza, pozwalając światłu, kolorowi i proporcjom tworzyć jedną opowieść o miejscu.",
+              "Sea views bring a calming visual anchor to the residence. Cool blue accents connect the terrace to the softer interior palette, allowing light, colour and proportion to form a continuous story about the setting.",
+              "Las vistas al mar aportan un punto de referencia sereno a la residencia. Los acentos azules de la terraza conectan el paisaje con la paleta suave del interior, donde luz, color y proporción forman un relato continuo sobre el lugar."
+            ],
+            "visuals": [
+              {
+                "image": "puerto-banus/view-7.jpg",
+                "width": 1920,
+                "height": 2794,
+                "kind": "photo",
+                "caption": [
+                  "Taras — kolor w dialogu z morskim horyzontem",
+                  "Terrace — colour in dialogue with the sea",
+                  "Terraza: el color en diálogo con el horizonte marino"
+                ],
+                "alt": [
+                  "Puerto Banús Residence — Taras — kolor w dialogu z morskim horyzontem",
+                  "Puerto Banús Residence — Terrace — colour in dialogue with the sea",
+                  "Puerto Banús Residence — Terraza: el color en diálogo con el horizonte marino"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
       "id": "reception",
       "image": "interior-reception.png",
       "title": [

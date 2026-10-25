@@ -29,7 +29,16 @@ Stan: 25 października 2026 r.
 - Cztery prace oznaczone wcześniej SOLD trafiają do archiwum: Miasto sukcesu, João, Terracotta Muse, Michałek.
 - Osiem prac spoza archiwum ma potwierdzony przez właścicielkę status „Dostępne”. Filtr pokazuje wszystkie osiem; na stronach prac także widnieje informacja o dostępności.
 - Uzupełniono osiem cen przekazanych przez właścicielkę (EUR): It’s Just Business, Darling — 2600; Pocałunek Meduzy — 2400; Who is hunting? — 2400; UNFROZEN — 2200; Electric Embrace — 2100; Silent Horizon — 2000; Red Temptation — 900; Arc de Triomf — 450. Ceny są widoczne stale na kaflach i stronach prac. Nie dopisano cen historycznych czterech sprzedanych obrazów.
-- Sześć wnętrz prezentowanych jest jako koncepcje / wizualizacje, nie jako ukończone realizacje.
+- Sześć dotychczasowych wnętrz prezentowanych jest jako koncepcje / wizualizacje. Dodany Puerto Banús Residence pokazuje fotografie ukończonego projektu we współpracy z zespołem NOVA KASYANOV, z wyszczególnieniem indywidualnego zakresu Magdaleny Babickiej.
+
+## Puerto Banús Residence — dodany projekt
+
+- Źródło: „PUERTO BANUS, MARBELLA.rar”, 11 fotografii i PDF projektu. Zdjęcia zachowano bajt w bajt, w pełnej rozdzielczości 1920 px szerokości. Pliki JFIF opublikowano z rozszerzeniem `.jpg`, bez ponownej kompresji.
+- Kafel w kategorii „Commercial” (zgodnie z prośbą właścicielki) otwiera `puerto-banus-residence.html`. W opisie merytorycznym zachowano typ rezydencjalny. Projekt widoczny jest również w pierwszej parze kafli, bez rozwijania kolekcji.
+- Strona zawiera widok tarasu, opis i metrykę, sypialnię, salon i jadalnię, materiały oraz końcowe ujęcie morza. Wszystkie 11 zdjęć wykorzystano; 10 galerii zdjęciowych można powiększać. Nie dodano pozornego suwaka przed/po ani oznaczenia AI.
+- Wskazano zespół NOVA KASYANOV i udział Magdaleny Babickiej: rzuty, układy meblowe oraz dobór mebli i tkanin do sypialni głównej. Opis PL/EN opracowano na podstawie PDF, dodano ES. Nie przypisano jej autorstwa widocznego obrazu ani całego wnętrza.
+- Pozostałe sześć projektów i całą wcześniejszą zawartość katalogu zachowano; porównano dane z poprzednim commitem. PDF źródłowy zachowano w archiwum wykluczonym z Pages. Publikacja nadal dotyczy wyłącznie repozytorium GitHub Pages, bez zmiany domeny.
+- Weryfikacja: trzy języki, 15 kombinacji szerokości i języka (320–1440 px), 11 poprawnie wczytanych zdjęć o oryginalnych proporcjach, 30 otwarć galerii z zamknięciem i przywróceniem fokusu. Przeszły także testy wcześniejszego Midnight Garden, 30 kontroli głównych stron oraz 48 kontroli 24 podstron po hiszpańsku. Brak błędów JavaScript; nie wysyłano rzeczywistych e-maili.
 
 ## Odzyskane odnośniki
 - Instagram: https://www.instagram.com/artofmeaning.art/

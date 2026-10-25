@@ -19,7 +19,7 @@
     url.searchParams.set('lang', lang);
     return url.href;
   };
-  const img = (name, alt, extra = '') => `<img src="${esc(asset('images/' + name))}" alt="${esc(alt)}" loading="lazy" decoding="async" ${extra}>`;
+  const img = (name, alt, extra = '') => `<img src="${esc(asset('images/' + name))}" alt="${esc(alt)}" loading="${extra.includes('fetchpriority="high"')?'eager':'lazy'}" decoding="async" ${extra}>`;
   const link = (path, title, type = 'arrow-link') => `<a class="${type}" href="${esc(href(path))}">${title}<span aria-hidden="true">→</span></a>`;
   const email = () => `<a class="email" href="mailto:${AOM.email}">${AOM.email}</a>`;
   const artworkPrice = p => Number.isFinite(p.price) && p.currency ? new Intl.NumberFormat({pl:'pl-PL',en:'en-GB',es:'es-ES'}[lang], {style:'currency',currency:p.currency,minimumFractionDigits:0,maximumFractionDigits:0,useGrouping:'always'}).format(p.price) : '';
@@ -112,7 +112,16 @@
     return `<article class="interior-card" data-interior-type="${p.type}" data-interior-id="${p.id}"><div class="interior-mask">${img(p.image,text(p.title))}${overlay}</div><p>${projectLink?'<a href="'+esc(projectLink)+'">'+esc(text(p.title))+'</a>':esc(text(p.title))}<small>${esc(caption)}</small></p></article>`;
   }
   function projectVisual(visual, className = '') {
-    return `<figure class="project-visual ${className}"><button type="button" class="project-image-open" data-project-image="${esc(visual.image)}" aria-label="${esc(t('Powiększ wizualizację','Enlarge visualisation')+': '+text(visual.caption))}">${img(visual.image,text(visual.alt),'width="'+visual.width+'" height="'+visual.height+'"')}<span class="project-image-action">${t('Powiększ wizualizację','Enlarge visualisation')} <span aria-hidden="true">→</span></span></button><figcaption>${esc(text(visual.caption))}</figcaption></figure>`;
+    const action=visual.kind==='photo'?t('Powiększ zdjęcie','Enlarge photograph'):t('Powiększ wizualizację','Enlarge visualisation');
+    return `<figure class="project-visual ${className}"><button type="button" class="project-image-open" data-project-image="${esc(visual.image)}" aria-label="${esc(action+': '+text(visual.caption))}">${img(visual.image,text(visual.alt),'width="'+visual.width+'" height="'+visual.height+'"')}<span class="project-image-action">${action} <span aria-hidden="true">→</span></span></button><figcaption>${esc(text(visual.caption))}</figcaption></figure>`;
+  }
+  function photographicProject(p) {
+    const project=p.project;
+    const request='kontakt.html?project=interior&artwork='+encodeURIComponent(text(p.title));
+    return `<section class="interior-project-hero photographic-project-hero">${img(project.hero.image,text(project.hero.alt),'class="project-hero-image" width="'+project.hero.width+'" height="'+project.hero.height+'" fetchpriority="high"')}<div class="wrap project-hero-copy">${eyebrow(esc(text(project.status)))}<h1>${esc(text(p.title))}</h1><p class="project-signature">${esc(text(project.tagline))}</p><p class="project-subtitle">${esc(text(project.subtitle))}</p><div class="hero-actions">${link(p.projectPage+'#koncepcja',t('Poznaj projekt','Explore the project'),'outline')}${link('wnetrza.html#portfolio',t('Wróć do wnętrz','Back to interiors'))}</div></div></section>
+      <section class="wrap project-intro" id="koncepcja">${projectVisual(project.arrival,'project-arrival')}<div class="project-intro-copy">${eyebrow(t('O projekcie','Project overview'))}<h2>${esc(text(project.introduction.heading))}</h2><div class="project-prose">${paragraphs(project.introduction.body)}</div><dl class="interior-project-facts">${project.facts.map(f=>'<div><dt>'+esc(text(f.label))+'</dt><dd>'+esc(text(f.value))+'</dd></div>').join('')}</dl><p class="project-credit">${esc(text(project.credit))}</p></div></section>
+      ${project.sections.map((section,i)=>`<section class="photo-project-section${i%2===0?' light':''}" id="${esc(section.id)}"><div class="wrap"><div class="project-reading"><div>${eyebrow(esc(text(section.eyebrow)))}<h2>${esc(text(section.heading))}</h2></div><div class="project-prose">${paragraphs(section.body)}</div></div><div class="photo-project-gallery photo-project-gallery-${section.visuals.length}">${section.visuals.map(v=>projectVisual(v)).join('')}</div></div></section>`).join('')}
+      <section class="wrap project-enquiry">${eyebrow(t('Współpraca','Collaboration'))}<h2>${t('Stwórzmy przestrzeń z własną historią.','Create a space with its own story.')}</h2><div class="hero-actions">${link(request,t('Porozmawiajmy o Twoim wnętrzu','Discuss your interior project'),'outline')}${link('wnetrza.html#portfolio',t('Wróć do wnętrz','Back to interiors'))}</div></section>`;
   }
   function designComparison(fullFrame = false) {
     const study=midnightGarden.project.comparison;
@@ -120,6 +129,7 @@
   }
   function interiorProject(p) {
     if(!p)return `<section class="wrap section"><h1>${t('Nie znaleziono pracy','Artwork not found')}</h1>${link('wnetrza.html',t('Wróć do wnętrz','Back to interiors'))}</section>`;
+    if(p.project.kind==='photography')return photographicProject(p);
     const project=p.project;
     const request='kontakt.html?project=interior&artwork='+encodeURIComponent(text(p.title));
     return `<section class="interior-project-hero">${img(project.hero.image,text(project.hero.alt),'class="project-hero-image" width="'+project.hero.width+'" height="'+project.hero.height+'" fetchpriority="high"')}<div class="hero-shade"></div><div class="wrap project-hero-copy">${eyebrow(esc(text(project.status)))}<h1>${esc(text(p.title))}</h1><p class="project-signature">${esc(text(project.tagline))}</p><p class="project-subtitle">${esc(text(project.subtitle))}</p><div class="hero-actions">${link(p.projectPage+'#koncepcja',t('Poznaj projekt','Explore the project'),'outline')}${link('wnetrza.html#portfolio',t('Wróć do wnętrz','Back to interiors'))}</div></div></section>
@@ -223,9 +233,10 @@
     const projectButton=event.target.closest('[data-project-image]');
     if(projectButton && activeProject){
       const project=activeProject.project;
-      const visual=[project.arrival,project.materialVisual,project.landscapeVisual].find(v=>v.image===projectButton.dataset.projectImage);
+      const visual=[project.arrival,project.materialVisual,project.landscapeVisual,...(project.sections||[]).flatMap(s=>s.visuals)].filter(Boolean).find(v=>v.image===projectButton.dataset.projectImage);
       if(!visual)return;
-      openDialog(`<div class="project-viewer"><h2 id="dialog-title">${esc(text(visual.caption))}</h2><img src="${asset('images/'+visual.image)}" alt="${esc(text(visual.alt))}" width="${visual.width}" height="${visual.height}"><a class="arrow-link" href="${asset('images/'+visual.image)}" target="_blank" rel="noopener noreferrer">${t('Otwórz wizualizację w pełnym rozmiarze','Open the full-size visualisation')} <span aria-hidden="true">→</span></a></div>`,projectButton);return;
+      const fullSize=visual.kind==='photo'?t('Otwórz zdjęcie w pełnym rozmiarze','Open the full-size photograph'):t('Otwórz wizualizację w pełnym rozmiarze','Open the full-size visualisation');
+      openDialog(`<div class="project-viewer"><h2 id="dialog-title">${esc(text(visual.caption))}</h2><img src="${asset('images/'+visual.image)}" alt="${esc(text(visual.alt))}" width="${visual.width}" height="${visual.height}"><a class="arrow-link" href="${asset('images/'+visual.image)}" target="_blank" rel="noopener noreferrer">${fullSize} <span aria-hidden="true">→</span></a></div>`,projectButton);return;
     }
     const interiorButton=event.target.closest('.interior-open');if(interiorButton){const p=AOM.interiors.find(x=>x.id===interiorButton.dataset.id);openDialog(`<div class="dialog-grid">${img(p.image,text(p.title))}<div>${eyebrow(t('Koncepcja / wizualizacja','Concept / visualisation'))}<h2 id="dialog-title">${esc(text(p.title))}</h2><p>${t('Autorska koncepcja wnętrza z przekazanych materiałów Art of Meaning.','An original interior concept by Art of Meaning.')}</p>${link('kontakt.html?project=interior',t('Porozmawiajmy o Twoim wnętrzu','Discuss your interior project'))}</div></div>`,interiorButton);}
   });
