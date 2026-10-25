@@ -11,8 +11,8 @@ Stan: 25 października 2026 r.
 - Zmiana języka zachowuje podstronę, parametry i fragment URL. Menu zawsze: Portfolio · Murale · Wnętrza · Malarstwo · Kontakt · PL | EN. Sekcja Magdaleny pozostaje na stronie głównej; brak odrębnego „O mnie”.
 
 ## Zweryfikowana identyfikacja i źródła
-- Logo: oryginalny `images/Logo.avif` z eksportu, bez przerysowywania. Plik ma 94 × 94 px, wyświetlany bez rozciągania proporcji.
-- Logotyp: oryginalny tekst ART OF MEANING / BY MAGDALENA BABICKA.
+- Logo i logotyp: oryginalny `assets/brand/brand-wordmark-original.png` (4500 × 4750 px) z archiwum „LOGO MÓJ BRAND.rar”. Znak z okręgiem i obie linie liter są wyświetlane z tego samego oryginału przez obszary SVG, bez przerysowywania i rozciągania. Widok usuwa tylko puste marginesy arkusza. Logotyp jest biały, a twarz i okrąg zachowują oryginalną grafikę oraz kolory.
+- W stopce strony Wnętrza zastosowano drugi, złoty wariant z `brand-champagne-original.png`. Pozostałe stopki używają podstawowego logo. Favicon ze wszystkich stron pochodzi z dostarczonego `brand-blue-original.png`. Cztery PNG z archiwum zachowano bez zmian w `assets/brand/`.
 - Cinzel: lokalny oryginalny `Cinzel-Regular.ttf`. Eksport CSS potwierdza Montserrat dla tekstu podstawowego i dodatkowy Avenir w niektórych stylach.
 - Montserrat jest teraz lokalny: Fontsource `@fontsource/montserrat@5.3.0`, zestawy latin i latin-ext, grubości 400/500 oraz kursywa 400; licencja w `assets/fonts/Montserrat-LICENSE.txt`.
 - Granat oryginalnego CSS: `#07172C`. Wszystkie jasne sekcje: `#F3F0E9`. Złote akcenty oraz oryginalne ikonki.
@@ -57,7 +57,7 @@ Stan: 25 października 2026 r.
 5. Technika dwóch nowych obrazów. Wymiary obu uzupełniono: 100 × 70 cm. Opis „It’s Just Business, Darling” opracowano na podstawie przekazanej interpretacji PDF; opis „Who is hunting?” w wersji PL/EN na podstawie nowego tekstu autorskiego właścicielki, z zachowaniem jego znaczenia.
 6. Potwierdzone nazwy i opisy projektowe dla trzech plików variation: reception, living, dressing. Obecne podpisy jedynie opisują widoczne koncepcje.
 7. Aktywacja adresu odbiorcy w FormSubmit i potwierdzenie rzeczywistego dostarczenia wiadomości; przegląd polityki prywatności i jej pełne tłumaczenie prawne EN.
-8. Nowy oryginalny plik logo PNG/SVG z przesłanego wzoru. Wzór widać w wiadomości, ale nie jest dostępny w katalogu załączników jako plik do bezstratnego wykorzystania. Zachowano dostępny znak 94 × 94 px, skalę i proporcje; header ma biały logotyp, a obie linie lokalny Cinzel.
+8. Oryginalne logo — uzupełniono z archiwum „LOGO MÓJ BRAND.rar”. Nowy znak, oryginalne litery, wariant złoty i favicon są podłączone; nie są już brakującymi plikami.
 
 ## Podgląd i weryfikacja
 - Uruchamianie: zobacz README.md.
@@ -78,3 +78,4 @@ Stan: 25 października 2026 r.
 - Przyciski filmów otwierają pełny odtwarzacz YouTube w trybie rozszerzonej prywatności, z wcześniej potwierdzonymi ID realizacji. Odtwarzacz ładuje się po kliknięciu, zamknięcie usuwa iframe i przywraca fokus; można wybrać film lokalny lub bezpośredni link YouTube.
 - Dodano odnośnik do publicznych playlist właścicielki: https://www.youtube.com/@artofmeaning_YT/playlists. Odczyt playlist i rzeczywiste odtwarzanie YouTube są zablokowane w środowisku przez HTTP 403; nie przypisano niezweryfikowanych nowych filmów. Testy sprawdzają adresy osadzeń z atrapą odpowiedzi oraz odtwarzanie rzeczywistych lokalnych kopii.
 - Wszystkie 22 aktywne pliki HTML pobierają wspólne skrypty i style z identyfikatorami obliczonymi z ich zawartości. Test aktualizacji odtworzył brak portretu przy starych skryptach w pamięci przeglądarki, a następnie potwierdził pobranie nowych plików i poprawne wyświetlenie portretu. Wynik: `previews/checks.json` → `cachedReleaseUpgrade`. Właścicielka potwierdziła już widoczność zdjęcia na GitHub Pages.
+- Sekcja „Twój mural w 4 krokach”: „Jak pracuję”, polski wstęp i cztery opisy przepisane z pierwszej referencji właścicielki, tłumaczenie EN, zachowane jasne tło #F3F0E9 oraz siatka 2 × 2. Nowe warianty oryginalnych ikon mają granat #07172C i szarość #92999D, bez złota. Poprzednie SVG pozostawiono w materiałach, a nowe nazwy plików zapobiegają wczytaniu starej kolorystyki z pamięci podręcznej.

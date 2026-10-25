@@ -71,8 +71,9 @@ const normalize=s=>s.replace(/\s+/g,' ').trim();
   for(const lang of ['pl','en'])for(const path of ['index.html','murale.html','wnetrza.html','obrazy-na-zamowienie.html','kontakt.html','polityka-prywatnosci.html']){
    await page.goto(new URL(path+'?lang='+lang,base).href,{waitUntil:'domcontentloaded'});
    assert.equal(await page.locator('a[href*="tally.so"],iframe[src*="tally.so"]').count(),0);
-   assert.equal(await page.locator('.site-header .brand-name').evaluate(e=>getComputedStyle(e).color),'rgb(255, 255, 255)');
-   assert.ok((await page.locator('.site-header .brand-name small').evaluate(e=>getComputedStyle(e).fontFamily)).includes('Cinzel'));
+   assert.ok((await page.locator('.site-header .brand-mark image').getAttribute('href')).endsWith('/brand-wordmark-original.png'));
+   assert.ok((await page.locator('.site-header .brand-lettering image').getAttribute('href')).endsWith('/brand-wordmark-original.png'));
+   assert.equal(await page.locator('.site-header .brand-lettering').evaluate(e=>getComputedStyle(e).filter),'brightness(0) invert(1)');
   }
   await page.goto(new URL('kontakt.html?lang=pl',base).href,{waitUntil:'domcontentloaded'});
   assert.equal(await page.locator('form').count(),1);

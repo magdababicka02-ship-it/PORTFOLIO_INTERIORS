@@ -27,6 +27,18 @@
 .brand-name small{font-family:var(--serif);font-size:.55em;letter-spacing:.025em;line-height:1.4}
 .site-header .brand-name,.site-header .brand-name small{color:#fff}
 .brand img{border-radius:50%;flex-shrink:0;object-fit:contain}
+.brand-primary{gap:16px}
+.brand-mark{display:block;width:68px;height:68px;flex:none}
+.brand-lettering{display:block;width:260px;height:auto;aspect-ratio:1992/312;flex:none;filter:brightness(0) invert(1)}
+.footer-inner .brand-primary{gap:12px}
+.footer-inner .brand-mark{width:62px;height:62px}
+.footer-inner .brand-lettering{width:180px}
+.brand-secondary{display:block;width:155px;max-width:100%;background:#151b31}
+.brand-gold{display:block;width:100%;height:auto;aspect-ratio:3272/4279}
+.process-symbol{opacity:1}
+@media(max-width:1150px){.brand-primary{gap:13px}.brand-mark{width:56px;height:56px}.brand-lettering{width:225px}}
+@media(max-width:650px){.brand-primary{gap:10px}.brand-mark{width:49px;height:49px}.brand-lettering{width:185px}}
+@media(max-width:370px){.brand-primary{gap:8px}.brand-mark{width:42px;height:42px}.brand-lettering{width:150px}}
 .sold-tag{position:absolute;top:15px;left:15px;z-index:2;padding:5px 12px;background:var(--navy);border:1px solid var(--gold);color:var(--cream);font-size:10px;letter-spacing:.16em;pointer-events:none}
 .detail-copy{margin-top:25px;max-width:70ch}
 .commission-image.has-artwork{display:block;aspect-ratio:auto;padding:0;background:transparent;text-align:left}

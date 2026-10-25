@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-24T22:49:24.093Z",
+  "date": "2026-10-25T11:36:38.092Z",
   "results": [
     {
       "route": "index.html",
@@ -189,5 +189,27 @@
     ],
     "familyPortraitLoadedAfterUpgrade": true,
     "naturalWidth": 1254
+  },
+  "brandAndMuralProcessChecks": {
+    "date": "2026-10-25T11:38:39.532Z",
+    "logoChecks": 44,
+    "activePages": 22,
+    "logoWidths": [
+      320,
+      1440
+    ],
+    "processChecks": 10,
+    "processWidths": [
+      320,
+      390,
+      768,
+      1024,
+      1440
+    ],
+    "verbatimPolishReference": true,
+    "creamBackground": true,
+    "twoColumnProcess": true,
+    "originalLogoFilesPreserved": 4,
+    "browserErrors": []
   }
 }

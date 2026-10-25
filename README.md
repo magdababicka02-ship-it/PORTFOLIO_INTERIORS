@@ -17,6 +17,7 @@ Otwórz plik index.html przez serwer HTTP. Na własnym komputerze użyj adresu l
 - `site.js`: wspólna nawigacja i stopka, treści PL/EN, galerie, filmy, suwak i formularz.
 - `styles.css`: oryginalny Cinzel, lokalny Montserrat, granat #07172C i jasne tło #F3F0E9, układy responsywne.
 - `assets/`: autentyczne materiały z przekazanych archiwów. Lokalnie hostowane fonty nie wymagają dostępu do Google Fonts.
+- `assets/brand/`: cztery oryginalne PNG z archiwum logo. Wspólne nagłówki i stopki wyświetlają znak oraz oryginalne litery przez kadry SVG; pliki PNG pozostają nietknięte. Biały logotyp uzyskano filtrem CSS. Złoty wariant jest użyty w stopce Wnętrz. Ikona przeglądarki także pochodzi z dostarczonych plików.
 - Projekty murali zaczynają się od lokalnego wideo; pełne filmy otwierają się w odtwarzaczu YouTube po kliknięciu. Każdy ma wersję lokalną do wyboru. ID filmów i adres playlist są w `catalog.js`; zamknięcie odtwarzacza usuwa iframe. W testach YouTube jest zastąpiony odpowiedzią testową, więc nie potwierdzają one odtwarzania przez zewnętrzny serwis.
 - `PRZEGLAD-I-MATERIALY.md`: źródła i szczegółowa lista braków.
 

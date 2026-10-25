@@ -425,8 +425,7 @@ window.AOM = {
     "beforeInterior": null,
     "offerPdf": null,
     "briefPdf": null,
-    "formActivationConfirmed": false,
-    "originalLogoFile": null
+    "formActivationConfirmed": false
   },
   "contact": {
     "endpoint": "https://formsubmit.co/ajax/contact@artofmeaning.art",
