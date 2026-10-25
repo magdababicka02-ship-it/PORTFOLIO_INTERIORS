@@ -224,5 +224,9 @@ window.AOM_ES = {
   "Open the full-size photograph": "Abrir la fotografía a tamaño completo",
   "Project overview": "Sobre el proyecto",
   "Enlarge drawing": "Ampliar el dibujo",
-  "Open the full-size drawing": "Abrir el dibujo a tamaño completo"
+  "Open the full-size drawing": "Abrir el dibujo a tamaño completo",
+  "Materiality & atmosphere": "Materialidad y atmósfera",
+  "The transformation": "La transformación",
+  "From concept to detail": "Del concepto al detalle",
+  "Scope and role": "Alcance y función"
 };

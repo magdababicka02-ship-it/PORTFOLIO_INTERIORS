@@ -1,0 +1,250 @@
+# CODEX TASK — PRIVATE SPA BATHROOM / PREMIUM PORTFOLIO REDESIGN
+
+## PROJECT
+
+Repository: `magdababicka02-ship-it/PORTFOLIO_INTERIORS`
+
+Target page: `private-spa-bathroom.html`
+
+Existing files: `catalog.js`, `site.js`, `styles.css`
+
+## MAIN OBJECTIVE
+
+Refine the existing **Private Spa Bathroom** project page to feel like an editorial portfolio presentation from a high-end interior design studio.
+
+The current page gives too much visual prominence to technical drawings and construction documentation.
+
+The objective is to shift the emphasis toward:
+
+- Design identity and atmosphere
+- Architectural composition
+- Materials and lighting
+- Spatial transformation
+- A restrained demonstration of technical expertise
+
+Do not redesign the entire website.
+
+Maintain the existing Art of Meaning visual identity, navigation, typography, colors, language system and overall design quality.
+
+This is a targeted redesign of ONE project page.
+
+## 1. HERO SECTION — DESIGN FIRST
+
+Keep the original bathroom visualization as the main hero image.
+
+Use an elegant editorial composition, taking advantage of the portrait image proportions.
+
+On desktop:
+- Let the image occupy approximately 55–60% of the hero width.
+- Place the title and short introductory copy beside it.
+- Preserve generous whitespace and balanced typography.
+- Avoid unnecessary borders, decorative badges or overcrowded text.
+
+Title: **Private Spa Bathroom**
+
+Subtitle: *A Study in Spatial Transformation*
+
+Location: Gliwice, Poland
+
+Keep the status discreetly visible:
+
+*Design Visualization · Implementation in Progress*
+
+Do not label the visualization as a photograph of completed construction.
+
+The hero should feel visually consistent with the Midnight Garden and Puerto Banús project pages.
+
+## 2. RESTRUCTURE THE PROJECT STORY
+
+Use this exact editorial section hierarchy:
+
+### SECTION 01 — DESIGN CONCEPT
+
+Heading: *An Everyday Ritual, Reimagined.*
+
+Text:
+
+"Private Spa Bathroom transforms a compact residential interior into a calm, contemporary retreat. Warm natural tones, thoughtfully integrated storage and soft architectural lighting establish an atmosphere of understated elegance.
+
+Behind the restrained aesthetic lies a carefully developed spatial concept, combining functionality, bespoke detailing and technical precision."
+
+Keep the description concise and editorial.
+
+Preserve the actual project facts and attribution to Magdalena Babicka.
+
+### SECTION 02 — MATERIALITY & ATMOSPHERE
+
+Heading: *Calm, Shaped by Light.*
+
+Present the material story before showing technical documentation.
+
+Focus on:
+- Warm beige stone-inspired finishes
+- Natural timber tones
+- Brushed-gold details
+- Concealed architectural LED lighting
+- Bespoke cabinetry
+- Soft material transitions
+
+Do not repeat the exact same complete visualization at the same size.
+
+If appropriate, use a carefully cropped detail from the existing visualization, provided sufficient image resolution is maintained.
+
+Do not invent new images or materials.
+
+### SECTION 03 — THE TRANSFORMATION
+
+Heading: *A New Perspective on Space.*
+
+Include a concise paragraph explaining the transformation from an outdated, fragmented layout into a cohesive bathroom.
+
+Show the two original BEFORE photographs in a smaller, aesthetically controlled composition.
+
+Visual requirements:
+- Display photographs as restrained documentation.
+- Keep consistent aspect ratios and cropping.
+- Use smaller image widths than the hero.
+- Preserve authentic image content.
+- Avoid artificially beautifying or generatively changing the original conditions.
+- Clearly label them "Existing Conditions".
+
+This section should communicate the design challenge without becoming the visual focus of the page.
+
+### SECTION 04 — FROM CONCEPT TO DETAIL
+
+This should become a short, elegant architectural case-study section rather than a technical documentation gallery.
+
+Keep ONE curated editorial board based on the original architectural drawings.
+
+The board should:
+- Show the real spatial plan.
+- Include a selected joinery detail or section.
+- Use a restrained, minimalist presentation.
+- Preserve the geometry and actual technical information.
+- Avoid oversized technical titles, red annotations and dense notes in the main page layout.
+
+Use the current `editorial-board-preview.png` as a source, but assess whether it can be presented more elegantly through cropping, spacing or a simplified composition.
+
+Do not redraw or invent technical geometry.
+
+Remove the five full-size construction drawing previews from the default public-page flow.
+
+Preserve their original files in the repository for future use.
+
+If technical documentation remains accessible, present it as an optional secondary link or expandable section, not as the primary content.
+
+Do not display raw construction sheets prominently on the public website.
+
+### SECTION 05 — DESIGN RESPONSIBILITIES
+
+Heading: *Design Beyond Aesthetics.*
+
+Present the designer's scope in a concise, visually restrained layout.
+
+Responsibilities:
+
+Interior Concept  
+Spatial Planning  
+Bespoke Joinery Design  
+Lighting Design  
+Technical Documentation  
+Plumbing & Electrical Coordination  
+Contractor Collaboration / Execution Support
+
+Execution Support means supporting technical implementation and collaborating with contractors, not claiming sole responsibility for construction management.
+
+Avoid overly large icon grids or a corporate services-table appearance.
+
+### SECTION 06 — CLOSING / CONTACT
+
+Heading: *Thoughtful Design, Meaningful Spaces.*
+
+Include a short call to action:
+
+"Looking to transform your space into something personal, functional and distinctive? Let's discuss your project."
+
+Link to the existing interior-design contact page.
+
+Do not change the global contact system.
+
+## 3. VISUAL DESIGN DIRECTION
+
+Maintain the website's existing design system:
+
+- Cinzel and Montserrat typography
+- Deep navy and warm ivory
+- Subtle champagne-gold details
+- Generous negative space
+- Large architectural imagery
+- Refined editorial typography
+- Restrained animations and transitions
+
+Avoid:
+- Dense technical galleries
+- Excessive explanatory text
+- Repetitive photographs
+- Corporate-style feature cards
+- Multiple competing calls to action
+- Heavy borders and decorative elements
+
+The page should feel like a luxury interior architecture editorial feature.
+
+## 4. TECHNICAL IMPLEMENTATION
+
+Work within the existing HTML, CSS and Vanilla JavaScript architecture.
+
+The page content is primarily defined in `catalog.js` and rendered through `site.js`.
+
+IMPORTANT: `photographicProject()` is also used by other portfolio projects.
+
+Do not introduce changes that unintentionally alter Puerto Banús Residence or other project pages.
+
+Prefer a dedicated presentation variant for `private-spa-bathroom` or a narrowly scoped layout modifier.
+
+Preserve:
+- PL / EN / ES language support
+- `?lang=` parameter handling
+- Existing internal project links
+- The `#koncepcja` anchor
+- Functional image lightboxes
+- Responsive desktop, tablet and mobile layouts
+- Image accessibility and alt text
+- Existing navigation and footer
+- Actual project status
+
+Ensure all content is translated consistently across the three languages.
+
+Do not fabricate completion dates, technical details, brands, project dimensions or construction outcomes.
+
+## 5. FUTURE PHOTOGRAPHY INTEGRATION
+
+The project is currently in implementation.
+
+The custom cabinetry is not yet fully completed.
+
+Do not display missing-image placeholders or "coming soon" galleries in the public layout.
+
+Prepare the project data structure so professional completion photographs can be added later.
+
+When supplied, completed photographs should become the main visual focus and the existing visualization can move into the design-development section.
+
+Do not implement this future change now.
+
+## 6. ACCEPTANCE CRITERIA
+
+The redesign is successful if:
+
+1. The design visualization and aesthetic concept dominate the first impression.
+2. Technical information remains present but clearly secondary.
+3. Only one curated technical board appears in the main editorial flow.
+4. Existing-condition photos are understated and appropriately sized.
+5. The project feels consistent with Midnight Garden and Puerto Banús.
+6. All language versions and responsive layouts work correctly.
+7. No other portfolio project is unintentionally changed.
+8. The project remains accurately labeled as in progress.
+
+After implementation, run the existing private-spa checks, verify PL / EN / ES and mobile layouts, and update versioned assets using `node scripts/version-assets.cjs`.
+
+Provide desktop and mobile screenshots of the revised page for visual review.
+
+**FINAL OBJECTIVE: Transform the page from a technical project report into a sophisticated, art-directed interior design case study while retaining the credibility of the underlying technical work.**

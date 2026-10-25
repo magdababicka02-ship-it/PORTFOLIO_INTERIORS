@@ -1,16 +1,18 @@
 {
-  "date": "2026-10-25T21:03:21.909Z",
+  "date": "2026-10-25T21:35:44.213Z",
   "languages": [
     "pl",
     "en",
     "es"
   ],
-  "commercialTile": "passed",
+  "residentialTile": "passed; excluded from Commercial",
   "keyboardNavigation": "passed",
+  "editorialHierarchy": "six sections, materiality before existing photos and technical board",
+  "technicalDrawings": "five originals collapsed by default",
   "responsiveChecks": 15,
   "sourceImages": 9,
   "originalTechnicalDrawings": 5,
-  "lightboxChecks": 27,
+  "lightboxChecks": 30,
   "projectStatus": "implementation in progress, visualisation and existing photos labelled",
   "pdfLink": "passed",
   "portfolioProjects": 8,

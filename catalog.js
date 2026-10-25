@@ -1027,7 +1027,7 @@ window.AOM = {
         "Private Spa Bathroom",
         "Private Spa Bathroom"
       ],
-      "type": "commercial",
+      "type": "residential",
       "projectPage": "private-spa-bathroom.html",
       "project": {
         "slug": "private-spa-bathroom",
@@ -1043,9 +1043,9 @@ window.AOM = {
           "Un estudio de transformación espacial."
         ],
         "status": [
-          "Realizacja w toku · Wizualizacja koncepcji",
-          "Implementation in progress · Design visualisation",
-          "Obra en curso · Visualización del proyecto"
+          "Wizualizacja koncepcji · Realizacja w toku",
+          "Design Visualization · Implementation in Progress",
+          "Visualización del proyecto · Obra en curso"
         ],
         "shortStatus": [
           "Realizacja w toku / projekt wnętrza",
@@ -1432,7 +1432,134 @@ window.AOM = {
               ]
             ]
           }
-        ]
+        ],
+        "editorial": {
+          "concept": {
+            "heading": [
+              "Codzienny rytuał w nowej odsłonie.",
+              "An Everyday Ritual, Reimagined.",
+              "Una nueva mirada al ritual cotidiano."
+            ],
+            "body": [
+              "Private Spa Bathroom zmienia niewielkie wnętrze mieszkalne w spokojną, współczesną strefę wyciszenia. Ciepłe, naturalne odcienie, przemyślana zabudowa i miękkie światło architektoniczne tworzą atmosferę dyskretnej elegancji.\n\nZa oszczędną estetyką stoi starannie opracowana koncepcja przestrzenna, łącząca funkcjonalność, detale na wymiar i precyzję techniczną.",
+              "Private Spa Bathroom transforms a compact residential interior into a calm, contemporary retreat. Warm natural tones, thoughtfully integrated storage and soft architectural lighting establish an atmosphere of understated elegance.\n\nBehind the restrained aesthetic lies a carefully developed spatial concept, combining functionality, bespoke detailing and technical precision.",
+              "Private Spa Bathroom transforma un interior residencial compacto en un refugio sereno y contemporáneo. Los tonos naturales cálidos, el almacenaje cuidadosamente integrado y una iluminación arquitectónica suave crean una atmósfera de elegancia discreta.\n\nTras esta estética contenida hay un concepto espacial cuidadosamente desarrollado que combina funcionalidad, detalles a medida y precisión técnica."
+            ]
+          },
+          "materiality": {
+            "heading": [
+              "Spokój budowany światłem.",
+              "Calm, Shaped by Light.",
+              "La calma a través de la luz."
+            ],
+            "body": [
+              "Beżowe wykończenia o kamiennym charakterze spotykają się z naturalnymi odcieniami drewna i detalami w kolorze szczotkowanego złota. Ukryte oświetlenie LED miękko podkreśla architekturę wnętrza.\n\nZabudowa na wymiar porządkuje codzienne funkcje, a łagodne przejścia między materiałami pozwalają całości zachować spokojny, spójny rytm.",
+              "Warm beige, stone-inspired finishes meet natural timber tones and brushed-gold details. Concealed architectural LED lighting softly defines the space.\n\nBespoke cabinetry brings order to everyday functions, while gentle transitions between materials create a calm, cohesive rhythm.",
+              "Los acabados beige de inspiración pétrea se combinan con tonos naturales de madera y detalles en dorado cepillado. La iluminación LED oculta define suavemente la arquitectura del espacio.\n\nEl mobiliario a medida organiza las funciones cotidianas, mientras las transiciones suaves entre materiales crean un ritmo sereno y coherente."
+            ],
+            "caption": [
+              "Wizualizacja koncepcji — detal materiałów i światła",
+              "Design visualisation — material and lighting detail",
+              "Visualización del proyecto — detalle de materiales e iluminación"
+            ]
+          },
+          "transformation": {
+            "heading": [
+              "Nowa perspektywa przestrzeni.",
+              "A New Perspective on Space.",
+              "Una nueva perspectiva del espacio."
+            ],
+            "body": [
+              "Punktem wyjścia była łazienka o przestarzałym, wizualnie rozdrobnionym układzie. Projekt porządkuje relacje między wyposażeniem, przechowywaniem i światłem, proponując spójną przestrzeń do codziennych rytuałów.\n\nOryginalne fotografie dokumentują stan przed remontem. Realizacja trwa; wizualizacja przedstawia kierunek projektowy.",
+              "The starting point was an outdated bathroom with a visually fragmented layout. The design brings fittings, storage and lighting into a cohesive composition for everyday rituals.\n\nThe original photographs document the existing conditions. Implementation is in progress; the visualisation presents the design intent.",
+              "El punto de partida era un baño anticuado con una distribución visualmente fragmentada. El diseño ordena la relación entre equipamiento, almacenaje e iluminación y propone un espacio coherente para los rituales cotidianos.\n\nLas fotografías originales documentan el estado previo a la reforma. La obra está en curso; la visualización presenta la propuesta de diseño."
+            ]
+          },
+          "technical": {
+            "heading": [
+              "Od koncepcji do detalu.",
+              "From Concept to Detail.",
+              "Del concepto al detalle."
+            ],
+            "body": [
+              "Oryginalny rzut i wybrany przekrój zabudowy pokazują, jak założenia przestrzenne przekładają się na rozwiązania na wymiar. Plansza łączy te fragmenty ze schematem objaśniającym układ — dokumentacja wykonawcza pozostaje źródłem wymiarów i szczegółów.",
+              "The original spatial plan and a selected joinery section show how the concept develops into bespoke solutions. The editorial board pairs these excerpts with an explanatory diagram; the construction documentation remains the reference for dimensions and details.",
+              "La planta original y una sección seleccionada del mobiliario muestran cómo el concepto se traduce en soluciones a medida. El panel combina estos extractos con un esquema explicativo; la documentación de ejecución sigue siendo la referencia para las dimensiones y los detalles."
+            ],
+            "detailsLabel": [
+              "Zobacz oryginalną dokumentację techniczną",
+              "View the original technical documentation",
+              "Ver la documentación técnica original"
+            ],
+            "detailsNote": [
+              "Oryginalne rysunki zachowują polskie opisy. Schemat na planszy służy objaśnieniu projektu i nie jest rysunkiem wykonawczym.",
+              "The original drawings retain their Polish annotations. The diagram on the board explains the concept and is not a construction drawing.",
+              "Los dibujos originales conservan las anotaciones en polaco. El esquema del panel explica el concepto y no es un plano de ejecución."
+            ]
+          },
+          "responsibilities": {
+            "heading": [
+              "Projektowanie poza estetyką.",
+              "Design Beyond Aesthetics.",
+              "El diseño más allá de la estética."
+            ],
+            "body": [
+              "Zakres Magdaleny Babickiej obejmuje koncepcję, opracowanie rozwiązań i wsparcie technicznego wdrożenia we współpracy z wykonawcami.",
+              "Magdalena Babicka’s scope connects the design concept, detailed development and technical implementation support in collaboration with contractors.",
+              "El alcance de Magdalena Babicka conecta el concepto, el desarrollo de soluciones y el apoyo a la ejecución técnica en colaboración con los contratistas."
+            ],
+            "items": [
+              [
+                "Koncepcja wnętrza",
+                "Interior Concept",
+                "Concepto de interiorismo"
+              ],
+              [
+                "Planowanie funkcjonalne",
+                "Spatial Planning",
+                "Distribución del espacio"
+              ],
+              [
+                "Projekt zabudowy na wymiar",
+                "Bespoke Joinery Design",
+                "Diseño de mobiliario a medida"
+              ],
+              [
+                "Projekt oświetlenia",
+                "Lighting Design",
+                "Diseño de iluminación"
+              ],
+              [
+                "Dokumentacja techniczna",
+                "Technical Documentation",
+                "Documentación técnica"
+              ],
+              [
+                "Koordynacja instalacji wodno-kanalizacyjnej i elektrycznej",
+                "Plumbing & Electrical Coordination",
+                "Coordinación de fontanería e instalación eléctrica"
+              ],
+              [
+                "Współpraca z wykonawcami i wsparcie realizacji",
+                "Contractor Collaboration / Execution Support",
+                "Colaboración con contratistas / Apoyo a la ejecución"
+              ]
+            ]
+          },
+          "closing": {
+            "heading": [
+              "Przemyślany projekt. Przestrzeń ze znaczeniem.",
+              "Thoughtful Design, Meaningful Spaces.",
+              "Diseño cuidado, espacios con sentido."
+            ],
+            "body": [
+              "Chcesz nadać swojej przestrzeni osobisty charakter, funkcjonalność i wyrazisty styl? Porozmawiajmy o Twoim projekcie.",
+              "Looking to transform your space into something personal, functional and distinctive? Let’s discuss your project.",
+              "¿Desea transformar su espacio en un lugar personal, funcional y distintivo? Hablemos de su proyecto."
+            ]
+          }
+        },
+        "completedPhotography": []
       }
     },
     {
