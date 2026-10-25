@@ -13,7 +13,7 @@ Stan: 25 października 2026 r.
 
 ## Zweryfikowana identyfikacja i źródła
 - Logo i logotyp: oryginalny `assets/brand/brand-wordmark-original.png` (4500 × 4750 px) z archiwum „LOGO MÓJ BRAND.rar”. Znak z okręgiem i obie linie liter są wyświetlane z tego samego oryginału przez obszary SVG, bez przerysowywania i rozciągania. Widok usuwa tylko puste marginesy arkusza. Logotyp jest biały, a twarz i okrąg zachowują oryginalną grafikę oraz kolory.
-- W stopce strony Wnętrza zastosowano drugi, złoty wariant z `brand-champagne-original.png`. Pozostałe stopki używają podstawowego logo. Favicon ze wszystkich stron pochodzi z dostarczonego `brand-blue-original.png`. Cztery PNG z archiwum zachowano bez zmian w `assets/brand/`.
+- Znak granatowy w logo podstawowym ma cienki biały obrys 1 px, także na telefonie. Stopki Wnętrz i podstron projektowych używają oryginalnego przezroczystego `brand-original.png`, z zachowaniem dotychczasowego kadru i skali. Usunięto prostokątne tło CSS złotego wariantu. Pozostałe stopki używają podstawowego logo. Favicon ze wszystkich stron pochodzi z dostarczonego `brand-blue-original.png`. Cztery PNG z archiwum zachowano bez zmiany bajtów w `assets/brand/`.
 - Cinzel: lokalny oryginalny `Cinzel-Regular.ttf`. Eksport CSS potwierdza Montserrat dla tekstu podstawowego i dodatkowy Avenir w niektórych stylach.
 - Montserrat jest teraz lokalny: Fontsource `@fontsource/montserrat@5.3.0`, zestawy latin i latin-ext, grubości 400/500 oraz kursywa 400; licencja w `assets/fonts/Montserrat-LICENSE.txt`.
 - Granat oryginalnego CSS: `#07172C`. Wszystkie jasne sekcje: `#F3F0E9`. Złote akcenty oraz oryginalne ikonki.
@@ -95,6 +95,16 @@ Stan: 25 października 2026 r.
 - Formularz przekazuje kod języka wraz z zapytaniem, dzięki czemu odbiorczyni wie, w jakiej wersji strony zostało przygotowane zgłoszenie. Dane odbiorcy i sposób aktywacji pozostają zgodne z sekcją formularza powyżej.
 - Sprawdzono wszystkie 23 aktywne podstrony w ES na desktopie i telefonie (46 kontroli), zachowanie kontekstu przy przełączaniu PL/EN/ES, pełną jakość portretu, zgodność opisów kafli z referencją oraz hiszpańską walidację i reakcje formularza na akceptację i odmowę wysyłki. Żadnej prawdziwej wiadomości nie wysłano.
 
+## Atmosphere-Driven Apartment
+
+- Dodano do „Residential”, pod adresem `atmosphere-driven-apartment.html`. Źródła: ZIP z dziewięcioma obrazami, README i jedenastostronicowy PDF. Osobny PDF i PDF w ZIP są identyczne — kopię zachowano w archiwum poza publikacją.
+- Fakty z materiałów: Gliwice, Polska; około 60 m²; prywatne mieszkanie; główna projektantka / kierunek artystyczny; koncepcja, opracowanie techniczne i Execution Support. Nie dopisano ukończenia projektu ani odpowiedzialności generalnego wykonawcy. Opisy PL/EN/ES bazują na przekazanym tekście.
+- Zatwierdzona kuchnia jest jasna, z drewnem i ciemnym kamieniem. Tylko ten wariant występuje jako hero i ujęcie kuchni w mniejszej galerii z łazienką. Trzy detale pochodzą z tej samej koncepcji. Nie dodano fikcyjnych zdjęć innych pomieszczeń.
+- Dziewięć oryginalnych JPEG zachowano bez zmiany bajtów i proporcji. Jedna plansza HTML łączy prawdziwy rzut i fragment zabudowy. Dodatkowy detal instalacyjny jest zwinięty; każdy oryginał można powiększyć. Nie zmieniono geometrii i wymiarów. Zdjęcia stanu deweloperskiego pokazano jako niewielki oryginalny kolaż.
+- `previews/atmosphere-apartment-checks.json`: 15 kombinacji szerokości i języka, 30 powiększeń z przywracaniem fokusu, zatwierdzone hero ładowane priorytetowo, poprawna kategoria, jedna plansza, zwinięty detal instalacyjny, brak poziomego przewijania i błędów JavaScript. Sprawdzono również nowe logo na tej podstronie.
+- Dotychczasowy katalog jest identyczny po pominięciu nowego wpisu. Private Spa Bathroom nadal należy do „Residential”. Pełne portfolio zawiera dziewięć projektów, a cztery z gotowymi podstronami widać od razu.
+- Kontrola zachowania pozostałych projektów: 18 porównań głównej treści Midnight Garden, Puerto Banús i Private Spa Bathroom w PL/EN/ES na telefonie i komputerze dało identyczny HTML. Dodatkowo przeszło 30 kontroli stron głównych, 20 ścieżek dodatkowych, 49 lokalnych linków i 52 kontrole wszystkich 26 podstron po hiszpańsku. Raport zachowania: `previews/apartment-preservation-checks.json`. Żadnych prawdziwych e-maili nie wysłano.
+
 ## Private Spa Bathroom
 
 - `private-spa-bathroom.html` przeniesiono do „Residential” zgodnie z najnowszym poleceniem właścicielki. Dane z `project-content.json`: Gliwice, Polska; główna projektantka; realizacja w toku.
@@ -105,7 +115,7 @@ Stan: 25 października 2026 r.
 - Doprecyzowanie według „CODEX TASK — PRIVATE SPA BATHROOM / PREMIUM PORTFOLIO REDESIGN”: dedykowany układ jednej podstrony; hero 58% szerokości na komputerze; koncepcja → materiały i światło → nieduże zdjęcia przed remontem → jedna plansza → zakres → kontakt. Detal materiałowy jest kadrem CSS oryginalnej wizualizacji, nie nowym obrazem. Rysunki są schowane w natywnym, dostępnym z klawiatury elemencie details. Wszystkie oryginalne pliki pozostają zachowane.
 - Wyniki w `previews/private-spa-checks.json`: 15 kombinacji szerokości i języka, 30 otwarć i zamknięć powiększenia z przywróceniem fokusu, sprawdzone domyślne ukrycie pięciu rysunków, działający PDF, przejście klawiaturą z „Residential” i brak projektu w „Commercial”, brak błędów JavaScript. Podglądy w `previews/private-spa-{desktop,mobile}.png`.
 - `previews/spa-editorial-other-projects.json`: 12 porównań HTML aplikacji przed i po zmianie dla Midnight Garden i Puerto Banús (PL/EN/ES, telefon i komputer) — identyczny wynik. Style nowego układu są ograniczone klasą `.spa-project`; funkcja `photographicProject()` pozostała bez zmian.
-- W portfolio zachowano wszystkie wcześniejsze siedem wpisów. Trzy projekty z gotowymi podstronami są teraz widoczne od razu, a pełna kolekcja zawiera osiem pozycji. Dane wcześniejszego katalogu porównano z poprzednim commitem — pozostały identyczne.
+- Wszystkie wcześniejsze projekty zachowano. Po dodaniu Atmosphere-Driven Apartment cztery projekty z gotowymi podstronami są widoczne od razu, a pełna kolekcja zawiera dziewięć pozycji. Dane wcześniejszego katalogu porównano z poprzednim commitem — pozostały identyczne.
 
 ## Midnight Garden
 

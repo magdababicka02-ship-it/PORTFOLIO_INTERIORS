@@ -51,7 +51,7 @@
   function brand(secondary = false) {
     const original='brand-wordmark-original.png';
     const artwork=secondary
-      ? brandCrop('brand-champagne-original.png','644 1701 3272 4279',4500,8000,'brand-gold')
+      ? brandCrop('brand-original.png','644 1701 3272 4279',4500,8000,'brand-gold')
       : brandCrop(original,'850 1855 1039 1039',4500,4750,'brand-mark')+brandCrop(original,'1971 2197 1992 312',4500,4750,'brand-lettering');
     return `<a class="brand ${secondary?'brand-secondary':'brand-primary'}" href="${href('index.html')}" aria-label="Art of Meaning by Magdalena Babicka — ${t('strona główna','home')}">${artwork}</a>`;
   }
@@ -117,9 +117,9 @@
     const future=[[t('Nowe realizacje','New projects'),t('Miejsce na kolejne przestrzenie','Room for new spaces')],[t('Kolejne historie','More stories'),t('Portfolio w rozwoju','An evolving portfolio')]];
     return preview.map(interiorCard).join('')+future.slice(0,Math.max(0,4-preview.length)).map(([title,description])=>`<article class="future"><span aria-hidden="true">＋</span><h3>${title}</h3><p>${description}</p></article>`).join('');
   }
-  function projectVisual(visual, className = '') {
+  function projectVisual(visual, className = '', priority = false) {
     const action=visual.kind==='drawing'?t('Powiększ rysunek','Enlarge drawing'):visual.kind==='photo'?t('Powiększ zdjęcie','Enlarge photograph'):t('Powiększ wizualizację','Enlarge visualisation');
-    return `<figure class="project-visual ${className}"><button type="button" class="project-image-open" data-project-image="${esc(visual.image)}" aria-label="${esc(action+': '+text(visual.caption))}">${img(visual.image,text(visual.alt),'width="'+visual.width+'" height="'+visual.height+'"')}<span class="project-image-action">${action} <span aria-hidden="true">→</span></span></button><figcaption>${esc(text(visual.caption))}</figcaption></figure>`;
+    return `<figure class="project-visual ${className}"><button type="button" class="project-image-open" data-project-image="${esc(visual.image)}" aria-label="${esc(action+': '+text(visual.caption))}">${img(visual.image,text(visual.alt),'width="'+visual.width+'" height="'+visual.height+'"'+(priority?' fetchpriority="high"':''))}<span class="project-image-action">${action} <span aria-hidden="true">→</span></span></button><figcaption>${esc(text(visual.caption))}</figcaption></figure>`;
   }
   function photographicProject(p) {
     const project=p.project;
@@ -144,6 +144,21 @@
       <section class="wrap spa-section spa-responsibilities" id="zakres-projektu"><div class="spa-reading">${sectionTitle('05',t('Zakres i rola','Scope and role'),story.responsibilities.heading)}<div class="spa-prose">${paragraphs(story.responsibilities.body)}</div></div><ul class="spa-scope">${story.responsibilities.items.map(item=>'<li>'+esc(text(item))+'</li>').join('')}</ul></section>
       <section class="wrap spa-section spa-closing"><p class="spa-section-index">06 / ${t('Współpraca','Collaboration')}</p><h2>${esc(text(story.closing.heading))}</h2><div class="spa-prose">${paragraphs(story.closing.body)}</div>${link(request,t('Porozmawiajmy o Twoim wnętrzu','Discuss your interior project'),'outline')}<p class="spa-back">${link('wnetrza.html#portfolio',t('Wróć do wnętrz','Back to interiors'))}</p></section></article>`;
   }
+  function apartmentProject(p) {
+    const project=p.project;
+    const section=id=>project.sections.find(item=>item.id===id);
+    const materials=section('materialy'), spaces=section('przestrzenie'), development=section('rozwoj-projektu'), existing=section('stan-istniejacy'), scope=section('zakres-projektu');
+    const lead=(item,number)=>`<div class="project-reading"><header>${eyebrow(number+' / '+esc(text(item.eyebrow)))}<h2>${esc(text(item.heading))}</h2></header><div class="project-prose">${paragraphs(item.body)}</div></div>`;
+    const request='kontakt.html?project=interior&artwork='+encodeURIComponent(text(p.title));
+    return `<article class="apartment-project"><section class="apartment-hero"><div class="apartment-hero-copy"><p class="apartment-status">${esc(text(project.status))}</p><h1>${esc(text(p.title))}</h1><p class="apartment-signature">${esc(text(project.tagline))}</p><p class="apartment-location">${esc(text(project.subtitle))}</p>${link(p.projectPage+'#koncepcja',t('Poznaj projekt','Explore the project'))}</div>${projectVisual(project.hero,'apartment-hero-visual',true)}</section>
+      <section class="wrap apartment-section" id="koncepcja"><div class="project-reading"><header>${eyebrow('01 / '+t('Koncepcja projektu','Project concept'))}<h2>${esc(text(project.introduction.heading))}</h2></header><div class="project-prose">${paragraphs(project.introduction.body)}</div></div><dl class="interior-project-facts apartment-facts">${project.facts.map(f=>'<div><dt>'+esc(text(f.label))+'</dt><dd>'+esc(text(f.value))+'</dd></div>').join('')}</dl></section>
+      <section class="light apartment-materials" id="materialy"><div class="wrap apartment-section">${lead(materials,'02')}<div class="apartment-material-grid">${materials.visuals.map(visual=>projectVisual(visual)).join('')}</div></div></section>
+      <section class="wrap apartment-section" id="przestrzenie">${lead(spaces,'03')}<div class="apartment-spaces-gallery">${spaces.visuals.map(visual=>projectVisual(visual)).join('')}</div></section>
+      <section class="light apartment-development" id="rozwoj-projektu"><div class="wrap apartment-section">${lead(development,'04')}<div class="apartment-development-board" role="group" aria-label="${t('Plansza rozwoju projektu','Design development board')}">${projectVisual(development.visuals[0])}<div class="apartment-joinery-detail">${eyebrow(t('Zabudowa na wymiar','Bespoke joinery'))}${projectVisual(development.visuals[1])}</div></div><details class="apartment-technical-details"><summary>${esc(text(development.supplementLabel))}<span aria-hidden="true">＋</span></summary>${projectVisual(development.supplement)}</details></div></section>
+      <section class="wrap apartment-section apartment-existing" id="stan-istniejacy"><div><header>${eyebrow('05 / '+esc(text(existing.eyebrow)))}<h2>${esc(text(existing.heading))}</h2></header><div class="project-prose">${paragraphs(existing.body)}</div></div>${projectVisual(existing.visuals[0])}</section>
+      <section class="light apartment-responsibilities" id="zakres-projektu"><div class="wrap apartment-section">${lead(scope,'06')}<ul class="apartment-scope">${scope.items.map(item=>'<li>'+esc(text(item))+'</li>').join('')}</ul></div></section>
+      <section class="wrap apartment-section apartment-closing"><h2>${esc(text(project.closing.heading))}</h2><div class="project-prose">${paragraphs(project.closing.body)}</div>${link(request,t('Porozmawiajmy o Twoim wnętrzu','Discuss your interior project'),'outline')}<p>${link('wnetrza.html#portfolio',t('Wróć do wnętrz','Back to interiors'))}</p></section></article>`;
+  }
   function designComparison(fullFrame = true) {
     const study=midnightGarden.project.comparison;
     return `<section class="light comparison-section${fullFrame?' project-comparison':''}" id="studium-sufitu"><div class="wrap">${eyebrow(t('Sztuka zmienia wnętrze','Art transforms a space'))}<h2>${t('Ta sama przestrzeń. Inny wymiar.','The same space. A different dimension.')}</h2><p>Midnight Garden — ${t('Zobacz, jak autorska dekoracja zmienia odbiór wnętrza.','Explore how original artwork changes the experience of an interior.')}</p><div class="comparison"><div class="comparison-layer">${img(study.before.image,text(study.before.alt),'width="'+study.before.width+'" height="'+study.before.height+'"')}</div><div class="comparison-layer after">${img(study.after.image,text(study.after.alt),'width="'+study.after.width+'" height="'+study.after.height+'"')}</div><span class="comparison-label left">${esc(text(study.before.caption))}</span><span class="comparison-label right">${esc(text(study.after.caption))}</span><div class="comparison-divider"><span aria-hidden="true">↔</span></div><label class="sr-only" for="comparison-range">${t('Przesuń granicę porównania','Move the comparison divider')}</label><input id="comparison-range" type="range" min="0" max="100" value="50" aria-valuetext="50%"></div><p class="comparison-note">${t('Przesuń suwak lub użyj strzałek klawiatury. To wizualizacja koncepcyjna, nie dokumentacja realizacji.','Drag the slider or use the arrow keys. This is a concept visualisation, not a completed-project record.')}</p></div></section>`;
@@ -151,6 +166,7 @@
   function interiorProject(p) {
     if(!p)return `<section class="wrap section"><h1>${t('Nie znaleziono pracy','Artwork not found')}</h1>${link('wnetrza.html',t('Wróć do wnętrz','Back to interiors'))}</section>`;
     if(p.id==='private-spa-bathroom')return privateSpaProject(p);
+    if(p.project.kind==='apartment-editorial')return apartmentProject(p);
     if(['photography','study'].includes(p.project.kind))return photographicProject(p);
     const project=p.project;
     const request='kontakt.html?project=interior&artwork='+encodeURIComponent(text(p.title));
@@ -255,7 +271,7 @@
     const projectButton=event.target.closest('[data-project-image]');
     if(projectButton && activeProject){
       const project=activeProject.project;
-      const visual=[project.hero,project.arrival,project.materialVisual,project.landscapeVisual,...(project.sections||[]).flatMap(s=>s.visuals)].filter(Boolean).find(v=>v.image===projectButton.dataset.projectImage);
+      const visual=[project.hero,project.arrival,project.materialVisual,project.landscapeVisual,...(project.sections||[]).flatMap(s=>[...s.visuals,s.supplement])].filter(Boolean).find(v=>v.image===projectButton.dataset.projectImage);
       if(!visual)return;
       const fullSize=visual.kind==='drawing'?t('Otwórz rysunek w pełnym rozmiarze','Open the full-size drawing'):visual.kind==='photo'?t('Otwórz zdjęcie w pełnym rozmiarze','Open the full-size photograph'):t('Otwórz wizualizację w pełnym rozmiarze','Open the full-size visualisation');
       openDialog(`<div class="project-viewer"><h2 id="dialog-title">${esc(text(visual.caption))}</h2><img src="${asset('images/'+visual.image)}" alt="${esc(text(visual.alt))}" width="${visual.width}" height="${visual.height}"><a class="arrow-link" href="${asset('images/'+visual.image)}" target="_blank" rel="noopener noreferrer">${fullSize} <span aria-hidden="true">→</span></a></div>`,projectButton);return;

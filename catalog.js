@@ -1563,6 +1563,441 @@ window.AOM = {
       }
     },
     {
+      "id": "atmosphere-driven-apartment",
+      "image": "atmosphere-driven-apartment/01_approved_kitchen_white_wood_dark_stone.jpg",
+      "title": [
+        "Atmosphere-Driven Apartment",
+        "Atmosphere-Driven Apartment",
+        "Atmosphere-Driven Apartment"
+      ],
+      "type": "residential",
+      "projectPage": "atmosphere-driven-apartment.html",
+      "project": {
+        "slug": "atmosphere-driven-apartment",
+        "kind": "apartment-editorial",
+        "completedPhotography": [],
+        "tagline": [
+          "Spokojna elegancja. Przemyślana codzienność.",
+          "Quiet sophistication. Thoughtful living.",
+          "Elegancia serena. Vida bien pensada."
+        ],
+        "subtitle": [
+          "Gliwice · Polska · około 60 m²",
+          "Gliwice · Poland · approximately 60 m²",
+          "Gliwice · Polonia · aproximadamente 60 m²"
+        ],
+        "status": [
+          "Koncepcja i dokumentacja · Wsparcie realizacji",
+          "Design & Technical Development · Execution Support",
+          "Concepto y desarrollo técnico · Apoyo a la ejecución"
+        ],
+        "shortStatus": [
+          "Koncepcja / opracowanie techniczne",
+          "Design concept / technical development",
+          "Concepto / desarrollo técnico"
+        ],
+        "seoTitle": [
+          "Atmosphere-Driven Apartment, Gliwice | Projekt wnętrza",
+          "Atmosphere-Driven Apartment, Gliwice | Interior Design",
+          "Atmosphere-Driven Apartment, Gliwice | Diseño de interiores"
+        ],
+        "seoDescription": [
+          "Koncepcja mieszkania około 60 m² w Gliwicach: jasna zabudowa, drewno, ciemny marmur i przemyślane światło. Projekt Magdaleny Babickiej, dokumentacja i wsparcie realizacji.",
+          "A residential concept for approximately 60 m² in Gliwice: ivory cabinetry, warm wood and dark marble. Interior design, technical development and Execution Support by Magdalena Babicka.",
+          "Una propuesta residencial de aproximadamente 60 m² en Gliwice: muebles marfil, madera y mármol oscuro. Diseño de Magdalena Babicka, desarrollo técnico y apoyo a la ejecución."
+        ],
+        "hero": {
+          "image": "atmosphere-driven-apartment/01_approved_kitchen_white_wood_dark_stone.jpg",
+          "width": 1200,
+          "height": 1200,
+          "kind": "visualisation",
+          "caption": [
+            "Zatwierdzona koncepcja kuchni — wizualizacja",
+            "Approved kitchen concept — design visualisation",
+            "Propuesta aprobada de cocina — visualización"
+          ],
+          "alt": [
+            "Jasna kuchnia z kremowymi frontami, drewnianymi szafkami górnymi i ciemnym kamieniem",
+            "Approved bright kitchen with ivory cabinetry, timber upper fronts and dark stone",
+            "Cocina clara aprobada con muebles marfil, frentes altos de madera y piedra oscura"
+          ]
+        },
+        "facts": [
+          {
+            "label": [
+              "Lokalizacja",
+              "Location",
+              "Ubicación"
+            ],
+            "value": [
+              "Gliwice, Polska",
+              "Gliwice, Poland",
+              "Gliwice, Polonia"
+            ]
+          },
+          {
+            "label": [
+              "Powierzchnia",
+              "Area",
+              "Superficie"
+            ],
+            "value": [
+              "Około 60 m²",
+              "Approximately 60 m²",
+              "Aproximadamente 60 m²"
+            ]
+          },
+          {
+            "label": [
+              "Projekt",
+              "Project",
+              "Proyecto"
+            ],
+            "value": [
+              "Prywatne wnętrze mieszkalne",
+              "Private residential interior",
+              "Interior residencial privado"
+            ]
+          },
+          {
+            "label": [
+              "Rola",
+              "Role",
+              "Función"
+            ],
+            "value": [
+              "Magdalena Babicka · główna projektantka / kierunek artystyczny",
+              "Magdalena Babicka · Lead Interior Designer / Art Direction",
+              "Magdalena Babicka · diseñadora de interiores principal / dirección artística"
+            ]
+          },
+          {
+            "label": [
+              "Status",
+              "Status",
+              "Estado"
+            ],
+            "value": [
+              "Koncepcja, dokumentacja techniczna i wsparcie realizacji",
+              "Design concept, technical development and Execution Support",
+              "Concepto, desarrollo técnico y apoyo a la ejecución"
+            ]
+          }
+        ],
+        "introduction": {
+          "heading": [
+            "Projektowanie z myślą o codzienności.",
+            "A refined approach to everyday living.",
+            "Un enfoque cuidado de la vida cotidiana."
+          ],
+          "body": [
+            "Atmosphere-Driven Apartment to autorska koncepcja wnętrza mieszkania o powierzchni około 60 m² w Gliwicach. Projekt łączy spokój naturalnych materiałów z wyrazistym kontrastem jasnej zabudowy, drewna i ciemnego marmuru.\n\nPrzemyślany układ funkcjonalny, zabudowy na wymiar i wielowarstwowe oświetlenie podporządkowano codziennym potrzebom mieszkańca. Za estetyką stoi również kompleksowe opracowanie projektu — od koncepcji po dokumentację techniczną.\n\nMój zakres obejmował projektowanie wnętrza, dokumentację, uzgodnienia instalacyjne oraz wsparcie na etapie realizacji (Execution Support).",
+            "Atmosphere-Driven Apartment is a residential interior concept for a private approximately 60 m² home in Gliwice, Poland.\n\nDeveloped from a developer-standard space, the project brings together warm ivory cabinetry, natural wood finishes, expressive dark marble and carefully considered lighting. The composition is restrained but distinctive, balancing everyday comfort with a confident architectural identity.\n\nThe design process encompassed spatial planning, material direction, bespoke joinery and detailed technical development, with electrical and plumbing coordination and Execution Support during implementation.",
+            "Atmosphere-Driven Apartment es una propuesta de interiorismo para una vivienda privada de aproximadamente 60 m² en Gliwice, Polonia.\n\nDesarrollado a partir de un espacio sin acabados, el proyecto combina muebles marfil, acabados de madera natural, mármol oscuro y una iluminación cuidadosamente estudiada. La composición es contenida y distintiva, equilibrando la comodidad cotidiana con una identidad arquitectónica definida.\n\nEl proceso abarcó distribución funcional, dirección de materiales, mobiliario a medida y documentación técnica, con coordinación de instalaciones eléctricas y de fontanería y apoyo durante la ejecución."
+          ]
+        },
+        "sections": [
+          {
+            "id": "materialy",
+            "eyebrow": [
+              "Materiały i atmosfera",
+              "Materiality & atmosphere",
+              "Materialidad y atmósfera"
+            ],
+            "heading": [
+              "Jasność, drewno i wyrazisty kontrast.",
+              "Ivory. Wood. Dark marble.",
+              "Marfil. Madera. Mármol oscuro."
+            ],
+            "body": [
+              "Ciepła biel frontów i naturalny rysunek drewna równoważą wyrazisty, ciemny kamień blatu i półwyspu. Światło podkreśla strukturę materiałów, tworząc spokojny rytm kuchni. Poniższe detale pochodzą z zatwierdzonej wizualizacji projektu.",
+              "Warm ivory fronts and natural timber grain balance the expressive dark stone of the countertop and peninsula. Lighting brings out the material textures, giving the kitchen a calm rhythm. These details are drawn from the approved design visualisation.",
+              "Los frentes marfil y la veta natural de la madera equilibran la piedra oscura de la encimera y la península. La iluminación resalta las texturas y aporta un ritmo sereno a la cocina. Estos detalles proceden de la visualización aprobada del proyecto."
+            ],
+            "visuals": [
+              {
+                "image": "atmosphere-driven-apartment/07_detail_approved_cream_cabinetry.jpg",
+                "width": 600,
+                "height": 450,
+                "kind": "visualisation",
+                "caption": [
+                  "Detal zatwierdzonej koncepcji — jasne fronty",
+                  "Approved concept detail — ivory cabinetry",
+                  "Detalle de la propuesta aprobada — muebles marfil"
+                ],
+                "alt": [
+                  "Atmosphere-Driven Apartment — Detal zatwierdzonej koncepcji — jasne fronty",
+                  "Atmosphere-Driven Apartment — Approved concept detail — ivory cabinetry",
+                  "Atmosphere-Driven Apartment — Detalle de la propuesta aprobada — muebles marfil"
+                ]
+              },
+              {
+                "image": "atmosphere-driven-apartment/08_detail_approved_wood.jpg",
+                "width": 600,
+                "height": 450,
+                "kind": "visualisation",
+                "caption": [
+                  "Detal zatwierdzonej koncepcji — drewno i światło",
+                  "Approved concept detail — timber and light",
+                  "Detalle de la propuesta aprobada — madera y luz"
+                ],
+                "alt": [
+                  "Atmosphere-Driven Apartment — Detal zatwierdzonej koncepcji — drewno i światło",
+                  "Atmosphere-Driven Apartment — Approved concept detail — timber and light",
+                  "Atmosphere-Driven Apartment — Detalle de la propuesta aprobada — madera y luz"
+                ]
+              },
+              {
+                "image": "atmosphere-driven-apartment/09_detail_approved_dark_stone.jpg",
+                "width": 600,
+                "height": 450,
+                "kind": "visualisation",
+                "caption": [
+                  "Detal zatwierdzonej koncepcji — ciemny kamień",
+                  "Approved concept detail — dark stone",
+                  "Detalle de la propuesta aprobada — piedra oscura"
+                ],
+                "alt": [
+                  "Atmosphere-Driven Apartment — Detal zatwierdzonej koncepcji — ciemny kamień",
+                  "Atmosphere-Driven Apartment — Approved concept detail — dark stone",
+                  "Atmosphere-Driven Apartment — Detalle de la propuesta aprobada — piedra oscura"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "przestrzenie",
+            "eyebrow": [
+              "Przestrzenie",
+              "Spaces",
+              "Espacios"
+            ],
+            "heading": [
+              "Dwa wnętrza. Jeden język architektury.",
+              "Two rooms. One architectural language.",
+              "Dos estancias. Un mismo lenguaje arquitectónico."
+            ],
+            "body": [
+              "Jasna kuchnia otwiera opowieść o mieszkaniu. Łazienka rozwija ją w bardziej kameralnej odsłonie, zachowując relację drewna, kamiennych płaszczyzn i ciepłego światła. Oba ujęcia przedstawiają koncepcję, nie fotografie ukończonej realizacji.",
+              "The approved bright kitchen opens the story of the apartment. The bathroom offers a more intimate expression of the same relationship between timber, stone surfaces and warm light. Both images are design visualisations, not photographs of completed construction.",
+              "La cocina clara aprobada abre el relato de la vivienda. El baño ofrece una expresión más íntima de la misma relación entre madera, superficies pétreas y luz cálida. Ambas imágenes son visualizaciones del proyecto, no fotografías de una obra terminada."
+            ],
+            "visuals": [
+              {
+                "image": "atmosphere-driven-apartment/01_approved_kitchen_white_wood_dark_stone.jpg",
+                "width": 1200,
+                "height": 1200,
+                "kind": "visualisation",
+                "caption": [
+                  "Zatwierdzona koncepcja kuchni — wizualizacja",
+                  "Approved kitchen concept — design visualisation",
+                  "Propuesta aprobada de cocina — visualización"
+                ],
+                "alt": [
+                  "Jasna kuchnia z kremowymi frontami, drewnianymi szafkami górnymi i ciemnym kamieniem",
+                  "Approved bright kitchen with ivory cabinetry, timber upper fronts and dark stone",
+                  "Cocina clara aprobada con muebles marfil, frentes altos de madera y piedra oscura"
+                ]
+              },
+              {
+                "image": "atmosphere-driven-apartment/02_bathroom_visualisation.jpg",
+                "width": 1200,
+                "height": 1200,
+                "kind": "visualisation",
+                "caption": [
+                  "Łazienka — wizualizacja koncepcji",
+                  "Bathroom — design visualisation",
+                  "Baño — visualización del proyecto"
+                ],
+                "alt": [
+                  "Atmosphere-Driven Apartment — Łazienka — wizualizacja koncepcji",
+                  "Atmosphere-Driven Apartment — Bathroom — design visualisation",
+                  "Atmosphere-Driven Apartment — Baño — visualización del proyecto"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "rozwoj-projektu",
+            "eyebrow": [
+              "Rozwój projektu",
+              "Design development",
+              "Desarrollo del proyecto"
+            ],
+            "heading": [
+              "Od wizji do przemyślanego detalu.",
+              "From vision to detail.",
+              "De la idea al detalle."
+            ],
+            "body": [
+              "Układ całego mieszkania i wybrany detal zabudowy pokazują techniczne zaplecze koncepcji. Oryginalne rysunki zachowują geometrię, wymiary i oznaczenia; można je powiększyć bezpośrednio z planszy.",
+              "The full-apartment plan and a selected joinery detail show the technical development behind the concept. The original drawings retain their geometry, dimensions and annotations and can be enlarged directly from the board.",
+              "La planta completa y un detalle seleccionado del mobiliario muestran el desarrollo técnico del concepto. Los dibujos originales conservan su geometría, dimensiones y anotaciones y pueden ampliarse directamente desde el panel."
+            ],
+            "visuals": [
+              {
+                "image": "atmosphere-driven-apartment/04_original_apartment_plan.jpg",
+                "width": 1920,
+                "height": 1358,
+                "kind": "drawing",
+                "caption": [
+                  "Oryginalny rzut mieszkania",
+                  "Original apartment plan",
+                  "Planta original de la vivienda"
+                ],
+                "alt": [
+                  "Atmosphere-Driven Apartment — Oryginalny rzut mieszkania",
+                  "Atmosphere-Driven Apartment — Original apartment plan",
+                  "Atmosphere-Driven Apartment — Planta original de la vivienda"
+                ]
+              },
+              {
+                "image": "atmosphere-driven-apartment/05_original_joinery_excerpt.jpg",
+                "width": 1700,
+                "height": 690,
+                "kind": "drawing",
+                "caption": [
+                  "Zabudowa na wymiar — oryginalny fragment dokumentacji",
+                  "Bespoke joinery — original drawing excerpt",
+                  "Mobiliario a medida — extracto original de la documentación"
+                ],
+                "alt": [
+                  "Atmosphere-Driven Apartment — Zabudowa na wymiar — oryginalny fragment dokumentacji",
+                  "Atmosphere-Driven Apartment — Bespoke joinery — original drawing excerpt",
+                  "Atmosphere-Driven Apartment — Mobiliario a medida — extracto original de la documentación"
+                ]
+              }
+            ],
+            "supplement": {
+              "image": "atmosphere-driven-apartment/06_original_kitchen_services_excerpt.jpg",
+              "width": 640,
+              "height": 736,
+              "kind": "drawing",
+              "caption": [
+                "Kuchnia — oryginalny fragment uzgodnień instalacyjnych",
+                "Kitchen — original services coordination excerpt",
+                "Cocina — extracto original de coordinación de instalaciones"
+              ],
+              "alt": [
+                "Atmosphere-Driven Apartment — Kuchnia — oryginalny fragment uzgodnień instalacyjnych",
+                "Atmosphere-Driven Apartment — Kitchen — original services coordination excerpt",
+                "Atmosphere-Driven Apartment — Cocina — extracto original de coordinación de instalaciones"
+              ]
+            },
+            "supplementLabel": [
+              "Dodatkowy detal koordynacji instalacji",
+              "Additional services coordination detail",
+              "Detalle adicional de coordinación de instalaciones"
+            ]
+          },
+          {
+            "id": "stan-istniejacy",
+            "eyebrow": [
+              "Punkt wyjścia",
+              "The starting point",
+              "El punto de partida"
+            ],
+            "heading": [
+              "Przestrzeń przed nadaniem charakteru.",
+              "Before the atmosphere takes shape.",
+              "Antes de dar forma a la atmósfera."
+            ],
+            "body": [
+              "Oryginalne zdjęcia pokazują mieszkanie w stanie deweloperskim — punkt wyjścia dla planowania funkcji, materiałów i oświetlenia. Stan istniejący stanowi kontekst dla wizualizacji projektu.",
+              "The original photographs show the developer-standard apartment: the starting point for spatial planning, materials and lighting. These existing conditions provide context for the design visualisations.",
+              "Las fotografías originales muestran la vivienda sin acabados: el punto de partida para la distribución, los materiales y la iluminación. Este estado previo aporta el contexto para las visualizaciones del proyecto."
+            ],
+            "visuals": [
+              {
+                "image": "atmosphere-driven-apartment/03_existing_condition_original.jpg",
+                "width": 1920,
+                "height": 881,
+                "kind": "photo",
+                "caption": [
+                  "Stan istniejący — oryginalne zdjęcia mieszkania w stanie deweloperskim",
+                  "Existing conditions — original developer-standard photographs",
+                  "Estado previo — fotografías originales de la vivienda sin acabados"
+                ],
+                "alt": [
+                  "Atmosphere-Driven Apartment — Stan istniejący — oryginalne zdjęcia mieszkania w stanie deweloperskim",
+                  "Atmosphere-Driven Apartment — Existing conditions — original developer-standard photographs",
+                  "Atmosphere-Driven Apartment — Estado previo — fotografías originales de la vivienda sin acabados"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "zakres-projektu",
+            "eyebrow": [
+              "Zakres i rola",
+              "Scope and role",
+              "Alcance y función"
+            ],
+            "heading": [
+              "Spójność od koncepcji po detal.",
+              "Continuity from concept to detail.",
+              "Coherencia desde el concepto hasta el detalle."
+            ],
+            "body": [
+              "Kierunek artystyczny łączę z opracowaniem funkcjonalnym i technicznym. Wsparcie realizacji obejmuje uzgodnienia i współpracę z wykonawcami przy wdrażaniu rozwiązań projektowych.",
+              "I connect art direction with spatial and technical development. Execution Support includes coordination and collaboration with contractors as the design is implemented.",
+              "Conecto la dirección artística con el desarrollo funcional y técnico. El apoyo a la ejecución incluye la coordinación y la colaboración con contratistas para llevar a cabo las soluciones del proyecto."
+            ],
+            "visuals": [],
+            "items": [
+              [
+                "Koncepcja i kierunek artystyczny",
+                "Concept and art direction",
+                "Concepto y dirección artística"
+              ],
+              [
+                "Układ funkcjonalny",
+                "Space planning",
+                "Distribución del espacio"
+              ],
+              [
+                "Strategia materiałów i oświetlenia",
+                "Material and lighting strategy",
+                "Estrategia de materiales e iluminación"
+              ],
+              [
+                "Zabudowa na wymiar",
+                "Bespoke joinery",
+                "Mobiliario a medida"
+              ],
+              [
+                "Dokumentacja techniczna",
+                "Technical documentation",
+                "Documentación técnica"
+              ],
+              [
+                "Koordynacja instalacji wodno-kanalizacyjnej i elektrycznej",
+                "Plumbing and electrical coordination",
+                "Coordinación de fontanería e instalación eléctrica"
+              ],
+              [
+                "Wsparcie realizacji",
+                "Execution Support",
+                "Apoyo a la ejecución"
+              ]
+            ]
+          }
+        ],
+        "closing": {
+          "heading": [
+            "Przestrzeń przemyślana dla Ciebie.",
+            "A space considered around you.",
+            "Un espacio pensado para usted."
+          ],
+          "body": [
+            "Porozmawiajmy o wnętrzu, w którym estetyka, funkcja i codzienny komfort tworzą spójną całość.",
+            "Discuss an interior where aesthetics, function and everyday comfort form a considered whole.",
+            "Hablemos de un interior en el que estética, función y comodidad cotidiana formen un conjunto cuidado."
+          ]
+        }
+      }
+    },
+    {
       "id": "reception",
       "image": "interior-reception.png",
       "title": [

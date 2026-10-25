@@ -228,5 +228,7 @@ window.AOM_ES = {
   "Materiality & atmosphere": "Materialidad y atmósfera",
   "The transformation": "La transformación",
   "From concept to detail": "Del concepto al detalle",
-  "Scope and role": "Alcance y función"
+  "Scope and role": "Alcance y función",
+  "Design development board": "Panel de desarrollo del proyecto",
+  "Bespoke joinery": "Mobiliario a medida"
 };

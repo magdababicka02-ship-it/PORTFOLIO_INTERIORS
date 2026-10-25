@@ -1,0 +1,11 @@
+{
+  "date": "2026-10-25T22:04:09.898Z",
+  "unchangedProjectRenderChecks": 18,
+  "projects": [
+    "Midnight Garden",
+    "Puerto Banús Residence",
+    "Private Spa Bathroom"
+  ],
+  "scope": "Identical main content HTML; shared brand refinements are intentional",
+  "result": "pass"
+}

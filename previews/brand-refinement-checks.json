@@ -1,0 +1,134 @@
+{
+  "date": "2026-10-25T21:55:21.201Z",
+  "originalBrandFilesUnchanged": true,
+  "transparentGoldPNG": "assets/brand/brand-original.png",
+  "checks": [
+    {
+      "route": "index.html",
+      "width": 320,
+      "whiteCircle": "passed",
+      "transparentSecondaryLogo": false,
+      "result": "pass"
+    },
+    {
+      "route": "kontakt.html",
+      "width": 320,
+      "whiteCircle": "passed",
+      "transparentSecondaryLogo": false,
+      "result": "pass"
+    },
+    {
+      "route": "wnetrza.html",
+      "width": 320,
+      "whiteCircle": "passed",
+      "transparentSecondaryLogo": true,
+      "result": "pass"
+    },
+    {
+      "route": "midnight-garden.html",
+      "width": 320,
+      "whiteCircle": "passed",
+      "transparentSecondaryLogo": true,
+      "result": "pass"
+    },
+    {
+      "route": "puerto-banus-residence.html",
+      "width": 320,
+      "whiteCircle": "passed",
+      "transparentSecondaryLogo": true,
+      "result": "pass"
+    },
+    {
+      "route": "private-spa-bathroom.html",
+      "width": 320,
+      "whiteCircle": "passed",
+      "transparentSecondaryLogo": true,
+      "result": "pass"
+    },
+    {
+      "route": "index.html",
+      "width": 390,
+      "whiteCircle": "passed",
+      "transparentSecondaryLogo": false,
+      "result": "pass"
+    },
+    {
+      "route": "kontakt.html",
+      "width": 390,
+      "whiteCircle": "passed",
+      "transparentSecondaryLogo": false,
+      "result": "pass"
+    },
+    {
+      "route": "wnetrza.html",
+      "width": 390,
+      "whiteCircle": "passed",
+      "transparentSecondaryLogo": true,
+      "result": "pass"
+    },
+    {
+      "route": "midnight-garden.html",
+      "width": 390,
+      "whiteCircle": "passed",
+      "transparentSecondaryLogo": true,
+      "result": "pass"
+    },
+    {
+      "route": "puerto-banus-residence.html",
+      "width": 390,
+      "whiteCircle": "passed",
+      "transparentSecondaryLogo": true,
+      "result": "pass"
+    },
+    {
+      "route": "private-spa-bathroom.html",
+      "width": 390,
+      "whiteCircle": "passed",
+      "transparentSecondaryLogo": true,
+      "result": "pass"
+    },
+    {
+      "route": "index.html",
+      "width": 1440,
+      "whiteCircle": "passed",
+      "transparentSecondaryLogo": false,
+      "result": "pass"
+    },
+    {
+      "route": "kontakt.html",
+      "width": 1440,
+      "whiteCircle": "passed",
+      "transparentSecondaryLogo": false,
+      "result": "pass"
+    },
+    {
+      "route": "wnetrza.html",
+      "width": 1440,
+      "whiteCircle": "passed",
+      "transparentSecondaryLogo": true,
+      "result": "pass"
+    },
+    {
+      "route": "midnight-garden.html",
+      "width": 1440,
+      "whiteCircle": "passed",
+      "transparentSecondaryLogo": true,
+      "result": "pass"
+    },
+    {
+      "route": "puerto-banus-residence.html",
+      "width": 1440,
+      "whiteCircle": "passed",
+      "transparentSecondaryLogo": true,
+      "result": "pass"
+    },
+    {
+      "route": "private-spa-bathroom.html",
+      "width": 1440,
+      "whiteCircle": "passed",
+      "transparentSecondaryLogo": true,
+      "result": "pass"
+    }
+  ],
+  "browserErrors": []
+}
