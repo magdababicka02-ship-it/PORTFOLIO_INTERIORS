@@ -1,0 +1,87 @@
+{
+  "date": "2026-10-25T20:55:01.493Z",
+  "sourceArchive": "MIDNIGHT_GARDEN_2_new.rar",
+  "sourceFile": "2.png",
+  "losslessPixelEquality": true,
+  "dimensions": [
+    2400,
+    1792
+  ],
+  "before": "before-refined.webp",
+  "after": "view-1.webp",
+  "checks": [
+    {
+      "route": "wnetrza.html",
+      "lang": "pl",
+      "width": 390,
+      "result": "pass"
+    },
+    {
+      "route": "midnight-garden.html",
+      "lang": "pl",
+      "width": 390,
+      "result": "pass"
+    },
+    {
+      "route": "wnetrza.html",
+      "lang": "en",
+      "width": 390,
+      "result": "pass"
+    },
+    {
+      "route": "midnight-garden.html",
+      "lang": "en",
+      "width": 390,
+      "result": "pass"
+    },
+    {
+      "route": "wnetrza.html",
+      "lang": "es",
+      "width": 390,
+      "result": "pass"
+    },
+    {
+      "route": "midnight-garden.html",
+      "lang": "es",
+      "width": 390,
+      "result": "pass"
+    },
+    {
+      "route": "wnetrza.html",
+      "lang": "pl",
+      "width": 1440,
+      "result": "pass"
+    },
+    {
+      "route": "midnight-garden.html",
+      "lang": "pl",
+      "width": 1440,
+      "result": "pass"
+    },
+    {
+      "route": "wnetrza.html",
+      "lang": "en",
+      "width": 1440,
+      "result": "pass"
+    },
+    {
+      "route": "midnight-garden.html",
+      "lang": "en",
+      "width": 1440,
+      "result": "pass"
+    },
+    {
+      "route": "wnetrza.html",
+      "lang": "es",
+      "width": 1440,
+      "result": "pass"
+    },
+    {
+      "route": "midnight-garden.html",
+      "lang": "es",
+      "width": 1440,
+      "result": "pass"
+    }
+  ],
+  "browserErrors": []
+}

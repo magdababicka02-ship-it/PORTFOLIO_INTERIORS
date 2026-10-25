@@ -519,7 +519,7 @@ window.AOM = {
         },
         "comparison": {
           "before": {
-            "image": "midnight-garden/view-2.webp",
+            "image": "midnight-garden/before-refined.webp",
             "width": 2400,
             "height": 1792,
             "alt": [
