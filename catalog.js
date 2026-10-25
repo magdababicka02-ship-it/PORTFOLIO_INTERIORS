@@ -2331,6 +2331,351 @@ window.AOM = {
       }
     },
     {
+      "id": "ceremonial-arrival",
+      "image": "ceremonial-arrival/proposal_01_ornamental.webp",
+      "title": [
+        "Ceremonial Arrival",
+        "Ceremonial Arrival",
+        "Ceremonial Arrival"
+      ],
+      "type": "residential",
+      "editorialGroup": "study",
+      "curatedRank": 6,
+      "isStudy": true,
+      "projectPage": "ceremonial-arrival.html",
+      "project": {
+        "slug": "ceremonial-arrival",
+        "kind": "arrival-study",
+        "subtitle": [
+          "Studium holu w Marbelli",
+          "Marbella Hall Study",
+          "Estudio del vestíbulo en Marbella"
+        ],
+        "tagline": [
+          "Trzy interpretacje reprezentacyjnego holu w Marbelli.",
+          "Three visions for a Marbella entrance hall.",
+          "Tres visiones para un vestíbulo en Marbella."
+        ],
+        "status": [
+          "Wnętrze prywatne / Studium koncepcyjne",
+          "Residential / Concept development",
+          "Residencial / Desarrollo conceptual"
+        ],
+        "shortStatus": [
+          "Studium koncepcyjne / trzy warianty",
+          "Concept study / three proposals",
+          "Estudio conceptual / tres propuestas"
+        ],
+        "location": [
+          "Marbella, Hiszpania",
+          "Marbella, Spain",
+          "Marbella, España"
+        ],
+        "credit": [
+          "Projekt koncepcyjny dla NOVA KASYANOV",
+          "Concept work for NOVA KASYANOV",
+          "Trabajo conceptual para NOVA KASYANOV"
+        ],
+        "seoTitle": [
+          "Ceremonial Arrival, Marbella | Studium koncepcyjne holu",
+          "Ceremonial Arrival, Marbella | Entrance Hall Concept Study",
+          "Ceremonial Arrival, Marbella | Estudio conceptual de vestíbulo"
+        ],
+        "seoDescription": [
+          "Trzy koncepcje reprezentacyjnego holu prywatnej rezydencji w Marbelli. Warianty aranżacji, materiały i wizualizacje przygotowane dla zespołu NOVA KASYANOV przez Magdalenę Babicką.",
+          "Three concept directions for a private villa entrance hall in Marbella, exploring ornament, symmetry and contrast. Concept work for NOVA KASYANOV by Magdalena Babicka.",
+          "Tres propuestas conceptuales para el vestíbulo de una residencia privada en Marbella: ornamentación, simetría y contraste. Trabajo de Magdalena Babicka para NOVA KASYANOV."
+        ],
+        "hero": {
+          "image": "ceremonial-arrival/proposal_01_ornamental.webp",
+          "width": 1920,
+          "height": 1920,
+          "kind": "visualisation",
+          "caption": [
+            "Wariant 01 — wizualizacja koncepcyjna",
+            "Proposal 01 — concept visualisation",
+            "Propuesta 01 — visualización conceptual"
+          ],
+          "alt": [
+            "Symetryczne, podwójne schody w koncepcji holu w Marbelli z ornamentalnym dywanem i złotymi detalami",
+            "Symmetrical double staircase in an ornate Marbella hall concept with a patterned rug and gold detailing",
+            "Escalera doble simétrica en la propuesta de vestíbulo de Marbella, con alfombra ornamental y detalles dorados"
+          ]
+        },
+        "opening": {
+          "teaser": [
+            "Hol wejściowy jako doświadczenie. Ornament, symetria i kontrast w trzech propozycjach dla tej samej przestrzeni.",
+            "An entrance conceived as a moment of arrival. Ornament, symmetry and contrast in three proposals for the same space.",
+            "Un vestíbulo concebido como experiencia de llegada. Ornamentación, simetría y contraste en tres propuestas para un mismo espacio."
+          ]
+        },
+        "introduction": {
+          "heading": [
+            "Sztuka pierwszego wrażenia.",
+            "The art of arrival.",
+            "El arte de la llegada."
+          ],
+          "body": [
+            "Studium koncepcyjne przygotowane dla zespołu NOVA KASYANOV na potrzeby prywatnej rezydencji w Marbelli obejmowało trzy warianty aranżacji inspirowanej włoskim luksusem — od bogatego ornamentu, przez subtelną symetrię, po wyrazisty kontrast.\n\nMonumentalna klatka schodowa, kamień, złote akcenty i dekoracyjne motywy stanowią wspólną bazę kompozycyjną. Projekt dokumentuje etap poszukiwania kierunku artystycznego, a nie ukończoną realizację.",
+            "Developed during the concept phase for the NOVA KASYANOV design team, this private residential study explores three interpretations of Italian-inspired grandeur — from expressive ornament to restrained symmetry and dramatic contrast.\n\nThe proposals investigate a monumental double staircase, architectural symmetry and decorative identity through warm stone, metallic accents and contrasting textiles. The project documents a creative exploration of spatial character and atmosphere, rather than a completed interior.",
+            "Desarrollado durante la fase conceptual para el equipo de NOVA KASYANOV, este estudio de una residencia privada en Marbella explora tres interpretaciones del lujo de inspiración italiana: ornamentación expresiva, simetría contenida y contraste dramático.\n\nLa escalera doble monumental, la simetría y la identidad decorativa se estudian a través de piedra cálida, acentos metálicos y tejidos de contraste. El proyecto documenta una exploración creativa del carácter y la atmósfera del espacio, no un interior construido."
+          ],
+          "facts": [
+            {
+              "label": [
+                "Miejsce",
+                "Location",
+                "Ubicación"
+              ],
+              "value": [
+                "Prywatna rezydencja / Marbella, Hiszpania",
+                "Private villa / Marbella, Spain",
+                "Residencia privada / Marbella, España"
+              ]
+            },
+            {
+              "label": [
+                "Etap",
+                "Stage",
+                "Fase"
+              ],
+              "value": [
+                "Studium koncepcyjne / trzy alternatywne kierunki",
+                "Concept study / three alternative directions",
+                "Estudio conceptual / tres alternativas"
+              ]
+            },
+            {
+              "label": [
+                "Współpraca",
+                "Collaboration",
+                "Colaboración"
+              ],
+              "value": [
+                "Koncepcje dla zespołu NOVA KASYANOV",
+                "Concept proposals for the NOVA KASYANOV team",
+                "Propuestas conceptuales para el equipo de NOVA KASYANOV"
+              ]
+            }
+          ]
+        },
+        "sections": [
+          {
+            "id": "trzy-interpretacje",
+            "heading": [
+              "Jeden hol. Trzy interpretacje.",
+              "One hall. Three readings.",
+              "Un vestíbulo. Tres interpretaciones."
+            ],
+            "intro": [
+              "Trzy równorzędne propozycje rozwijają wspólną ideę przestrzenną. Zmieniają akcenty i atmosferę, zachowując istniejące ramy architektoniczne.",
+              "Three equal-weight proposals explore a shared spatial idea. Each changes the emphasis and atmosphere within the established architectural setting.",
+              "Tres propuestas equivalentes exploran una misma idea espacial. Cada una cambia los acentos y la atmósfera dentro del marco arquitectónico existente."
+            ],
+            "visuals": [
+              {
+                "image": "ceremonial-arrival/proposal_01_ornamental.webp",
+                "width": 1920,
+                "height": 1920,
+                "kind": "visualisation",
+                "caption": [
+                  "Wariant 01 — wizualizacja koncepcyjna",
+                  "Proposal 01 — concept visualisation",
+                  "Propuesta 01 — visualización conceptual"
+                ],
+                "alt": [
+                  "Symetryczne, podwójne schody w koncepcji holu w Marbelli z ornamentalnym dywanem i złotymi detalami",
+                  "Symmetrical double staircase in an ornate Marbella hall concept with a patterned rug and gold detailing",
+                  "Escalera doble simétrica en la propuesta de vestíbulo de Marbella, con alfombra ornamental y detalles dorados"
+                ]
+              },
+              {
+                "image": "ceremonial-arrival/proposal_02_refined.webp",
+                "width": 1920,
+                "height": 1920,
+                "kind": "visualisation",
+                "caption": [
+                  "Wariant 02 — wizualizacja koncepcyjna",
+                  "Proposal 02 — concept visualisation",
+                  "Propuesta 02 — visualización conceptual"
+                ],
+                "alt": [
+                  "Alternatywna koncepcja holu z jasnymi wykończeniami, neutralnym dywanem i symetrycznymi schodami",
+                  "Alternative entrance hall concept with lighter finishes, neutral rug and sweeping twin staircase",
+                  "Propuesta alternativa de vestíbulo con acabados claros, alfombra neutra y una escalera doble simétrica"
+                ]
+              },
+              {
+                "image": "ceremonial-arrival/proposal_03_contrast.webp",
+                "width": 1600,
+                "height": 1600,
+                "kind": "visualisation",
+                "caption": [
+                  "Wariant 03 — wizualizacja koncepcyjna",
+                  "Proposal 03 — concept visualisation",
+                  "Propuesta 03 — visualización conceptual"
+                ],
+                "alt": [
+                  "Koncepcja holu z ciemnym centralnym tłem, złotymi detalami i ornamentalnym dywanem",
+                  "Entrance hall study with darker central decorative feature, gold detailing and richly patterned floor textile",
+                  "Estudio del vestíbulo con un fondo central oscuro, detalles dorados y una alfombra ornamental"
+                ]
+              }
+            ],
+            "proposals": [
+              {
+                "title": [
+                  "Wyrazisty ornament",
+                  "Ornamental statement",
+                  "Ornamento expresivo"
+                ],
+                "body": [
+                  "Bogaty wzór dywanu wprowadza kolor, ruch i symboliczny motyw centralny. Złote detale wzmacniają teatralny charakter dwukondygnacyjnego holu.",
+                  "A richly patterned floor textile introduces colour, movement and emblematic ornament. Gold-toned detailing strengthens the theatrical character of the double-height entrance.",
+                  "La alfombra ornamental introduce color, movimiento y un motivo central simbólico. Los detalles dorados refuerzan el carácter teatral del vestíbulo de doble altura."
+                ]
+              },
+              {
+                "title": [
+                  "Subtelna symetria",
+                  "Refined symmetry",
+                  "Simetría refinada"
+                ],
+                "body": [
+                  "Neutralne tkaniny, jasna posadzka i oszczędniejsze detale łagodzą intensywność kompozycji. Uwaga skupia się na linii schodów i centralnej osi wnętrza.",
+                  "Neutral textiles, light-toned flooring and restrained detailing soften the composition. Attention shifts to the sweep of the twin staircases and the central architectural axis.",
+                  "Los tejidos neutros, el pavimento claro y los detalles contenidos suavizan la composición. La atención se dirige a las líneas de la escalera doble y al eje central del espacio."
+                ]
+              },
+              {
+                "title": [
+                  "Dramatyczny kontrast",
+                  "Dramatic contrast",
+                  "Contraste dramático"
+                ],
+                "body": [
+                  "Ciemne centralne tło zestawiono z jasnym kamieniem i połyskiem złota. Powrót ornamentalnego dywanu podkreśla napięcie między dekoracją a symetrią.",
+                  "A dark central backdrop is juxtaposed with pale stone and polished gold. The return of the ornamental floor textile emphasises the tension between decoration and symmetry.",
+                  "Un fondo central oscuro contrasta con la piedra clara y los reflejos dorados. La alfombra ornamental subraya la tensión entre decoración y simetría."
+                ]
+              }
+            ]
+          },
+          {
+            "id": "relacje-przestrzenne",
+            "heading": [
+              "Oś i doświadczenie przestrzeni.",
+              "The axis and the experience.",
+              "El eje y la experiencia del espacio."
+            ],
+            "body": [
+              "Materiał referencyjny piętra wskazuje na symetryczną kompozycję: centralną sekwencję schodów oraz boczne strefy łazienek, garderób i tarasów. Schemat porządkuje te relacje; nie określa wymiarów ani rozwiązań wykonawczych.",
+              "The upper-floor reference suggests a symmetrical composition: a central stair sequence framed by lateral bathrooms, dressing and terrace zones. The diagram clarifies these relationships; it does not specify dimensions or construction details.",
+              "La referencia de la planta superior sugiere una composición simétrica: una secuencia central de escaleras y zonas laterales de baños, vestidores y terrazas. El esquema aclara estas relaciones; no define dimensiones ni detalles constructivos."
+            ],
+            "visuals": [
+              {
+                "image": "ceremonial-arrival/upper_floor_spatial_logic_diagram.png",
+                "width": 2100,
+                "height": 1220,
+                "kind": "drawing",
+                "caption": [
+                  "Schemat relacji przestrzennych — bez skali, nie jest rysunkiem wykonawczym",
+                  "Schematic spatial relationships — not to scale, not a construction drawing",
+                  "Esquema de relaciones espaciales — sin escala, no es un plano de ejecución"
+                ],
+                "alt": [
+                  "Ceremonial Arrival — Schemat relacji przestrzennych — bez skali, nie jest rysunkiem wykonawczym",
+                  "Ceremonial Arrival — Schematic spatial relationships — not to scale, not a construction drawing",
+                  "Ceremonial Arrival — Esquema de relaciones espaciales — sin escala, no es un plano de ejecución"
+                ]
+              }
+            ],
+            "supplement": {
+              "image": "ceremonial-arrival/source_upper_floor_reference.png",
+              "width": 352,
+              "height": 217,
+              "kind": "drawing",
+              "caption": [
+                "Oryginalny rzut piętra — materiał referencyjny",
+                "Original upper-floor plan — reference material",
+                "Planta original de la planta superior — material de referencia"
+              ],
+              "alt": [
+                "Ceremonial Arrival — Oryginalny rzut piętra — materiał referencyjny",
+                "Ceremonial Arrival — Original upper-floor plan — reference material",
+                "Ceremonial Arrival — Planta original de la planta superior — material de referencia"
+              ]
+            },
+            "referenceLabel": [
+              "Zobacz oryginalny materiał referencyjny",
+              "View the original reference",
+              "Ver la referencia original"
+            ],
+            "note": [
+              "Schemat poglądowy, bez skali. Nie jest dokumentacją techniczną ani rysunkiem do realizacji.",
+              "Schematic only, not to scale. This is not technical documentation or a construction drawing.",
+              "Esquema orientativo, sin escala. No es documentación técnica ni un plano de ejecución."
+            ]
+          }
+        ],
+        "contribution": {
+          "heading": [
+            "Poszukiwanie języka przestrzeni.",
+            "A study in spatial expression.",
+            "Un estudio de expresión espacial."
+          ],
+          "body": [
+            "Moja praca obejmowała opracowanie alternatywnych koncepcji, propozycje materiałowe i kolorystyczne, moodboardy oraz wizualizacje architektoniczne. Studium powstało w fazie koncepcyjnej dla zespołu NOVA KASYANOV.",
+            "My contribution covered alternative concept proposals, material and colour research, moodboards and architectural visualisations. The study was prepared during the concept phase for the NOVA KASYANOV design team.",
+            "Mi contribución abarcó propuestas conceptuales alternativas, investigación de materiales y colores, moodboards y visualizaciones arquitectónicas. El estudio se preparó durante la fase conceptual para el equipo de NOVA KASYANOV."
+          ],
+          "byline": [
+            "Magdalena Babicka / opracowanie koncepcji",
+            "Magdalena Babicka / concept development",
+            "Magdalena Babicka / desarrollo conceptual"
+          ],
+          "scope": [
+            [
+              "Rozwój koncepcji",
+              "Concept development",
+              "Desarrollo conceptual"
+            ],
+            [
+              "Alternatywne propozycje aranżacji",
+              "Alternative design proposals",
+              "Propuestas de diseño alternativas"
+            ],
+            [
+              "Palety materiałowe i kolorystyczne",
+              "Material and colour research",
+              "Investigación de materiales y colores"
+            ],
+            [
+              "Moodboardy",
+              "Moodboards",
+              "Moodboards"
+            ],
+            [
+              "Wizualizacje architektoniczne",
+              "Architectural visualisations",
+              "Visualizaciones arquitectónicas"
+            ]
+          ],
+          "affiliationNote": [
+            "Niezależne studium koncepcyjne. Bez oficjalnej współpracy z marką Versace.",
+            "Independent conceptual study. No official collaboration with Versace.",
+            "Estudio conceptual independiente. Sin colaboración oficial con Versace."
+          ],
+          "cta": [
+            "Porozmawiajmy o Twoim wnętrzu",
+            "Discuss your interior project",
+            "Consulte sobre su proyecto de interiorismo"
+          ]
+        }
+      }
+    },
+    {
       "id": "reception",
       "image": "interior-reception.png",
       "title": [

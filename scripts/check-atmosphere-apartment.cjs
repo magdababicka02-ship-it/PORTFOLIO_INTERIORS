@@ -13,7 +13,7 @@ const out=path.resolve(__dirname,'../previews');
   page.on('console',message=>{if(message.text().startsWith('Missing Spanish translation:'))errors.push(message.text());});
   for(const lang of ['pl','en','es']){
    await page.goto(new URL('wnetrza.html?lang='+lang,base).href);
-   assert.equal(await page.locator('.interior-card').count(),5);
+   assert.equal(await page.locator('.interior-card').count(),6);
    await page.locator('[data-interior-filter=commercial]').click();
    assert.equal(await page.locator('.interior-card[data-interior-id=atmosphere-driven-apartment]').count(),0);
    await page.locator('[data-interior-filter=residential]').click();
@@ -70,9 +70,9 @@ const out=path.resolve(__dirname,'../previews');
    }
   }
   await page.goto(new URL('wnetrza.html?lang=en',base).href);await page.locator('#more-interiors').click();
-  assert.equal(await page.locator('.interior-card').count(),10);
+  assert.equal(await page.locator('.interior-card').count(),11);
   assert.deepEqual(errors,[]);
-  const result={date:new Date().toISOString(),languages:['pl','en','es'],residentialTile:'passed; excluded from Commercial',approvedKitchen:'passed',keyboardNavigation:'passed',responsiveChecks,sourceImages:9,lightboxChecks,projectStatus:'design concept, technical development and Execution Support',curatedBoard:'one group with real plan and joinery',optionalCoordinationDetail:'collapsed by default',brandRefinements:'passed',portfolioProjects:10,browserErrors:errors};
+  const result={date:new Date().toISOString(),languages:['pl','en','es'],residentialTile:'passed; excluded from Commercial',approvedKitchen:'passed',keyboardNavigation:'passed',responsiveChecks,sourceImages:9,lightboxChecks,projectStatus:'design concept, technical development and Execution Support',curatedBoard:'one group with real plan and joinery',optionalCoordinationDetail:'collapsed by default',brandRefinements:'passed',portfolioProjects:11,browserErrors:errors};
   fs.writeFileSync(path.join(out,'atmosphere-apartment-checks.json'),JSON.stringify(result,null,2));console.log(JSON.stringify(result));
  }finally{await browser.close();}
 })().catch(error=>{console.error(error);process.exit(1)});

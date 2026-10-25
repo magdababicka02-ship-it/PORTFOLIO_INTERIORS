@@ -60,9 +60,9 @@ const out=path.resolve(__dirname,'../previews');
    }
   }
   await page.goto(new URL('wnetrza.html?lang=en',base).href);await page.locator('#more-interiors').click();
-  assert.equal(await page.locator('.interior-card').count(),10,'Existing projects and both additions retained');
+  assert.equal(await page.locator('.interior-card').count(),11,'Existing projects and both additions retained');
   assert.deepEqual(errors,[]);
-  const result={date:new Date().toISOString(),languages:['pl','en','es'],commercialTile:'passed',keyboardNavigation:'passed',responsiveChecks,originalPhotos:11,lightboxChecks,teamAndIndividualCredit:'passed',portfolioProjects:10,browserErrors:errors};
+  const result={date:new Date().toISOString(),languages:['pl','en','es'],commercialTile:'passed',keyboardNavigation:'passed',responsiveChecks,originalPhotos:11,lightboxChecks,teamAndIndividualCredit:'passed',portfolioProjects:11,browserErrors:errors};
   fs.writeFileSync(path.join(out,'puerto-banus-checks.json'),JSON.stringify(result,null,2));console.log(JSON.stringify(result));
  }finally{await browser.close();}
 })().catch(error=>{console.error(error);process.exit(1)});

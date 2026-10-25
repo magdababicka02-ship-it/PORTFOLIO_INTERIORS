@@ -15,8 +15,8 @@ const ids=page=>page.locator('.interior-card').evaluateAll(cards=>cards.map(card
   page.on('console',message=>{if(message.text().startsWith('Missing Spanish translation:'))errors.push(message.text());});
   for(const lang of ['pl','en','es']){
    await page.goto(new URL('wnetrza.html?lang='+lang,base).href);
-   assert.deepEqual(await ids(page),[...featured,'spisak-studio']);
-   assert.deepEqual(await page.locator('[data-curated-group]').evaluateAll(groups=>groups.map(group=>group.dataset.curatedGroup)),['featured','creative']);
+   assert.deepEqual(await ids(page),[...featured,'spisak-studio','ceremonial-arrival']);
+   assert.deepEqual(await page.locator('[data-curated-group]').evaluateAll(groups=>groups.map(group=>group.dataset.curatedGroup)),['featured','creative','studies']);
    assert.equal(await page.locator('.interior-hero-figure .media-meta a').textContent(),'Midnight Garden');
    await page.locator('[data-interior-filter=residential]').click();
    assert.equal(await page.locator('.interior-card[data-interior-id=spisak-studio]').count(),0);
@@ -72,17 +72,17 @@ const ids=page=>page.locator('.interior-card').evaluateAll(cards=>cards.map(card
    }
   }
   await page.goto(new URL('wnetrza.html?lang=en',base).href);await page.locator('#more-interiors').click();
-  assert.equal(await page.locator('.interior-card').count(),10);
+  assert.equal(await page.locator('.interior-card').count(),11);
   assert.equal(await page.locator('.interior-open').count(),5,'Five design studies retained');
   assert.equal(await page.locator('[data-curated-group=studies]').count(),1);
   await page.route('**/catalog.js?*',async route=>{
    const response=await route.fetch();await route.fulfill({response,body:await response.text()+'\nwindow.AOM.interiors.reverse();'});
   });
   await page.goto(new URL('wnetrza.html?lang=en',base).href);
-  assert.deepEqual(await ids(page),[...featured,'spisak-studio'],'Curation is independent of catalogue insertion order');
+  assert.deepEqual(await ids(page),[...featured,'spisak-studio','ceremonial-arrival'],'Curation is independent of catalogue insertion order');
   await page.unroute('**/catalog.js?*');
   assert.deepEqual(errors,[]);
-  const result={date:new Date().toISOString(),languages:['pl','en','es'],commercialTile:'passed',explicitFeaturedOrder:featured,catalogueReverseOrder:'passed',keyboardNavigation:'passed',responsiveChecks,originalPhotos:7,nativePhotoSizesPreserved:true,asymmetricMoodScales:'passed',lightboxChecks,claimedScope:'concept, zones, furnishings, colours, lighting concept and styling',designStudiesRetained:5,portfolioProjects:10,browserErrors:errors};
+  const result={date:new Date().toISOString(),languages:['pl','en','es'],commercialTile:'passed',explicitFeaturedOrder:featured,catalogueReverseOrder:'passed',keyboardNavigation:'passed',responsiveChecks,originalPhotos:7,nativePhotoSizesPreserved:true,asymmetricMoodScales:'passed',lightboxChecks,claimedScope:'concept, zones, furnishings, colours, lighting concept and styling',designStudiesRetained:5,portfolioProjects:11,browserErrors:errors};
   fs.writeFileSync(path.join(out,'spisak-studio-checks.json'),JSON.stringify(result,null,2));console.log(JSON.stringify(result));
  }finally{await browser.close();}
 })().catch(error=>{console.error(error);process.exit(1)});

@@ -235,5 +235,9 @@ window.AOM_ES = {
   "Selected creative spaces": "Espacios creativos seleccionados",
   "Design studies": "Estudios de diseño",
   "Explore the studio": "Descubrir el estudio",
-  "View the full portfolio": "Ver el portfolio completo"
+  "View the full portfolio": "Ver el portfolio completo",
+  "Explore the three proposals": "Descubrir las tres propuestas",
+  "Concept directions": "Direcciones conceptuales",
+  "Spatial relationships": "Relaciones espaciales",
+  "Scope and collaboration": "Alcance y colaboración"
 };

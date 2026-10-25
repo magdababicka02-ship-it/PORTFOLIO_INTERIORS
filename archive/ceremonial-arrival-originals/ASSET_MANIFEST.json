@@ -1,0 +1,45 @@
+{
+  "project": "Ceremonial Arrival — Marbella Hall Study",
+  "brand": "Art of Meaning",
+  "date": "2026-10-25",
+  "assets": [
+    {
+      "original": "01_original_visualisations/proposal_01_ornamental.png",
+      "web": "02_web_optimised/proposal_01_ornamental.webp",
+      "pixels": [
+        1920,
+        1920
+      ],
+      "role": "Hero, Proposal 01"
+    },
+    {
+      "original": "01_original_visualisations/proposal_02_refined.jpg",
+      "web": "02_web_optimised/proposal_02_refined.webp",
+      "pixels": [
+        1920,
+        1920
+      ],
+      "role": "Proposal 02"
+    },
+    {
+      "original": "01_original_visualisations/proposal_03_contrast.jpeg",
+      "web": "02_web_optimised/proposal_03_contrast.webp",
+      "pixels": [
+        1600,
+        1600
+      ],
+      "role": "Proposal 03"
+    },
+    {
+      "original": "03_spatial_study/source_upper_floor_reference.png",
+      "web": "03_spatial_study/upper_floor_spatial_logic_diagram.png",
+      "role": "Schematic diagram, not to scale; original reference retained"
+    }
+  ],
+  "publication_guidance": "concept proposals only; clear NOVA KASYANOV credit; no Versace brand partnership claimed",
+  "alt_text_en": [
+    "Symmetrical double staircase in an ornate Marbella hall concept with a patterned rug and gold detailing",
+    "Alternative entrance hall concept with lighter finishes, neutral rug and sweeping twin staircase",
+    "Entrance hall study with darker central decorative feature, gold detailing and richly patterned floor textile"
+  ]
+}

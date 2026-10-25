@@ -4,7 +4,7 @@ Stan: 25 października 2026 r.
 ## Wdrożone strony
 - `index.html` — Portfolio / strona główna: film, trzy obszary twórczości, sekcja Magdaleny, stopka.
 - `murale.html` — hero wideo, trzy szerokie realizacje z oryginalnymi ikonami, gwiazdkami, filmami i parametrami, proces w siatce 2 × 2, kontakt.
-- `wnetrza.html` — hero, cztery zakresy współpracy, miejsce na dokumenty, kuratorowane portfolio i filtry, pięć podstron projektów i pięć zachowanych studiów, suwak, kontakt.
+- `wnetrza.html` — hero, cztery zakresy współpracy, miejsce na dokumenty, kuratorowane portfolio i filtry, sześć podstron projektów i pięć zachowanych studiów bez podstron, suwak, kontakt.
 - `midnight-garden.html` — osobna podstrona projektu z hero, opisem i metryką z dokumentu właścicielki, wizualizacjami wnętrza i ogrodu, powiększaniem obrazów oraz studium sufitu bez malowidła i z malowidłem.
 - `obrazy-na-zamowienie.html` — cztery pierwsze obrazy zgodnie z makietą, pełna kolekcja dwunastu prac po rozwinięciu, filtry, stale widoczne ceny ośmiu obrazów, sekcja zamówień. Alias: `malarstwo.html`.
 - `kontakt.html` — układ z makiety z granatowym headerem, formularz POST na contact@artofmeaning.art przez FormSubmit, kontakt bezpośredni i social media.
@@ -94,6 +94,16 @@ Stan: 25 października 2026 r.
 - Angielskie wezwania do kontaktu mają profesjonalny, prosty ton („Discuss your project”, „Arrange a consultation”, „Contact me”). Wersja hiszpańska ma słownik 220 tekstów interfejsu oraz 90 pól językowych katalogu, w tym pełne opisy obrazów, murali, koncepcji i autentyczne opinie. Tłumaczenia opinii są oznaczone; autorzy i teksty źródłowe PL/EN pozostają zachowane.
 - Formularz przekazuje kod języka wraz z zapytaniem, dzięki czemu odbiorczyni wie, w jakiej wersji strony zostało przygotowane zgłoszenie. Dane odbiorcy i sposób aktywacji pozostają zgodne z sekcją formularza powyżej.
 - Sprawdzono wszystkie 23 aktywne podstrony w ES na desktopie i telefonie (46 kontroli), zachowanie kontekstu przy przełączaniu PL/EN/ES, pełną jakość portretu, zgodność opisów kafli z referencją oraz hiszpańską walidację i reakcje formularza na akceptację i odmowę wysyłki. Żadnej prawdziwej wiadomości nie wysłano.
+
+## Ceremonial Arrival — Marbella Hall Study
+
+- Dodano `ceremonial-arrival.html` jako „Residential / Studia projektowe”. Pozostała niżej niż cztery projekty wiodące i Spisak Studio, z rangą 6. Grupa „Studia projektowe” obsługuje teraz również opublikowane podstrony koncepcyjne; nie zmieniono rang ani kategorii wcześniejszych wpisów.
+- Źródła: trzy oryginalne wizualizacje, ich dostarczone wersje WebP, diagram poglądowy, oryginalny mały rzut i brief. Oba osobne PDF są identyczne z PDF w ZIP — zachowano jeden zestaw w archiwum poza Pages.
+- Dedykowana kompozycja: duże ujęcie ornamentalne, krótka narracja, równorzędne warianty 01/02/03 w przesuniętym tryptyku, diagram relacji przestrzennych, zakres pracy i kontakt. Nie zastosowano suwaka „przed/po” ani narracji o pojedynczej finalnej wersji.
+- Zakres i kredyt: rozwój koncepcji, warianty aranżacji, palety materiałowe i kolorystyczne, moodboardy, wizualizacje architektoniczne; praca koncepcyjna dla zespołu NOVA KASYANOV. Nie dopisano wykonawstwa, ukończenia wnętrza, samodzielnego autorstwa architektury lub oficjalnej współpracy z Versace. Brand witryny pozostał Art of Meaning.
+- Pięć dostarczonych zasobów publikacyjnych skopiowano bez zmiany bajtów. Diagram 2100 × 1220 px jest opisany jako schemat bez skali, nie dokumentacja wykonawcza. Oryginalny rzut 352 × 217 px jest opcjonalny i zachowuje natywną szerokość również w powiększeniu. Nie zmieniano geometrii ani motywów w wizualizacjach.
+- `previews/ceremonial-arrival-checks.json`: 18 kontroli szerokości i języka, 18 otwarć powiększenia z przywróceniem fokusu, trzy równorzędne propozycje, widoczny etap i NOVA KASYANOV, prawidłowy filtr „Residential”, zachowana kolejność projektów wiodących, brak błędów JavaScript. Pełna kolekcja nadal zawiera wszystkie wcześniejsze wpisy: 11 pozycji łącznie.
+- `previews/ceremonial-preservation-checks.json`: 30 porównań głównej treści pięciu wcześniejszych podstron w PL/EN/ES na telefonie i komputerze — identyczny HTML. Po usunięciu nowego wpisu katalog jest identyczny z poprzednim commitem. Podglądy: `previews/ceremonial-arrival-{desktop,mobile}.png`.
 
 ## Spisak Studio
 
