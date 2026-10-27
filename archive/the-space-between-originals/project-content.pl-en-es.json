@@ -1,0 +1,208 @@
+{
+  "projectId": "the-space-between",
+  "slug": "the-space-between.html",
+  "editorialType": "art-led-residential-concept",
+  "status": {
+    "pl": "Koncepcja autorska / wizualizacje koncepcyjne",
+    "en": "Original concept / conceptual visualisations",
+    "es": "Concepto de autor / visualizaciones conceptuales"
+  },
+  "title": {
+    "pl": "Przestrzeń pomiędzy",
+    "en": "The Space Between",
+    "es": "El espacio entre"
+  },
+  "subtitle": {
+    "pl": "Monumentalne malowidło w dialogu z architekturą",
+    "en": "A Monumental Fresco in Dialogue with Architecture",
+    "es": "Una pintura monumental en diálogo con la arquitectura"
+  },
+  "category": {
+    "pl": "Wnętrza prywatne · Studium koncepcyjne",
+    "en": "Residential · Concept study",
+    "es": "Residencial · Estudio conceptual"
+  },
+  "credit": "Art of Meaning · Magdalena Babicka",
+  "scope": {
+    "pl": [
+      "Koncepcja artystyczna",
+      "Integracja malowidła sufitowego z wnętrzem",
+      "Art direction wnętrza",
+      "Kompozycja kolorystyczna i materiałowa",
+      "Wizualizacje koncepcyjne"
+    ],
+    "en": [
+      "Artistic concept",
+      "Ceiling artwork integration",
+      "Interior art direction",
+      "Colour and material composition",
+      "Conceptual visualisations"
+    ],
+    "es": [
+      "Concepto artístico",
+      "Integración de la pintura del techo",
+      "Dirección artística de interiores",
+      "Composición cromática y de materiales",
+      "Visualizaciones conceptuales"
+    ]
+  },
+  "heroLead": {
+    "pl": "Są wnętrza, w których sztuka jest dodatkiem. Tutaj stała się początkiem całej opowieści.",
+    "en": "Some interiors make room for art. Here, art becomes the starting point for the entire story.",
+    "es": "Hay interiores que reservan un espacio para el arte. Aquí, el arte es el punto de partida de toda la historia."
+  },
+  "intro": {
+    "pl": "Przestrzeń pomiędzy to autorska koncepcja salonu, w którym monumentalne malowidło sufitowe wyznacza emocjonalną i wizualną oś wnętrza. Klasyczna kompozycja dwóch postaci, zbliżających ku sobie dłonie, zestawiona została z miękkimi, rzeźbiarskimi formami współczesnych mebli. Architektura nie konkuruje z obrazem — daje mu skalę, światło i oddech.",
+    "en": "The Space Between is an original living-room concept in which a monumental ceiling artwork creates the emotional and visual axis of the interior. A classical composition of two figures reaching towards one another is set against soft, sculptural contemporary furnishings. Architecture does not compete with the painting; it gives the work scale, light and space to breathe.",
+    "es": "El espacio entre es un concepto original de salón en el que una pintura monumental de techo define el eje visual y emocional. La composición clásica de dos figuras que extienden las manos dialoga con muebles contemporáneos de formas suaves y escultóricas. La arquitectura no compite con la pintura: le aporta escala, luz y espacio."
+  },
+  "statement": {
+    "pl": "Między dwoma gestami rodzi się opowieść o bliskości, napięciu i przestrzeni.",
+    "en": "Between two gestures, a story of connection, tension and space emerges.",
+    "es": "Entre dos gestos nace una historia de conexión, tensión y espacio."
+  },
+  "artSectionTitle": {
+    "pl": "Malarstwo jako architektura",
+    "en": "Painting as Architecture",
+    "es": "La pintura como arquitectura"
+  },
+  "artSection": {
+    "pl": "Kompozycja inspirowana tradycją malarstwa klasycznego została pomyślana jako integralna część sufitu, a nie obraz zawieszony we wnętrzu. Gesty, draperie i miękkie przejścia sfumato budują poczucie ruchu nad spokojną strefą wypoczynku. To studium pokazuje, jak autorska sztuka może zmienić sposób odbierania całej przestrzeni.",
+    "en": "Inspired by the language of classical painting, the composition was conceived as an integral part of the ceiling rather than an artwork placed in a room. Gesture, drapery and soft sfumato transitions introduce movement above a calm living area. This study explores how original art can transform the experience of an entire space.",
+    "es": "Inspirada en el lenguaje de la pintura clásica, la composición se concibió como parte integral del techo, no como una obra añadida. Los gestos, los pliegues y las suaves transiciones sfumato aportan movimiento sobre una zona de estar serena. Este estudio explora cómo el arte de autor puede transformar la percepción de todo un espacio."
+  },
+  "materialsTitle": {
+    "pl": "Spokojna materia, wyrazista sztuka",
+    "en": "Quiet Materials, Expressive Art",
+    "es": "Materiales serenos, arte expresivo"
+  },
+  "materials": {
+    "pl": "Stonowana paleta szałwii, ciepłego kamienia i burgundu pozwala freskowi pozostać głównym bohaterem. Obłe obicie sofy, miękki dywan, trawertynowy stolik, lniane zasłony i ciepłe drewno tworzą współczesne tło o zmysłowej, niemal dotykalnej jakości.",
+    "en": "A restrained palette of sage, warm stone and burgundy allows the ceiling artwork to remain the protagonist. The rounded upholstered sofa, tactile rug, travertine coffee table, linen curtains and warm timber create a contemporary setting with quiet, almost tangible richness.",
+    "es": "Una paleta contenida de salvia, piedra cálida y burdeos permite que la pintura sea protagonista. El sofá de formas redondeadas, la alfombra texturizada, la mesa de travertino, las cortinas de lino y la madera cálida crean un escenario contemporáneo y táctil."
+  },
+  "closingTitle": {
+    "pl": "Wnętrze staje się opowieścią",
+    "en": "When Space Becomes a Story",
+    "es": "Cuando el espacio se convierte en relato"
+  },
+  "closing": {
+    "pl": "The Space Between to studium spotkania sztuki monumentalnej i komfortu codzienności. Koncepcja pokazuje kierunek Art of Meaning: wnętrza, w których obraz nie stanowi ostatniego akcentu, lecz jest punktem wyjścia do projektowania.",
+    "en": "The Space Between explores the meeting point of monumental art and everyday comfort. It expresses the Art of Meaning approach: spaces in which painting is not the final decorative accent, but the starting point of the design.",
+    "es": "El espacio entre explora el encuentro entre el arte monumental y el confort cotidiano. Expresa el enfoque de Art of Meaning: espacios en los que la pintura no es el último detalle decorativo, sino el punto de partida del diseño."
+  },
+  "cta": {
+    "pl": "Porozmawiajmy o sztuce stworzonej dla Twojej przestrzeni",
+    "en": "Let’s discuss art created for your space",
+    "es": "Hablemos de arte creado para tu espacio"
+  },
+  "ctaAction": {
+    "pl": "Opowiedz mi o projekcie",
+    "en": "Discuss your project",
+    "es": "Hablemos de tu proyecto"
+  },
+  "footerDisclosure": {
+    "pl": "Studium koncepcyjne. Prezentowane obrazy są wizualizacjami projektu, nie dokumentacją zrealizowanego wnętrza ani wykonanego malowidła.",
+    "en": "Concept study. Images show a design visualisation, not a completed interior or an executed ceiling painting.",
+    "es": "Estudio conceptual. Las imágenes son visualizaciones de diseño, no fotografías de una obra construida ni de una pintura ejecutada."
+  },
+  "seoDescription": {
+    "pl": "The Space Between — autorska koncepcja salonu z monumentalnym malowidłem sufitowym. Integracja sztuki klasycznej i współczesnego wnętrza. Art of Meaning.",
+    "en": "The Space Between — an art-led living room concept with monumental classical ceiling artwork. Fine art and contemporary interior design by Art of Meaning.",
+    "es": "El espacio entre — un salón conceptual con pintura monumental de inspiración clásica en el techo. Arte e interiorismo contemporáneo de Art of Meaning."
+  },
+  "images": [
+    {
+      "id": "01_hero_master",
+      "role": "hero",
+      "original": "assets/originals/01_hero_master.png",
+      "web": "assets/web/01_hero_master.webp",
+      "width": 2048,
+      "height": 1143,
+      "alt": {
+        "pl": "Główny kadr hero całego salonu i malowidła",
+        "en": "Master hero: full living room and ceiling artwork",
+        "es": "Hero principal: salón y pintura del techo"
+      },
+      "original_sha256": "d16eae404de09b31c88aab409913abc24e5f66629817501ef6e28cc5e376c341"
+    },
+    {
+      "id": "02_editorial_perspective",
+      "role": "perspective",
+      "original": "assets/originals/02_editorial_perspective.png",
+      "web": "assets/web/02_editorial_perspective.webp",
+      "width": 1672,
+      "height": 941,
+      "alt": {
+        "pl": "Szerokie ujęcie perspektywiczne od strony okien",
+        "en": "Editorial angle from the windows",
+        "es": "Vista editorial desde las ventanas"
+      },
+      "original_sha256": "baacd1eb3f48442e102eba3206c8ce870ccf0812df8a07bc3d4a41a4928fe3a5"
+    },
+    {
+      "id": "03_fresco_detail",
+      "role": "fresco",
+      "original": "assets/originals/03_fresco_detail.png",
+      "web": "assets/web/03_fresco_detail.webp",
+      "width": 2048,
+      "height": 1373,
+      "alt": {
+        "pl": "Zbliżenie monumentalnego malowidła i niemal stykających się dłoni",
+        "en": "Close-up of classical ceiling artwork and reaching hands",
+        "es": "Detalle de las figuras clásicas y las manos extendidas"
+      },
+      "original_sha256": "7b3e6de37e6cac9bd0ef33400c19c8c0df1850cc989c3281edf13c7101f777bf"
+    },
+    {
+      "id": "04_material_detail",
+      "role": "material",
+      "original": "assets/originals/04_material_detail.png",
+      "web": "assets/web/04_material_detail.webp",
+      "width": 1649,
+      "height": 2048,
+      "alt": {
+        "pl": "Detal sofy, trawertynowego stolika, tkanin i fragmentu sufitu",
+        "en": "Detail of curved sofa, travertine table, fabrics and ceiling",
+        "es": "Detalle del sofá curvo, mesa de travertino, telas y techo"
+      },
+      "original_sha256": "bcac4180fe3eaae5cca7b857cf40f7cd619f10bdb0e95907d4e878ebee1a6d7a"
+    },
+    {
+      "id": "05_second_hero",
+      "role": "perspective",
+      "original": "assets/originals/05_second_hero.png",
+      "web": "assets/web/05_second_hero.webp",
+      "width": 2048,
+      "height": 1143,
+      "alt": {
+        "pl": "Drugie szerokie ujęcie salonu z freskiem i kamiennym kominkiem",
+        "en": "Secondary wide view with fresco and stone fireplace",
+        "es": "Vista panorámica secundaria con pintura y chimenea de piedra"
+      },
+      "original_sha256": "ec0b98a57f049a27f66073704758073b136b4b4143f90a2050d6609e6af5444c"
+    }
+  ],
+  "recommendedSequence": [
+    {
+      "asset": "01_hero_master",
+      "purpose": "full-bleed hero"
+    },
+    {
+      "asset": "03_fresco_detail",
+      "purpose": "art-led statement / full detail"
+    },
+    {
+      "asset": "02_editorial_perspective",
+      "purpose": "spatial editorial overview"
+    },
+    {
+      "asset": "04_material_detail",
+      "purpose": "portrait materials detail"
+    },
+    {
+      "asset": "05_second_hero",
+      "purpose": "closing full width"
+    }
+  ]
+}

@@ -13,7 +13,7 @@ const out=path.resolve(__dirname,'../previews');
   page.on('console',message=>{if(message.text().startsWith('Missing Spanish translation:'))errors.push(message.text());});
   for(const lang of ['pl','en','es']){
    await page.goto(new URL('wnetrza.html?lang='+lang,base).href);
-   assert.equal(await page.locator('.interior-card').count(),6,'Featured work, creative project and published study visible initially');
+   assert.equal(await page.locator('.interior-card').count(),7,'Featured work, creative project and published study visible initially');
    await page.locator('[data-interior-filter=commercial]').click();
    assert.equal(await page.locator('.interior-card[data-interior-id=private-spa-bathroom]').count(),0,'Removed from Commercial');
    await page.locator('[data-interior-filter=residential]').click();
@@ -73,9 +73,9 @@ const out=path.resolve(__dirname,'../previews');
    }
   }
   await page.goto(new URL('wnetrza.html?lang=en',base).href);await page.locator('#more-interiors').click();
-  assert.equal(await page.locator('.interior-card').count(),11);
+  assert.equal(await page.locator('.interior-card').count(),12);
   assert.deepEqual(errors,[]);
-  const result={date:new Date().toISOString(),languages:['pl','en','es'],residentialTile:'passed; excluded from Commercial',keyboardNavigation:'passed',editorialHierarchy:'six sections, materiality before existing photos and technical board',technicalDrawings:'five originals collapsed by default',responsiveChecks,sourceImages:9,originalTechnicalDrawings:5,lightboxChecks,projectStatus:'implementation in progress, visualisation and existing photos labelled',pdfLink:'passed',portfolioProjects:11,browserErrors:errors};
+  const result={date:new Date().toISOString(),languages:['pl','en','es'],residentialTile:'passed; excluded from Commercial',keyboardNavigation:'passed',editorialHierarchy:'six sections, materiality before existing photos and technical board',technicalDrawings:'five originals collapsed by default',responsiveChecks,sourceImages:9,originalTechnicalDrawings:5,lightboxChecks,projectStatus:'implementation in progress, visualisation and existing photos labelled',pdfLink:'passed',portfolioProjects:12,browserErrors:errors};
   fs.writeFileSync(path.join(out,'private-spa-checks.json'),JSON.stringify(result,null,2));console.log(JSON.stringify(result));
  }finally{await browser.close();}
 })().catch(error=>{console.error(error);process.exit(1)});

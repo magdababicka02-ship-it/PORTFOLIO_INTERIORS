@@ -1,0 +1,260 @@
+{
+  "date": "2026-10-27T00:27:52.452Z",
+  "referenceCommit": "ff1e88fb0ba60007d771c2647be3ad25048b1ad7",
+  "catalogue": "All existing records identical except intentional +1 rank shifts",
+  "checks": 36,
+  "results": [
+    {
+      "slug": "midnight-garden",
+      "lang": "pl",
+      "width": 390,
+      "htmlDigest": "41990c9c1319c5375f28bf36ce639eb2635c87fb3443d270052764d16a04310f",
+      "result": "identical main, header, footer, title and heading styles"
+    },
+    {
+      "slug": "puerto-banus-residence",
+      "lang": "pl",
+      "width": 390,
+      "htmlDigest": "73642e8ded2060ffa479dbc32491d57f88fc3c4cb44e268dd9141eaf6b6b1c54",
+      "result": "identical main, header, footer, title and heading styles"
+    },
+    {
+      "slug": "private-spa-bathroom",
+      "lang": "pl",
+      "width": 390,
+      "htmlDigest": "318dba3aaa4f64c8cbf397124a1da9f5a86fdcb048528cdd3abd198080ae8784",
+      "result": "identical main, header, footer, title and heading styles"
+    },
+    {
+      "slug": "atmosphere-driven-apartment",
+      "lang": "pl",
+      "width": 390,
+      "htmlDigest": "5ee6995828db98c2931798f9af63e92e7865ed2f2109ad948e41ff81fd742ca1",
+      "result": "identical main, header, footer, title and heading styles"
+    },
+    {
+      "slug": "spisak-studio",
+      "lang": "pl",
+      "width": 390,
+      "htmlDigest": "b4162a4f3898f983531cf00a426bfe7a21235a60489659fa3fa5edf0d8b0582a",
+      "result": "identical main, header, footer, title and heading styles"
+    },
+    {
+      "slug": "ceremonial-arrival",
+      "lang": "pl",
+      "width": 390,
+      "htmlDigest": "c00b0174ac56eae85139c6d5633ca7697c4b2804da665e7de89eab632d3668c6",
+      "result": "identical main, header, footer, title and heading styles"
+    },
+    {
+      "slug": "midnight-garden",
+      "lang": "en",
+      "width": 390,
+      "htmlDigest": "c9ecb747ebb95663ccdf900b67908042ff52ac463541a90a4d90e37c7b215ce5",
+      "result": "identical main, header, footer, title and heading styles"
+    },
+    {
+      "slug": "puerto-banus-residence",
+      "lang": "en",
+      "width": 390,
+      "htmlDigest": "89428854103dfe8a68e2390d0db573c2bdcc76ec5e8429129462c0834cc66f87",
+      "result": "identical main, header, footer, title and heading styles"
+    },
+    {
+      "slug": "private-spa-bathroom",
+      "lang": "en",
+      "width": 390,
+      "htmlDigest": "87e486875e7cd78464d0c8300908a5ca5e35b8dd3a0e8c294c909317194fab78",
+      "result": "identical main, header, footer, title and heading styles"
+    },
+    {
+      "slug": "atmosphere-driven-apartment",
+      "lang": "en",
+      "width": 390,
+      "htmlDigest": "29ea36bbba6780461d73814c8ec76a6efba1b25d2221adcab54cfa074b3e6017",
+      "result": "identical main, header, footer, title and heading styles"
+    },
+    {
+      "slug": "spisak-studio",
+      "lang": "en",
+      "width": 390,
+      "htmlDigest": "a53b8b40192e248a63d991950fde30badc6e0271dccca7c5cb6a5eee25d1b688",
+      "result": "identical main, header, footer, title and heading styles"
+    },
+    {
+      "slug": "ceremonial-arrival",
+      "lang": "en",
+      "width": 390,
+      "htmlDigest": "a59057da916fc6a6f427c6e9c2cf1d7d843c972a0c66f387f7e2e401be2e90f9",
+      "result": "identical main, header, footer, title and heading styles"
+    },
+    {
+      "slug": "midnight-garden",
+      "lang": "es",
+      "width": 390,
+      "htmlDigest": "5e1948f989a072c8b16116e201f4b5f64772d5ba14d496a23c0bea2faf56bc10",
+      "result": "identical main, header, footer, title and heading styles"
+    },
+    {
+      "slug": "puerto-banus-residence",
+      "lang": "es",
+      "width": 390,
+      "htmlDigest": "56172a7ea7963c2d7d25405d47a4b66115fcee8d80abfa918019ffe058b847ff",
+      "result": "identical main, header, footer, title and heading styles"
+    },
+    {
+      "slug": "private-spa-bathroom",
+      "lang": "es",
+      "width": 390,
+      "htmlDigest": "55f56d7017913bb8ce7c9e3edc21df75fc56cafe249e6e07c3da818ba28f58e6",
+      "result": "identical main, header, footer, title and heading styles"
+    },
+    {
+      "slug": "atmosphere-driven-apartment",
+      "lang": "es",
+      "width": 390,
+      "htmlDigest": "e30d755905cd535b334d0a2c3eada721f3d7f5e4368c1d9ec706f335089225d9",
+      "result": "identical main, header, footer, title and heading styles"
+    },
+    {
+      "slug": "spisak-studio",
+      "lang": "es",
+      "width": 390,
+      "htmlDigest": "32d5ab1a56da908256eadd67e0ea067ee6b2473afae4b7ca8a2bef1c77fb28ae",
+      "result": "identical main, header, footer, title and heading styles"
+    },
+    {
+      "slug": "ceremonial-arrival",
+      "lang": "es",
+      "width": 390,
+      "htmlDigest": "2d353eb9662dc617b86e9ebf66989c8402bc714db8337fdae4af5b5d92990a6c",
+      "result": "identical main, header, footer, title and heading styles"
+    },
+    {
+      "slug": "midnight-garden",
+      "lang": "pl",
+      "width": 1440,
+      "htmlDigest": "41990c9c1319c5375f28bf36ce639eb2635c87fb3443d270052764d16a04310f",
+      "result": "identical main, header, footer, title and heading styles"
+    },
+    {
+      "slug": "puerto-banus-residence",
+      "lang": "pl",
+      "width": 1440,
+      "htmlDigest": "73642e8ded2060ffa479dbc32491d57f88fc3c4cb44e268dd9141eaf6b6b1c54",
+      "result": "identical main, header, footer, title and heading styles"
+    },
+    {
+      "slug": "private-spa-bathroom",
+      "lang": "pl",
+      "width": 1440,
+      "htmlDigest": "318dba3aaa4f64c8cbf397124a1da9f5a86fdcb048528cdd3abd198080ae8784",
+      "result": "identical main, header, footer, title and heading styles"
+    },
+    {
+      "slug": "atmosphere-driven-apartment",
+      "lang": "pl",
+      "width": 1440,
+      "htmlDigest": "5ee6995828db98c2931798f9af63e92e7865ed2f2109ad948e41ff81fd742ca1",
+      "result": "identical main, header, footer, title and heading styles"
+    },
+    {
+      "slug": "spisak-studio",
+      "lang": "pl",
+      "width": 1440,
+      "htmlDigest": "b4162a4f3898f983531cf00a426bfe7a21235a60489659fa3fa5edf0d8b0582a",
+      "result": "identical main, header, footer, title and heading styles"
+    },
+    {
+      "slug": "ceremonial-arrival",
+      "lang": "pl",
+      "width": 1440,
+      "htmlDigest": "c00b0174ac56eae85139c6d5633ca7697c4b2804da665e7de89eab632d3668c6",
+      "result": "identical main, header, footer, title and heading styles"
+    },
+    {
+      "slug": "midnight-garden",
+      "lang": "en",
+      "width": 1440,
+      "htmlDigest": "c9ecb747ebb95663ccdf900b67908042ff52ac463541a90a4d90e37c7b215ce5",
+      "result": "identical main, header, footer, title and heading styles"
+    },
+    {
+      "slug": "puerto-banus-residence",
+      "lang": "en",
+      "width": 1440,
+      "htmlDigest": "89428854103dfe8a68e2390d0db573c2bdcc76ec5e8429129462c0834cc66f87",
+      "result": "identical main, header, footer, title and heading styles"
+    },
+    {
+      "slug": "private-spa-bathroom",
+      "lang": "en",
+      "width": 1440,
+      "htmlDigest": "87e486875e7cd78464d0c8300908a5ca5e35b8dd3a0e8c294c909317194fab78",
+      "result": "identical main, header, footer, title and heading styles"
+    },
+    {
+      "slug": "atmosphere-driven-apartment",
+      "lang": "en",
+      "width": 1440,
+      "htmlDigest": "29ea36bbba6780461d73814c8ec76a6efba1b25d2221adcab54cfa074b3e6017",
+      "result": "identical main, header, footer, title and heading styles"
+    },
+    {
+      "slug": "spisak-studio",
+      "lang": "en",
+      "width": 1440,
+      "htmlDigest": "a53b8b40192e248a63d991950fde30badc6e0271dccca7c5cb6a5eee25d1b688",
+      "result": "identical main, header, footer, title and heading styles"
+    },
+    {
+      "slug": "ceremonial-arrival",
+      "lang": "en",
+      "width": 1440,
+      "htmlDigest": "a59057da916fc6a6f427c6e9c2cf1d7d843c972a0c66f387f7e2e401be2e90f9",
+      "result": "identical main, header, footer, title and heading styles"
+    },
+    {
+      "slug": "midnight-garden",
+      "lang": "es",
+      "width": 1440,
+      "htmlDigest": "5e1948f989a072c8b16116e201f4b5f64772d5ba14d496a23c0bea2faf56bc10",
+      "result": "identical main, header, footer, title and heading styles"
+    },
+    {
+      "slug": "puerto-banus-residence",
+      "lang": "es",
+      "width": 1440,
+      "htmlDigest": "56172a7ea7963c2d7d25405d47a4b66115fcee8d80abfa918019ffe058b847ff",
+      "result": "identical main, header, footer, title and heading styles"
+    },
+    {
+      "slug": "private-spa-bathroom",
+      "lang": "es",
+      "width": 1440,
+      "htmlDigest": "55f56d7017913bb8ce7c9e3edc21df75fc56cafe249e6e07c3da818ba28f58e6",
+      "result": "identical main, header, footer, title and heading styles"
+    },
+    {
+      "slug": "atmosphere-driven-apartment",
+      "lang": "es",
+      "width": 1440,
+      "htmlDigest": "e30d755905cd535b334d0a2c3eada721f3d7f5e4368c1d9ec706f335089225d9",
+      "result": "identical main, header, footer, title and heading styles"
+    },
+    {
+      "slug": "spisak-studio",
+      "lang": "es",
+      "width": 1440,
+      "htmlDigest": "32d5ab1a56da908256eadd67e0ea067ee6b2473afae4b7ca8a2bef1c77fb28ae",
+      "result": "identical main, header, footer, title and heading styles"
+    },
+    {
+      "slug": "ceremonial-arrival",
+      "lang": "es",
+      "width": 1440,
+      "htmlDigest": "2d353eb9662dc617b86e9ebf66989c8402bc714db8337fdae4af5b5d92990a6c",
+      "result": "identical main, header, footer, title and heading styles"
+    }
+  ]
+}

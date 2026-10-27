@@ -4,7 +4,7 @@ const fs=require('fs');
 const path=require('path');
 const base=process.env.AOM_BASE_URL||'http://127.0.0.1:4173/';
 const out=path.resolve(__dirname,'../previews');
-const featured=['nocturne','puerto-banus','atmosphere-driven-apartment','private-spa-bathroom'];
+const featured=['the-space-between','nocturne','puerto-banus','atmosphere-driven-apartment','private-spa-bathroom'];
 const ids=page=>page.locator('.interior-card').evaluateAll(cards=>cards.map(card=>card.dataset.interiorId));
 (async()=>{
  const browser=await chromium.launch({executablePath:process.env.CHROMIUM_PATH||'/usr/bin/chromium',args:['--no-sandbox']});
@@ -72,7 +72,7 @@ const ids=page=>page.locator('.interior-card').evaluateAll(cards=>cards.map(card
    }
   }
   await page.goto(new URL('wnetrza.html?lang=en',base).href);await page.locator('#more-interiors').click();
-  assert.equal(await page.locator('.interior-card').count(),11);
+  assert.equal(await page.locator('.interior-card').count(),12);
   assert.equal(await page.locator('.interior-open').count(),5,'Five design studies retained');
   assert.equal(await page.locator('[data-curated-group=studies]').count(),1);
   await page.route('**/catalog.js?*',async route=>{
@@ -82,7 +82,7 @@ const ids=page=>page.locator('.interior-card').evaluateAll(cards=>cards.map(card
   assert.deepEqual(await ids(page),[...featured,'spisak-studio','ceremonial-arrival'],'Curation is independent of catalogue insertion order');
   await page.unroute('**/catalog.js?*');
   assert.deepEqual(errors,[]);
-  const result={date:new Date().toISOString(),languages:['pl','en','es'],commercialTile:'passed',explicitFeaturedOrder:featured,catalogueReverseOrder:'passed',keyboardNavigation:'passed',responsiveChecks,originalPhotos:7,nativePhotoSizesPreserved:true,asymmetricMoodScales:'passed',lightboxChecks,claimedScope:'concept, zones, furnishings, colours, lighting concept and styling',designStudiesRetained:5,portfolioProjects:11,browserErrors:errors};
+  const result={date:new Date().toISOString(),languages:['pl','en','es'],commercialTile:'passed',explicitFeaturedOrder:featured,catalogueReverseOrder:'passed',keyboardNavigation:'passed',responsiveChecks,originalPhotos:7,nativePhotoSizesPreserved:true,asymmetricMoodScales:'passed',lightboxChecks,claimedScope:'concept, zones, furnishings, colours, lighting concept and styling',designStudiesRetained:5,portfolioProjects:12,browserErrors:errors};
   fs.writeFileSync(path.join(out,'spisak-studio-checks.json'),JSON.stringify(result,null,2));console.log(JSON.stringify(result));
  }finally{await browser.close();}
 })().catch(error=>{console.error(error);process.exit(1)});

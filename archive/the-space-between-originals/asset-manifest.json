@@ -1,0 +1,75 @@
+{
+  "project": "The Space Between",
+  "assets": [
+    {
+      "id": "01_hero_master",
+      "role": "hero",
+      "original": "assets/originals/01_hero_master.png",
+      "web": "assets/web/01_hero_master.webp",
+      "width": 2048,
+      "height": 1143,
+      "alt": {
+        "pl": "Główny kadr hero całego salonu i malowidła",
+        "en": "Master hero: full living room and ceiling artwork",
+        "es": "Hero principal: salón y pintura del techo"
+      },
+      "original_sha256": "d16eae404de09b31c88aab409913abc24e5f66629817501ef6e28cc5e376c341"
+    },
+    {
+      "id": "02_editorial_perspective",
+      "role": "perspective",
+      "original": "assets/originals/02_editorial_perspective.png",
+      "web": "assets/web/02_editorial_perspective.webp",
+      "width": 1672,
+      "height": 941,
+      "alt": {
+        "pl": "Szerokie ujęcie perspektywiczne od strony okien",
+        "en": "Editorial angle from the windows",
+        "es": "Vista editorial desde las ventanas"
+      },
+      "original_sha256": "baacd1eb3f48442e102eba3206c8ce870ccf0812df8a07bc3d4a41a4928fe3a5"
+    },
+    {
+      "id": "03_fresco_detail",
+      "role": "fresco",
+      "original": "assets/originals/03_fresco_detail.png",
+      "web": "assets/web/03_fresco_detail.webp",
+      "width": 2048,
+      "height": 1373,
+      "alt": {
+        "pl": "Zbliżenie monumentalnego malowidła i niemal stykających się dłoni",
+        "en": "Close-up of classical ceiling artwork and reaching hands",
+        "es": "Detalle de las figuras clásicas y las manos extendidas"
+      },
+      "original_sha256": "7b3e6de37e6cac9bd0ef33400c19c8c0df1850cc989c3281edf13c7101f777bf"
+    },
+    {
+      "id": "04_material_detail",
+      "role": "material",
+      "original": "assets/originals/04_material_detail.png",
+      "web": "assets/web/04_material_detail.webp",
+      "width": 1649,
+      "height": 2048,
+      "alt": {
+        "pl": "Detal sofy, trawertynowego stolika, tkanin i fragmentu sufitu",
+        "en": "Detail of curved sofa, travertine table, fabrics and ceiling",
+        "es": "Detalle del sofá curvo, mesa de travertino, telas y techo"
+      },
+      "original_sha256": "bcac4180fe3eaae5cca7b857cf40f7cd619f10bdb0e95907d4e878ebee1a6d7a"
+    },
+    {
+      "id": "05_second_hero",
+      "role": "perspective",
+      "original": "assets/originals/05_second_hero.png",
+      "web": "assets/web/05_second_hero.webp",
+      "width": 2048,
+      "height": 1143,
+      "alt": {
+        "pl": "Drugie szerokie ujęcie salonu z freskiem i kamiennym kominkiem",
+        "en": "Secondary wide view with fresco and stone fireplace",
+        "es": "Vista panorámica secundaria con pintura y chimenea de piedra"
+      },
+      "original_sha256": "ec0b98a57f049a27f66073704758073b136b4b4143f90a2050d6609e6af5444c"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "date": "2026-10-27T00:27:57.605Z",
+  "languages": [
+    "pl",
+    "en",
+    "es"
+  ],
+  "responsiveChecks": 18,
+  "lightboxChecks": 15,
+  "approvedCopy": "exact PL/EN/ES",
+  "approvedSequence": [
+    "01_hero_master",
+    "03_fresco_detail",
+    "02_editorial_perspective",
+    "04_material_detail",
+    "05_second_hero"
+  ],
+  "assets": [
+    {
+      "file": "01_hero_master.webp",
+      "sha256": "145d31b238d1371a81d6cb2091cf1db23d88b292d4adc66d7f415b0a9d2262ff",
+      "width": 2048,
+      "height": 1143
+    },
+    {
+      "file": "02_editorial_perspective.webp",
+      "sha256": "612c14823560ca1a9fbca26660636193b91efd19ebc97dc850d3e83d1690213d",
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "file": "03_fresco_detail.webp",
+      "sha256": "b44b3166ab0c47e950c3c2b81c19dd3312ad8d8be2ec9d81dd9b18fc8f055e5a",
+      "width": 2048,
+      "height": 1373
+    },
+    {
+      "file": "04_material_detail.webp",
+      "sha256": "99521e5e28e479c25dd99f26e7f591e1662557b5908fe7b501c2537ec1bbfa01",
+      "width": 1649,
+      "height": 2048
+    },
+    {
+      "file": "05_second_hero.webp",
+      "sha256": "085b99e0ab5846d945c2037f96b2818c276b3714e0e89e7aeba3df16755df8b0",
+      "width": 2048,
+      "height": 1143
+    }
+  ],
+  "source": "Supplied WebP files; light package contains no original PNG files",
+  "fullFrames": true,
+  "heroPriority": "high",
+  "conceptStatus": "visible in opening, card and disclosure",
+  "individualLayout": true,
+  "featuredOrder": [
+    "the-space-between",
+    "nocturne",
+    "puerto-banus",
+    "atmosphere-driven-apartment",
+    "private-spa-bathroom",
+    "spisak-studio",
+    "ceremonial-arrival"
+  ],
+  "portfolioEntries": 12,
+  "existingModalStudies": 5,
+  "localLinks": 30,
+  "browserErrors": []
+}

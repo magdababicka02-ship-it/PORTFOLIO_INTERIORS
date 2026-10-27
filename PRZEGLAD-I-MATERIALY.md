@@ -1,10 +1,10 @@
 # Art of Meaning — wdrożenie i materiały
-Stan: 25 października 2026 r.
+Stan: 27 października 2026 r.
 
 ## Wdrożone strony
 - `index.html` — Portfolio / strona główna: film, trzy obszary twórczości, sekcja Magdaleny, stopka.
 - `murale.html` — hero wideo, trzy szerokie realizacje z oryginalnymi ikonami, gwiazdkami, filmami i parametrami, proces w siatce 2 × 2, kontakt.
-- `wnetrza.html` — hero, cztery zakresy współpracy, miejsce na dokumenty, kuratorowane portfolio i filtry, sześć podstron projektów i pięć zachowanych studiów bez podstron, suwak, kontakt.
+- `wnetrza.html` — hero, cztery zakresy współpracy, miejsce na dokumenty, kuratorowane portfolio i filtry, siedem podstron projektów i pięć zachowanych studiów bez podstron, suwak, kontakt.
 - `midnight-garden.html` — osobna podstrona projektu z hero, opisem i metryką z dokumentu właścicielki, wizualizacjami wnętrza i ogrodu, powiększaniem obrazów oraz studium sufitu bez malowidła i z malowidłem.
 - `obrazy-na-zamowienie.html` — cztery pierwsze obrazy zgodnie z makietą, pełna kolekcja dwunastu prac po rozwinięciu, filtry, stale widoczne ceny ośmiu obrazów, sekcja zamówień. Alias: `malarstwo.html`.
 - `kontakt.html` — układ z makiety z granatowym headerem, formularz POST na contact@artofmeaning.art przez FormSubmit, kontakt bezpośredni i social media.
@@ -94,6 +94,17 @@ Stan: 25 października 2026 r.
 - Angielskie wezwania do kontaktu mają profesjonalny, prosty ton („Discuss your project”, „Arrange a consultation”, „Contact me”). Wersja hiszpańska ma słownik 220 tekstów interfejsu oraz 90 pól językowych katalogu, w tym pełne opisy obrazów, murali, koncepcji i autentyczne opinie. Tłumaczenia opinii są oznaczone; autorzy i teksty źródłowe PL/EN pozostają zachowane.
 - Formularz przekazuje kod języka wraz z zapytaniem, dzięki czemu odbiorczyni wie, w jakiej wersji strony zostało przygotowane zgłoszenie. Dane odbiorcy i sposób aktywacji pozostają zgodne z sekcją formularza powyżej.
 - Sprawdzono wszystkie 23 aktywne podstrony w ES na desktopie i telefonie (46 kontroli), zachowanie kontekstu przy przełączaniu PL/EN/ES, pełną jakość portretu, zgodność opisów kafli z referencją oraz hiszpańską walidację i reakcje formularza na akceptację i odmowę wysyłki. Żadnej prawdziwej wiadomości nie wysłano.
+
+## The Space Between — nowy projekt flagowy
+
+- Dodano `the-space-between.html` w Residential z własnym monumentalnym układem editorial i oryginalnymi tekstami PL/EN/ES. Wszystkie pięć zatwierdzonych WebP zachowuje bajty źródłowe i pełne proporcje. Brak filtrów, retuszu, generowanych grafik i zmian malowidła. Tytuł znajduje się poza obrazem.
+- Sekwencja: 01 hero → manifest → 03 malowidło i cytat → 02 perspektywa → 04 pionowy detal materiałów → 05 szerokie zamknięcie → opis, kredyt, zakres i kontakt. Obrazy można powiększyć klawiaturą, a zamknięcie oddaje fokus.
+- Status koncepcji widoczny na karcie, przy otwarciu i w objaśnieniu końcowym. Nie dodano lokalizacji, metrażu, dat, marek ani zdjęć ukończonej realizacji.
+- Pierwszy projekt wyróżniony zgodnie z briefem. Wszystkie wcześniejsze rangi przesunięto o jedną pozycję, zachowując ich wzajemną kolejność i dotychczasowe kategorie. Pełne portfolio: 12 wpisów, w tym 7 osobnych podstron i 5 wcześniejszych studiów w oknach dialogowych.
+- Archiwum zawiera dokładny brief i JSON oraz manifest sum kontrolnych dostarczonych WebP. Paczka Light nie zawiera PNG oryginałów; brak tych plików nie blokuje publikacji zatwierdzonych WebP.
+- Podglądy: `previews/the-space-between-desktop.png`, `previews/the-space-between-mobile.png`. Wyniki testów: `previews/the-space-between-checks.json`, `previews/the-space-between-preservation-checks.json`.
+- Weryfikacja: 18 kombinacji szerokości 320/375/390/768/1440/1920 × PL/EN/ES, 15 powiększeń z klawiaturą i oddaniem fokusu, 30 lokalnych linków z nowej podstrony. Wszystkie pięć plików ma sumę SHA-256 identyczną ze źródłem. 36 porównań wcześniejszych sześciu projektów daje identyczny HTML głównej treści, headera i stopki oraz styl nagłówka. Stare dane katalogu pozostają identyczne po pominięciu zamierzonego przesunięcia rang.
+- Test ogólny: 30 widoków stron głównych, 23 trasy szczegółowe, 52 lokalne linki i scenariusze interakcji przeszły. Test językowy: 58 sprawdzeń ES dla 29 aktywnych stron; brak błędów JavaScript i brakujących tłumaczeń. Wysyłka formularza była przechwycona w teście, bez rzeczywistych e-maili. Nie mierzono metryk Core Web Vitals na produkcji.
 
 ## Ceremonial Arrival — Marbella Hall Study
 

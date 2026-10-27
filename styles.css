@@ -79,6 +79,87 @@
 .project-viewer img{display:block;max-height:70vh;object-fit:contain;width:100%;height:auto}
 .project-viewer .arrow-link{font-size:12px;margin-top:20px}
 .studio-viewer img,.native-viewer img{width:auto;height:auto;max-width:100%;max-height:70vh;margin-inline:auto}
+/* The Space Between: art exposition, full frames and a measured editorial rhythm. */
+.space-project{background:var(--cream);color:var(--navy)}
+.space-project .space-index,.space-opening-index{font-size:9px;line-height:1.8;letter-spacing:.15em;text-transform:uppercase}
+.space-opening-index{display:flex;justify-content:space-between;gap:24px;padding-block:22px}
+.space-project .project-visual{position:relative;min-width:0}
+.space-project .project-image-open{background:transparent;overflow:visible;color:inherit}
+.space-project .project-image-open img{height:auto;object-fit:contain;filter:none;transform:none}
+.space-project .project-image-action{position:static;justify-content:flex-end;min-height:40px;padding:10px 0;background:transparent;border:0;color:inherit;font-size:9px;gap:12px}
+.space-project .project-image-action>span{font-size:18px}
+.space-project .project-visual figcaption{position:absolute;left:0;bottom:12px;margin:0;max-width:56%;font-size:9px;line-height:1.5;color:inherit}
+.space-project .space-hero{max-width:2048px;margin-inline:auto}
+.space-project .space-hero .project-image-action,.space-project .space-hero figcaption{padding-inline:var(--gutter)}
+.space-project .space-hero figcaption{max-width:60%}
+.space-project .space-manifesto{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,.9fr);gap:8vw;padding-block:100px 115px}
+.space-project .space-manifesto>*{min-width:0}
+.space-project .space-index{margin-bottom:25px}
+.space-project h1{font-size:clamp(42px,6.2vw,96px);line-height:1.1;letter-spacing:-.025em;overflow-wrap:normal}
+.space-project .space-subtitle{max-width:440px;margin-top:30px;font-size:11px;line-height:1.9;letter-spacing:.1em;text-transform:uppercase}
+.space-project .space-manifesto-copy{padding-top:42px;border-top:1px solid var(--gold)}
+.space-project .space-lead{font:400 clamp(23px,2.3vw,34px)/1.5 var(--serif);margin-bottom:30px}
+.space-project .space-body{font-size:13px;line-height:2;max-width:65ch}
+.space-project .space-credit{font-size:10px;letter-spacing:.04em;margin-top:30px}
+.space-project .space-status{font-size:10px;line-height:1.8;margin-top:9px}
+.space-project h2{font-size:clamp(29px,3.2vw,48px);line-height:1.25}
+.space-project .space-art{background:var(--navy);color:var(--cream);padding-block:85px 110px}
+.space-project .space-art>.wrap{max-width:1450px}
+.space-project .space-art>.wrap>.space-index{color:var(--muted)}
+.space-project .space-fresco{width:87%;margin-right:auto}
+.space-project .space-statement{font:400 clamp(32px,4.3vw,64px)/1.35 var(--serif);margin:75px 0 75px auto;padding-left:5vw;max-width:1000px;border-left:1px solid var(--gold)}
+.space-project .space-art-reading{display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr);gap:8vw;max-width:1100px;margin-left:auto}
+.space-project .space-art-reading .space-body{color:var(--muted)}
+.space-project .space-perspective{max-width:1672px;margin-inline:auto;padding-top:75px}
+.space-project .space-perspective .project-image-action{padding-right:var(--gutter)}
+.space-project .space-perspective figcaption{padding-left:var(--gutter)}
+.space-project .space-materials{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,.9fr);gap:10vw;align-items:center;padding-block:100px 120px;max-width:1400px}
+.space-project .space-material-portrait{max-width:600px}
+.space-project .space-material-copy{min-width:0;max-width:440px}
+.space-project .space-material-copy .space-body{margin-top:30px}
+.space-project .space-final-visual{max-width:1800px;margin-inline:auto}
+.space-project .space-final-visual .project-image-action{padding-right:var(--gutter)}
+.space-project .space-final-visual figcaption{padding-left:var(--gutter)}
+.space-project .space-closing-copy{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:10vw;padding-block:85px 90px}
+.space-project .space-scope{list-style:none;padding:0;margin:24px 0 0;display:flex;flex-wrap:wrap;gap:8px 20px}
+.space-project .space-scope li{font-size:10px;line-height:1.8}
+.space-project .space-invitation{padding-block:70px 80px;border-top:1px solid rgba(7,23,44,.2)}
+.space-project .space-invitation h2{font-size:clamp(30px,4vw,58px);max-width:1000px}
+.space-project .space-actions{display:flex;align-items:center;flex-wrap:wrap;gap:25px 45px;margin-top:35px}
+.space-project .space-actions .arrow-link{font-size:12px}
+.space-project .space-disclosure{font-size:10px;line-height:1.9;max-width:750px;margin-top:45px}
+.interior-card[data-interior-id="the-space-between"]{grid-column:1/-1}
+.interior-card[data-interior-id="the-space-between"] .interior-mask{aspect-ratio:2048/1143}
+.interior-card[data-interior-id="the-space-between"] .interior-mask img{object-fit:contain}
+@media(max-width:1000px){
+ .space-project .space-manifesto{gap:5vw;padding-block:65px 80px}
+ .space-project h1{font-size:clamp(40px,6vw,65px)}
+ .space-project .space-fresco{width:100%}
+ .space-project .space-materials{gap:6vw;padding-block:70px 85px}
+ .space-project .space-statement{max-width:850px;margin-block:55px}
+}
+@media(max-width:650px){
+ .space-opening-index{padding-block:16px;font-size:8px;gap:16px}
+ .space-opening-index>span:last-child{display:none}
+ .space-project .space-manifesto{grid-template-columns:1fr;gap:35px;padding-block:45px 60px}
+ .space-project h1{font-size:clamp(36px,9.5vw,58px)}
+ .space-project .space-subtitle{margin-top:22px;max-width:340px;font-size:10px}
+ .space-project .space-manifesto-copy{padding-top:30px}
+ .space-project .space-lead{font-size:24px}
+ .space-project .space-body{font-size:13px;line-height:1.9}
+ .space-project .space-art{padding-block:50px 60px}
+ .space-project .space-statement{font-size:32px;margin-block:40px;padding-left:22px}
+ .space-project .space-art-reading{grid-template-columns:1fr;gap:22px}
+ .space-project .space-perspective{padding-top:40px}
+ .space-project .space-materials{grid-template-columns:1fr;gap:35px;padding-block:50px 65px}
+ .space-project .space-material-portrait{max-width:420px}
+ .space-project .space-closing-copy{grid-template-columns:1fr;gap:28px;padding-block:45px 55px}
+ .space-project .space-invitation{padding-block:45px 55px}
+ .space-project .space-actions{align-items:flex-start;flex-direction:column;gap:20px}
+ .space-project .space-disclosure{margin-top:32px}
+ .space-project .project-visual figcaption{position:static;max-width:none;padding:0;font-size:9px}
+ .space-project .space-hero figcaption,.space-project .space-perspective figcaption,.space-project .space-final-visual figcaption{padding-inline:var(--gutter)}
+}
 .arrival-project{background:var(--cream);color:var(--navy)}
 .arrival-project .arrival-hero{display:grid;grid-template-columns:minmax(0,.38fr) minmax(0,.62fr);align-items:end;max-width:1800px;margin-inline:auto}
 .arrival-project .arrival-hero-copy{padding:55px 3vw 65px var(--gutter);min-width:0}
