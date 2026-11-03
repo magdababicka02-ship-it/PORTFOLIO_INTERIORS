@@ -1,5 +1,8 @@
 /* Spanish interface copy. Artwork descriptions are localized in catalog.js. */
 window.AOM_ES = {
+  "Selected": "Seleccionados",
+  "Residential": "Residencial",
+  "Art & Design": "Arte y diseño",
   "Translated from English": "Traducido del inglés",
   "Translated from Polish": "Traducido del polaco",
   "Testimonials": "Testimonios",
@@ -108,7 +111,6 @@ window.AOM_ES = {
   "Project questionnaire": "Cuestionario del proyecto",
   "Selected spaces": "Espacios seleccionados",
   "Filter interiors": "Filtrar interiores",
-  "Residential": "Residenciales",
   "Commercial": "Comerciales",
   "New projects": "Nuevos proyectos",
   "Room for new spaces": "Un lugar para nuevos espacios",

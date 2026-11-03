@@ -1,0 +1,115 @@
+{
+  "date": "2026-11-03T22:14:30.850Z",
+  "languages": [
+    "pl",
+    "en",
+    "es"
+  ],
+  "featuredSeparateFromCategory": true,
+  "filterChecks": 30,
+  "expected": {
+    "selected": [
+      "the-space-between",
+      "nocturne",
+      "living",
+      "art-of-meaning-artisheat",
+      "natura-w-reliefie"
+    ],
+    "all": [
+      "the-space-between",
+      "nocturne",
+      "living",
+      "art-of-meaning-artisheat",
+      "natura-w-reliefie",
+      "puerto-banus",
+      "private-spa-bathroom",
+      "atmosphere-driven-apartment",
+      "spisak-studio",
+      "ceremonial-arrival",
+      "reception",
+      "fresco"
+    ],
+    "residential": [
+      "the-space-between",
+      "living",
+      "puerto-banus",
+      "private-spa-bathroom",
+      "atmosphere-driven-apartment",
+      "ceremonial-arrival",
+      "fresco"
+    ],
+    "hospitality": [
+      "nocturne",
+      "reception"
+    ],
+    "art-design": [
+      "art-of-meaning-artisheat",
+      "natura-w-reliefie",
+      "spisak-studio"
+    ]
+  },
+  "visibleProjectCount": 12,
+  "natureRelief": "six concepts, neutral collaboration credit, no price or PDF",
+  "removedTile": "patio",
+  "mergedTile": "dressing → living / light-and-matter.html",
+  "existingProjectData": "all seven existing detail records unchanged",
+  "artisHeatAssets": [
+    {
+      "file": "01-relief-klasyczny.jpg",
+      "sha256": "2ad242cff2fe97c70f520beceb63f3b1f9d3cba5e9dbc3f5d6fafb053be815de"
+    },
+    {
+      "file": "02-gory-zimowe.jpg",
+      "sha256": "6a2d3c31e3e178c83fcd9e76b250a33ff7c8bf6878280909cbf80644a75a040d"
+    },
+    {
+      "file": "03-gory-naturalne.jpg",
+      "sha256": "c967dc567d76ddc31d80399bcf5c1ccf97c3d3d24dcaccb968de787503a738fd"
+    },
+    {
+      "file": "04-portret-organiczny.jpg",
+      "sha256": "bd666d7dbe9ac7ba18fd051bbe37c59e5dd5f69ea6eb71d4c2c3ca8621e29937"
+    },
+    {
+      "file": "05-gory-cieple-swiatlo.jpg",
+      "sha256": "c6cbbff0bb3ba47b627ed994fbff3b2bd22044d2925b05e3ad7c233d3dc59add"
+    },
+    {
+      "file": "06-kompozycja-klasyczna.jpg",
+      "sha256": "5e5d423ce90ee3d4126e0478c2c6dcf535733dfdeb59a01ee7935f173b53ecf2"
+    }
+  ],
+  "natureAssets": [
+    {
+      "file": "01-lobby-portal.jpg",
+      "sha256": "3619f2646c2f78db0d87b13eff2fcd60d90890c40db81541d0d7cf46a85edaca"
+    },
+    {
+      "file": "02-salon-pejzaz.jpg",
+      "sha256": "192f3c3daec769e2fda3645f76e63fce8e22526d2c44d424a4667733a86f598c"
+    },
+    {
+      "file": "03-studio-fale.jpg",
+      "sha256": "919fb3a2e41d42b86688f45aa648661de3e55929f6f0df64e5979d466f59afe2"
+    },
+    {
+      "file": "04-lobby-postac.jpg",
+      "sha256": "b66c57566c49fceaad5622b8b2bb53e4038d00aaf09cc70e894baacb167679f9"
+    },
+    {
+      "file": "05-jadalnia-drzewo.jpg",
+      "sha256": "f1b883e4ee0fe6722badfd22278e8a7be3604e6282c1e2a1af69312d01adcde1"
+    },
+    {
+      "file": "06-sypialnia-drzewo.jpg",
+      "sha256": "4338033ad328d4cede7526c26d23ec7c151b7847f91d9ca0a81fd4f7cc3ff377"
+    }
+  ],
+  "price": "composition from EUR 10,000; no invented tax or technical parameters",
+  "video": "Both future video branches checked with injected existing local clip: one player, controls, playsinline, metadata and paused; public pages remain poster-only.",
+  "responsiveChecks": 60,
+  "lightboxChecks": 42,
+  "localLinks": 23,
+  "browserErrors": [],
+  "mobileSingleColumnChecks": 30
+}

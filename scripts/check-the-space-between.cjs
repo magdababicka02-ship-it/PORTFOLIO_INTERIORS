@@ -11,7 +11,7 @@ const source=path.join(root,'archive/the-space-between-originals');
 const copy=JSON.parse(fs.readFileSync(path.join(source,'project-content.pl-en-es.json')));
 const hash=buffer=>crypto.createHash('sha256').update(buffer).digest('hex');
 const normalize=value=>value.replace(/\s+/g,' ').trim();
-const ordered=['the-space-between','nocturne','puerto-banus','atmosphere-driven-apartment','private-spa-bathroom','spisak-studio','ceremonial-arrival'];
+const ordered=['the-space-between','nocturne','living','art-of-meaning-artisheat','natura-w-reliefie'];
 const loadCatalog=source=>{const context={window:{}};vm.runInNewContext(source,context);return JSON.parse(JSON.stringify(context.window.AOM));};
 (async()=>{
  const catalog=loadCatalog(fs.readFileSync(path.join(root,'catalog.js'),'utf8'));
@@ -35,8 +35,8 @@ const loadCatalog=source=>{const context={window:{}};vm.runInNewContext(source,c
    assert.deepEqual(await page.locator('.interior-card').evaluateAll(cards=>cards.map(card=>card.dataset.interiorId)),ordered);
    const tile=page.locator('[data-interior-id=the-space-between]');
    assert.equal(await tile.locator('small').textContent(),copy.category[lang]);
-   await page.locator('[data-interior-filter=commercial]').click();
-   assert.equal(await tile.count(),0,'Not categorised as commercial');
+   await page.locator('[data-interior-filter=hospitality]').click();
+   assert.equal(await tile.count(),0,'Not categorised as hospitality');
    await page.locator('[data-interior-filter=residential]').click();
    assert.equal(await tile.count(),1);assert.equal(await page.locator('.interior-card').count(),7);
    await tile.locator('a.interior-overlay').focus();await page.keyboard.press('Enter');
@@ -92,8 +92,8 @@ const loadCatalog=source=>{const context={window:{}};vm.runInNewContext(source,c
    if(lang==='pl'&&[390,1440].includes(width))await page.screenshot({path:path.join(out,'the-space-between-'+(width===390?'mobile':'desktop')+'.png'),fullPage:true});
    responsiveChecks++;
   }
-  await page.goto(new URL('wnetrza.html?lang=en',base).href);await page.locator('#more-interiors').click();
-  assert.equal(await page.locator('.interior-card').count(),12);assert.equal(await page.locator('.interior-open').count(),5);
+  await page.goto(new URL('wnetrza.html?lang=en',base).href);await page.locator('[data-interior-filter=all]').click();
+  assert.equal(await page.locator('.interior-card').count(),12);assert.equal(await page.locator('.interior-open').count(),2);
   const urls=new Set();
   for(const lang of ['pl','en','es']){
    await page.goto(new URL('the-space-between.html?lang='+lang,base).href);
@@ -101,7 +101,7 @@ const loadCatalog=source=>{const context={window:{}};vm.runInNewContext(source,c
   }
   for(const url of urls){const response=await page.request.get(url);assert.ok(response.ok(),url+' returns '+response.status());localLinks++;}
   assert.deepEqual(errors,[]);
-  const result={date:new Date().toISOString(),languages:['pl','en','es'],responsiveChecks,lightboxChecks,approvedCopy:'retained narrative PL/EN/ES; repeated invitation, scope and explanatory footer removed',approvedSequence:copy.recommendedSequence.map(i=>i.asset),assets:integrity,source:'Supplied WebP files; light package contains no original PNG files',fullFrames:true,heroPriority:'high',conceptStatus:'one discreet opening label and portfolio card',individualLayout:true,featuredOrder:ordered,portfolioEntries:12,existingModalStudies:5,localLinks,browserErrors:errors};
+  const result={date:new Date().toISOString(),languages:['pl','en','es'],responsiveChecks,lightboxChecks,approvedCopy:'retained narrative PL/EN/ES; repeated invitation, scope and explanatory footer removed',approvedSequence:copy.recommendedSequence.map(i=>i.asset),assets:integrity,source:'Supplied WebP files; light package contains no original PNG files',fullFrames:true,heroPriority:'high',conceptStatus:'one discreet opening label and portfolio card',individualLayout:true,featuredOrder:ordered,portfolioEntries:12,existingModalStudies:2,localLinks,browserErrors:errors};
   fs.writeFileSync(path.join(out,'the-space-between-checks.json'),JSON.stringify(result,null,2));console.log(JSON.stringify(result));
  }finally{await browser.close();}
 })().catch(error=>{console.error(error);process.exit(1)});

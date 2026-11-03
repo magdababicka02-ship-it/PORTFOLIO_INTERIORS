@@ -1,0 +1,175 @@
+{
+  "schemaVersion": 1,
+  "id": "natura-w-reliefie",
+  "slug": "natura-w-reliefie",
+  "featured": true,
+  "category": "art-design",
+  "categoryLabel": {
+    "pl": "Sztuka i design",
+    "en": "Art & Design"
+  },
+  "title": {
+    "pl": "Natura w reliefie",
+    "en": "Nature in Relief"
+  },
+  "subtitle": {
+    "pl": "Drewno, mech i malarstwo",
+    "en": "Wood, moss and painting"
+  },
+  "shortDescription": {
+    "pl": "Kolekcja koncepcji ściennych łączących malarstwo, przestrzenną formę drewna i fakturę mchu.",
+    "en": "A collection of wall concepts combining painting, sculptural wooden forms and the texture of moss."
+  },
+  "status": "concept_visualisations",
+  "statusLabel": {
+    "pl": "Koncepcje / wizualizacje",
+    "en": "Concepts / visualisations"
+  },
+  "credits": {
+    "pl": "Projekty opracowane w ramach współpracy koncepcyjnej.",
+    "en": "Projects developed as part of a conceptual collaboration."
+  },
+  "cover": "images/01-lobby-portal.jpg",
+  "bodyFiles": {
+    "pl": "content/opis_PL.md",
+    "en": "content/description_EN.md"
+  },
+  "introVideo": {
+    "src": null,
+    "targetPath": "video/intro-9x16.mp4",
+    "aspectRatio": "9:16",
+    "placement": "after_title_before_gallery",
+    "poster": "images/01-lobby-portal.jpg",
+    "controls": true,
+    "playsInline": true,
+    "autoplay": false,
+    "preload": "metadata",
+    "maxWidthPx": 360,
+    "emptyState": "poster_without_play_button",
+    "caption": {
+      "pl": "Wideo o kolekcji",
+      "en": "Collection video"
+    }
+  },
+  "gallery": [
+    {
+      "src": "images/01-lobby-portal.jpg",
+      "width": 2048,
+      "height": 2048,
+      "title": {
+        "pl": "Portal natury",
+        "en": "Nature portal"
+      },
+      "alt": {
+        "pl": "Koncepcja lobby z wirową kompozycją malarską, drewnianą formą, mchem i podświetleniem.",
+        "en": "Lobby concept with a swirling painted composition, a wooden form, moss and lighting."
+      },
+      "caption": {
+        "pl": "Koncepcja / wizualizacja",
+        "en": "Concept / visualisation"
+      },
+      "status": "concept_visualisation"
+    },
+    {
+      "src": "images/02-salon-pejzaz.jpg",
+      "width": 2048,
+      "height": 1143,
+      "title": {
+        "pl": "Leśny pejzaż",
+        "en": "Forest landscape"
+      },
+      "alt": {
+        "pl": "Koncepcja salonu łącząca leśny pejzaż malarski z przestrzenną formą drewna i mchem.",
+        "en": "Living room concept combining a painted forest landscape with a sculptural wooden form and moss."
+      },
+      "caption": {
+        "pl": "Koncepcja / wizualizacja",
+        "en": "Concept / visualisation"
+      },
+      "status": "concept_visualisation"
+    },
+    {
+      "src": "images/03-studio-fale.jpg",
+      "width": 2048,
+      "height": 2048,
+      "title": {
+        "pl": "Rytm fal",
+        "en": "Rhythm of waves"
+      },
+      "alt": {
+        "pl": "Koncepcja przestrzeni jogi z malarskim motywem fal, drewnem i mchem.",
+        "en": "Yoga space concept with a painted wave motif, wood and moss."
+      },
+      "caption": {
+        "pl": "Koncepcja / wizualizacja",
+        "en": "Concept / visualisation"
+      },
+      "status": "concept_visualisation"
+    },
+    {
+      "src": "images/04-lobby-postac.jpg",
+      "width": 2048,
+      "height": 2048,
+      "title": {
+        "pl": "Postać i natura",
+        "en": "Figure and nature"
+      },
+      "alt": {
+        "pl": "Koncepcja lobby z motywem postaci, organiczną formą drewnianą i akcentami mchu.",
+        "en": "Lobby concept featuring a figure, an organic wooden form and moss accents."
+      },
+      "caption": {
+        "pl": "Koncepcja / wizualizacja",
+        "en": "Concept / visualisation"
+      },
+      "status": "concept_visualisation"
+    },
+    {
+      "src": "images/05-jadalnia-drzewo.jpg",
+      "width": 2048,
+      "height": 2048,
+      "title": {
+        "pl": "Drzewo w jadalni",
+        "en": "A tree in the dining room"
+      },
+      "alt": {
+        "pl": "Koncepcja jadalni z kompozycją ścienną inspirowaną drzewem, łączącą malarstwo, drewno i mech.",
+        "en": "Dining room concept with a tree-inspired wall composition combining painting, wood and moss."
+      },
+      "caption": {
+        "pl": "Koncepcja / wizualizacja",
+        "en": "Concept / visualisation"
+      },
+      "status": "concept_visualisation"
+    },
+    {
+      "src": "images/06-sypialnia-drzewo.jpg",
+      "width": 2048,
+      "height": 2048,
+      "title": {
+        "pl": "Gałęzie i światło",
+        "en": "Branches and light"
+      },
+      "alt": {
+        "pl": "Koncepcja sypialni z motywem drzewa, delikatnym malarstwem i przestrzennymi akcentami drewna i mchu.",
+        "en": "Bedroom concept featuring a tree motif, delicate painting and sculptural accents of wood and moss."
+      },
+      "caption": {
+        "pl": "Koncepcja / wizualizacja",
+        "en": "Concept / visualisation"
+      },
+      "status": "concept_visualisation"
+    }
+  ],
+  "contact": {
+    "email": "contact@artofmeaning.art",
+    "href": "mailto:contact@artofmeaning.art",
+    "cta": {
+      "pl": "Porozmawiajmy o koncepcji",
+      "en": "Discuss a concept"
+    }
+  },
+  "price": null,
+  "productionLeadTime": null,
+  "technicalSpecification": null
+}

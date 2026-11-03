@@ -13,9 +13,8 @@ const out=path.resolve(__dirname,'../previews');
   page.on('console',message=>{if(message.text().startsWith('Missing Spanish translation:'))errors.push(message.text());});
   for(const lang of ['pl','en','es']){
    await page.goto(new URL('wnetrza.html?lang='+lang,base).href);
-   assert.deepEqual(await page.locator('.interior-card').evaluateAll(cards=>cards.map(card=>card.dataset.interiorId)),['the-space-between','nocturne','puerto-banus','atmosphere-driven-apartment','private-spa-bathroom','spisak-studio','ceremonial-arrival']);
-   assert.equal(await page.locator('[data-curated-group=studies]').count(),1);
-   await page.locator('[data-interior-filter=commercial]').click();
+   assert.deepEqual(await page.locator('.interior-card').evaluateAll(cards=>cards.map(card=>card.dataset.interiorId)),['the-space-between','nocturne','living','art-of-meaning-artisheat','natura-w-reliefie']);
+   await page.locator('[data-interior-filter=hospitality]').click();
    assert.equal(await page.locator('.interior-card[data-interior-id=ceremonial-arrival]').count(),0);
    await page.locator('[data-interior-filter=residential]').click();
    const tile=page.locator('.interior-card[data-interior-id=ceremonial-arrival]');assert.equal(await tile.count(),1);
@@ -71,11 +70,11 @@ const out=path.resolve(__dirname,'../previews');
     responsiveChecks++;
    }
   }
-  await page.goto(new URL('wnetrza.html?lang=en',base).href);await page.locator('#more-interiors').click();
+  await page.goto(new URL('wnetrza.html?lang=en',base).href);await page.locator('[data-interior-filter=all]').click();
   assert.equal(await page.locator('.interior-card').count(),12);
   assert.equal(await page.locator('.interior-open').count(),5,'Existing studies retained');
   assert.deepEqual(errors,[]);
-  const result={date:new Date().toISOString(),languages:['pl','en','es'],residentialStudy:'passed',existingRelativeOrderPreserved:true,responsiveChecks,alternativeProposals:3,equalTriptychWeight:true,displayedAssets:3,retainedSourceAssets:5,lightboxChecks,conceptStatusAndNovaCredit:'visible',spatialDiagram:'removed from public presentation',lowResolutionReference:'removed from public presentation',existingStudiesRetained:5,portfolioEntries:12,browserErrors:errors};
+  const result={date:new Date().toISOString(),languages:['pl','en','es'],residentialStudy:'passed',existingRelativeOrderPreserved:true,responsiveChecks,alternativeProposals:3,equalTriptychWeight:true,displayedAssets:3,retainedSourceAssets:5,lightboxChecks,conceptStatusAndNovaCredit:'visible',spatialDiagram:'removed from public presentation',lowResolutionReference:'removed from public presentation',existingStudiesRetained:2,portfolioEntries:12,browserErrors:errors};
   fs.writeFileSync(path.join(out,'ceremonial-arrival-checks.json'),JSON.stringify(result,null,2));console.log(JSON.stringify(result));
  }finally{await browser.close();}
 })().catch(error=>{console.error(error);process.exit(1)});

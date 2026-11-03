@@ -422,7 +422,7 @@ window.AOM = {
         "Midnight Garden",
         "Midnight Garden"
       ],
-      "type": "commercial",
+      "type": "hospitality",
       "projectPage": "midnight-garden.html",
       "project": {
         "slug": "midnight-garden",
@@ -649,7 +649,8 @@ window.AOM = {
         }
       },
       "curatedRank": 2,
-      "featuredRank": 2
+      "category": "hospitality",
+      "featured": true
     },
     {
       "id": "puerto-banus",
@@ -659,7 +660,7 @@ window.AOM = {
         "Puerto Banús Residence",
         "Puerto Banús Residence"
       ],
-      "type": "commercial",
+      "type": "residential",
       "projectPage": "puerto-banus-residence.html",
       "project": {
         "slug": "puerto-banus-residence",
@@ -1020,8 +1021,9 @@ window.AOM = {
           }
         ]
       },
-      "curatedRank": 3,
-      "featuredRank": 3
+      "curatedRank": 6,
+      "category": "residential",
+      "featured": false
     },
     {
       "id": "private-spa-bathroom",
@@ -1533,8 +1535,9 @@ window.AOM = {
         },
         "completedPhotography": []
       },
-      "curatedRank": 5,
-      "featuredRank": 5
+      "curatedRank": 7,
+      "category": "residential",
+      "featured": false
     },
     {
       "id": "atmosphere-driven-apartment",
@@ -1943,14 +1946,14 @@ window.AOM = {
           "Distribución del espacio"
         ]
       },
-      "curatedRank": 4,
-      "featuredRank": 4
+      "curatedRank": 8,
+      "category": "residential",
+      "featured": false
     },
     {
       "id": "spisak-studio",
-      "type": "commercial",
-      "curatedRank": 6,
-      "editorialGroup": "creative",
+      "type": "art-design",
+      "curatedRank": 9,
       "image": "spisak-studio/02_studio_overview.jpg",
       "title": [
         "SPISAK STUDIO",
@@ -2269,7 +2272,9 @@ window.AOM = {
             "Consulte sobre su espacio creativo"
           ]
         }
-      }
+      },
+      "category": "art-design",
+      "featured": false
     },
     {
       "id": "ceremonial-arrival",
@@ -2280,8 +2285,7 @@ window.AOM = {
         "Ceremonial Arrival"
       ],
       "type": "residential",
-      "editorialGroup": "study",
-      "curatedRank": 7,
+      "curatedRank": 10,
       "isStudy": true,
       "projectPage": "ceremonial-arrival.html",
       "project": {
@@ -2602,7 +2606,9 @@ window.AOM = {
             "Consulte sobre su proyecto de interiorismo"
           ]
         }
-      }
+      },
+      "category": "residential",
+      "featured": false
     },
     {
       "id": "reception",
@@ -2612,17 +2618,108 @@ window.AOM = {
         "Reception with a painted ceiling",
         "Recepción con un techo pintado"
       ],
-      "type": "commercial"
+      "type": "hospitality",
+      "category": "hospitality",
+      "featured": false,
+      "curatedRank": 11
     },
     {
       "id": "living",
       "image": "interior-living.png",
       "title": [
-        "Salon w ciepłym świetle",
-        "A living room in warm light",
-        "Un salón bañado en luz cálida"
+        "Światło i materia",
+        "Light & Matter",
+        "Luz y materia"
       ],
-      "type": "residential"
+      "type": "residential",
+      "category": "residential",
+      "featured": true,
+      "curatedRank": 3,
+      "projectPage": "light-and-matter.html",
+      "project": {
+        "slug": "light-and-matter",
+        "kind": "light-matter",
+        "status": [
+          "Studium wnętrza",
+          "Interior concept study",
+          "Estudio conceptual de interior"
+        ],
+        "shortStatus": [
+          "Salon i garderoba",
+          "Living room & dressing room",
+          "Salón y vestidor"
+        ],
+        "seoTitle": [
+          "Światło i materia",
+          "Light & Matter",
+          "Luz y materia"
+        ],
+        "seoDescription": [
+          "Światło i materia — salon i garderoba w jednej opowieści o kamieniu, drewnie i miękkim świetle. Autorska koncepcja Art of Meaning.",
+          "Light & Matter — a living room and dressing room united by stone, wood and soft light. An Art of Meaning interior concept.",
+          "Luz y materia — salón y vestidor unidos por la piedra, la madera y una luz suave. Un concepto de interior de Art of Meaning."
+        ],
+        "hero": {
+          "image": "interior-living.png",
+          "width": 1424,
+          "height": 752,
+          "kind": "visualisation",
+          "caption": [
+            "Światło i materia",
+            "Light & Matter",
+            "Luz y materia"
+          ],
+          "alt": [
+            "Salon z ciemnym kamieniem, jasnymi sofami i ciepłym światłem",
+            "Living room with dark stone, pale sofas and warm light",
+            "Salón con piedra oscura, sofás claros y luz cálida"
+          ]
+        },
+        "introduction": {
+          "heading": [
+            "Jedna paleta. Dwa nastroje.",
+            "One palette. Two moods.",
+            "Una paleta. Dos ambientes."
+          ],
+          "body": [
+            "Kamień o wyrazistym rysunku, ciepłe drewno i miękkie tkaniny tworzą wspólny język salonu i garderoby. Światło wydobywa głębię materiałów, nadając każdej ze stref odmienny, kameralny rytm.",
+            "Expressively veined stone, warm wood and soft textiles create a shared language for the living room and dressing room. Light reveals the depth of the materials, giving each space its own intimate rhythm.",
+            "La piedra de vetas expresivas, la madera cálida y los tejidos suaves crean un lenguaje común para el salón y el vestidor. La luz revela la profundidad de los materiales y aporta a cada espacio su propio ritmo íntimo."
+          ]
+        },
+        "sections": [
+          {
+            "heading": [
+              "Garderoba. Spokojny rytm detalu.",
+              "The dressing room. A quiet rhythm of detail.",
+              "El vestidor. Un ritmo sereno de detalles."
+            ],
+            "body": [
+              "Przeszklone fronty, ciemne drewno i subtelne światło porządkują kompozycję. Garderoba rozwija materiałowy charakter salonu w bardziej osobistej skali.",
+              "Glazed fronts, dark wood and subtle lighting bring order to the composition. The dressing room develops the material character of the living room on a more personal scale.",
+              "Los frentes acristalados, la madera oscura y la luz sutil ordenan la composición. El vestidor prolonga el carácter material del salón a una escala más personal."
+            ],
+            "visuals": [
+              {
+                "image": "interior-dressing.png",
+                "width": 1408,
+                "height": 752,
+                "kind": "visualisation",
+                "caption": [
+                  "Garderoba",
+                  "Dressing room",
+                  "Vestidor"
+                ],
+                "alt": [
+                  "Garderoba z przeszklonymi frontami, ciemnym drewnem i fotelem",
+                  "Dressing room with glazed fronts, dark wood and an armchair",
+                  "Vestidor con frentes acristalados, madera oscura y una butaca"
+                ]
+              }
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "fresco",
@@ -2632,27 +2729,10 @@ window.AOM = {
         "An illusionistic fresco in a luxury living room",
         "Fresco ilusionista en un salón de lujo"
       ],
-      "type": "residential"
-    },
-    {
-      "id": "patio",
-      "image": "interior-patio.png",
-      "title": [
-        "Od mroku do błękitnego patio",
-        "From darkness to a blue patio",
-        "De la penumbra a un patio azul"
-      ],
-      "type": "commercial"
-    },
-    {
-      "id": "dressing",
-      "image": "interior-dressing.png",
-      "title": [
-        "Garderoba — studium materiałów",
-        "Dressing room — a study of materials",
-        "Vestidor — estudio de materiales"
-      ],
-      "type": "residential"
+      "type": "residential",
+      "category": "residential",
+      "featured": false,
+      "curatedRank": 12
     },
     {
       "id": "the-space-between",
@@ -2664,7 +2744,6 @@ window.AOM = {
       ],
       "type": "residential",
       "isStudy": true,
-      "featuredRank": 1,
       "curatedRank": 1,
       "projectPage": "the-space-between.html",
       "project": {
@@ -2985,6 +3064,552 @@ window.AOM = {
             }
           ]
         }
+      },
+      "category": "residential",
+      "featured": true
+    },
+    {
+      "id": "art-of-meaning-artisheat",
+      "title": [
+        "Grzejniki artystyczne",
+        "Artistic radiators",
+        "Radiadores artísticos"
+      ],
+      "image": "artisheat/04-portret-organiczny.jpg",
+      "type": "art-design",
+      "category": "art-design",
+      "featured": true,
+      "curatedRank": 4,
+      "projectPage": "murale-3d-z-funkcja-ogrzewania.html",
+      "project": {
+        "slug": "murale-3d-z-funkcja-ogrzewania",
+        "kind": "artisheat",
+        "headline": [
+          "Sztuka, która grzeje",
+          "Art that warms",
+          "Arte que calienta"
+        ],
+        "subtitle": "Art of Meaning × ArtisHeat®",
+        "status": [
+          "Współpraca — koncepcje / wizualizacje",
+          "Collaboration — concepts / visualisations",
+          "Colaboración · conceptos y visualizaciones"
+        ],
+        "shortStatus": [
+          "Art of Meaning × ArtisHeat® · Koncepcje",
+          "Art of Meaning × ArtisHeat® · Concepts",
+          "Art of Meaning × ArtisHeat® · Conceptos"
+        ],
+        "seoTitle": [
+          "Sztuka, która grzeje",
+          "Art that warms",
+          "Arte que calienta"
+        ],
+        "seoDescription": [
+          "Autorskie murale, formy przestrzenne i ogrzewanie połączone w jednej kompozycji ściennej.",
+          "Bespoke murals, sculptural forms and heating integrated into one wall composition.",
+          "Murales de autor, formas escultóricas y calefacción integrados en una composición de pared."
+        ],
+        "hero": {
+          "image": "artisheat/01-relief-klasyczny.jpg",
+          "width": 2048,
+          "height": 2048,
+          "kind": "visualisation",
+          "caption": [
+            "Klasyczny relief",
+            "Classical relief",
+            "Relieve clásico"
+          ],
+          "alt": [
+            "Koncepcja figuratywnej kompozycji ściennej z reliefem i podświetleniem.",
+            "Concept visualisation of a figurative wall composition with relief and lighting.",
+            "Visualización conceptual de una composición figurativa de pared con relieve e iluminación."
+          ]
+        },
+        "sections": [
+          {
+            "visuals": [
+              {
+                "image": "artisheat/01-relief-klasyczny.jpg",
+                "width": 2048,
+                "height": 2048,
+                "kind": "visualisation",
+                "caption": [
+                  "Klasyczny relief",
+                  "Classical relief",
+                  "Relieve clásico"
+                ],
+                "alt": [
+                  "Koncepcja figuratywnej kompozycji ściennej z reliefem i podświetleniem.",
+                  "Concept visualisation of a figurative wall composition with relief and lighting.",
+                  "Visualización conceptual de una composición figurativa de pared con relieve e iluminación."
+                ]
+              },
+              {
+                "image": "artisheat/02-gory-zimowe.jpg",
+                "width": 2048,
+                "height": 2048,
+                "kind": "visualisation",
+                "caption": [
+                  "Górski pejzaż",
+                  "Mountain landscape",
+                  "Paisaje de montaña"
+                ],
+                "alt": [
+                  "Koncepcja górskiego muralu z przestrzennym elementem i podświetleniem.",
+                  "Concept visualisation of a mountain mural with a sculptural element and lighting.",
+                  "Visualización conceptual de un mural de montaña con un elemento escultórico e iluminación."
+                ]
+              },
+              {
+                "image": "artisheat/03-gory-naturalne.jpg",
+                "width": 2048,
+                "height": 2048,
+                "kind": "visualisation",
+                "caption": [
+                  "Naturalna struktura",
+                  "Natural texture",
+                  "Textura natural"
+                ],
+                "alt": [
+                  "Koncepcja kompozycji inspirowanej skałą, z warstwowym pejzażem i światłem.",
+                  "Concept visualisation of a rock-inspired composition with a layered landscape and lighting.",
+                  "Visualización conceptual inspirada en la roca, con un paisaje en capas y luz."
+                ]
+              },
+              {
+                "image": "artisheat/04-portret-organiczny.jpg",
+                "width": 2048,
+                "height": 1143,
+                "kind": "visualisation",
+                "caption": [
+                  "Portret i forma organiczna",
+                  "Portrait and organic form",
+                  "Retrato y forma orgánica"
+                ],
+                "alt": [
+                  "Koncepcja portretu połączonego z organiczną formą przestrzenną.",
+                  "Concept visualisation of a portrait combined with an organic sculptural form.",
+                  "Visualización conceptual de un retrato combinado con una forma escultórica orgánica."
+                ]
+              },
+              {
+                "image": "artisheat/05-gory-cieple-swiatlo.jpg",
+                "width": 1600,
+                "height": 1600,
+                "kind": "visualisation",
+                "caption": [
+                  "Góry w ciepłym świetle",
+                  "Mountains in warm light",
+                  "Montañas con luz cálida"
+                ],
+                "alt": [
+                  "Koncepcja górskiego malowidła z podświetloną formą przestrzenną w ciepłej tonacji.",
+                  "Concept visualisation of a mountain painting with an illuminated sculptural form in warm tones.",
+                  "Visualización conceptual de una pintura de montaña con una forma escultórica iluminada en tonos cálidos."
+                ]
+              },
+              {
+                "image": "artisheat/06-kompozycja-klasyczna.jpg",
+                "width": 1600,
+                "height": 1600,
+                "kind": "visualisation",
+                "caption": [
+                  "Kompozycja klasyczna",
+                  "Classical composition",
+                  "Composición clásica"
+                ],
+                "alt": [
+                  "Koncepcja klasycyzującej kompozycji ściennej z postacią, reliefem i światłem.",
+                  "Concept visualisation of a classical wall composition with a figure, relief and lighting.",
+                  "Visualización conceptual de una composición clásica de pared con figura, relieve e iluminación."
+                ]
+              }
+            ]
+          }
+        ],
+        "introVideo": {
+          "src": null,
+          "targetPath": "videos/artisheat/intro-9x16.mp4",
+          "aspectRatio": "9:16",
+          "placement": "after_title_before_gallery",
+          "poster": "artisheat/01-relief-klasyczny.jpg",
+          "controls": true,
+          "playsInline": true,
+          "autoplay": false,
+          "preload": "metadata",
+          "maxWidthPx": 360,
+          "emptyState": "poster_without_play_button",
+          "caption": {
+            "pl": "Wideo o projekcie",
+            "en": "Project video"
+          }
+        },
+        "partner": {
+          "name": "ArtisHeat®",
+          "website": "https://www.artisheat.pl"
+        },
+        "offer": {
+          "path": "documents/artisheat-offer-pl.pdf",
+          "label": [
+            "Pobierz ofertę (PL)",
+            "Download the offer (Polish)",
+            "Descargar la oferta (en polaco)"
+          ]
+        },
+        "pricing": {
+          "currency": "EUR",
+          "compositionFrom": 10000,
+          "publicDisplay": "starting_from",
+          "taxTreatment": null,
+          "qualification": {
+            "pl": "Wycena indywidualna. Zakres zgodnie z ofertą.",
+            "en": "Individually quoted. Scope as specified in the proposal."
+          },
+          "source": "Supplied PDF, page 4"
+        },
+        "technicalParameters": {
+          "heatingOutputWatts": null,
+          "dimensions": null,
+          "productionLeadTime": null,
+          "materials": null,
+          "warranty": null
+        },
+        "copy": {
+          "lead": [
+            "Autorskie murale, formy przestrzenne i ogrzewanie połączone w jednej kompozycji ściennej.",
+            "Bespoke murals, sculptural forms and heating integrated into one wall composition.",
+            "Murales de autor, formas escultóricas y calefacción integrados en una composición de pared."
+          ],
+          "intro": [
+            "Wspólna propozycja Art of Meaning i ArtisHeat® łączy malarstwo z dekoracyjnym elementem grzewczym. Motyw, skala i charakter kompozycji powstają w odniesieniu do konkretnej przestrzeni — jej architektury, funkcji i atmosfery. Element grzewczy zostaje wkomponowany w formę artystyczną, a opcjonalne światło podkreśla jej strukturę.",
+            "This collaboration between Art of Meaning and ArtisHeat® brings painting together with a decorative heating element. The subject, scale and character of each composition respond to a particular space — its architecture, function and atmosphere. The heating element is integrated into the artistic form, while optional lighting highlights its texture.",
+            "La colaboración entre Art of Meaning y ArtisHeat® une la pintura con un elemento calefactor decorativo. El motivo, la escala y el carácter de cada composición responden a la arquitectura, la función y la atmósfera del espacio. La calefacción se integra en la forma artística y la iluminación opcional realza su textura."
+          ],
+          "functionsTitle": [
+            "Jedna ściana, trzy funkcje",
+            "One wall, three functions",
+            "Una pared, tres funciones"
+          ],
+          "functions": [
+            {
+              "title": [
+                "Sztuka",
+                "Art",
+                "Arte"
+              ],
+              "body": [
+                "Indywidualnie projektowany mural i forma przestrzenna, inspirowane krajobrazem, naturą, postacią lub architekturą klasyczną.",
+                "A bespoke mural and sculptural form, inspired by landscape, nature, the human figure or classical architecture.",
+                "Un mural y una forma escultórica a medida, inspirados en el paisaje, la naturaleza, la figura humana o la arquitectura clásica."
+              ]
+            },
+            {
+              "title": [
+                "Ciepło",
+                "Warmth",
+                "Calor"
+              ],
+              "body": [
+                "Elektryczny element grzewczy ArtisHeat® dobierany do potrzeb pomieszczenia.",
+                "An electric ArtisHeat® heating element selected for the needs of the room.",
+                "Un elemento calefactor eléctrico ArtisHeat® seleccionado según las necesidades del espacio."
+              ]
+            },
+            {
+              "title": [
+                "Światło",
+                "Light",
+                "Luz"
+              ],
+              "body": [
+                "Opcjonalne podświetlenie LED wydobywa relief i buduje atmosferę wnętrza.",
+                "Optional LED backlighting reveals the relief and shapes the atmosphere of the interior.",
+                "La iluminación LED opcional realza el relieve y define la atmósfera del interior."
+              ]
+            }
+          ],
+          "galleryTitle": [
+            "Sześć kierunków. Wspólna idea.",
+            "Six directions. One shared idea.",
+            "Seis direcciones. Una idea común."
+          ],
+          "roleTitle": [
+            "Art of Meaning × ArtisHeat®",
+            "Art of Meaning × ArtisHeat®",
+            "Art of Meaning × ArtisHeat®"
+          ],
+          "roleBody": [
+            "Art of Meaning wnosi kierunek artystyczny i malarstwo, a ArtisHeat® — rozwiązanie grzewcze integrowane z kompozycją. Produkcja i montaż odbywają się w uzgodnionym zakresie.",
+            "Art of Meaning contributes the artistic direction and painting; ArtisHeat® provides the heating solution integrated into the composition. Production and installation follow the agreed scope.",
+            "Art of Meaning aporta la dirección artística y la pintura; ArtisHeat® proporciona la solución de calefacción integrada en la composición. La producción y la instalación se realizan según el alcance acordado."
+          ],
+          "processTitle": [
+            "Od pomysłu do kompozycji",
+            "From an idea to a composition",
+            "De la idea a la composición"
+          ],
+          "process": [
+            [
+              "Zdjęcia ściany, przybliżone wymiary i charakter przestrzeni.",
+              "Wall photographs, approximate dimensions and the character of the space.",
+              "Fotografías de la pared, medidas aproximadas y carácter del espacio."
+            ],
+            [
+              "Rozmowa o kierunku artystycznym, budżecie i terminie.",
+              "A conversation about artistic direction, budget and timing.",
+              "Una conversación sobre dirección artística, presupuesto y plazos."
+            ],
+            [
+              "Koncepcja i dobór rozwiązania grzewczego.",
+              "Concept design and selection of the heating solution.",
+              "Concepto y selección de la solución de calefacción."
+            ],
+            [
+              "Uzgodnienie zakresu, wyceny i harmonogramu.",
+              "Agreement on scope, quotation and schedule.",
+              "Acuerdo sobre alcance, presupuesto y calendario."
+            ]
+          ],
+          "priceLabel": [
+            "Kompozycje od",
+            "Compositions from",
+            "Composiciones desde"
+          ],
+          "priceNote": [
+            "Wycena indywidualna, zależna od skali malowidła, formy i zakresu prac.",
+            "Individually quoted, depending on the scale of the painting, form and scope.",
+            "Presupuesto individual según la escala de la pintura, la forma y el alcance."
+          ],
+          "cta": [
+            "Zapytaj o projekt",
+            "Enquire about a project",
+            "Consultar un proyecto"
+          ]
+        }
+      }
+    },
+    {
+      "id": "natura-w-reliefie",
+      "title": [
+        "Natura w reliefie",
+        "Nature in Relief",
+        "Naturaleza en relieve"
+      ],
+      "image": "nature-relief/01-lobby-portal.jpg",
+      "category": "art-design",
+      "type": "art-design",
+      "featured": true,
+      "curatedRank": 5,
+      "projectPage": "natura-w-reliefie.html",
+      "project": {
+        "slug": "natura-w-reliefie",
+        "kind": "nature-relief",
+        "status": [
+          "Koncepcje / wizualizacje",
+          "Concepts / visualisations",
+          "Conceptos y visualizaciones"
+        ],
+        "subtitle": [
+          "Drewno, mech i malarstwo",
+          "Wood, moss and painting",
+          "Madera, musgo y pintura"
+        ],
+        "shortStatus": [
+          "Drewno, mech i malarstwo · Koncepcje",
+          "Wood, moss and painting · Concepts",
+          "Madera, musgo y pintura · Conceptos"
+        ],
+        "credit": [
+          "Projekty opracowane w ramach współpracy koncepcyjnej.",
+          "Projects developed as part of a conceptual collaboration.",
+          "Proyectos desarrollados en el marco de una colaboración conceptual."
+        ],
+        "seoTitle": [
+          "Natura w reliefie",
+          "Nature in Relief",
+          "Naturaleza en relieve"
+        ],
+        "seoDescription": [
+          "Kolekcja koncepcji ściennych łączących malarstwo, przestrzenną formę drewna i fakturę mchu.",
+          "A collection of wall concepts combining painting, sculptural wooden forms and the texture of moss.",
+          "Una colección de conceptos murales que combina pintura, formas escultóricas de madera y la textura del musgo."
+        ],
+        "hero": {
+          "image": "nature-relief/01-lobby-portal.jpg",
+          "width": 2048,
+          "height": 2048,
+          "kind": "visualisation",
+          "caption": [
+            "Portal natury",
+            "Nature portal",
+            "Portal de naturaleza"
+          ],
+          "alt": [
+            "Koncepcja lobby z wirową kompozycją malarską, drewnianą formą, mchem i podświetleniem.",
+            "Lobby concept with a swirling painted composition, a wooden form, moss and lighting.",
+            "Concepto de vestíbulo con composición pictórica en espiral, forma de madera, musgo e iluminación."
+          ]
+        },
+        "sections": [
+          {
+            "visuals": [
+              {
+                "image": "nature-relief/01-lobby-portal.jpg",
+                "width": 2048,
+                "height": 2048,
+                "kind": "visualisation",
+                "caption": [
+                  "Portal natury",
+                  "Nature portal",
+                  "Portal de naturaleza"
+                ],
+                "alt": [
+                  "Koncepcja lobby z wirową kompozycją malarską, drewnianą formą, mchem i podświetleniem.",
+                  "Lobby concept with a swirling painted composition, a wooden form, moss and lighting.",
+                  "Concepto de vestíbulo con composición pictórica en espiral, forma de madera, musgo e iluminación."
+                ]
+              },
+              {
+                "image": "nature-relief/02-salon-pejzaz.jpg",
+                "width": 2048,
+                "height": 1143,
+                "kind": "visualisation",
+                "caption": [
+                  "Leśny pejzaż",
+                  "Forest landscape",
+                  "Paisaje forestal"
+                ],
+                "alt": [
+                  "Koncepcja salonu łącząca leśny pejzaż malarski z przestrzenną formą drewna i mchem.",
+                  "Living room concept combining a painted forest landscape with a sculptural wooden form and moss.",
+                  "Concepto de salón que combina un paisaje forestal pintado con una forma escultórica de madera y musgo."
+                ]
+              },
+              {
+                "image": "nature-relief/03-studio-fale.jpg",
+                "width": 2048,
+                "height": 2048,
+                "kind": "visualisation",
+                "caption": [
+                  "Rytm fal",
+                  "Rhythm of waves",
+                  "Ritmo de olas"
+                ],
+                "alt": [
+                  "Koncepcja przestrzeni jogi z malarskim motywem fal, drewnem i mchem.",
+                  "Yoga space concept with a painted wave motif, wood and moss.",
+                  "Concepto de espacio de yoga con motivo de olas pintadas, madera y musgo."
+                ]
+              },
+              {
+                "image": "nature-relief/04-lobby-postac.jpg",
+                "width": 2048,
+                "height": 2048,
+                "kind": "visualisation",
+                "caption": [
+                  "Postać i natura",
+                  "Figure and nature",
+                  "Figura y naturaleza"
+                ],
+                "alt": [
+                  "Koncepcja lobby z motywem postaci, organiczną formą drewnianą i akcentami mchu.",
+                  "Lobby concept featuring a figure, an organic wooden form and moss accents.",
+                  "Concepto de vestíbulo con una figura, una forma orgánica de madera y acentos de musgo."
+                ]
+              },
+              {
+                "image": "nature-relief/05-jadalnia-drzewo.jpg",
+                "width": 2048,
+                "height": 2048,
+                "kind": "visualisation",
+                "caption": [
+                  "Drzewo w jadalni",
+                  "A tree in the dining room",
+                  "Un árbol en el comedor"
+                ],
+                "alt": [
+                  "Koncepcja jadalni z kompozycją ścienną inspirowaną drzewem, łączącą malarstwo, drewno i mech.",
+                  "Dining room concept with a tree-inspired wall composition combining painting, wood and moss.",
+                  "Concepto de comedor con una composición mural inspirada en un árbol que combina pintura, madera y musgo."
+                ]
+              },
+              {
+                "image": "nature-relief/06-sypialnia-drzewo.jpg",
+                "width": 2048,
+                "height": 2048,
+                "kind": "visualisation",
+                "caption": [
+                  "Gałęzie i światło",
+                  "Branches and light",
+                  "Ramas y luz"
+                ],
+                "alt": [
+                  "Koncepcja sypialni z motywem drzewa, delikatnym malarstwem i przestrzennymi akcentami drewna i mchu.",
+                  "Bedroom concept featuring a tree motif, delicate painting and sculptural accents of wood and moss.",
+                  "Concepto de dormitorio con motivo de árbol, pintura delicada y acentos escultóricos de madera y musgo."
+                ]
+              }
+            ]
+          }
+        ],
+        "introVideo": {
+          "src": null,
+          "targetPath": "videos/nature-relief/intro-9x16.mp4",
+          "aspectRatio": "9:16",
+          "placement": "after_title_before_gallery",
+          "poster": "nature-relief/01-lobby-portal.jpg",
+          "controls": true,
+          "playsInline": true,
+          "autoplay": false,
+          "preload": "metadata",
+          "maxWidthPx": 360,
+          "emptyState": "poster_without_play_button",
+          "caption": {
+            "pl": "Wideo o kolekcji",
+            "en": "Collection video"
+          }
+        },
+        "price": null,
+        "productionLeadTime": null,
+        "technicalSpecification": null,
+        "copy": {
+          "lead": [
+            "Kolekcja koncepcji ściennych łączących malarstwo, przestrzenną formę drewna i fakturę mchu.",
+            "A collection of wall concepts combining painting, sculptural wooden forms and the texture of moss.",
+            "Una colección de conceptos murales que combina pintura, formas escultóricas de madera y la textura del musgo."
+          ],
+          "intro": [
+            "Punktem wyjścia jest relacja obrazu z architekturą. Malarskie pejzaże, motywy drzew, fale i postaci przechodzą w elementy przestrzenne. Drewno wyznacza rytm kompozycji, mech wprowadza kontrast faktur, a światło podkreśla jej głębię.",
+            "The starting point is the relationship between the image and its architectural setting. Painted landscapes, tree motifs, waves and figures extend into sculptural elements. Wood gives rhythm to the composition, moss introduces contrasting textures, and lighting reveals its depth.",
+            "El punto de partida es la relación entre la imagen y su entorno arquitectónico. Los paisajes pintados, los árboles, las olas y las figuras se prolongan en elementos escultóricos. La madera marca el ritmo, el musgo introduce contrastes de textura y la luz revela la profundidad."
+          ],
+          "ideaTitle": [
+            "Od malowidła do formy przestrzennej",
+            "From painting to sculptural form",
+            "De la pintura a la forma escultórica"
+          ],
+          "idea": [
+            "W tej serii ściana staje się częścią opowieści wnętrza. Organiczne linie mogą podążać za ruchem gałęzi, nurtem wody lub układem malarskich warstw. Przestrzenne akcenty są komponowane razem z obrazem i otoczeniem, tak aby tworzyć wspólną całość.",
+            "In this series, the wall becomes part of the interior’s story. Organic lines may follow branching trees, flowing water or layers of painted colour. Sculptural accents are composed together with the painting and its surroundings to create a coherent whole.",
+            "En esta serie, la pared forma parte del relato del interior. Las líneas orgánicas siguen las ramas, el fluir del agua o las capas de color. Los acentos escultóricos se componen junto con la pintura y el entorno para crear un conjunto coherente."
+          ],
+          "applicationsTitle": [
+            "Dla wnętrz prywatnych i hospitality",
+            "Private interiors and hospitality",
+            "Interiores privados y hospitality"
+          ],
+          "applications": [
+            "Wizualizacje pokazują możliwe zastosowania w salonach, jadalniach, sypialniach, lobby i przestrzeniach wellness. Są punktem wyjścia do rozmowy o kompozycji odpowiadającej konkretnemu wnętrzu.",
+            "The visualisations explore possible applications in living rooms, dining rooms, bedrooms, lobbies and wellness spaces. They provide a starting point for discussing a composition that responds to a particular interior.",
+            "Las visualizaciones exploran posibles aplicaciones en salones, comedores, dormitorios, vestíbulos y espacios de bienestar. Son un punto de partida para una composición que responda a cada interior."
+          ],
+          "cta": [
+            "Porozmawiajmy o koncepcji",
+            "Discuss a concept",
+            "Hablar de un concepto"
+          ]
+        }
       }
     }
   ],
@@ -3012,5 +3637,6 @@ window.AOM = {
     ]
   },
   "youtubePlaylists": "https://www.youtube.com/@artofmeaning_YT/playlists",
-  "artistPortrait": "magdalena-babicka-portrait.jpg"
+  "artistPortrait": "magdalena-babicka-portrait.jpg",
+  "interiorDrafts": []
 };

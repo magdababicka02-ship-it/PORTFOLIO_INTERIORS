@@ -1,0 +1,202 @@
+{
+  "schemaVersion": 1,
+  "id": "art-of-meaning-artisheat",
+  "slug": "murale-3d-z-funkcja-ogrzewania",
+  "featured": true,
+  "category": "art-design",
+  "categoryLabel": {
+    "pl": "Sztuka i design",
+    "en": "Art & Design"
+  },
+  "title": {
+    "pl": "Sztuka, która grzeje",
+    "en": "Art that warms"
+  },
+  "subtitle": {
+    "pl": "Art of Meaning × ArtisHeat®",
+    "en": "Art of Meaning × ArtisHeat®"
+  },
+  "shortDescription": {
+    "pl": "Autorskie murale, formy przestrzenne i ogrzewanie połączone w jednej kompozycji ściennej.",
+    "en": "Bespoke murals, sculptural forms and heating integrated into one wall composition."
+  },
+  "status": "concept_visualisations",
+  "statusLabel": {
+    "pl": "Współpraca — koncepcje / wizualizacje",
+    "en": "Collaboration — concepts / visualisations"
+  },
+  "partner": {
+    "name": "ArtisHeat®",
+    "website": "https://www.artisheat.pl"
+  },
+  "credits": {
+    "pl": "Art of Meaning × ArtisHeat®. Szczegółowy zakres artystyczny i wykonawczy ustalany w indywidualnej ofercie.",
+    "en": "Art of Meaning × ArtisHeat®. Detailed artistic and production responsibilities are agreed in the individual proposal."
+  },
+  "cover": "images/01-relief-klasyczny.jpg",
+  "bodyFiles": {
+    "pl": "content/opis_PL.md",
+    "en": "content/description_EN.md"
+  },
+  "introVideo": {
+    "src": null,
+    "targetPath": "video/intro-9x16.mp4",
+    "aspectRatio": "9:16",
+    "placement": "after_title_before_gallery",
+    "poster": "images/01-relief-klasyczny.jpg",
+    "controls": true,
+    "playsInline": true,
+    "autoplay": false,
+    "preload": "metadata",
+    "maxWidthPx": 360,
+    "emptyState": "poster_without_play_button",
+    "caption": {
+      "pl": "Wideo o projekcie",
+      "en": "Project video"
+    }
+  },
+  "gallery": [
+    {
+      "src": "images/01-relief-klasyczny.jpg",
+      "width": 2048,
+      "height": 2048,
+      "title": {
+        "pl": "Klasyczny relief",
+        "en": "Classical relief"
+      },
+      "alt": {
+        "pl": "Koncepcja figuratywnej kompozycji ściennej z reliefem i podświetleniem.",
+        "en": "Concept visualisation of a figurative wall composition with relief and lighting."
+      },
+      "caption": {
+        "pl": "Koncepcja / wizualizacja",
+        "en": "Concept / visualisation"
+      },
+      "status": "concept_visualisation"
+    },
+    {
+      "src": "images/02-gory-zimowe.jpg",
+      "width": 2048,
+      "height": 2048,
+      "title": {
+        "pl": "Górski pejzaż",
+        "en": "Mountain landscape"
+      },
+      "alt": {
+        "pl": "Koncepcja górskiego muralu z przestrzennym elementem i podświetleniem.",
+        "en": "Concept visualisation of a mountain mural with a sculptural element and lighting."
+      },
+      "caption": {
+        "pl": "Koncepcja / wizualizacja",
+        "en": "Concept / visualisation"
+      },
+      "status": "concept_visualisation"
+    },
+    {
+      "src": "images/03-gory-naturalne.jpg",
+      "width": 2048,
+      "height": 2048,
+      "title": {
+        "pl": "Naturalna struktura",
+        "en": "Natural texture"
+      },
+      "alt": {
+        "pl": "Koncepcja kompozycji inspirowanej skałą, z warstwowym pejzażem i światłem.",
+        "en": "Concept visualisation of a rock-inspired composition with a layered landscape and lighting."
+      },
+      "caption": {
+        "pl": "Koncepcja / wizualizacja",
+        "en": "Concept / visualisation"
+      },
+      "status": "concept_visualisation"
+    },
+    {
+      "src": "images/04-portret-organiczny.jpg",
+      "width": 2048,
+      "height": 1143,
+      "title": {
+        "pl": "Portret i forma organiczna",
+        "en": "Portrait and organic form"
+      },
+      "alt": {
+        "pl": "Koncepcja portretu połączonego z organiczną formą przestrzenną.",
+        "en": "Concept visualisation of a portrait combined with an organic sculptural form."
+      },
+      "caption": {
+        "pl": "Koncepcja / wizualizacja",
+        "en": "Concept / visualisation"
+      },
+      "status": "concept_visualisation"
+    },
+    {
+      "src": "images/05-gory-cieple-swiatlo.jpg",
+      "width": 1600,
+      "height": 1600,
+      "title": {
+        "pl": "Góry w ciepłym świetle",
+        "en": "Mountains in warm light"
+      },
+      "alt": {
+        "pl": "Koncepcja górskiego malowidła z podświetloną formą przestrzenną w ciepłej tonacji.",
+        "en": "Concept visualisation of a mountain painting with an illuminated sculptural form in warm tones."
+      },
+      "caption": {
+        "pl": "Koncepcja / wizualizacja",
+        "en": "Concept / visualisation"
+      },
+      "status": "concept_visualisation"
+    },
+    {
+      "src": "images/06-kompozycja-klasyczna.jpg",
+      "width": 1600,
+      "height": 1600,
+      "title": {
+        "pl": "Kompozycja klasyczna",
+        "en": "Classical composition"
+      },
+      "alt": {
+        "pl": "Koncepcja klasycyzującej kompozycji ściennej z postacią, reliefem i światłem.",
+        "en": "Concept visualisation of a classical wall composition with a figure, relief and lighting."
+      },
+      "caption": {
+        "pl": "Koncepcja / wizualizacja",
+        "en": "Concept / visualisation"
+      },
+      "status": "concept_visualisation"
+    }
+  ],
+  "offer": {
+    "path": "docs/AOM_ArtisHeat_oferta_PL.pdf",
+    "language": "pl",
+    "label": {
+      "pl": "Pobierz ofertę (PL)",
+      "en": "Download the offer (Polish)"
+    }
+  },
+  "pricing": {
+    "currency": "EUR",
+    "compositionFrom": 10000,
+    "publicDisplay": "starting_from",
+    "taxTreatment": null,
+    "qualification": {
+      "pl": "Wycena indywidualna. Zakres zgodnie z ofertą.",
+      "en": "Individually quoted. Scope as specified in the proposal."
+    },
+    "source": "Supplied PDF, page 4"
+  },
+  "contact": {
+    "email": "contact@artofmeaning.art",
+    "href": "mailto:contact@artofmeaning.art",
+    "cta": {
+      "pl": "Zapytaj o projekt",
+      "en": "Enquire about a project"
+    }
+  },
+  "technicalParameters": {
+    "heatingOutputWatts": null,
+    "dimensions": null,
+    "productionLeadTime": null,
+    "materials": null,
+    "warranty": null
+  }
+}

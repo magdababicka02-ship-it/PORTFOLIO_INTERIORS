@@ -13,11 +13,11 @@ const out=path.resolve(__dirname,'../previews');
   page.on('console',message=>{if(message.text().startsWith('Missing Spanish translation:'))errors.push(message.text());});
   for(const lang of ['pl','en','es']){
    await page.goto(new URL('wnetrza.html?lang='+lang,base).href);
-   assert.equal(await page.locator('.interior-card[data-interior-id=puerto-banus]').count(),1,'Visible without expanding portfolio');
-   await page.locator('[data-interior-filter=commercial]').click();
+   assert.equal(await page.locator('.interior-card[data-interior-id=puerto-banus]').count(),0,'Available through Residential and All');
+   await page.locator('[data-interior-filter=residential]').click();
    const tile=page.locator('.interior-card[data-interior-id=puerto-banus]');
-   assert.equal(await tile.count(),1,'Included in Commercial');
-   assert.equal(await page.locator('.interior-card[data-interior-id=nocturne]').count(),1,'Midnight Garden retained');
+   assert.equal(await tile.count(),1,'Included in Residential');
+   assert.equal(await page.locator('.interior-card[data-interior-id=nocturne]').count(),0,'Hospitality is a separate category');
    await tile.locator('a.interior-overlay').focus();await page.keyboard.press('Enter');
    await page.waitForURL(url=>url.pathname.endsWith('/puerto-banus-residence.html'));
    assert.equal(new URL(page.url()).searchParams.get('lang'),lang);
@@ -59,10 +59,10 @@ const out=path.resolve(__dirname,'../previews');
     responsiveChecks++;
    }
   }
-  await page.goto(new URL('wnetrza.html?lang=en',base).href);await page.locator('#more-interiors').click();
+  await page.goto(new URL('wnetrza.html?lang=en',base).href);await page.locator('[data-interior-filter=all]').click();
   assert.equal(await page.locator('.interior-card').count(),12,'Existing projects and both additions retained');
   assert.deepEqual(errors,[]);
-  const result={date:new Date().toISOString(),languages:['pl','en','es'],commercialTile:'passed',keyboardNavigation:'passed',responsiveChecks,originalPhotos:11,lightboxChecks,teamAndIndividualCredit:'passed',portfolioProjects:12,browserErrors:errors};
+  const result={date:new Date().toISOString(),languages:['pl','en','es'],residentialTile:'passed',keyboardNavigation:'passed',responsiveChecks,originalPhotos:11,lightboxChecks,teamAndIndividualCredit:'passed',portfolioProjects:12,browserErrors:errors};
   fs.writeFileSync(path.join(out,'puerto-banus-checks.json'),JSON.stringify(result,null,2));console.log(JSON.stringify(result));
  }finally{await browser.close();}
 })().catch(error=>{console.error(error);process.exit(1)});

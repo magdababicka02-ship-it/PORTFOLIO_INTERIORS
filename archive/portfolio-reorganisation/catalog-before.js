@@ -1,0 +1,3016 @@
+/* Original texts and testimonials restored from the supplied export; expanded work descriptions use the supplied PDFs. null = unconfirmed. */
+window.AOM = {
+  "email": "contact@artofmeaning.art",
+  "phone": "+48533128055",
+  "familyPortrait": "family-portrait.png",
+  "social": [
+    {
+      "name": "Instagram",
+      "url": "https://www.instagram.com/artofmeaning.art/",
+      "icon": "mage_instagram-circle.svg"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/mbabicka/",
+      "icon": "entypo-social_linkedin-with-circle.svg"
+    },
+    {
+      "name": "Facebook",
+      "url": "https://www.facebook.com/magda.babicka.10",
+      "icon": "ic_baseline-facebook.svg"
+    }
+  ],
+  "murals": [
+    {
+      "id": "ornamentalne-niebo",
+      "title": [
+        "Ornamentalne Niebo",
+        "Ornamental Sky",
+        "Cielo ornamental"
+      ],
+      "type": [
+        "Malowanie sufitu",
+        "Ceiling painting",
+        "Pintura de techos"
+      ],
+      "image": "niebo-ornamentalne_1.avif",
+      "video": "niebo-ornamentalne---mural",
+      "youtube": "https://www.youtube.com/watch?v=Xp5XuBZqBsw",
+      "days": 11,
+      "area": 27,
+      "city": [
+        "Kraków",
+        "Kraków",
+        "Cracovia"
+      ],
+      "description": [
+        "Ornamentalne Niebo powstało w luksusowym apartamencie w sercu krakowskiego Starego Miasta. Złote linie, inspirowane klasycznymi dekoracjami pałacowymi, przeplatają się na tle głębokiego granatu. Sufit przestaje być neutralnym zamknięciem wnętrza: staje się jego centralną kompozycją, wyznacza rytm i nadaje miejscu atmosferę spokojnej, monumentalnej elegancji.\n\nKażdy element wzoru został dopasowany do architektury i proporcji pomieszczenia. Koncepcję opracowałam cyfrowo, a następnie przygotowałam szablony i podział powierzchni na moduły. Złożone ornamenty wymagały ręcznego dopracowania, warstwa po warstwie. Matowe medium i pigmenty pozwoliły uzyskać subtelny efekt postarzenia, który nadaje dekoracji głębię i historyzujący charakter.\n\nTo 27 m² ręcznie malowanego sufitu i 11 dni precyzyjnej pracy. Efektem jest wnętrze, w którym sztuka podkreśla istniejącą architekturę, a nie konkuruje z nią — i pozostaje w pamięci gości jako opowieść zapisana w złocie, granacie i świetle.",
+        "Ornamental Sky was created in a luxury apartment in the heart of Kraków’s Old Town. Golden lines inspired by classical palace decoration weave across deep navy. The ceiling is no longer a neutral boundary: it becomes the room’s central composition, setting its rhythm and creating an atmosphere of quiet, monumental elegance.\n\nEvery element was fitted to the architecture and proportions of the room. I developed the concept digitally, then prepared templates and divided the surface into modules. The intricate ornaments required careful hand finishing, layer by layer. A matt medium and pigments created a subtle aged effect, giving the decoration depth and a historical character.\n\nThe work comprises 27 m² of hand-painted ceiling and 11 days of precise execution. The result is an interior where art supports the existing architecture rather than competing with it — a story in gold, navy and light that stays with its guests.",
+        "Cielo ornamental se creó en un apartamento de lujo en pleno casco antiguo de Cracovia. Las líneas doradas, inspiradas en la decoración de los palacios clásicos, se entrelazan sobre un fondo azul marino. El techo deja de ser un límite neutro y se convierte en la composición central del interior: marca su ritmo y aporta una atmósfera de elegancia serena y monumental.\n\nCada elemento se adaptó a la arquitectura y a las proporciones de la estancia. Desarrollé la propuesta digitalmente y después preparé las plantillas y dividí la superficie en módulos. La complejidad de los ornamentos exigió un acabado manual minucioso, capa a capa. Un medio mate y los pigmentos permitieron lograr un sutil efecto envejecido que aporta profundidad y carácter histórico a la decoración.\n\nLa obra comprende 27 m² de techo pintado a mano y 11 días de trabajo preciso. El resultado es un interior en el que el arte realza la arquitectura existente sin competir con ella: una historia de oro, azul marino y luz que permanece en la memoria de sus visitantes."
+      ],
+      "gallery": [
+        "niebo_1.avif",
+        "sufit_1.avif",
+        "trwa_1.avif"
+      ],
+      "testimonial": {
+        "quote": [
+          "„Od początku marzyliśmy o suficie, który wprowadzi do wnętrza atmosferę pałacowej elegancji i stanie się jego prawdziwą wizytówką. Magdalena podjęła się wyzwania, które było wyjątkowo wymagające – praca na suficie wymaga ogromnej precyzji, cierpliwości i fizycznej wytrzymałości. Dodatkowo towarzyszyła nam presja czasu, ponieważ apartament miał wkrótce przyjmować gości. Mimo to projekt został zrealizowany perfekcyjnie i na czas. Złote ornamenty na tle głębokiego granatu przyciągają wzrok i nadają przestrzeni wyjątkowego charakteru. Efekt? Apartament, który zachwyca odwiedzających od pierwszego spojrzenia i wyróżnia się na tle innych ofert w sercu Krakowa.”",
+          "“From the beginning, we dreamed of a ceiling that would bring an atmosphere of palatial elegance to the interior and become its defining feature. Magdalena accepted an exceptionally demanding challenge — ceiling work requires great precision, patience and physical endurance. There was also time pressure, as the apartment was soon to welcome guests. Despite this, the project was completed perfectly and on schedule. The golden ornament against deep navy draws the eye and gives the space its own character. The result is an apartment that delights visitors from the first glance and stands out among other properties in the heart of Kraków.”",
+          "«Desde el principio soñábamos con un techo que aportara al interior una atmósfera de elegancia palaciega y se convirtiera en su verdadera seña de identidad. Magdalena aceptó un reto especialmente exigente: trabajar en un techo requiere una enorme precisión, paciencia y resistencia física. Además, teníamos la presión del tiempo, porque el apartamento pronto recibiría huéspedes. Aun así, el proyecto se realizó de forma impecable y dentro del plazo. Los ornamentos dorados sobre el azul marino atraen la mirada y dan al espacio un carácter único. El resultado es un apartamento que impresiona desde el primer momento y destaca entre las demás propuestas del centro de Cracovia.»"
+        ],
+        "author": [
+          "Właściciel apartamentu",
+          "Apartment owner",
+          "Propietario del apartamento"
+        ],
+        "originalLanguage": "pl"
+      }
+    },
+    {
+      "id": "magiczny-las-zwierzat",
+      "title": [
+        "Magiczny las zwierząt",
+        "The enchanted forest of animals",
+        "El bosque mágico de los animales"
+      ],
+      "type": [
+        "Malowanie muralu",
+        "Mural painting",
+        "Pintura mural"
+      ],
+      "image": "mural-las_1.avif",
+      "video": "mural-las",
+      "youtube": "https://www.youtube.com/watch?v=1GF-KVrc0Fg",
+      "days": 16,
+      "area": 65,
+      "city": [
+        "Gliwice",
+        "Gliwice",
+        "Gliwice"
+      ],
+      "description": [
+        "Magiczny las zwierząt to opowieść, która ma inspirować, uczyć i zostawać w pamięci. Mural powstał dla Szkoły Podstawowej nr 14 im. Stefana Żeromskiego w Gliwicach-Sośnicy. W rozmowach z dyrekcją pojawiły się trzy ważne motywy: portal otwierający wyobraźnię, przyrodnicza atmosfera lasu oraz zwierzęta o edukacyjnej roli.\n\nNa szkolnym murze spotkały się górskie szczyty, bujna roślinność i przyjazne stworzenia — niedźwiedzie, sarny, ptaki i łosie. Zwierzęta można rozpoznawać, nazywać i odkrywać w codziennym kontakcie. W ten sposób obraz stał się żywą pomocą dydaktyczną, a wraz z sąsiadującym placem zabaw tworzy spójną przestrzeń dla dzieci.\n\nDo wykonania użyłam farb bezpiecznych dla dzieci i odpornych na warunki atmosferyczne. Mural obejmuje 65 m² i łączy trwałe przygotowanie podłoża z bogatą kolorystyką. To cichy nauczyciel: wita kolejne pokolenia, pokazując, że sztuka może nie tylko zdobić, ale także budzić ciekawość, łączyć i poruszać.",
+        "The Enchanted Forest of Animals is a story designed to inspire, teach and remain in memory. Created for Stefan Żeromski Primary School No. 14 in Gliwice-Sośnica, the mural grew from three ideas discussed with the headteacher: a portal to open the imagination, the natural atmosphere of a forest and animals with an educational role.\n\nMountain peaks, lush vegetation and friendly creatures — bears, deer, birds and moose — meet on the school wall. Children can recognise, name and discover the animals through daily contact. The painting becomes a living teaching aid and, together with the neighbouring playground, creates a coherent space for children.\n\nI used child-safe paints resistant to outdoor conditions. Covering 65 m², the mural combines careful surface preparation with rich colour. It is a quiet teacher, welcoming new generations and showing that art can do more than decorate: it can encourage curiosity, connect and move people.",
+        "El bosque mágico de los animales es una historia pensada para inspirar, enseñar y permanecer en la memoria. El mural se realizó para la Escuela Primaria n.º 14 Stefan Żeromski de Gliwice-Sośnica. En las conversaciones con la dirección surgieron tres ideas: un portal que abriera la imaginación, la atmósfera natural de un bosque y los animales como recurso educativo.\n\nEn el muro de la escuela se encuentran cumbres de montaña, vegetación exuberante y animales cercanos: osos, ciervos, pájaros y alces. Los niños pueden reconocerlos, nombrarlos y descubrirlos en el contacto diario. De este modo, la pintura se convierte en un recurso didáctico vivo y, junto con el parque infantil contiguo, crea un espacio coherente para ellos.\n\nUtilicé pinturas seguras para los niños y resistentes a la intemperie. El mural ocupa 65 m² y combina una preparación duradera del soporte con una amplia riqueza cromática. Es un maestro silencioso que recibe a nuevas generaciones y muestra que el arte puede hacer algo más que decorar: despertar la curiosidad, conectar y emocionar."
+      ],
+      "gallery": [
+        "piekno_1.avif",
+        "radosc_1.avif",
+        "portal_1.avif"
+      ],
+      "testimonial": {
+        "quote": [
+          "„Zależało nam na stworzeniu przestrzeni, która będzie inspirować uczniów każdego dnia – łącząc w sobie piękno natury i walor edukacyjny. Magdalena przeniosła fragment górskiego krajobrazu na szkolny mur, wprowadzając do niego realizm, żywe kolory i bajkowy urok. Zwierzęta, roślinność i majestatyczne szczyty stały się naturalnym tłem codziennych szkolnych aktywności. Teraz ta ściana to nie tylko dekoracja, ale także codzienna lekcja obcowania z przyrodą, która pobudza wyobraźnię i ciekawość dzieci.”",
+          "“We wanted to create a space that would inspire pupils every day, combining the beauty of nature with educational value. Magdalena brought a fragment of a mountain landscape onto the school wall, with realism, vivid colours and a fairytale charm. Animals, plants and majestic peaks became a natural backdrop to everyday school activities. Now this wall is more than decoration: it is a daily encounter with nature that encourages children’s imagination and curiosity.”",
+          "«Queríamos crear un espacio que inspirara al alumnado cada día, combinando la belleza de la naturaleza con su valor educativo. Magdalena trasladó un fragmento del paisaje de montaña al muro de la escuela, con realismo, colores vivos y un encanto de cuento. Los animales, las plantas y las cumbres majestuosas se convirtieron en el escenario natural de las actividades cotidianas. Ahora esta pared es mucho más que una decoración: es una lección diaria de contacto con la naturaleza que estimula la imaginación y la curiosidad de los niños.»"
+        ],
+        "author": [
+          "Dyrektorka Szkoły",
+          "School headteacher",
+          "Directora de la escuela"
+        ],
+        "originalLanguage": "pl"
+      }
+    },
+    {
+      "id": "sztuka-ktora-uwalnia-przestrzen",
+      "title": [
+        "Sztuka, która uwalnia przestrzeń",
+        "Art that opens up space",
+        "Arte que abre el espacio"
+      ],
+      "type": [
+        "Mural",
+        "Mural",
+        "Mural"
+      ],
+      "image": "Maga---sztuka-która-uwalnia-przestrzeń.avif",
+      "video": "0802",
+      "youtube": "https://www.youtube.com/watch?v=xieT466Avz8",
+      "days": 2,
+      "area": 12,
+      "city": [
+        "Kraków",
+        "Kraków",
+        "Cracovia"
+      ],
+      "description": [
+        "To historia ściany, która czekała na dotyk, i sztuki, która nie wypełnia przestrzeni, lecz ją uwalnia. Mural powstał na elewacji prywatnego domu w Krakowie. Jego właściciel chciał, aby kompozycja zakorzeniła się w otoczeniu ogrodu i lasu — była kolorowa, pogodna i pełna światła, ale nie narzucała swojej obecności.\n\nPraca zaczęła się od rozmowy i trzech koncepcji wizualnych. Wybrane przez klienta elementy dwóch propozycji połączyłam w jedną, finalną kompozycję. Inspiracją stał się impresjonistyczny sposób patrzenia: miękkie przejścia barw, oddech krajobrazu i światło, które zmienia się w ciągu dnia.\n\nPo analizie wcześniejszych warstw farby dobrałam podkład i system malarski do istniejącego podłoża, a realizację wykonałam profesjonalnymi farbami elewacyjnymi. Warstwa po warstwie — od tła i ciemniejszych płaszczyzn po światło oraz detale — ściana stała się przedłużeniem ogrodu. To 12 m² pejzażu, który rano łapie pierwsze światło, a wieczorem przygasa razem z miejscem.",
+        "This is the story of a wall waiting for a touch, and of art that does not fill a space but opens it up. The mural was painted on the exterior of a private home in Kraków. Its owner wanted a composition rooted in the surrounding garden and woodland: colourful, welcoming and full of light, yet never imposing.\n\nThe process began with a conversation and three visual concepts. I combined the client’s favourite elements from two proposals into one final composition. An Impressionist way of seeing provided the inspiration: soft transitions of colour, the breathing space of a landscape and light that changes throughout the day.\n\nAfter analysing the existing paint layers, I selected a primer and painting system suited to the surface, then worked with professional exterior paints. Layer by layer — from the background and darker planes to the light and details — the wall became an extension of the garden. It is a 12 m² landscape that catches the first morning light and settles into the evening with its surroundings.",
+        "Esta es la historia de una pared que esperaba una pincelada y de un arte que no llena el espacio, sino que lo abre. El mural se pintó en la fachada de una casa particular de Cracovia. Su propietario quería que la composición se integrara en el jardín y el bosque que la rodean: alegre, llena de color y de luz, pero sin imponer su presencia.\n\nEl trabajo comenzó con una conversación y tres propuestas visuales. Combiné los elementos que más gustaron al cliente de dos de ellas en una composición definitiva. La inspiración surgió de una mirada impresionista: transiciones suaves entre colores, la amplitud del paisaje y una luz que cambia a lo largo del día.\n\nTras analizar las capas de pintura existentes, elegí una imprimación y un sistema de pintura adecuados para el soporte y realicé la obra con pinturas profesionales para fachadas. Capa a capa, desde el fondo y los planos oscuros hasta la luz y los detalles, la pared se convirtió en una prolongación del jardín. Son 12 m² de paisaje que recogen la primera luz de la mañana y se apagan con el lugar al anochecer."
+      ],
+      "gallery": [
+        "Dotyk-muralu.avif",
+        "Mural---sztuka-2.avif",
+        "Mural---sztuka.avif"
+      ],
+      "testimonial": {
+        "quote": [
+          "„Od początku wiedziałem, że chcę, aby ściana naszego balkonu stała się czymś więcej niż tylko elewacją. Magdalena zaproponowała mural, który idealnie wkomponował się w otoczenie – pełen światła, przestrzeni i naturalnych barw. Efekt przeszedł moje oczekiwania. Teraz, gdy patrzę na tę ścianę, mam wrażenie, jakby otwierała się na dalszy krajobraz. Rodzina jest zachwycona a ja czuję satysfakcję, że mogę codziennie obcować z taką sztuką. To nie tylko dekoracja, to nowa jakość miejsca, w którym żyjemy.”",
+          "“From the beginning, I knew I wanted the wall of our balcony to become more than part of the façade. Magdalena proposed a mural that fitted perfectly into its surroundings — full of light, space and natural colours. The result exceeded my expectations. Now, when I look at the wall, it feels as if it opens onto a distant landscape. My family is delighted, and I feel the satisfaction of living with such art every day. It is more than decoration; it brings a new quality to the place where we live.”",
+          "«Desde el principio tenía claro que quería que la pared de nuestro balcón fuera algo más que una fachada. Magdalena propuso un mural que encajaba perfectamente en su entorno, lleno de luz, amplitud y colores naturales. El resultado superó mis expectativas. Ahora, cuando miro esa pared, siento que se abre hacia un paisaje lejano. Mi familia está encantada y yo disfruto de poder convivir con este arte cada día. No es solo una decoración: aporta una nueva calidad al lugar donde vivimos.»"
+        ],
+        "author": [
+          "Józef",
+          "Józef",
+          "Józef"
+        ],
+        "originalLanguage": "pl"
+      }
+    }
+  ],
+  "paintings": [
+    {
+      "id": "who-is-hunting",
+      "title": [
+        "Who is hunting?",
+        "Who is hunting?",
+        "Who is hunting?"
+      ],
+      "image": "who-is-hunting.jpeg",
+      "size": "100 × 70 cm",
+      "price": 2400,
+      "status": "available",
+      "description": [
+        "Czerwone szpilki i czarna pantera spotykają się na jednej scenie. Między nimi rodzi się napięcie: może to flirt, gra o władzę albo spotkanie dwóch instynktów, z których żaden nie zamierza ustąpić. W głębi majaczy cień. Czy ktoś przygląda się tej scenie, czy tylko nasza wyobraźnia dopowiada obecność obserwatora?\n\n„Who is hunting?” powstał z pytania o sprzeczności, które nosimy w sobie. Jak często mylimy bezpieczeństwo z wolnością? Jak często szukamy ekscytacji, choć tęsknimy za spokojem? Żyjemy pomiędzy siłą a wrażliwością, kontrolą a poddaniem, potrzebą ochrony a przyciąganiem niebezpieczeństwa. W tym obrazie te pragnienia spotykają się w jednej, zawieszonej chwili.\n\nPantera może być drapieżnikiem. Może też być opiekunem — obecnością, która chroni zamiast zagrażać. Kobieta może nie znać strachu albo po prostu nie pozwalać, by strach odebrał jej prawo do zajmowania własnego miejsca. Żadna z tych ról nie jest oczywista, a spojrzenie widza potrafi je odwrócić.\n\nMalując ten obraz, interesowało mnie właśnie to napięcie. Nie odpowiedź, lecz pytanie, które zostaje z nami po odejściu od płótna. Najmocniej porusza mnie sztuka, która nie podpowiada, co mamy myśleć, ale odsłania to, co już w nas ukryte: własne pragnienia, lęki i granice.\n\nKto więc poluje? I być może jeszcze ważniejsze — kim się stajesz, kiedy uwierzysz, że to na Ciebie trwa polowanie?",
+        "Red heels and a black panther share the same stage. Between them, a tension begins to unfold: perhaps a flirtation, a power play, or an encounter between two instincts, neither willing to yield. A shadow lingers behind them. Is someone quietly watching, or is our imagination inventing an observer?\n\n“Who is hunting?” grew from a question about the contradictions we carry within us. How often do we mistake safety for freedom? How often do we seek excitement while longing for peace? We live between strength and vulnerability, control and surrender, the need for protection and the pull of danger. In this painting, those desires meet in a single, suspended moment.\n\nThe panther may be a predator. It may also be a guardian — a presence that protects rather than threatens. The woman may be fearless, or she may simply refuse to let fear take away her right to stand her ground. Neither role is certain, and the viewer’s gaze can turn them around.\n\nAs I painted, it was this tension that fascinated me. Not the answer, but the question that stays with us after we step away from the canvas. The art that moves me most does not tell us what to think. It reveals what is already hidden within us: our desires, our fears and our boundaries.\n\nSo who is hunting? And perhaps more importantly — who do you become when you believe you are being hunted?",
+        "Unos tacones rojos y una pantera negra comparten escenario. Entre ambos surge una tensión: quizá un coqueteo, un juego de poder o el encuentro de dos instintos, ninguno dispuesto a ceder. Al fondo permanece una sombra. ¿Hay alguien observando en silencio o es nuestra imaginación la que inventa a ese testigo?\n\n«Who is hunting?» nació de una pregunta sobre las contradicciones que llevamos dentro. ¿Cuántas veces confundimos la seguridad con la libertad? ¿Cuántas veces buscamos emoción mientras anhelamos calma? Vivimos entre la fuerza y la vulnerabilidad, el control y la entrega, la necesidad de protección y la atracción del peligro. En este cuadro, esos deseos se encuentran en un único instante suspendido.\n\nLa pantera puede ser una depredadora. También puede ser una guardiana: una presencia que protege en lugar de amenazar. La mujer puede no conocer el miedo o, sencillamente, negarse a que ese miedo le arrebate el derecho a mantenerse firme. Ninguno de los papeles es definitivo, y la mirada de quien observa puede invertirlos.\n\nAl pintar esta obra, me fascinaba precisamente esa tensión. No la respuesta, sino la pregunta que permanece cuando nos alejamos del lienzo. El arte que más me conmueve no nos dice qué pensar. Revela lo que ya está oculto en nosotros: nuestros deseos, nuestros temores y nuestros límites.\n\nEntonces, ¿quién está cazando? Y, quizá aún más importante, ¿en quién se convierte cuando cree que alguien le está cazando?"
+      ],
+      "currency": "EUR"
+    },
+    {
+      "id": "business-darling",
+      "title": [
+        "It’s Just Business, Darling",
+        "It’s Just Business, Darling",
+        "It’s Just Business, Darling"
+      ],
+      "image": "business-darling.png",
+      "size": "100 × 70 cm",
+      "price": 2600,
+      "status": "available",
+      "description": [
+        "Na pierwszy rzut oka „It’s Just Business, Darling” bawi: nienagannie ubrany kot odpoczywa nad otwartą walizką pieniędzy, z cygarem w pysku i spokojem kogoś, kto nie musi już niczego udowadniać. Pod humorem tej sceny kryje się jednak portret władzy — oswojonej, ujmującej i przez to trudniejszej do zakwestionowania.\n\nKot łączy przeciwieństwa: miękkość i drapieżność, domową bliskość i instynkt łowcy. Jego opanowana, niemal znużona mina sugeruje, że najważniejsza decyzja już zapadła. Kontrola nie wymaga tu groźby. Wyraża się w bezruchu, swobodzie i pewności własnej pozycji.\n\nTytuł buduje osobne napięcie. „It’s just business” usuwa z rozmowy emocje, odpowiedzialność i konsekwencje. „Darling” przywraca pozór bliskości, wdzięk i lekko protekcjonalną czułość. Razem brzmią jak bezwzględność ubrana w doskonałe maniery. Rozświetlona połowa twarzy i druga, pogrążona w cieniu, przywołują dystans między publicznym wizerunkiem a prywatną intencją. Muszka, klubowe wnętrze i cygaro stają się kostiumem uprzywilejowania, a dym — ulotnym alibi.\n\nOtwarta walizka i rozsypane banknoty wskazują, że transakcja została zakończona, ale nie ujawniają, kto zapłacił rzeczywistą cenę. To obraz nie tylko o pieniądzach, lecz także o języku i estetyce, dzięki którym władza wydaje się cywilizowana. Jego najciekawsza przestrzeń rozciąga się między satyrą a niepokojem: bohater wygląda na zwycięzcę, lecz niekoniecznie na kogoś spełnionego.",
+        "At first glance, “It’s Just Business, Darling” is playful: an impeccably dressed cat rests above an open case of money, cigar in mouth, with the ease of someone who has nothing left to prove. Beneath the humour lies a portrait of power — domesticated, charming and therefore harder to question.\n\nThe cat holds opposites together: softness and predatory instinct, domestic intimacy and the nature of a hunter. Its composed, almost weary expression suggests that the decisive act has already taken place. Control needs no threat here; it is expressed through stillness, ease and certainty of position.\n\nThe title creates its own tension. “It’s just business” removes emotion, responsibility and consequence. “Darling” restores the appearance of intimacy, charm and a slightly patronising tenderness. Together they sound like ruthlessness dressed in impeccable manners. One side of the face is illuminated while the other recedes into shadow, recalling the distance between public image and private intention. The bow tie, club-like interior and cigar become a costume of privilege; the smoke is a fleeting alibi.\n\nThe open case and scattered banknotes suggest that a transaction has been completed, without revealing who paid the real price. The painting concerns not only money, but also the language and aesthetics that make power appear civilised. Its most compelling space lies between satire and unease: the protagonist looks victorious, but not necessarily fulfilled.",
+        "A primera vista, «It’s Just Business, Darling» resulta divertido: un gato impecablemente vestido descansa sobre un maletín abierto lleno de dinero, con un puro en la boca y la tranquilidad de quien ya no tiene nada que demostrar. Bajo el humor de la escena aparece, sin embargo, un retrato del poder: domesticado, encantador y, por eso mismo, más difícil de cuestionar.\n\nEl gato reúne opuestos: suavidad e instinto depredador, cercanía doméstica y naturaleza de cazador. Su expresión serena, casi cansada, sugiere que la decisión importante ya se ha tomado. El control no necesita amenazas; se expresa en la quietud, la comodidad y la certeza de la propia posición.\n\nEl título crea su propia tensión. «It’s just business» aparta de la conversación las emociones, la responsabilidad y las consecuencias. «Darling» devuelve una apariencia de intimidad, encanto y ternura ligeramente condescendiente. Juntas, las palabras suenan a crueldad vestida con modales impecables. Una mitad del rostro está iluminada y la otra permanece en sombra, evocando la distancia entre la imagen pública y la intención privada. La pajarita, el interior de aire exclusivo y el puro se convierten en un atuendo de privilegio; el humo, en una coartada fugaz.\n\nEl maletín abierto y los billetes dispersos indican que la transacción ha terminado, sin revelar quién ha pagado el verdadero precio. El cuadro no habla solo de dinero, sino también del lenguaje y de la estética que hacen que el poder parezca civilizado. Su espacio más sugerente se encuentra entre la sátira y la inquietud: el protagonista parece vencedor, pero no necesariamente satisfecho."
+      ],
+      "currency": "EUR"
+    },
+    {
+      "id": "meduza",
+      "title": [
+        "Pocałunek Meduzy",
+        "Medusa’s Kiss",
+        "El beso de Medusa"
+      ],
+      "image": "Meduza.avif",
+      "size": "100 × 70 cm",
+      "price": 2400,
+      "status": "available",
+      "description": [
+        "Ten obraz powstał z fascynacji postacią Meduzy – nie tyle jako potwora, co ikony, której moc przekracza wieki. Od starożytności przedstawiano ją jako symbol strachu, ale ja zobaczyłam w niej coś więcej – siłę, która budzi respekt, niezależność, która nie daje się ujarzmić, piękno splecione z niebezpieczeństwem. Błękitne tony i złote akcenty spotykają się tu w kontrapunkcie – zimno i ciepło, odrzucenie i przyciąganie, cisza i burza. Obraz został zaprojektowany tak, aby we wnętrzu zdobił ścianę, ale także tworzył aurę – atmosferę, która wpływa na energię przestrzeni. „Pocałunek Meduzy” to dzieło dla konesera, który rozumie, że sztuka nie zawsze musi być łatwa – czasem jej rolą jest prowokować, przypominać o sile, która drzemie w nas samych i być codziennym spotkaniem z własną odwagą.",
+        "This painting grew from a fascination with Medusa — less as a monster than as an icon whose power transcends the centuries. Since antiquity she has been portrayed as a symbol of fear, but I saw something more: a strength that commands respect, an independence that cannot be tamed, and beauty intertwined with danger. Blue tones and golden accents meet in counterpoint — cold and warmth, rejection and attraction, silence and storm. The painting was designed not only to decorate a wall, but also to create an aura: an atmosphere that influences the energy of the interior. “Medusa’s Kiss” is a work for a collector who understands that art need not always be easy. Sometimes its role is to provoke, to remind us of the strength within us and to offer a daily encounter with our own courage.",
+        "Este cuadro nació de mi fascinación por Medusa, más como icono cuyo poder atraviesa los siglos que como monstruo. Desde la Antigüedad se la ha representado como símbolo del miedo, pero yo vi algo más: una fuerza que impone respeto, una independencia que no se deja dominar y una belleza entrelazada con el peligro. Los tonos azules y los acentos dorados se encuentran en contrapunto: frío y calor, rechazo y atracción, silencio y tormenta. La obra fue concebida para decorar una pared y también para crear un aura, una atmósfera que influya en la energía del interior. «El beso de Medusa» es una obra para quien entiende que el arte no siempre tiene que ser fácil. A veces su papel es provocar, recordarnos la fuerza que llevamos dentro y ofrecernos un encuentro diario con nuestro propio valor."
+      ],
+      "currency": "EUR"
+    },
+    {
+      "id": "electric-embrace",
+      "title": [
+        "Electric Embrace",
+        "Electric Embrace",
+        "Electric Embrace"
+      ],
+      "image": "Electric-Embrace.avif",
+      "size": "100 × 70 cm",
+      "price": 2100,
+      "status": "available",
+      "description": [
+        "„Electric Embrace” to obraz, który powstał z emocji – z chwili, w której napięcie między dwojgiem ludzi można niemal dotknąć. Sylwetki splecione w sieci świetlistych linii przypominają o tym, że energia, która łączy ludzi, jest równie silna jak siły natury. Czerń tła działa tu jak scena – wycisza, aby światło mogło przemawiać pełnym głosem. Malując go, myślałam o tym, że każdy z nas doświadcza momentów, kiedy wszystko inne przestaje istnieć – zostaje tylko połączenie, intensywne i elektryzujące. To dzieło stworzone dla wnętrz, w których sztuka ma być zdobić, ale również ma być doświadczeniem. Ten obraz w przestrzeni staje się nie tylko obrazem, ale rozmową, emocją, wspomnieniem. To wybór dla kolekcjonera, który szuka dzieła zdolnego zatrzymać uwagę i poruszyć serce.",
+        "“Electric Embrace” grew out of emotion — a moment in which the tension between two people can almost be touched. Figures intertwined in a network of luminous lines remind us that the energy connecting people is as powerful as the forces of nature. The black background acts as a stage: it falls quiet so that light can speak in its fullest voice. As I painted, I thought about how each of us experiences moments when everything else ceases to exist, leaving only a connection that is intense and electric. This work was created for interiors where art is not only decoration but also an experience. In a space, the painting becomes a conversation, an emotion, a memory. It is a choice for a collector seeking a work that can hold attention and move the heart.",
+        "«Electric Embrace» nació de la emoción, de un instante en el que la tensión entre dos personas casi puede tocarse. Las figuras entrelazadas en una red de líneas luminosas recuerdan que la energía que nos une puede ser tan poderosa como las fuerzas de la naturaleza. El fondo negro actúa como un escenario: guarda silencio para que la luz pueda expresarse plenamente. Al pintar, pensaba en esos momentos en los que todo lo demás deja de existir y solo permanece una conexión intensa y electrizante. Esta obra se creó para interiores en los que el arte sea también una experiencia. En el espacio, el cuadro se convierte en conversación, emoción y recuerdo. Es una elección para quien busca una obra capaz de retener la mirada y conmover."
+      ],
+      "currency": "EUR"
+    },
+    {
+      "id": "unfrozen",
+      "title": [
+        "UNFROZEN",
+        "UNFROZEN",
+        "UNFROZEN"
+      ],
+      "image": "UNFROZEN.avif",
+      "size": "100 × 70 cm",
+      "price": 2200,
+      "status": "available",
+      "description": [
+        "„UNFROZEN” narodził się z potrzeby pokazania momentu uwolnienia – tego, kiedy to, co skrywane, w końcu znajduje wyraz. Malując ten obraz, myślałam o kobiecej sile – nie tej głośnej, zewnętrznej, ale tej wewnętrznej, która wyraża się ruchem, spojrzeniem, oddechem. Pociągnięcia pędzla są szerokie, zdecydowane, ale w ich dynamice jest także subtelność. Paleta barw – od chłodnych błękitów po złote oranże – jest jak przechodzenie z zimna do ciepła, z zatrzymania do życia. W luksusowych przestrzeniach obraz ten działa jak oddech – wnosi światło, lekkość, poczucie, że wszystko może płynąć. To dzieło, które mówi: „odważ się być sobą”. Dzięki temu obraz staje się częścią wnętrza, wzmacniając jego historię i energię.",
+        "“UNFROZEN” was born of a need to show a moment of release — when what has been hidden finally finds expression. As I painted, I thought about feminine strength: not its loud, outward form, but the inner strength expressed in movement, a glance and a breath. The brushstrokes are broad and confident, yet there is subtlety within their energy. The palette, moving from cool blues to golden oranges, feels like a transition from cold into warmth, from stillness into life. Within a luxurious interior, this painting acts like a breath, bringing light, ease and a sense that everything can flow. It is a work that says, “dare to be yourself”. In this way the painting becomes part of the interior, strengthening its story and energy.",
+        "«UNFROZEN» nació de la necesidad de mostrar un momento de liberación, cuando aquello que se ocultaba encuentra por fin una forma de expresarse. Al pintar, pensaba en la fuerza femenina: no la más visible o ruidosa, sino la fuerza interior que aparece en un movimiento, una mirada o una respiración. Las pinceladas son amplias y decididas, aunque en su dinamismo también hay sutileza. La paleta, de los azules fríos a los naranjas dorados, sugiere el paso del frío al calor, de la inmovilidad a la vida. En un interior de lujo, esta obra actúa como un respiro: aporta luz, ligereza y la sensación de que todo puede fluir. Es un cuadro que invita a atreverse a ser uno mismo. Así, se convierte en parte del interior y refuerza su historia y su energía."
+      ],
+      "currency": "EUR"
+    },
+    {
+      "id": "miasto-sukcesu",
+      "title": [
+        "Miasto sukcesu",
+        "City of Success",
+        "La ciudad del éxito"
+      ],
+      "image": "Miasto-sukcesu.avif",
+      "size": "80 × 80 cm",
+      "price": null,
+      "status": "archive",
+      "description": [
+        "Obraz powstał jako zamówienie dla kancelarii znanego influencera – prawnika przedsiębiorców. Inspirowałam się postacią Harveya Spectera z „The Suits”, bo jego wizerunek idealnie oddaje archetyp nowoczesnego lidera. Chciałam uchwycić aurę człowieka, który czuje się pewnie w świecie wielkiego miasta – wśród wieżowców, świateł i ruchu, które dla innych mogą być przytłaczające, a dla niego są naturalnym środowiskiem. Garnitur, architektura i światło budują atmosferę siły, profesjonalizmu i prestiżu. Ten obraz to manifest sukcesu, opowieść o determinacji i władzy nad własnym życiem. Obraz w kancelarii pracuje razem z właścicielem, buduje narrację o tym, kim jest, co reprezentuje i dlaczego jego przestrzeń jest miejscem, gdzie podejmuje się najważniejsze decyzje. To sztuka, która nie tylko mówi o właścicielu – ona go definiuje.",
+        "This painting was commissioned for the law office of a well-known influencer and lawyer for entrepreneurs. I took inspiration from Harvey Specter in “Suits”, whose image embodies the archetype of a modern leader. I wanted to capture the aura of someone at ease in a great city — amid skyscrapers, lights and movement that might overwhelm others, but are his natural environment. The suit, architecture and light build an atmosphere of strength, professionalism and prestige. This painting is a statement of success, a story of determination and agency over one’s own life. In the law office, it works alongside its owner, shaping a narrative about who he is, what he represents and why his space is a place where important decisions are made. It is art that does more than speak about its owner — it defines him.",
+        "Este cuadro se realizó por encargo para el despacho de un conocido creador de contenido y abogado de empresarios. Me inspiré en Harvey Specter, de «Suits», cuya imagen encarna el arquetipo del líder contemporáneo. Quise captar el aura de una persona que se mueve con seguridad en una gran ciudad, entre rascacielos, luces y movimiento que a otros podrían abrumar, pero que para él constituyen su entorno natural. El traje, la arquitectura y la luz construyen una atmósfera de fuerza, profesionalidad y prestigio. El cuadro es una declaración de éxito, una historia de determinación y de capacidad para dirigir la propia vida. En el despacho, la obra acompaña a su propietario y construye un relato sobre quién es, qué representa y por qué su espacio es un lugar donde se toman decisiones importantes. Es un arte que no solo habla de su propietario: también lo define."
+      ],
+      "testimonial": {
+        "quote": [
+          "„Przyznam, że miałem wątpliwości, czy obraz będzie wyglądał równie imponująco w rzeczywistości, jak w wizji artystki. Obawiałem się też, czy uda się uchwycić charakter postaci i atmosferę, jaką chciałem stworzyć w biurze. Kiedy jednak zobaczyłem gotowe dzieło, wszystkie wątpliwości zniknęły. Obraz inspirowany postacią Harveya z The Suits emanuje energią, która robi wrażenie na każdym, kto przekracza próg mojego gabinetu. To inwestycja, która podkreśla mój profesjonalizm i na długo zostaje w pamięci gości.”",
+          "“I admit I had doubts about whether the painting would look as impressive in reality as it did in the artist’s vision. I was also concerned about capturing the character of the figure and the atmosphere I wanted to create in my office. But when I saw the finished work, all my doubts disappeared. The painting inspired by Harvey from Suits radiates an energy that impresses everyone who enters my office. It is an investment that underlines my professionalism and stays in my guests’ memory.”",
+          "«Reconozco que dudaba de si el cuadro resultaría tan impresionante en persona como en la propuesta de la artista. También me preocupaba que se lograran captar el carácter del personaje y la atmósfera que quería crear en el despacho. Pero, al ver la obra terminada, todas las dudas desaparecieron. El cuadro inspirado en Harvey, de Suits, transmite una energía que impresiona a todos los que entran en mi despacho. Es una inversión que refuerza mi profesionalidad y permanece mucho tiempo en la memoria de mis visitantes.»"
+        ],
+        "author": [
+          "Mateusz Ostrowski",
+          "Mateusz Ostrowski",
+          "Mateusz Ostrowski"
+        ],
+        "originalLanguage": "pl"
+      }
+    },
+    {
+      "id": "red-temptation",
+      "title": [
+        "Red Temptation",
+        "Red Temptation",
+        "Red Temptation"
+      ],
+      "image": "Red-Temptation.avif",
+      "size": "30 × 40 cm",
+      "price": 900,
+      "status": "available",
+      "description": [
+        "Ten obraz to studium elegancji ukrytej w szczególe. Malując „Red Temptation”, nie chciałam pokazać pełnej postaci – wręcz przeciwnie, zależało mi, by widz poczuł moc niedopowiedzenia. Czerwień szpilki, połysk pończochy, półcień otulający scenę – wszystko to sprawia, że obraz nie opowiada wprost, ale zostawia przestrzeń dla wyobraźni. To sztuka, która działa subtelnie, prawie jak szept – nie dominuje, ale sprawia, że każdy, kto na nią spojrzy, zatrzyma się na chwilę. We wnętrzu ten obraz działa jak biżuteria – drobny akcent, który jednak mówi więcej niż duże formy. „Red Temptation” jest dla osób, które wiedzą, że prawdziwa siła tkwi w subtelności i że czasem wystarczy jeden szczegół, by stworzyć aurę zmysłowości i pewności siebie.",
+        "This painting is a study of elegance hidden in a detail. When painting “Red Temptation”, I did not want to show an entire figure. On the contrary, I wanted the viewer to feel the power of suggestion. The red heel, the sheen of a stocking and the half-light surrounding the scene mean that the painting does not explain everything; it leaves space for imagination. It works subtly, almost like a whisper. It does not dominate, yet everyone who looks at it pauses for a moment. Within an interior it acts like jewellery — a small accent that can say more than a larger form. “Red Temptation” is for people who know that true strength lies in subtlety, and that sometimes a single detail is enough to create an atmosphere of sensuality and confidence.",
+        "Este cuadro es un estudio de la elegancia que se esconde en un detalle. Al pintar «Red Temptation», no quise mostrar una figura completa, sino hacer sentir al espectador el poder de la sugerencia. El tacón rojo, el brillo de la media y la penumbra que envuelve la escena dejan espacio para la imaginación. La obra actúa con sutileza, casi como un susurro. No domina el entorno, pero hace que quien la mira se detenga un instante. En un interior funciona como una joya: un pequeño acento que puede expresar más que una forma de mayor tamaño. «Red Temptation» es para quienes saben que la verdadera fuerza reside en la sutileza y que, a veces, un solo detalle basta para crear una atmósfera de sensualidad y seguridad."
+      ],
+      "currency": "EUR"
+    },
+    {
+      "id": "joao",
+      "title": [
+        "João",
+        "João",
+        "João"
+      ],
+      "image": "João.avif",
+      "size": "30 × 40 cm",
+      "price": null,
+      "status": "archive",
+      "description": [
+        "Ten portret powstał w Barcelonie – mieście, które samo w sobie jest mieszanką energii, sztuki i intymnych historii. Spotkanie z João było wyjątkowe, bo nie chodziło tylko o stworzenie obrazu, ale o uchwycenie fragmentu jego duszy. Rozmowy, światło wpadające przez okno, atmosfera otwartości i zaufania – to wszystko zostało wpisane w tę pracę. Malując, starałam się, aby każdy detal twarzy był jednocześnie realistyczny i symboliczny, by oddać nie tylko wygląd, ale i charakter. Subtelne światło, które oplata portret, dodaje mu głębi i miękkości, a zarazem sprawia, że obraz staje się niemal medytacyjny. To sprawiło, że ten portret – to osobista narracja, zamknięta w malarskiej formie. Dla João ten obraz stał się lustrem, które mówi o jego historii i wewnętrznej sile.",
+        "This portrait was painted in Barcelona, a city that is itself a blend of energy, art and intimate stories. Meeting João was special because it was not simply about creating an image, but about capturing a fragment of his soul. Conversation, light coming through the window and an atmosphere of openness and trust all became part of this work. As I painted, I sought to make every detail of the face both realistic and symbolic, expressing not only appearance but also character. The subtle light surrounding the portrait adds depth and softness, while making it almost meditative. The result is a personal narrative held in a painted form. For João, this portrait became a mirror that speaks of his story and inner strength.",
+        "Este retrato se pintó en Barcelona, una ciudad que es en sí misma una mezcla de energía, arte e historias íntimas. El encuentro con João fue especial porque no se trataba solo de crear una imagen, sino de captar un fragmento de su alma. La conversación, la luz que entraba por la ventana y un ambiente de apertura y confianza se incorporaron a la obra. Al pintar, procuré que cada detalle del rostro fuera a la vez realista y simbólico, capaz de expresar no solo la apariencia, sino también el carácter. La luz sutil que envuelve el retrato aporta profundidad y suavidad y le da un aire casi meditativo. El resultado es una narración personal contenida en una forma pictórica. Para João, este retrato se convirtió en un espejo que habla de su historia y de su fuerza interior."
+      ],
+      "testimonial": {
+        "quote": [
+          "„I had a fantastic portrait painting experience with Magdalena. She has exceptional skills and captured the essence of my personality with remarkable details and the final result was stunning. The positive and welcoming atmosphere made the entire process enjoyable and I am confident that anyone seeking a personalized and high-quality portrait will not be disappointed.”",
+          "„I had a fantastic portrait painting experience with Magdalena. She has exceptional skills and captured the essence of my personality with remarkable details and the final result was stunning. The positive and welcoming atmosphere made the entire process enjoyable and I am confident that anyone seeking a personalized and high-quality portrait will not be disappointed.”",
+          "«Tuve una experiencia fantástica al encargar mi retrato a Magdalena. Tiene una habilidad excepcional y captó la esencia de mi personalidad con detalles extraordinarios; el resultado final fue impresionante. El ambiente positivo y acogedor hizo que todo el proceso fuera agradable. Estoy convencido de que quien busque un retrato personalizado y de gran calidad no quedará decepcionado.»"
+        ],
+        "author": [
+          "João",
+          "João",
+          "João"
+        ],
+        "originalLanguage": "en"
+      }
+    },
+    {
+      "id": "silent-horizon",
+      "title": [
+        "Silent Horizon",
+        "Silent Horizon",
+        "Silent Horizon"
+      ],
+      "image": "Silent-Horizon.avif",
+      "size": "100 × 40 cm",
+      "price": 2000,
+      "status": "available",
+      "description": [
+        "Ten pejzaż powstał z potrzeby ciszy. „Silent Horizon” to zapis stanu medytacji, w którym świat na chwilę się zatrzymuje. Malując, wyobrażałam sobie moment o świcie, kiedy powietrze jest jeszcze chłodne, a woda gładka jak lustro. Linie są miękkie, kolory subtelne – szarości, błękity i delikatny róż przechodzą w siebie tak, jakby oddychały. Obraz działa jak oddech – wprowadza równowagę, koi, sprawia, że przestrzeń staje się spokojniejsza. To dzieło stworzone dla osób, które w swojej codzienności potrzebują punktu wyciszenia – nie tylko estetyki, ale i emocji. „Silent Horizon” jest jak prywatne okno na świat, który nie wymaga pośpiechu – przypomnienie, że piękno tkwi w ciszy i w uważności.",
+        "This landscape grew from a need for quiet. “Silent Horizon” records a meditative state in which the world pauses for a moment. As I painted, I imagined the dawn, when the air is still cool and the water smooth as a mirror. The lines are soft and the colours subtle — greys, blues and delicate pinks flow into one another as though breathing. The painting acts like a breath: it restores balance, soothes and makes a space feel calmer. It was created for people who need a point of stillness in their daily lives — something emotional as well as aesthetic. “Silent Horizon” is like a private window onto a world that asks for no haste, a reminder that beauty lies in silence and attentiveness.",
+        "Este paisaje nació de una necesidad de calma. «Silent Horizon» recoge un estado meditativo en el que el mundo se detiene por un instante. Al pintar, imaginaba el amanecer, cuando el aire aún está fresco y el agua permanece lisa como un espejo. Las líneas son suaves y los colores sutiles: grises, azules y rosas delicados se funden como si respiraran. La obra actúa como un respiro: devuelve el equilibrio, serena y hace que el espacio se sienta más tranquilo. Fue creada para quienes necesitan un punto de quietud en su vida cotidiana, algo emocional además de estético. «Silent Horizon» es como una ventana privada a un mundo que no exige prisa, un recordatorio de que la belleza está en el silencio y en la atención."
+      ],
+      "currency": "EUR"
+    },
+    {
+      "id": "terracotta-muse",
+      "title": [
+        "Terracotta Muse",
+        "Terracotta Muse",
+        "Terracotta Muse"
+      ],
+      "image": "Terracotta-Muse.avif",
+      "size": "100 × 40 cm",
+      "price": null,
+      "status": "archive",
+      "description": [
+        "Ten obraz narodził się z fascynacji naturalną formą kobiecego ciała – jego siłą i kruchością jednocześnie. Chciałam, aby kolorystyka obrazu – ciepłe odcienie ochry i terakoty – przywodziła na myśl ziemię, coś pierwotnego i organicznego. Faktura tła jest szorstka, niedoskonała, ale to właśnie w kontraście do niej ciało wydaje się płynne, pełne życia. Malując, myślałam o tym, jak kobiecość zawsze balansuje między subtelnością a mocą, delikatnością a niezależnością. To dzieło ma w sobie coś z rytuału – jest jak hymn dla kobiecej obecności w przestrzeni. „Terracotta Muse” jest obecnością, która nadaje ścianie puls, rytm, oddech. To wybór dla kolekcjonera, który szuka sztuki, która jest zmysłowa, ale także prawdziwa i organiczna.",
+        "This painting was born of a fascination with the natural form of the female body — its strength and fragility at once. I wanted the palette of warm ochre and terracotta to recall the earth, something primal and organic. The background is rough and imperfect, yet it is precisely this contrast that makes the body feel fluid and alive. As I painted, I thought about how femininity balances subtlety and power, gentleness and independence. There is something ritualistic about this work: it is a hymn to the female presence in a space. “Terracotta Muse” is a presence that gives a wall a pulse, a rhythm, a breath. It is a choice for a collector seeking art that is sensual, but also true and organic.",
+        "Este cuadro nació de mi fascinación por la forma natural del cuerpo femenino, por su fuerza y su fragilidad al mismo tiempo. Quise que la paleta de ocres cálidos y terracota evocara la tierra, algo esencial y orgánico. El fondo es áspero e imperfecto, pero precisamente ese contraste hace que el cuerpo parezca fluido y lleno de vida. Al pintar, pensaba en cómo la feminidad encuentra el equilibrio entre sutileza y poder, delicadeza e independencia. Hay algo ritual en esta obra: es un himno a la presencia femenina en el espacio. «Terracotta Muse» es una presencia que da a la pared un pulso, un ritmo y una respiración. Es una elección para quien busca un arte sensual, pero también auténtico y orgánico."
+      ],
+      "testimonial": {
+        "quote": [
+          "„Jestem niesamowicie zadowolona ze współpracy. Magdalena jest osobą bardzo kontaktową i otwartą na sugestie. Sprostała wyzwaniom, które jej postawiłam, a efekt końcowy przerósł moje oczekiwania. Na każdym etapie otrzymywałam zdjęcia z postępów prac oraz cenne sugestie, co dawało mi pełen komfort i poczucie kontroli. Obraz wyszedł lepiej, niż mogłam sobie wyobrazić – dlatego krótko po pierwszym zamówiłam kolejny. I wiem, że na tym się nie skończy. Z całego serca polecam!”",
+          "“I am incredibly happy with our collaboration. Magdalena is very approachable and open to suggestions. She met the challenges I set her, and the final result exceeded my expectations. At every stage I received progress photographs and valuable suggestions, which gave me complete peace of mind and a sense of control. The painting turned out better than I could have imagined, so shortly after the first I commissioned another. And I know it will not be the last. I wholeheartedly recommend her!”",
+          "«Estoy muy satisfecha con nuestra colaboración. Magdalena es muy cercana en el trato y está abierta a las sugerencias. Respondió a los retos que le planteé y el resultado final superó mis expectativas. En cada fase recibí fotografías del progreso y recomendaciones valiosas que me dieron tranquilidad y una sensación de control. El cuadro quedó mejor de lo que podía imaginar, así que poco después del primero encargué otro. Y sé que no será el último. La recomiendo de todo corazón.»"
+        ],
+        "author": [
+          "Dominika, kolekcjonerka sztuki",
+          "Dominika, art collector",
+          "Dominika, coleccionista de arte"
+        ],
+        "originalLanguage": "pl"
+      }
+    },
+    {
+      "id": "michalek",
+      "title": [
+        "Michałek",
+        "Michałek",
+        "Michałek"
+      ],
+      "image": "Michałek.avif",
+      "size": "50 × 70 cm",
+      "price": null,
+      "status": "archive",
+      "description": [
+        "Ten portret powstał na zamówienie, ale szybko stał się czymś więcej niż tylko obrazem dziecka. Patrząc na „Michałka”, czuje się spokój i niewinność – moment zadumy, w którym świat zatrzymuje się w oczach dziecka. Delikatne światło modelujące twarz nadaje obrazowi miękkości i ciepła, a spojrzenie skierowane ku górze wprowadza aurę nadziei i ciekawości. Malując, myślałam o tym, że każde dziecko niesie w sobie czyste światło – niewypowiedziany potencjał, marzenia, które dopiero nabierają kształtu. W domu taki portret staje się częścią rodzinnej historii, symbolem miłości i pamięci. To zatrzymanie ulotnej chwili dzieciństwa – tej, która z czasem pozostaje jedynie wspomnieniem, a dzięki obrazowi staje się pamiątką na całe życie.",
+        "This portrait began as a commission, but soon became something more than a painting of a child. Looking at “Michałek”, one senses peace and innocence — a moment of reflection in which the world comes to rest in a child’s eyes. Gentle light modelling the face lends softness and warmth, while the upward gaze brings a sense of hope and curiosity. As I painted, I thought about the pure light every child carries: unspoken potential and dreams that are only beginning to take shape. At home, such a portrait becomes part of a family’s history, a symbol of love and memory. It preserves a fleeting moment of childhood — one that would otherwise become only a recollection, but through a painting becomes a keepsake for life.",
+        "Este retrato comenzó como un encargo, pero pronto se convirtió en algo más que el cuadro de un niño. Al mirar «Michałek», se perciben calma e inocencia: un momento de reflexión en el que el mundo se detiene en los ojos de un niño. La luz delicada que modela el rostro aporta suavidad y calidez, mientras que la mirada hacia arriba introduce una sensación de esperanza y curiosidad. Al pintar, pensaba en la luz pura que lleva cada niño: su potencial aún sin expresar y los sueños que apenas empiezan a tomar forma. En el hogar, un retrato así se convierte en parte de la historia familiar, en símbolo de amor y memoria. Conserva un instante fugaz de la infancia que, con el tiempo, sería solo un recuerdo y que, gracias a la pintura, se transforma en una memoria para toda la vida."
+      ]
+    },
+    {
+      "id": "arc-de-triomf---barcelona",
+      "title": [
+        "Arc de Triomf — Barcelona",
+        "Arc de Triomf — Barcelona",
+        "Arc de Triomf — Barcelona"
+      ],
+      "image": "Arc-de-Triomf-–-Barcelona.avif",
+      "size": "15 × 20 cm",
+      "price": 450,
+      "status": "available",
+      "description": [
+        "To mała akwarela, ale niesie w sobie całe miasto. Spacerując w Barcelonie, natrafiłam na ten widok o złotej godzinie – kiedy słońce miękko opadało na Łuk Triumfalny, a ulice pełne były ludzi, rozmów, muzyki. Chciałam uchwycić nie sam monument, ale atmosferę chwili – to, co ulotne, co znika, gdy tylko przesuniemy wzrok. Rozmyte kontury, miękkie przejścia barw – to zapis tego, jak pamięta się miasto po spacerze. Obraz działa jak pocztówka, ale nie ta kupiona – ta własna, osobista, niosąca wspomnienie emocji. Jest symbolem podróży, wolności i chwil, do których zawsze chce się wracać.",
+        "It is a small watercolour, yet it carries an entire city. Walking in Barcelona, I came upon this view during the golden hour, as sunlight fell softly on the Arc de Triomf and the streets were full of people, conversation and music. I wanted to capture not the monument itself, but the atmosphere of that moment: what is fleeting and disappears as soon as we turn our gaze. Blurred contours and soft transitions of colour record the way a city remains in memory after a walk. The painting acts like a postcard — not one bought in a shop, but a personal one that holds an emotional memory. It symbolises travel, freedom and moments to which we always want to return.",
+        "Es una pequeña acuarela, pero contiene toda una ciudad. Paseando por Barcelona, encontré esta vista durante la hora dorada, cuando la luz caía suavemente sobre el Arc de Triomf y las calles estaban llenas de gente, conversaciones y música. Quise captar no solo el monumento, sino la atmósfera de ese instante: lo fugaz, lo que desaparece en cuanto apartamos la mirada. Los contornos difuminados y las transiciones suaves de color reflejan cómo recordamos una ciudad después de pasear por ella. El cuadro funciona como una postal, pero no una comprada: una postal propia, personal, que conserva el recuerdo de una emoción. Es un símbolo del viaje, de la libertad y de esos momentos a los que siempre queremos volver."
+      ],
+      "currency": "EUR"
+    }
+  ],
+  "interiors": [
+    {
+      "id": "nocturne",
+      "image": "midnight-garden/view-1.webp",
+      "title": [
+        "Midnight Garden",
+        "Midnight Garden",
+        "Midnight Garden"
+      ],
+      "type": "commercial",
+      "projectPage": "midnight-garden.html",
+      "project": {
+        "slug": "midnight-garden",
+        "year": 2026,
+        "subtitle": [
+          "Śródziemnomorska przestrzeń, w której sztuka staje się architekturą",
+          "An Art-Led Mediterranean Lounge",
+          "Un lounge mediterráneo concebido desde el arte"
+        ],
+        "tagline": [
+          "Gdzie sztuka staje się architekturą.",
+          "Where Art Becomes Architecture.",
+          "Donde el arte se convierte en arquitectura."
+        ],
+        "status": [
+          "Projekt koncepcyjny · Wizualizacje wspomagane AI",
+          "Concept project · AI-assisted visualisations",
+          "Proyecto conceptual · Visualizaciones asistidas por IA"
+        ],
+        "shortStatus": [
+          "Koncepcja / wizualizacje AI",
+          "Concept / AI-assisted visualisations",
+          "Propuesta / visualizaciones asistidas por IA"
+        ],
+        "seoTitle": [
+          "Midnight Garden | Wnętrze inspirowane sztuką",
+          "Midnight Garden | Art-Led Interior Design",
+          "Midnight Garden | Interiorismo y arte de autor"
+        ],
+        "seoDescription": [
+          "Poznaj Midnight Garden: koncepcję śródziemnomorskiej przestrzeni lounge, w której botaniczne malowidło sufitowe łączy się z architekturą i naturalnymi materiałami.",
+          "Explore Midnight Garden, a Mediterranean luxury lounge concept where bespoke botanical ceiling art, natural materials and architecture come together.",
+          "Descubra Midnight Garden: un concepto de lounge mediterráneo donde la pintura botánica de autor en el techo, los materiales naturales y la arquitectura forman un conjunto."
+        ],
+        "hero": {
+          "image": "midnight-garden/view-1.webp",
+          "width": 2400,
+          "height": 1792,
+          "alt": [
+            "Midnight Garden — śródziemnomorski lounge z granatowym malowidłem botanicznym na suficie",
+            "Midnight Garden — Mediterranean lounge with a midnight-blue botanical ceiling artwork",
+            "Midnight Garden — lounge mediterráneo con pintura botánica azul marino en el techo"
+          ],
+          "caption": [
+            "Widok ogólny · autorska koncepcja wnętrza",
+            "The vision · an original interior concept",
+            "Vista general · propuesta de interiorismo de autor"
+          ]
+        },
+        "arrival": {
+          "image": "midnight-garden/view-5.webp",
+          "width": 1086,
+          "height": 1448,
+          "alt": [
+            "Wejście do Midnight Garden z widokiem na malowany sufit, bar i oliwny ogród",
+            "Arrival at Midnight Garden, with views of the painted ceiling, bar and olive-tree courtyard",
+            "Entrada a Midnight Garden con vistas al techo pintado, la barra y el patio con olivos"
+          ],
+          "caption": [
+            "Wejście · pierwsze spotkanie z przestrzenią",
+            "The arrival · a first encounter with the space",
+            "La llegada · el primer encuentro con el espacio"
+          ]
+        },
+        "materialVisual": {
+          "image": "midnight-garden/view-3.webp",
+          "width": 2400,
+          "height": 1792,
+          "alt": [
+            "Detal strefy barowej Midnight Garden: granatowa ceramika, drewno orzechowe i malowidło sufitowe",
+            "Midnight Garden bar detail: navy glazed ceramic, walnut and the ceiling artwork",
+            "Detalle de la barra de Midnight Garden: cerámica esmaltada azul marino, nogal y pintura en el techo"
+          ],
+          "caption": [
+            "Materiały · ceramika, orzech i ciepłe światło",
+            "Materiality · ceramic, walnut and warm light",
+            "Materiales · cerámica, nogal y luz cálida"
+          ]
+        },
+        "landscapeVisual": {
+          "image": "midnight-garden/view-6.webp",
+          "width": 4800,
+          "height": 3584,
+          "alt": [
+            "Midnight Garden od strony ogrodu: drzewo oliwne, tafla wody i wnętrze z malowidłem",
+            "Midnight Garden seen from the courtyard: an olive tree, reflective water and the art-led interior",
+            "Midnight Garden visto desde el jardín: un olivo, una lámina de agua y el interior con pintura mural"
+          ],
+          "caption": [
+            "Wnętrze i krajobraz · śródziemnomorski wieczór",
+            "Interior and landscape · a Mediterranean evening",
+            "Interior y paisaje · un atardecer mediterráneo"
+          ]
+        },
+        "comparison": {
+          "before": {
+            "image": "midnight-garden/before-refined.webp",
+            "width": 2400,
+            "height": 1792,
+            "alt": [
+              "Midnight Garden — wariant koncepcji bez malowidła sufitowego",
+              "Midnight Garden — concept without bespoke ceiling art",
+              "Midnight Garden — propuesta sin pintura de autor en el techo"
+            ],
+            "caption": [
+              "Bez malowidła sufitowego",
+              "Without ceiling art",
+              "Sin pintura en el techo"
+            ]
+          },
+          "after": {
+            "image": "midnight-garden/view-1.webp",
+            "width": 2400,
+            "height": 1792,
+            "alt": [
+              "Midnight Garden — wariant koncepcji z botanicznym malowidłem sufitowym",
+              "Midnight Garden — concept with bespoke botanical ceiling art",
+              "Midnight Garden — propuesta con pintura botánica de autor en el techo"
+            ],
+            "caption": [
+              "Z autorskim malowidłem",
+              "With bespoke ceiling art",
+              "Con pintura de autor en el techo"
+            ]
+          }
+        },
+        "facts": [
+          {
+            "label": [
+              "Typ projektu",
+              "Project type",
+              "Tipo de proyecto"
+            ],
+            "value": [
+              "Koncepcja lounge / hospitality",
+              "Luxury hospitality / lounge concept",
+              "Concepto de lounge / hostelería"
+            ]
+          },
+          {
+            "label": [
+              "Rok",
+              "Year",
+              "Año"
+            ],
+            "value": [
+              "2026",
+              "2026",
+              "2026"
+            ]
+          },
+          {
+            "label": [
+              "Kierunek artystyczny",
+              "Creative direction",
+              "Dirección creativa"
+            ],
+            "value": [
+              "Art of Meaning",
+              "Art of Meaning",
+              "Art of Meaning"
+            ]
+          },
+          {
+            "label": [
+              "Zakres",
+              "Focus",
+              "Enfoque"
+            ],
+            "value": [
+              "Projekt wnętrza + autorskie malowidło sufitowe",
+              "Interior design + bespoke ceiling art",
+              "Diseño de interiores + pintura de autor en el techo"
+            ]
+          }
+        ],
+        "introduction": {
+          "heading": [
+            "Sztuka w centrum wnętrza.",
+            "Art at the heart of the interior.",
+            "El arte en el centro del espacio."
+          ],
+          "body": [
+            "Midnight Garden to autorska koncepcja luksusowej przestrzeni lounge, w której malarstwo, architektura i natura tworzą jedną, spójną opowieść.\n\nProjekt powstał z idei nadania sztuce roli wykraczającej poza tradycyjną dekorację wnętrza.",
+            "A contemporary Mediterranean retreat where bespoke art, sculptural design, and natural materials come together to create an immersive spatial experience.\n\nMidnight Garden explores the relationship between art, architecture, and atmosphere.\n\nInspired by the quiet elegance of Mediterranean evenings, the concept brings together contemporary Italian-inspired furniture, natural stone, rich walnut finishes, and a distinctive ceiling artwork.",
+            "Midnight Garden es una propuesta de lounge de lujo en la que la pintura, la arquitectura y la naturaleza forman una única historia coherente.\n\nEl proyecto nace de la idea de dar al arte un papel que vaya más allá de la decoración tradicional. Inspirado en la elegancia serena de los atardeceres mediterráneos, reúne mobiliario escultórico, piedra natural, acabados en nogal y una pintura de autor en el techo."
+          ]
+        },
+        "art": {
+          "heading": [
+            "Sztuka jako część architektury",
+            "Art as an architectural experience",
+            "El arte como experiencia arquitectónica"
+          ],
+          "body": [
+            "Centralnym elementem kompozycji jest projekt monumentalnego malowidła sufitowego inspirowanego organicznymi formami śródziemnomorskiej roślinności.\n\nGłęboki granat, antyczne złoto i subtelne odcienie oliwkowej zieleni tworzą malarską strukturę, która nadaje przestrzeni indywidualny charakter.\n\nOrnament nie stanowi jedynie dekoracji. Prowadzi wzrok, buduje rytm wnętrza i nawiązuje do otaczającego krajobrazu.",
+            "At the heart of the space, an expansive midnight-blue botanical composition unfolds overhead. Delicate branches in antique gold and muted olive tones transform the ceiling into an immersive artistic statement, creating a dialogue between the architecture and the surrounding landscape.\n\nRather than treating artwork as a final decorative layer, Midnight Garden places artistic expression at the centre of the design process.\n\nThe ceiling becomes a defining architectural feature, establishing rhythm, movement, and identity throughout the interior.\n\nIts organic forms echo the branches of the olive trees outside, blurring the boundary between the built environment and nature.",
+            "El elemento central de la composición es el diseño de una pintura monumental para el techo, inspirada en las formas orgánicas de la vegetación mediterránea.\n\nEl azul marino profundo, el oro envejecido y los sutiles tonos verde oliva crean una estructura pictórica que aporta identidad al espacio. En lugar de tratar la obra como una última capa decorativa, Midnight Garden sitúa la expresión artística en el centro del proceso de diseño.\n\nEl ornamento guía la mirada, marca el ritmo del interior y dialoga con el paisaje. Sus formas recuerdan las ramas de los olivos del exterior y difuminan la frontera entre la arquitectura y la naturaleza."
+          ]
+        },
+        "materials": {
+          "heading": [
+            "Dialog materiałów",
+            "Materiality & atmosphere",
+            "El diálogo de los materiales"
+          ],
+          "body": [
+            "Rzeźbiarskie formy jasnych sof kontrastują z ciemnym kamieniem, naturalnym trawertynem i głębokimi odcieniami drewna orzechowego.\n\nStrefę barową wyróżnia szkliwiona ceramika w odcieniu midnight blue, której nieregularna powierzchnia subtelnie odbija ciepłe światło.\n\nMiękkie tkaniny, koniakowe akcenty i starannie dobrane faktury równoważą wyrazisty charakter malowidła.",
+            "A sculptural bar clad in deep navy glazed ceramic anchors the social space, complemented by warm walnut shelving, natural travertine, and carefully balanced lighting.\n\nCurved ivory seating and cognac-toned accents introduce softness, creating an elegant contrast with the expressive ceiling artwork.\n\nEvery material is selected to support a cohesive visual identity — sophisticated, tactile, and timeless.",
+            "Las formas escultóricas de los sofás claros contrastan con la piedra oscura, el travertino natural y los tonos profundos del nogal.\n\nLa barra se distingue por su cerámica esmaltada en azul marino, cuya superficie irregular refleja sutilmente la luz cálida. La acompañan estanterías de nogal y una iluminación cuidadosamente equilibrada.\n\nLos tejidos suaves, los acentos en color coñac y las texturas seleccionadas equilibran la fuerza de la pintura del techo. Cada material contribuye a una identidad visual coherente, táctil y atemporal."
+          ]
+        },
+        "landscape": {
+          "heading": [
+            "Architektura otwarta na naturę",
+            "Between interior & landscape",
+            "Arquitectura abierta a la naturaleza"
+          ],
+          "body": [
+            "Przestrzeń płynnie łączy się ze śródziemnomorskim ogrodem. Centralnie usytuowane drzewo oliwne, tafla wody i daleki horyzont tworzą naturalne przedłużenie wnętrza.\n\nO zmierzchu światło wydobywa głębię materiałów, a malowany sufit staje się niemal teatralnym elementem architektury.\n\nMidnight Garden to opowieść o projektowaniu, w którym estetyka, sztuka i doświadczenie przestrzeni pozostają nierozłączne.",
+            "The lounge opens toward a Mediterranean courtyard, where a mature olive tree, reflective water, and distant coastal views extend the visual experience beyond the architecture.\n\nAs daylight fades, warm architectural lighting reveals the richness of the materials and the subtle depth of the ceiling artwork.\n\nThe result is a space designed not simply to be seen, but to be experienced.",
+            "El espacio se abre de forma natural hacia un jardín mediterráneo. Un olivo maduro, la lámina de agua y el horizonte lejano prolongan la experiencia visual más allá de la arquitectura.\n\nAl atardecer, la iluminación cálida revela la profundidad de los materiales y la riqueza de la pintura del techo, que adquiere una presencia casi teatral.\n\nMidnight Garden es una historia de diseño en la que la estética, el arte y la experiencia del espacio resultan inseparables: un lugar pensado para ser vivido, además de contemplado."
+          ]
+        }
+      },
+      "curatedRank": 2,
+      "featuredRank": 2
+    },
+    {
+      "id": "puerto-banus",
+      "image": "puerto-banus/view-1.jpg",
+      "title": [
+        "Puerto Banús Residence",
+        "Puerto Banús Residence",
+        "Puerto Banús Residence"
+      ],
+      "type": "commercial",
+      "projectPage": "puerto-banus-residence.html",
+      "project": {
+        "slug": "puerto-banus-residence",
+        "kind": "photography",
+        "subtitle": [
+          "Puerto Banús · Marbella · Hiszpania",
+          "Puerto Banús · Marbella · Spain",
+          "Puerto Banús · Marbella · España"
+        ],
+        "tagline": [
+          "Współczesna elegancja nad Morzem Śródziemnym.",
+          "Contemporary Mediterranean Living.",
+          "Elegancia contemporánea junto al Mediterráneo."
+        ],
+        "status": [
+          "Realizacja · współpraca z zespołem NOVA KASYANOV",
+          "Completed project · collaboration with the NOVA KASYANOV team",
+          "Proyecto realizado · colaboración con el equipo NOVA KASYANOV"
+        ],
+        "shortStatus": [
+          "Realizacja / współpraca projektowa",
+          "Completed project / design collaboration",
+          "Proyecto realizado / colaboración de diseño"
+        ],
+        "seoTitle": [
+          "Puerto Banús Residence, Marbella | Projekt wnętrza",
+          "Puerto Banús Residence, Marbella | Interior Design Portfolio",
+          "Puerto Banús Residence, Marbella | Portfolio de interiorismo"
+        ],
+        "seoDescription": [
+          "Projekt rezydencjalny w Puerto Banús, Marbella, we współpracy z zespołem NOVA KASYANOV. Układy funkcjonalne, dobór mebli i tkanin do sypialni głównej oraz śródziemnomorska paleta materiałów.",
+          "Discover a collaborative residential interior in Puerto Banús, Marbella, featuring considered furniture layouts, a calm bedroom palette and refined Mediterranean materials.",
+          "Un proyecto residencial en Puerto Banús, Marbella, en colaboración con el equipo NOVA KASYANOV: distribución, selección de mobiliario y tejidos para el dormitorio principal y materiales mediterráneos."
+        ],
+        "hero": {
+          "image": "puerto-banus/view-1.jpg",
+          "width": 1920,
+          "height": 2835,
+          "kind": "photo",
+          "caption": [
+            "Taras z widokiem na Morze Śródziemne",
+            "Terrace overlooking the Mediterranean",
+            "Terraza con vistas al Mediterráneo"
+          ],
+          "alt": [
+            "Puerto Banús Residence — Taras z widokiem na Morze Śródziemne",
+            "Puerto Banús Residence — Terrace overlooking the Mediterranean",
+            "Puerto Banús Residence — Terraza con vistas al Mediterráneo"
+          ]
+        },
+        "arrival": {
+          "image": "puerto-banus/view-4.jpg",
+          "width": 1920,
+          "height": 2875,
+          "kind": "photo",
+          "caption": [
+            "Sypialnia główna — miękkie faktury i ciepłe światło",
+            "Master bedroom — soft textures and warm light",
+            "Dormitorio principal: texturas suaves y luz cálida"
+          ],
+          "alt": [
+            "Puerto Banús Residence — Sypialnia główna — miękkie faktury i ciepłe światło",
+            "Puerto Banús Residence — Master bedroom — soft textures and warm light",
+            "Puerto Banús Residence — Dormitorio principal: texturas suaves y luz cálida"
+          ]
+        },
+        "facts": [
+          {
+            "label": [
+              "Lokalizacja",
+              "Location",
+              "Ubicación"
+            ],
+            "value": [
+              "Puerto Banús, Marbella, Hiszpania",
+              "Puerto Banús, Marbella, Spain",
+              "Puerto Banús, Marbella, España"
+            ]
+          },
+          {
+            "label": [
+              "Typ projektu",
+              "Project type",
+              "Tipo de proyecto"
+            ],
+            "value": [
+              "Wnętrze rezydencjalne premium",
+              "Luxury residential interior",
+              "Interior residencial de alta gama"
+            ]
+          },
+          {
+            "label": [
+              "Zespół projektowy",
+              "Design team",
+              "Equipo de diseño"
+            ],
+            "value": [
+              "NOVA KASYANOV",
+              "NOVA KASYANOV",
+              "NOVA KASYANOV"
+            ]
+          },
+          {
+            "label": [
+              "Mój udział",
+              "My contribution",
+              "Mi contribución"
+            ],
+            "value": [
+              "Opracowanie rzutów, układów meblowych oraz dobór mebli i tkanin do sypialni głównej.",
+              "Floor plan development, furniture layouts, master bedroom furniture selection and fabric selection.",
+              "Desarrollo de planos, distribución del mobiliario y selección de muebles y tejidos para el dormitorio principal."
+            ]
+          }
+        ],
+        "introduction": {
+          "heading": [
+            "Współczesna przestrzeń ze śródziemnomorską duszą.",
+            "Contemporary living, with a Mediterranean soul.",
+            "Una forma de vivir contemporánea, con alma mediterránea."
+          ],
+          "body": [
+            "Projekt wnętrza rezydencjalnego w Puerto Banús łączy współczesną elegancję ze swobodą śródziemnomorskiego stylu życia. Naturalne faktury, warstwowo zestawione tkaniny i starannie dobrane formy mebli budują spokojną, a jednocześnie wyrazistą atmosferę.\n\nW ramach współpracy z zespołem NOVA KASYANOV odpowiadałam za rozwijanie rzutów i układów funkcjonalnych mebli, z uwzględnieniem komunikacji, komfortu użytkowania i spójności kompozycyjnej. Mój zakres obejmował również dobór wyposażenia oraz tkanin do głównej sypialni.",
+            "Set along the Mediterranean coast in Puerto Banús, this residential project balances contemporary elegance with the relaxed atmosphere of coastal living. Natural textures, layered textiles and a carefully considered selection of furniture create an interior that feels composed yet inviting.\n\nWorking as part of the NOVA KASYANOV design team, I contributed to floor plan development and furniture layouts, supporting the relationship between circulation, comfort and visual harmony. My involvement also included selecting furniture and fabrics for the master bedroom, with an emphasis on material balance and a cohesive, understated atmosphere.",
+            "Este proyecto residencial en Puerto Banús combina la elegancia contemporánea con la naturalidad de la vida mediterránea. Las texturas naturales, los tejidos superpuestos y una cuidada selección de formas crean un ambiente sereno y, al mismo tiempo, expresivo.\n\nComo parte del equipo de diseño NOVA KASYANOV, participé en el desarrollo de planos y distribuciones del mobiliario, atendiendo a la circulación, la comodidad y la armonía visual. Mi contribución también incluyó la selección de muebles y tejidos para el dormitorio principal, buscando un equilibrio material y una atmósfera coherente y discreta."
+          ]
+        },
+        "credit": [
+          "Wybrana współpraca projektowa z zespołem NOVA KASYANOV. Indywidualny zakres Magdaleny Babickiej przedstawiono w metryce projektu.",
+          "Selected collaborative work with the NOVA KASYANOV design team. Magdalena Babicka’s individual contribution is detailed in the project credits.",
+          "Colaboración seleccionada con el equipo de diseño NOVA KASYANOV. La contribución individual de Magdalena Babicka se detalla en los créditos del proyecto."
+        ],
+        "sections": [
+          {
+            "id": "sypialnia",
+            "eyebrow": [
+              "Sypialnia główna",
+              "Master bedroom",
+              "Dormitorio principal"
+            ],
+            "heading": [
+              "Miękkość ukryta w detalach.",
+              "Softness in the details.",
+              "La suavidad de los detalles."
+            ],
+            "body": [
+              "Sypialnia łączy warstwowo dobrane tkaniny, subtelne oświetlenie i ciepłe, neutralne wykończenia. W ramach pracy zespołowej dobierałam meble oraz tkaniny, budując spokojny, przyjemny w odbiorze charakter tej części wnętrza.",
+              "The bedroom combines carefully layered fabrics, restrained lighting and warm neutral finishes. As part of the wider design team, I selected furniture and fabrics to help create a calm, tactile environment with a contemporary character.",
+              "El dormitorio combina tejidos cuidadosamente superpuestos, iluminación contenida y acabados cálidos y neutros. Como parte del equipo de diseño, seleccioné muebles y tejidos para crear un ambiente sereno, táctil y contemporáneo."
+            ],
+            "visuals": [
+              {
+                "image": "puerto-banus/view-2.jpg",
+                "width": 1920,
+                "height": 2807,
+                "kind": "photo",
+                "caption": [
+                  "Sypialnia główna — kompozycja tkanin i oświetlenia",
+                  "Master bedroom — fabrics and lighting",
+                  "Dormitorio principal: tejidos e iluminación"
+                ],
+                "alt": [
+                  "Puerto Banús Residence — Sypialnia główna — kompozycja tkanin i oświetlenia",
+                  "Puerto Banús Residence — Master bedroom — fabrics and lighting",
+                  "Puerto Banús Residence — Dormitorio principal: tejidos e iluminación"
+                ]
+              },
+              {
+                "image": "puerto-banus/view-5.jpg",
+                "width": 1920,
+                "height": 2863,
+                "kind": "photo",
+                "caption": [
+                  "Sypialnia główna — detal wyposażenia",
+                  "Master bedroom — furniture detail",
+                  "Dormitorio principal: detalle del mobiliario"
+                ],
+                "alt": [
+                  "Puerto Banús Residence — Sypialnia główna — detal wyposażenia",
+                  "Puerto Banús Residence — Master bedroom — furniture detail",
+                  "Puerto Banús Residence — Dormitorio principal: detalle del mobiliario"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "salon",
+            "eyebrow": [
+              "Salon i jadalnia",
+              "Living and dining",
+              "Salón y comedor"
+            ],
+            "heading": [
+              "Wyrazista, wyważona kompozycja.",
+              "An expressive yet balanced interior.",
+              "Una composición expresiva y equilibrada."
+            ],
+            "body": [
+              "Zaokrąglone siedziska, stoliki o rzeźbiarskich formach i wyrazista sztuka tworzą kontrast z ciepłą, stonowaną bazą. Układ mebli wyznacza rytm przestrzeni, porządkuje komunikację i otwiera wnętrze na taras oraz morski horyzont.",
+              "Curved seating, sculptural occasional tables and a bold artwork create contrast within a restrained, warm setting. The furniture layout establishes a spatial rhythm, supports circulation and opens the interior towards the terrace and the sea.",
+              "Los asientos curvos, las mesas auxiliares de formas escultóricas y una obra de arte expresiva contrastan con una base cálida y contenida. La distribución del mobiliario marca el ritmo del espacio, facilita la circulación y abre el interior a la terraza y al horizonte marino."
+            ],
+            "visuals": [
+              {
+                "image": "puerto-banus/view-3.jpg",
+                "width": 1920,
+                "height": 2926,
+                "kind": "photo",
+                "caption": [
+                  "Salon — rzeźbiarskie meble i wyrazista kompozycja",
+                  "Living area — sculptural furniture and expressive composition",
+                  "Salón: mobiliario escultórico y una composición expresiva"
+                ],
+                "alt": [
+                  "Puerto Banús Residence — Salon — rzeźbiarskie meble i wyrazista kompozycja",
+                  "Puerto Banús Residence — Living area — sculptural furniture and expressive composition",
+                  "Puerto Banús Residence — Salón: mobiliario escultórico y una composición expresiva"
+                ]
+              },
+              {
+                "image": "puerto-banus/view-10.jpg",
+                "width": 1920,
+                "height": 2803,
+                "kind": "photo",
+                "caption": [
+                  "Strefa wypoczynku otwarta na taras",
+                  "Seating area opening onto the terrace",
+                  "Zona de estar abierta a la terraza"
+                ],
+                "alt": [
+                  "Puerto Banús Residence — Strefa wypoczynku otwarta na taras",
+                  "Puerto Banús Residence — Seating area opening onto the terrace",
+                  "Puerto Banús Residence — Zona de estar abierta a la terraza"
+                ]
+              },
+              {
+                "image": "puerto-banus/view-11.jpg",
+                "width": 1920,
+                "height": 2856,
+                "kind": "photo",
+                "caption": [
+                  "Jadalnia — układ mebli i oświetlenie",
+                  "Dining area — furniture layout and lighting",
+                  "Comedor: distribución del mobiliario e iluminación"
+                ],
+                "alt": [
+                  "Puerto Banús Residence — Jadalnia — układ mebli i oświetlenie",
+                  "Puerto Banús Residence — Dining area — furniture layout and lighting",
+                  "Puerto Banús Residence — Comedor: distribución del mobiliario e iluminación"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "materialy",
+            "eyebrow": [
+              "Materiały i detale",
+              "Materials and details",
+              "Materiales y detalles"
+            ],
+            "heading": [
+              "Głębia materiału.",
+              "Material contrasts.",
+              "Contrastes materiales."
+            ],
+            "body": [
+              "Charakter wnętrza tworzą ciepłe drewno orzechowe, kamień o wyrazistym rysunku, miękkie tapicerki i dopracowane detale. Jasne płaszczyzny zabudowy i subtelne metaliczne akcenty równoważą intensywność kamienia, zachowując spójny, czytelny język materiałów.",
+              "The wider project brings together rich walnut finishes, expressive dark stone, soft upholstery and selected contemporary design pieces. Light-toned cabinetry and muted metallic accents balance the stone, creating a refined, tactile material language.",
+              "El conjunto del proyecto reúne acabados de nogal, piedra oscura de vetas marcadas, tapicerías suaves y piezas de diseño contemporáneo. La carpintería clara y los discretos acentos metálicos equilibran la intensidad de la piedra y crean un lenguaje material refinado y táctil."
+            ],
+            "visuals": [
+              {
+                "image": "puerto-banus/view-6.jpg",
+                "width": 1920,
+                "height": 1608,
+                "kind": "photo",
+                "caption": [
+                  "Kuchnia — orzech i kamień o wyrazistym rysunku",
+                  "Kitchen — walnut and richly veined stone",
+                  "Cocina: nogal y piedra de vetas marcadas"
+                ],
+                "alt": [
+                  "Puerto Banús Residence — Kuchnia — orzech i kamień o wyrazistym rysunku",
+                  "Puerto Banús Residence — Kitchen — walnut and richly veined stone",
+                  "Puerto Banús Residence — Cocina: nogal y piedra de vetas marcadas"
+                ]
+              },
+              {
+                "image": "puerto-banus/view-9.jpg",
+                "width": 1920,
+                "height": 1963,
+                "kind": "photo",
+                "caption": [
+                  "Kamień i armatura — detal kuchni",
+                  "Stone and fittings — a kitchen detail",
+                  "Piedra y grifería: detalle de la cocina"
+                ],
+                "alt": [
+                  "Puerto Banús Residence — Kamień i armatura — detal kuchni",
+                  "Puerto Banús Residence — Stone and fittings — a kitchen detail",
+                  "Puerto Banús Residence — Piedra y grifería: detalle de la cocina"
+                ]
+              },
+              {
+                "image": "puerto-banus/view-8.jpg",
+                "width": 1920,
+                "height": 2833,
+                "kind": "photo",
+                "caption": [
+                  "Zabudowa — drewno, kamień i otwarte półki",
+                  "Joinery — timber, stone and open shelving",
+                  "Carpintería: madera, piedra y estantes abiertos"
+                ],
+                "alt": [
+                  "Puerto Banús Residence — Zabudowa — drewno, kamień i otwarte półki",
+                  "Puerto Banús Residence — Joinery — timber, stone and open shelving",
+                  "Puerto Banús Residence — Carpintería: madera, piedra y estantes abiertos"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "horyzont",
+            "eyebrow": [
+              "Śródziemnomorski horyzont",
+              "The Mediterranean horizon",
+              "El horizonte mediterráneo"
+            ],
+            "heading": [
+              "W dialogu z morzem.",
+              "Living with the horizon.",
+              "Vivir junto al horizonte."
+            ],
+            "body": [
+              "Widok na morze stanowi spokojny punkt odniesienia dla całej rezydencji. Błękitne akcenty tarasu łączą krajobraz z miękką paletą wnętrza, pozwalając światłu, kolorowi i proporcjom tworzyć jedną opowieść o miejscu.",
+              "Sea views bring a calming visual anchor to the residence. Cool blue accents connect the terrace to the softer interior palette, allowing light, colour and proportion to form a continuous story about the setting.",
+              "Las vistas al mar aportan un punto de referencia sereno a la residencia. Los acentos azules de la terraza conectan el paisaje con la paleta suave del interior, donde luz, color y proporción forman un relato continuo sobre el lugar."
+            ],
+            "visuals": [
+              {
+                "image": "puerto-banus/view-7.jpg",
+                "width": 1920,
+                "height": 2794,
+                "kind": "photo",
+                "caption": [
+                  "Taras — kolor w dialogu z morskim horyzontem",
+                  "Terrace — colour in dialogue with the sea",
+                  "Terraza: el color en diálogo con el horizonte marino"
+                ],
+                "alt": [
+                  "Puerto Banús Residence — Taras — kolor w dialogu z morskim horyzontem",
+                  "Puerto Banús Residence — Terrace — colour in dialogue with the sea",
+                  "Puerto Banús Residence — Terraza: el color en diálogo con el horizonte marino"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "curatedRank": 3,
+      "featuredRank": 3
+    },
+    {
+      "id": "private-spa-bathroom",
+      "image": "private-spa-bathroom/design-visualisation.png",
+      "title": [
+        "Private Spa Bathroom",
+        "Private Spa Bathroom",
+        "Private Spa Bathroom"
+      ],
+      "type": "residential",
+      "projectPage": "private-spa-bathroom.html",
+      "project": {
+        "slug": "private-spa-bathroom",
+        "kind": "study",
+        "subtitle": [
+          "Gliwice · Polska",
+          "Gliwice · Poland",
+          "Gliwice · Polonia"
+        ],
+        "tagline": [
+          "Studium przemiany przestrzeni.",
+          "A Study in Spatial Transformation.",
+          "Un estudio de transformación espacial."
+        ],
+        "status": [
+          "Realizacja w toku",
+          "Implementation in progress",
+          "Obra en curso"
+        ],
+        "shortStatus": [
+          "Realizacja w toku / projekt wnętrza",
+          "Implementation in progress / interior design",
+          "Obra en curso / diseño de interiores"
+        ],
+        "seoTitle": [
+          "Private Spa Bathroom, Gliwice | Projekt wnętrza",
+          "Private Spa Bathroom, Gliwice | Interior Design",
+          "Private Spa Bathroom, Gliwice | Diseño de interiores"
+        ],
+        "seoDescription": [
+          "Koncepcja prywatnej łazienki w Gliwicach: planowanie funkcjonalne, zabudowa na wymiar, oświetlenie i dokumentacja techniczna. Projekt Magdaleny Babickiej, realizacja w toku.",
+          "A private bathroom in Gliwice: spatial planning, bespoke joinery, lighting and technical documentation by Magdalena Babicka. Implementation in progress.",
+          "Un baño privado en Gliwice: distribución, mobiliario a medida, iluminación y documentación técnica de Magdalena Babicka. Obra en curso."
+        ],
+        "hero": {
+          "image": "private-spa-bathroom/design-visualisation.png",
+          "width": 1649,
+          "height": 2048,
+          "kind": "visualisation",
+          "caption": [
+            "Private Spa Bathroom",
+            "Private Spa Bathroom",
+            "Private Spa Bathroom"
+          ],
+          "alt": [
+            "Private Spa Bathroom — Wizualizacja koncepcji — realizacja w toku",
+            "Private Spa Bathroom — Design visualisation — implementation in progress",
+            "Private Spa Bathroom — Visualización del proyecto — obra en curso"
+          ]
+        },
+        "facts": [
+          {
+            "label": [
+              "Lokalizacja",
+              "Location",
+              "Ubicación"
+            ],
+            "value": [
+              "Gliwice, Polska",
+              "Gliwice, Poland",
+              "Gliwice, Polonia"
+            ]
+          },
+          {
+            "label": [
+              "Typ projektu",
+              "Project type",
+              "Tipo de proyecto"
+            ],
+            "value": [
+              "Prywatna łazienka",
+              "Private bathroom",
+              "Baño privado"
+            ]
+          },
+          {
+            "label": [
+              "Rola",
+              "Role",
+              "Función"
+            ],
+            "value": [
+              "Magdalena Babicka · główna projektantka wnętrza",
+              "Magdalena Babicka · Lead Interior Designer",
+              "Magdalena Babicka · diseñadora de interiores principal"
+            ]
+          }
+        ],
+        "introduction": {
+          "heading": [
+            "Codzienny rytuał, przemyślany na nowo.",
+            "An everyday ritual, reconsidered.",
+            "Una nueva mirada al ritual cotidiano."
+          ],
+          "body": [
+            "Private Spa Bathroom to projekt prywatnej łazienki w Gliwicach, w którym funkcjonalność spotyka się z atmosferą domowej strefy wyciszenia. Punktem wyjścia jest uważne uporządkowanie przestrzeni — od układu wyposażenia po światło i detale zabudowy.\n\nKoncepcja łączy ciepłe, stonowane barwy, odcienie drewna i miękkie oświetlenie. Za spokojnym obrazem wnętrza stoi praca nad rzutami, rozwiązaniami na wymiar oraz koordynacją instalacji i wykonawstwa.",
+            "Private Spa Bathroom is a private bathroom project in Gliwice, where practical planning meets the calm atmosphere of a personal retreat. The starting point is a considered organisation of the space, from the layout of fittings to lighting and joinery details.\n\nThe concept brings together warm, restrained tones, timber colours and soft lighting. Behind this calm interior lies work on spatial plans, bespoke solutions and coordination of building services and contractors.",
+            "Private Spa Bathroom es un proyecto de baño privado en Gliwice que combina una distribución práctica con la calma de un refugio personal. El punto de partida es una organización cuidada del espacio, desde la disposición del equipamiento hasta la iluminación y los detalles del mobiliario.\n\nEl concepto reúne tonos cálidos y contenidos, colores de madera y una luz suave. Detrás de esta imagen serena hay un trabajo de planificación, soluciones a medida y coordinación de instalaciones y contratistas."
+          ]
+        },
+        "credit": [
+          "Projekt jest w trakcie realizacji. Wizualizacja przedstawia zamierzony kierunek; fotografie dokumentują stan przed remontem.",
+          "Implementation is in progress. The visualisation presents the design intent; photographs document the existing conditions.",
+          "El proyecto está en fase de ejecución. La visualización presenta la propuesta de diseño; las fotografías documentan el estado previo a la reforma."
+        ],
+        "sections": [
+          {
+            "id": "stan-istniejacy",
+            "eyebrow": [
+              "Punkt wyjścia",
+              "The starting point",
+              "El punto de partida"
+            ],
+            "heading": [
+              "Przed zmianą.",
+              "Before the transformation.",
+              "Antes de la transformación."
+            ],
+            "body": [
+              "Autentyczne zdjęcia pokazują stan łazienki i widok od wejścia przed remontem. To kontekst dla decyzji funkcjonalnych i materiałowych przedstawionych w projekcie.",
+              "Authentic photographs show the bathroom and the view from the entrance before renovation. They provide context for the spatial and material decisions developed in the project.",
+              "Las fotografías originales muestran el baño y la vista desde la entrada antes de la reforma. Aportan el contexto para las decisiones de distribución y materiales del proyecto."
+            ],
+            "visuals": [
+              {
+                "image": "private-spa-bathroom/before-entry.jpg",
+                "width": 1200,
+                "height": 1600,
+                "kind": "photo",
+                "caption": [
+                  "Stan przed remontem — widok od wejścia",
+                  "Existing conditions — view from the entrance",
+                  "Estado previo a la reforma — vista desde la entrada"
+                ],
+                "alt": [
+                  "Private Spa Bathroom — Stan przed remontem — widok od wejścia",
+                  "Private Spa Bathroom — Existing conditions — view from the entrance",
+                  "Private Spa Bathroom — Estado previo a la reforma — vista desde la entrada"
+                ]
+              },
+              {
+                "image": "private-spa-bathroom/before-bathroom.jpg",
+                "width": 1200,
+                "height": 1600,
+                "kind": "photo",
+                "caption": [
+                  "Stan przed remontem — wnętrze łazienki",
+                  "Existing conditions — bathroom interior",
+                  "Estado previo a la reforma — interior del baño"
+                ],
+                "alt": [
+                  "Private Spa Bathroom — Stan przed remontem — wnętrze łazienki",
+                  "Private Spa Bathroom — Existing conditions — bathroom interior",
+                  "Private Spa Bathroom — Estado previo a la reforma — interior del baño"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "planowanie",
+            "eyebrow": [
+              "Planowanie przestrzeni",
+              "Spatial planning",
+              "Planificación espacial"
+            ],
+            "heading": [
+              "Logika układu.",
+              "The logic of the layout.",
+              "La lógica de la distribución."
+            ],
+            "body": [
+              "Plansza zestawia uproszczony schemat funkcjonalny z fragmentami oryginalnego rzutu, przekroju zabudowy i wizualizacją. Schemat służy objaśnieniu projektu; nie jest rysunkiem do realizacji. Rozwiązania i wymiary należy odczytywać z dokumentacji technicznej.",
+              "The board brings a simplified spatial diagram together with excerpts from the original plan, a joinery section and the design visualisation. The diagram explains the project; it is not a construction drawing. Technical documentation remains the reference for dimensions and execution.",
+              "El panel reúne un esquema funcional simplificado, extractos del plano original, una sección del mobiliario y la visualización. El esquema sirve para explicar el proyecto; no es un plano de ejecución. Las dimensiones y los detalles constructivos deben consultarse en la documentación técnica."
+            ],
+            "visuals": [
+              {
+                "image": "private-spa-bathroom/editorial-board-preview.png",
+                "width": 2143,
+                "height": 1516,
+                "kind": "drawing",
+                "caption": [
+                  "Układ przestrzeni",
+                  "Spatial layout",
+                  "Distribución del espacio"
+                ],
+                "alt": [
+                  "Private Spa Bathroom — Plansza projektowa — schemat funkcjonalny i fragmenty oryginalnej dokumentacji",
+                  "Private Spa Bathroom — Project board — spatial diagram and original drawing excerpts",
+                  "Private Spa Bathroom — Panel del proyecto — esquema funcional y extractos de la documentación original"
+                ]
+              }
+            ],
+            "document": "private-spa-bathroom-board.pdf",
+            "documentLabel": [
+              "Zobacz planszę — PDF",
+              "View the board — PDF",
+              "Ver la lámina — PDF"
+            ]
+          },
+          {
+            "id": "dokumentacja",
+            "eyebrow": [
+              "Dokumentacja techniczna",
+              "Technical documentation",
+              "Documentación técnica"
+            ],
+            "heading": [
+              "Od koncepcji do detalu.",
+              "From concept to detail.",
+              "Del concepto al detalle."
+            ],
+            "body": [
+              "Oryginalne fragmenty dokumentacji pokazują rzut, przekroje, zabudowę oraz rozwiązania instalacyjne. Każdy rysunek można powiększyć i otworzyć w pełnej rozdzielczości. Zachowano oryginalne oznaczenia i opisy w języku polskim.",
+              "Original drawing excerpts show the plan, sections, joinery and building services. Each drawing can be enlarged and opened at full resolution. Original annotations and descriptions remain in Polish.",
+              "Los extractos originales muestran la planta, las secciones, el mobiliario y las instalaciones. Cada dibujo puede ampliarse y abrirse a su resolución completa. Se conservan las anotaciones y descripciones originales en polaco."
+            ],
+            "visuals": [
+              {
+                "image": "private-spa-bathroom/real-plan.png",
+                "width": 1119,
+                "height": 1386,
+                "kind": "drawing",
+                "caption": [
+                  "Oryginalny rzut funkcjonalny",
+                  "Original spatial plan",
+                  "Plano de distribución original"
+                ],
+                "alt": [
+                  "Private Spa Bathroom — Oryginalny rzut funkcjonalny",
+                  "Private Spa Bathroom — Original spatial plan",
+                  "Private Spa Bathroom — Plano de distribución original"
+                ]
+              },
+              {
+                "image": "private-spa-bathroom/real-joinery-section.png",
+                "width": 1239,
+                "height": 1365,
+                "kind": "drawing",
+                "caption": [
+                  "Zabudowa na wymiar — oryginalny przekrój",
+                  "Bespoke joinery — original section",
+                  "Mobiliario a medida — sección original"
+                ],
+                "alt": [
+                  "Private Spa Bathroom — Zabudowa na wymiar — oryginalny przekrój",
+                  "Private Spa Bathroom — Bespoke joinery — original section",
+                  "Private Spa Bathroom — Mobiliario a medida — sección original"
+                ]
+              },
+              {
+                "image": "private-spa-bathroom/real-bathroom-section.png",
+                "width": 1335,
+                "height": 1365,
+                "kind": "drawing",
+                "caption": [
+                  "Łazienka — oryginalny przekrój",
+                  "Bathroom — original section",
+                  "Baño — sección original"
+                ],
+                "alt": [
+                  "Private Spa Bathroom — Łazienka — oryginalny przekrój",
+                  "Private Spa Bathroom — Bathroom — original section",
+                  "Private Spa Bathroom — Baño — sección original"
+                ]
+              },
+              {
+                "image": "private-spa-bathroom/real-water-plan.png",
+                "width": 1293,
+                "height": 1467,
+                "kind": "drawing",
+                "caption": [
+                  "Oryginalny rysunek instalacji wodno-kanalizacyjnej",
+                  "Original plumbing drawing",
+                  "Plano original de fontanería y saneamiento"
+                ],
+                "alt": [
+                  "Private Spa Bathroom — Oryginalny rysunek instalacji wodno-kanalizacyjnej",
+                  "Private Spa Bathroom — Original plumbing drawing",
+                  "Private Spa Bathroom — Plano original de fontanería y saneamiento"
+                ]
+              },
+              {
+                "image": "private-spa-bathroom/real-electric-plan.png",
+                "width": 1500,
+                "height": 1473,
+                "kind": "drawing",
+                "caption": [
+                  "Oryginalny rysunek instalacji elektrycznej",
+                  "Original electrical drawing",
+                  "Plano original de la instalación eléctrica"
+                ],
+                "alt": [
+                  "Private Spa Bathroom — Oryginalny rysunek instalacji elektrycznej",
+                  "Private Spa Bathroom — Original electrical drawing",
+                  "Private Spa Bathroom — Plano original de la instalación eléctrica"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "materialy",
+            "eyebrow": [
+              "Materiały i światło",
+              "Materials and light",
+              "Materiales y luz"
+            ],
+            "heading": [
+              "Spokój budowany światłem.",
+              "Calm, shaped by light.",
+              "La calma a través de la luz."
+            ],
+            "body": [
+              "Ciepłe beże, odcienie drewna i delikatne akcenty w kolorze złota tworzą spójną paletę koncepcji. Oświetlenie podkreśla płaszczyzny i proporcje, a zabudowa porządkuje codzienne funkcje łazienki. Wizualizacja przedstawia założenia projektu na etapie realizacji.",
+              "Warm beiges, timber tones and subtle gold-coloured accents form a cohesive concept palette. Lighting emphasises surfaces and proportions, while joinery organises the everyday functions of the bathroom. The visualisation presents the design intent during implementation.",
+              "Los beiges cálidos, los tonos de madera y los discretos acentos dorados forman una paleta coherente. La iluminación destaca los planos y las proporciones, mientras el mobiliario organiza las funciones cotidianas del baño. La visualización muestra la propuesta de diseño durante la ejecución."
+            ],
+            "visuals": [
+              {
+                "image": "private-spa-bathroom/design-visualisation.png",
+                "width": 1649,
+                "height": 2048,
+                "kind": "visualisation",
+                "caption": [
+                  "Wizualizacja koncepcji — realizacja w toku",
+                  "Design visualisation — implementation in progress",
+                  "Visualización del proyecto — obra en curso"
+                ],
+                "alt": [
+                  "Private Spa Bathroom — Wizualizacja koncepcji — realizacja w toku",
+                  "Private Spa Bathroom — Design visualisation — implementation in progress",
+                  "Private Spa Bathroom — Visualización del proyecto — obra en curso"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "zakres-projektu",
+            "eyebrow": [
+              "Zakres i rola",
+              "Scope and role",
+              "Alcance y función"
+            ],
+            "heading": [
+              "Spójność na każdym etapie.",
+              "Continuity at every stage.",
+              "Coherencia en cada fase."
+            ],
+            "body": [
+              "Jako główna projektantka łączę kierunek estetyczny z planowaniem funkcjonalnym, dokumentacją i współpracą z wykonawcami. Zakres projektu obejmuje:",
+              "As lead interior designer, I bring together the aesthetic direction, spatial planning, documentation and collaboration with contractors. The project scope includes:",
+              "Como diseñadora de interiores principal, conecto la dirección estética con la distribución, la documentación y la colaboración con los contratistas. El alcance del proyecto incluye:"
+            ],
+            "visuals": [],
+            "items": [
+              [
+                "Koncepcja wnętrza",
+                "Interior design concept",
+                "Concepto de interiorismo"
+              ],
+              [
+                "Planowanie funkcjonalne",
+                "Space planning",
+                "Distribución del espacio"
+              ],
+              [
+                "Dokumentacja techniczna",
+                "Technical documentation",
+                "Documentación técnica"
+              ],
+              [
+                "Zabudowa na wymiar",
+                "Bespoke joinery",
+                "Mobiliario a medida"
+              ],
+              [
+                "Projekt oświetlenia",
+                "Lighting design",
+                "Diseño de iluminación"
+              ],
+              [
+                "Koordynacja instalacji wodno-kanalizacyjnej i elektrycznej",
+                "Plumbing and electrical coordination",
+                "Coordinación de fontanería e instalación eléctrica"
+              ],
+              [
+                "Współpraca z wykonawcami",
+                "Contractor collaboration",
+                "Colaboración con contratistas"
+              ]
+            ]
+          }
+        ],
+        "editorial": {
+          "concept": {
+            "heading": [
+              "Codzienny rytuał w nowej odsłonie.",
+              "An Everyday Ritual, Reimagined.",
+              "Una nueva mirada al ritual cotidiano."
+            ],
+            "body": [
+              "Ciepłe, naturalne odcienie, zabudowa na wymiar i miękkie światło tworzą kameralną przestrzeń codziennych rytuałów. Niewielka łazienka zyskuje spokojny, spójny rytm i atmosferę dyskretnej elegancji.",
+              "Warm natural tones, bespoke joinery and soft lighting create an intimate setting for daily rituals. The compact bathroom gains a calm, coherent rhythm and an atmosphere of understated elegance.",
+              "Los tonos cálidos y naturales, el mobiliario a medida y la luz suave crean un espacio íntimo para los rituales diarios. El pequeño baño adquiere un ritmo sereno y una elegancia discreta."
+            ]
+          },
+          "materiality": {
+            "heading": [
+              "Spokój budowany światłem.",
+              "Calm, Shaped by Light.",
+              "La calma a través de la luz."
+            ],
+            "body": [
+              "Kamienne beże, odcienie drewna i szczotkowane złoto budują ciepłą paletę. Ukryte światło podkreśla płaszczyzny, a łagodne przejścia między materiałami nadają wnętrzu lekkość.",
+              "Stone-inspired beiges, wood tones and brushed gold form a warm palette. Concealed lighting defines the planes, while gentle transitions between materials give the interior a sense of ease.",
+              "Los beiges de carácter pétreo, los tonos de madera y el oro cepillado forman una paleta cálida. La luz oculta define los planos y las transiciones suaves entre materiales aportan ligereza."
+            ],
+            "caption": [
+              "Materiały i światło",
+              "Materials and light",
+              "Materiales y luz"
+            ]
+          },
+          "transformation": {
+            "heading": [
+              "Nowa perspektywa przestrzeni.",
+              "A New Perspective on Space.",
+              "Una nueva perspectiva del espacio."
+            ],
+            "body": [
+              "Nowy układ porządkuje relacje między wyposażeniem, przechowywaniem i światłem, zamieniając rozdrobnione wnętrze w spójną strefę wyciszenia.",
+              "The new layout brings fixtures, storage and lighting into balance, turning a fragmented interior into a coherent retreat.",
+              "La nueva distribución equilibra equipamiento, almacenaje y luz, transformando un interior fragmentado en un refugio coherente."
+            ]
+          },
+          "technical": {
+            "heading": [
+              "Od koncepcji do detalu.",
+              "From Concept to Detail.",
+              "Del concepto al detalle."
+            ],
+            "body": [
+              "Oryginalny rzut i wybrany przekrój zabudowy pokazują, jak założenia przestrzenne przekładają się na rozwiązania na wymiar. Plansza łączy te fragmenty ze schematem objaśniającym układ — dokumentacja wykonawcza pozostaje źródłem wymiarów i szczegółów.",
+              "The original spatial plan and a selected joinery section show how the concept develops into bespoke solutions. The editorial board pairs these excerpts with an explanatory diagram; the construction documentation remains the reference for dimensions and details.",
+              "La planta original y una sección seleccionada del mobiliario muestran cómo el concepto se traduce en soluciones a medida. El panel combina estos extractos con un esquema explicativo; la documentación de ejecución sigue siendo la referencia para las dimensiones y los detalles."
+            ],
+            "detailsLabel": [
+              "Układ przestrzeni",
+              "Spatial layout",
+              "Distribución del espacio"
+            ],
+            "detailsNote": [
+              "Oryginalne rysunki zachowują polskie opisy. Schemat na planszy służy objaśnieniu projektu i nie jest rysunkiem wykonawczym.",
+              "The original drawings retain their Polish annotations. The diagram on the board explains the concept and is not a construction drawing.",
+              "Los dibujos originales conservan las anotaciones en polaco. El esquema del panel explica el concepto y no es un plano de ejecución."
+            ]
+          },
+          "responsibilities": {
+            "heading": [
+              "Spójność od pierwszej idei.",
+              "Coherence from the first idea.",
+              "Coherencia desde la primera idea."
+            ],
+            "body": [
+              "Projekt Magdaleny Babickiej łączy autorską koncepcję, funkcjonalny układ i dopracowane rozwiązania na wymiar.",
+              "Magdalena Babicka’s design combines an original concept, a functional layout and carefully considered bespoke elements.",
+              "El diseño de Magdalena Babicka combina un concepto propio, una distribución funcional y elementos a medida cuidadosamente resueltos."
+            ],
+            "items": [
+              [
+                "Projekt wnętrza",
+                "Interior design",
+                "Diseño de interiores"
+              ],
+              [
+                "Materiały i światło",
+                "Materials and lighting",
+                "Materiales e iluminación"
+              ],
+              [
+                "Zabudowa na wymiar",
+                "Bespoke joinery",
+                "Mobiliario a medida"
+              ]
+            ]
+          },
+          "closing": {
+            "heading": [
+              "Przemyślany projekt. Przestrzeń ze znaczeniem.",
+              "Thoughtful Design, Meaningful Spaces.",
+              "Diseño cuidado, espacios con sentido."
+            ],
+            "body": [
+              "Chcesz nadać swojej przestrzeni osobisty charakter, funkcjonalność i wyrazisty styl? Porozmawiajmy o Twoim projekcie.",
+              "Looking to transform your space into something personal, functional and distinctive? Let’s discuss your project.",
+              "¿Desea transformar su espacio en un lugar personal, funcional y distintivo? Hablemos de su proyecto."
+            ]
+          }
+        },
+        "completedPhotography": []
+      },
+      "curatedRank": 5,
+      "featuredRank": 5
+    },
+    {
+      "id": "atmosphere-driven-apartment",
+      "image": "atmosphere-driven-apartment/01_approved_kitchen_white_wood_dark_stone.jpg",
+      "title": [
+        "Atmosphere-Driven Apartment",
+        "Atmosphere-Driven Apartment",
+        "Atmosphere-Driven Apartment"
+      ],
+      "type": "residential",
+      "projectPage": "atmosphere-driven-apartment.html",
+      "project": {
+        "slug": "atmosphere-driven-apartment",
+        "kind": "apartment-editorial",
+        "completedPhotography": [],
+        "tagline": [
+          "Spokojna elegancja. Przemyślana codzienność.",
+          "Quiet sophistication. Thoughtful living.",
+          "Elegancia serena. Vida bien pensada."
+        ],
+        "subtitle": [
+          "Gliwice · Polska · około 60 m²",
+          "Gliwice · Poland · approximately 60 m²",
+          "Gliwice · Polonia · aproximadamente 60 m²"
+        ],
+        "status": [
+          "Realizacja w toku",
+          "Implementation in progress",
+          "Obra en curso"
+        ],
+        "shortStatus": [
+          "Realizacja w toku",
+          "Implementation in progress",
+          "Obra en curso"
+        ],
+        "seoTitle": [
+          "Atmosphere-Driven Apartment, Gliwice | Projekt wnętrza",
+          "Atmosphere-Driven Apartment, Gliwice | Interior Design",
+          "Atmosphere-Driven Apartment, Gliwice | Diseño de interiores"
+        ],
+        "seoDescription": [
+          "Mieszkanie około 60 m² w Gliwicach: jasna zabudowa, naturalne drewno i ciemny marmur. Projekt Magdaleny Babickiej. Realizacja w toku.",
+          "An approximately 60 m² apartment in Gliwice: ivory cabinetry, natural wood and dark marble. Interior design by Magdalena Babicka. Implementation in progress.",
+          "Un apartamento de aproximadamente 60 m² en Gliwice: muebles claros, madera natural y mármol oscuro. Diseño de Magdalena Babicka. Obra en curso."
+        ],
+        "hero": {
+          "image": "atmosphere-driven-apartment/01_approved_kitchen_white_wood_dark_stone.jpg",
+          "width": 1200,
+          "height": 1200,
+          "kind": "visualisation",
+          "caption": [
+            "Kuchnia",
+            "Kitchen",
+            "Cocina"
+          ],
+          "alt": [
+            "Jasna kuchnia z kremowymi frontami, drewnianymi szafkami górnymi i ciemnym kamieniem",
+            "Approved bright kitchen with ivory cabinetry, timber upper fronts and dark stone",
+            "Cocina clara aprobada con muebles marfil, frentes altos de madera y piedra oscura"
+          ]
+        },
+        "facts": [
+          {
+            "label": [
+              "Lokalizacja",
+              "Location",
+              "Ubicación"
+            ],
+            "value": [
+              "Gliwice, Polska",
+              "Gliwice, Poland",
+              "Gliwice, Polonia"
+            ]
+          },
+          {
+            "label": [
+              "Powierzchnia",
+              "Area",
+              "Superficie"
+            ],
+            "value": [
+              "Około 60 m²",
+              "Approximately 60 m²",
+              "Aproximadamente 60 m²"
+            ]
+          },
+          {
+            "label": [
+              "Projekt",
+              "Project",
+              "Proyecto"
+            ],
+            "value": [
+              "Prywatne wnętrze mieszkalne",
+              "Private residential interior",
+              "Interior residencial privado"
+            ]
+          },
+          {
+            "label": [
+              "Rola",
+              "Role",
+              "Función"
+            ],
+            "value": [
+              "Magdalena Babicka · główna projektantka / kierunek artystyczny",
+              "Magdalena Babicka · Lead Interior Designer / Art Direction",
+              "Magdalena Babicka · diseñadora de interiores principal / dirección artística"
+            ]
+          }
+        ],
+        "introduction": {
+          "heading": [
+            "Projektowanie z myślą o codzienności.",
+            "A refined approach to everyday living.",
+            "Un enfoque cuidado de la vida cotidiana."
+          ],
+          "body": [
+            "Mieszkanie o powierzchni około 60 m² w Gliwicach łączy jasną zabudowę, naturalne drewno i ciemny marmur. Miękkie światło wydobywa faktury, a przemyślane proporcje nadają wnętrzu spokojny, współczesny charakter.\n\nUkład i rozwiązania na wymiar powstały z myślą o codziennym komforcie mieszkańca.",
+            "This approximately 60 m² apartment in Gliwice brings together ivory cabinetry, natural wood and dark marble. Soft light reveals the textures, while considered proportions give the interior a calm, contemporary character.\n\nThe layout and bespoke elements are designed around the resident’s everyday comfort.",
+            "Este apartamento de aproximadamente 60 m² en Gliwice combina muebles claros, madera natural y mármol oscuro. La luz suave realza las texturas y las proporciones cuidadas aportan un carácter sereno y contemporáneo.\n\nLa distribución y los elementos a medida responden al confort cotidiano de quien lo habita."
+          ]
+        },
+        "sections": [
+          {
+            "id": "materialy",
+            "eyebrow": [
+              "Materiały i atmosfera",
+              "Materiality & atmosphere",
+              "Materialidad y atmósfera"
+            ],
+            "heading": [
+              "Jasność, drewno i wyrazisty kontrast.",
+              "Ivory. Wood. Dark marble.",
+              "Marfil. Madera. Mármol oscuro."
+            ],
+            "body": [
+              "Ciepła biel frontów i naturalny rysunek drewna równoważą wyrazisty, ciemny kamień blatu i półwyspu. Światło podkreśla strukturę materiałów, tworząc spokojny rytm kuchni. Poniższe detale pochodzą z zatwierdzonej wizualizacji projektu.",
+              "Warm ivory fronts and natural timber grain balance the expressive dark stone of the countertop and peninsula. Lighting brings out the material textures, giving the kitchen a calm rhythm. These details are drawn from the approved design visualisation.",
+              "Los frentes marfil y la veta natural de la madera equilibran la piedra oscura de la encimera y la península. La iluminación resalta las texturas y aporta un ritmo sereno a la cocina. Estos detalles proceden de la visualización aprobada del proyecto."
+            ],
+            "visuals": [
+              {
+                "image": "atmosphere-driven-apartment/07_detail_approved_cream_cabinetry.jpg",
+                "width": 600,
+                "height": 450,
+                "kind": "visualisation",
+                "caption": [
+                  "Detal zatwierdzonej koncepcji — jasne fronty",
+                  "Approved concept detail — ivory cabinetry",
+                  "Detalle de la propuesta aprobada — muebles marfil"
+                ],
+                "alt": [
+                  "Atmosphere-Driven Apartment — Detal zatwierdzonej koncepcji — jasne fronty",
+                  "Atmosphere-Driven Apartment — Approved concept detail — ivory cabinetry",
+                  "Atmosphere-Driven Apartment — Detalle de la propuesta aprobada — muebles marfil"
+                ]
+              },
+              {
+                "image": "atmosphere-driven-apartment/08_detail_approved_wood.jpg",
+                "width": 600,
+                "height": 450,
+                "kind": "visualisation",
+                "caption": [
+                  "Detal zatwierdzonej koncepcji — drewno i światło",
+                  "Approved concept detail — timber and light",
+                  "Detalle de la propuesta aprobada — madera y luz"
+                ],
+                "alt": [
+                  "Atmosphere-Driven Apartment — Detal zatwierdzonej koncepcji — drewno i światło",
+                  "Atmosphere-Driven Apartment — Approved concept detail — timber and light",
+                  "Atmosphere-Driven Apartment — Detalle de la propuesta aprobada — madera y luz"
+                ]
+              },
+              {
+                "image": "atmosphere-driven-apartment/09_detail_approved_dark_stone.jpg",
+                "width": 600,
+                "height": 450,
+                "kind": "visualisation",
+                "caption": [
+                  "Detal zatwierdzonej koncepcji — ciemny kamień",
+                  "Approved concept detail — dark stone",
+                  "Detalle de la propuesta aprobada — piedra oscura"
+                ],
+                "alt": [
+                  "Atmosphere-Driven Apartment — Detal zatwierdzonej koncepcji — ciemny kamień",
+                  "Atmosphere-Driven Apartment — Approved concept detail — dark stone",
+                  "Atmosphere-Driven Apartment — Detalle de la propuesta aprobada — piedra oscura"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "przestrzenie",
+            "eyebrow": [
+              "Przestrzenie",
+              "Spaces",
+              "Espacios"
+            ],
+            "heading": [
+              "Dwa wnętrza. Jeden język architektury.",
+              "Two rooms. One architectural language.",
+              "Dos estancias. Un mismo lenguaje arquitectónico."
+            ],
+            "body": [
+              "Jasna kuchnia i kameralna łazienka rozwijają wspólną paletę drewna, kamienia i ciepłego światła.",
+              "The bright kitchen and intimate bathroom share a palette of wood, stone and warm light.",
+              "La cocina luminosa y el baño íntimo comparten una paleta de madera, piedra y luz cálida."
+            ],
+            "visuals": [
+              {
+                "image": "atmosphere-driven-apartment/01_approved_kitchen_white_wood_dark_stone.jpg",
+                "width": 1200,
+                "height": 1200,
+                "kind": "visualisation",
+                "caption": [
+                  "Kuchnia",
+                  "Kitchen",
+                  "Cocina"
+                ],
+                "alt": [
+                  "Jasna kuchnia z kremowymi frontami, drewnianymi szafkami górnymi i ciemnym kamieniem",
+                  "Approved bright kitchen with ivory cabinetry, timber upper fronts and dark stone",
+                  "Cocina clara aprobada con muebles marfil, frentes altos de madera y piedra oscura"
+                ]
+              },
+              {
+                "image": "atmosphere-driven-apartment/02_bathroom_visualisation.jpg",
+                "width": 1200,
+                "height": 1200,
+                "kind": "visualisation",
+                "caption": [
+                  "Łazienka",
+                  "Bathroom",
+                  "Baño"
+                ],
+                "alt": [
+                  "Atmosphere-Driven Apartment — Łazienka — wizualizacja koncepcji",
+                  "Atmosphere-Driven Apartment — Bathroom — design visualisation",
+                  "Atmosphere-Driven Apartment — Baño — visualización del proyecto"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "rozwoj-projektu",
+            "eyebrow": [
+              "Rozwój projektu",
+              "Design development",
+              "Desarrollo del proyecto"
+            ],
+            "heading": [
+              "Od wizji do przemyślanego detalu.",
+              "From vision to detail.",
+              "De la idea al detalle."
+            ],
+            "body": [
+              "Układ całego mieszkania i wybrany detal zabudowy pokazują techniczne zaplecze koncepcji. Oryginalne rysunki zachowują geometrię, wymiary i oznaczenia; można je powiększyć bezpośrednio z planszy.",
+              "The full-apartment plan and a selected joinery detail show the technical development behind the concept. The original drawings retain their geometry, dimensions and annotations and can be enlarged directly from the board.",
+              "La planta completa y un detalle seleccionado del mobiliario muestran el desarrollo técnico del concepto. Los dibujos originales conservan su geometría, dimensiones y anotaciones y pueden ampliarse directamente desde el panel."
+            ],
+            "visuals": [
+              {
+                "image": "atmosphere-driven-apartment/04_original_apartment_plan.jpg",
+                "width": 1920,
+                "height": 1358,
+                "kind": "drawing",
+                "caption": [
+                  "Układ przestrzeni",
+                  "Spatial layout",
+                  "Distribución del espacio"
+                ],
+                "alt": [
+                  "Atmosphere-Driven Apartment — Oryginalny rzut mieszkania",
+                  "Atmosphere-Driven Apartment — Original apartment plan",
+                  "Atmosphere-Driven Apartment — Planta original de la vivienda"
+                ]
+              },
+              {
+                "image": "atmosphere-driven-apartment/05_original_joinery_excerpt.jpg",
+                "width": 1700,
+                "height": 690,
+                "kind": "drawing",
+                "caption": [
+                  "Zabudowa na wymiar — oryginalny fragment dokumentacji",
+                  "Bespoke joinery — original drawing excerpt",
+                  "Mobiliario a medida — extracto original de la documentación"
+                ],
+                "alt": [
+                  "Atmosphere-Driven Apartment — Zabudowa na wymiar — oryginalny fragment dokumentacji",
+                  "Atmosphere-Driven Apartment — Bespoke joinery — original drawing excerpt",
+                  "Atmosphere-Driven Apartment — Mobiliario a medida — extracto original de la documentación"
+                ]
+              }
+            ],
+            "supplement": {
+              "image": "atmosphere-driven-apartment/06_original_kitchen_services_excerpt.jpg",
+              "width": 640,
+              "height": 736,
+              "kind": "drawing",
+              "caption": [
+                "Kuchnia — oryginalny fragment uzgodnień instalacyjnych",
+                "Kitchen — original services coordination excerpt",
+                "Cocina — extracto original de coordinación de instalaciones"
+              ],
+              "alt": [
+                "Atmosphere-Driven Apartment — Kuchnia — oryginalny fragment uzgodnień instalacyjnych",
+                "Atmosphere-Driven Apartment — Kitchen — original services coordination excerpt",
+                "Atmosphere-Driven Apartment — Cocina — extracto original de coordinación de instalaciones"
+              ]
+            },
+            "supplementLabel": [
+              "Dodatkowy detal koordynacji instalacji",
+              "Additional services coordination detail",
+              "Detalle adicional de coordinación de instalaciones"
+            ]
+          },
+          {
+            "id": "stan-istniejacy",
+            "eyebrow": [
+              "Punkt wyjścia",
+              "The starting point",
+              "El punto de partida"
+            ],
+            "heading": [
+              "Przestrzeń przed nadaniem charakteru.",
+              "Before the atmosphere takes shape.",
+              "Antes de dar forma a la atmósfera."
+            ],
+            "body": [
+              "Stan deweloperski — punkt wyjścia dla nowej kompozycji wnętrza.",
+              "The original shell — the starting point for a new interior composition.",
+              "El estado inicial de obra — el punto de partida para una nueva composición interior."
+            ],
+            "visuals": [
+              {
+                "image": "atmosphere-driven-apartment/03_existing_condition_original.jpg",
+                "width": 1920,
+                "height": 881,
+                "kind": "photo",
+                "caption": [
+                  "Przed zmianą",
+                  "Before",
+                  "Antes"
+                ],
+                "alt": [
+                  "Atmosphere-Driven Apartment — Stan istniejący — oryginalne zdjęcia mieszkania w stanie deweloperskim",
+                  "Atmosphere-Driven Apartment — Existing conditions — original developer-standard photographs",
+                  "Atmosphere-Driven Apartment — Estado previo — fotografías originales de la vivienda sin acabados"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "zakres-projektu",
+            "eyebrow": [
+              "Zakres i rola",
+              "Scope and role",
+              "Alcance y función"
+            ],
+            "heading": [
+              "Spójność od koncepcji po detal.",
+              "Continuity from concept to detail.",
+              "Coherencia desde el concepto hasta el detalle."
+            ],
+            "body": [
+              "Autorski projekt Magdaleny Babickiej obejmuje kierunek artystyczny, układ wnętrza oraz dobór materiałów, światła i zabudowy na wymiar.",
+              "Magdalena Babicka’s design brings together art direction, spatial planning, materials, lighting and bespoke joinery.",
+              "El diseño de Magdalena Babicka reúne dirección artística, distribución, materiales, iluminación y mobiliario a medida."
+            ],
+            "visuals": [],
+            "items": [
+              [
+                "Projekt wnętrza",
+                "Interior design",
+                "Diseño de interiores"
+              ],
+              [
+                "Materiały i światło",
+                "Materials and lighting",
+                "Materiales e iluminación"
+              ],
+              [
+                "Zabudowa na wymiar",
+                "Bespoke joinery",
+                "Mobiliario a medida"
+              ]
+            ]
+          }
+        ],
+        "closing": {
+          "heading": [
+            "Przestrzeń przemyślana dla Ciebie.",
+            "A space considered around you.",
+            "Un espacio pensado para usted."
+          ],
+          "body": [
+            "Porozmawiajmy o wnętrzu, w którym estetyka, funkcja i codzienny komfort tworzą spójną całość.",
+            "Discuss an interior where aesthetics, function and everyday comfort form a considered whole.",
+            "Hablemos de un interior en el que estética, función y comodidad cotidiana formen un conjunto cuidado."
+          ]
+        },
+        "planLabel": [
+          "Układ przestrzeni",
+          "Spatial layout",
+          "Distribución del espacio"
+        ]
+      },
+      "curatedRank": 4,
+      "featuredRank": 4
+    },
+    {
+      "id": "spisak-studio",
+      "type": "commercial",
+      "curatedRank": 6,
+      "editorialGroup": "creative",
+      "image": "spisak-studio/02_studio_overview.jpg",
+      "title": [
+        "SPISAK STUDIO",
+        "SPISAK STUDIO",
+        "SPISAK STUDIO"
+      ],
+      "projectPage": "spisak-studio.html",
+      "project": {
+        "slug": "spisak-studio",
+        "kind": "studio-editorial",
+        "tagline": [
+          "Przestrzeń dla wielu historii.",
+          "Spaces for Stories.",
+          "Un espacio para historias."
+        ],
+        "location": [
+          "Katowice, Polska",
+          "Katowice, Poland",
+          "Katowice, Polonia"
+        ],
+        "status": [
+          "Studio fotograficzne / koncepcja aranżacji i kierunek kreatywny",
+          "Photography studio / Interior Concept & Creative Direction",
+          "Estudio fotográfico / concepto de interiorismo y dirección creativa"
+        ],
+        "shortStatus": [
+          "Przestrzeń kreatywna / autorska aranżacja",
+          "Creative space / interior styling concept",
+          "Espacio creativo / concepto de interiorismo"
+        ],
+        "seoTitle": [
+          "Spisak Studio Katowice | Projekt aranżacji studia fotograficznego",
+          "Spisak Studio Katowice | Creative Interior Concept",
+          "Spisak Studio Katowice | Concepto de interiorismo creativo"
+        ],
+        "seoDescription": [
+          "Autorska koncepcja aranżacji studia fotograficznego w Katowicach: strefy zdjęciowe, meble, kolor, roślinność i światło. Projekt Art of Meaning.",
+          "A creative photography studio interior in Katowice, shaped through flexible shooting zones, furniture, colour and atmospheric lighting.",
+          "Un estudio fotográfico creativo en Katowice: zonas flexibles, mobiliario, color e iluminación ambiental."
+        ],
+        "hero": {
+          "image": "spisak-studio/02_studio_overview.jpg",
+          "width": 600,
+          "height": 588,
+          "kind": "photo",
+          "caption": [
+            "Studio — jasne i ciemne tło w jednej przestrzeni",
+            "The studio — light and dark settings within one space",
+            "El estudio — fondos claros y oscuros en un mismo espacio"
+          ],
+          "alt": [
+            "Spisak Studio — Studio — jasne i ciemne tło w jednej przestrzeni",
+            "Spisak Studio — The studio — light and dark settings within one space",
+            "Spisak Studio — El estudio — fondos claros y oscuros en un mismo espacio"
+          ]
+        },
+        "opening": {
+          "label": [
+            "Art of Meaning / Przestrzenie kreatywne",
+            "Art of Meaning / Creative spaces",
+            "Art of Meaning / Espacios creativos"
+          ],
+          "body": [
+            "Spisak Studio to przestrzeń fotograficzna, której charakter zmienia się wraz ze światłem, aranżacją i rytmem sesji. W jednym wnętrzu powstały trzy odmienne nastroje: jasny, naturalny set, kameralna scena wieczorna oraz kontrastowa strefa editorialowa.",
+            "Spisak Studio is a flexible creative space where photography and atmosphere shape one another. Natural light, vintage-inspired furnishings, layered textiles and botanical elements establish distinct shooting environments within a coherent visual identity.",
+            "Spisak Studio es un espacio creativo y flexible para fotografía. La luz natural, el mobiliario de inspiración vintage, los textiles y la vegetación crean diferentes escenarios dentro de una identidad visual coherente."
+          ]
+        },
+        "sections": [
+          {
+            "id": "swiatlo",
+            "eyebrow": [
+              "Naturalne światło",
+              "Natural light",
+              "Luz natural"
+            ],
+            "heading": [
+              "Światło jako scenografia.",
+              "Light as a setting.",
+              "La luz como escenario."
+            ],
+            "body": [
+              "Łukowe przeszklenia i charakterystyczne okna stają się naturalną oprawą dla sesji. Zieleń, faktury i meble pracują ze światłem, zamiast konkurować z architekturą.",
+              "Arched glazing and distinctive windows become a natural setting for photography. Greenery, textures and furnishings work with the light, allowing the existing architecture to frame the scene.",
+              "Los ventanales arqueados y las ventanas singulares se convierten en un escenario natural para las sesiones. La vegetación, las texturas y el mobiliario dialogan con la luz y dejan que la arquitectura existente enmarque la escena."
+            ],
+            "visuals": [
+              {
+                "image": "spisak-studio/01_architectural_windows.jpg",
+                "width": 720,
+                "height": 926,
+                "kind": "photo",
+                "caption": [
+                  "Naturalne światło, łukowe okna i roślinność",
+                  "Natural light, arched windows and greenery",
+                  "Luz natural, ventanas arqueadas y vegetación"
+                ],
+                "alt": [
+                  "Spisak Studio — Naturalne światło, łukowe okna i roślinność",
+                  "Spisak Studio — Natural light, arched windows and greenery",
+                  "Spisak Studio — Luz natural, ventanas arqueadas y vegetación"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "trzy-nastroje",
+            "eyebrow": [
+              "Trzy nastroje",
+              "Three moods",
+              "Tres ambientes"
+            ],
+            "heading": [
+              "Trzy nastroje. Jedna przestrzeń.",
+              "Three moods. One space.",
+              "Tres ambientes. Un espacio."
+            ],
+            "body": [
+              "Ten sam adres, różne opowieści wizualne. Światło, tkaniny i zmiana tła pozwalają dopasować atmosferę do charakteru sesji.",
+              "One address, different visual stories. Light, textiles and contrasting backdrops allow the atmosphere to follow the character of each shoot.",
+              "Una misma dirección, distintas historias visuales. La luz, los tejidos y los fondos de contraste permiten adaptar la atmósfera al carácter de cada sesión."
+            ],
+            "visuals": [
+              {
+                "image": "spisak-studio/03_soft_daylight_set.jpg",
+                "width": 720,
+                "height": 691,
+                "kind": "photo",
+                "caption": [
+                  "The Soft Set — naturalne światło i miękkie tekstylia",
+                  "The Soft Set — natural light and soft textiles",
+                  "The Soft Set — luz natural y tejidos suaves"
+                ],
+                "alt": [
+                  "Spisak Studio — The Soft Set — naturalne światło i miękkie tekstylia",
+                  "Spisak Studio — The Soft Set — natural light and soft textiles",
+                  "Spisak Studio — The Soft Set — luz natural y tejidos suaves"
+                ]
+              },
+              {
+                "image": "spisak-studio/04_evening_set.jpg",
+                "width": 720,
+                "height": 698,
+                "kind": "photo",
+                "caption": [
+                  "The Evening Set — ciepłe światło i kameralny nastrój",
+                  "The Evening Set — warm light and an intimate atmosphere",
+                  "The Evening Set — luz cálida y un ambiente íntimo"
+                ],
+                "alt": [
+                  "Spisak Studio — The Evening Set — ciepłe światło i kameralny nastrój",
+                  "Spisak Studio — The Evening Set — warm light and an intimate atmosphere",
+                  "Spisak Studio — The Evening Set — luz cálida y un ambiente íntimo"
+                ]
+              },
+              {
+                "image": "spisak-studio/05_dark_editorial_set.jpg",
+                "width": 600,
+                "height": 597,
+                "kind": "photo",
+                "caption": [
+                  "The Dark Set — vintage’owy fotel i kontrastowe tło",
+                  "The Dark Set — a vintage-inspired armchair and a contrasting backdrop",
+                  "The Dark Set — una butaca de inspiración vintage y un fondo de contraste"
+                ],
+                "alt": [
+                  "Spisak Studio — The Dark Set — vintage’owy fotel i kontrastowe tło",
+                  "Spisak Studio — The Dark Set — a vintage-inspired armchair and a contrasting backdrop",
+                  "Spisak Studio — The Dark Set — una butaca de inspiración vintage y un fondo de contraste"
+                ]
+              }
+            ],
+            "moods": [
+              {
+                "name": [
+                  "The Soft Set",
+                  "The Soft Set",
+                  "The Soft Set"
+                ],
+                "description": [
+                  "Jasne tekstylia, roślinność i neutralne tło. Miękka, naturalna scena dla portretów i codziennych opowieści.",
+                  "Light textiles, greenery and a neutral backdrop. A soft, natural setting for portraits and everyday stories.",
+                  "Tejidos claros, vegetación y un fondo neutro. Un escenario suave y natural para retratos e historias cotidianas."
+                ]
+              },
+              {
+                "name": [
+                  "The Evening Set",
+                  "The Evening Set",
+                  "The Evening Set"
+                ],
+                "description": [
+                  "Rozproszone źródła światła, ciepłe faktury i kameralny rytm. Znana przestrzeń zyskuje bardziej intymny charakter.",
+                  "Diffused lighting, warm textures and an intimate rhythm. A familiar space takes on a quieter, more personal character.",
+                  "Luz difusa, texturas cálidas y un ritmo íntimo. Un espacio conocido adquiere un carácter más personal."
+                ]
+              },
+              {
+                "name": [
+                  "The Dark Set",
+                  "The Dark Set",
+                  "The Dark Set"
+                ],
+                "description": [
+                  "Głęboka zieleń, ciemne tło, vintage’owy fotel i pojedyncza lampa. Kontrastowa scena dla wyrazistej fotografii.",
+                  "Deep green, a dark backdrop, a vintage-inspired armchair and a single lamp. A contrasting set for expressive photography.",
+                  "Verde intenso, un fondo oscuro, una butaca de inspiración vintage y una sola lámpara. Un escenario de contraste para una fotografía expresiva."
+                ]
+              }
+            ]
+          },
+          {
+            "id": "atmosfera",
+            "eyebrow": [
+              "Sztuka atmosfery",
+              "The art of atmosphere",
+              "El arte de la atmósfera"
+            ],
+            "heading": [
+              "Atmosfera tkwi w detalach.",
+              "The Art of Atmosphere.",
+              "El arte de la atmósfera."
+            ],
+            "body": [
+              "Miękkie tekstylia, naturalne faktury i bogata roślinność łączą różne sceny. To detale nadają im wspólną tożsamość.",
+              "Layered textiles, natural textures and abundant greenery connect the different settings. Details give them a shared identity.",
+              "Los tejidos superpuestos, las texturas naturales y la vegetación conectan los distintos escenarios. Los detalles les dan una identidad común."
+            ],
+            "visuals": [
+              {
+                "image": "spisak-studio/06_botanical_daylight_detail.jpg",
+                "width": 600,
+                "height": 578,
+                "kind": "photo",
+                "caption": [
+                  "Światło, roślinność i naturalne faktury",
+                  "Light, greenery and natural textures",
+                  "Luz, vegetación y texturas naturales"
+                ],
+                "alt": [
+                  "Spisak Studio — Światło, roślinność i naturalne faktury",
+                  "Spisak Studio — Light, greenery and natural textures",
+                  "Spisak Studio — Luz, vegetación y texturas naturales"
+                ]
+              },
+              {
+                "image": "spisak-studio/07_warm_details_optional.jpg",
+                "width": 720,
+                "height": 992,
+                "kind": "photo",
+                "caption": [
+                  "Miękkie tkaniny i ciepłe akcenty światła",
+                  "Soft textiles and warm accents of light",
+                  "Tejidos suaves y acentos de luz cálida"
+                ],
+                "alt": [
+                  "Spisak Studio — Miękkie tkaniny i ciepłe akcenty światła",
+                  "Spisak Studio — Soft textiles and warm accents of light",
+                  "Spisak Studio — Tejidos suaves y acentos de luz cálida"
+                ]
+              }
+            ]
+          }
+        ],
+        "contribution": {
+          "eyebrow": [
+            "Kierunek kreatywny",
+            "Creative direction",
+            "Dirección creativa"
+          ],
+          "heading": [
+            "Jedna przestrzeń. Różne scenariusze.",
+            "One space. Different stories.",
+            "Un espacio. Distintas historias."
+          ],
+          "body": [
+            "Moja praca obejmowała stworzenie głównej koncepcji aranżacji, podział przestrzeni na strefy, dobór mebli, kolorystyki oraz koncepcję oświetlenia. Vintage’owe formy, miękkie tekstylia i bogata roślinność pozwalają budować różnorodne opowieści wizualne przy zachowaniu jednej spójnej tożsamości studia.\n\nProjekt pokazuje, jak za pomocą prostych środków aranżacyjnych można uczynić przestrzeń narzędziem kreatywnej pracy.",
+            "My contribution focused on the overall interior styling concept, spatial zoning, furniture and colour selection, and a lighting concept supporting different photographic moods.\n\nThe studio demonstrates how thoughtful spatial styling can turn one interior into a versatile setting for visual storytelling.",
+            "Mi trabajo abarcó el concepto general de interiorismo, la zonificación, la selección de mobiliario y colores y el concepto de iluminación, con el fin de crear distintos ambientes para las sesiones fotográficas.\n\nEl estudio muestra cómo una puesta en escena cuidada puede convertir un interior en un entorno versátil para contar historias visuales."
+          ],
+          "byline": [
+            "Magdalena Babicka / koncepcja aranżacji i kierunek kreatywny",
+            "Magdalena Babicka / Interior Concept & Creative Direction",
+            "Magdalena Babicka / concepto de interiorismo y dirección creativa"
+          ],
+          "scope": [
+            [
+              "Strefy zdjęciowe",
+              "Space zoning",
+              "Zonificación"
+            ],
+            [
+              "Dobór mebli",
+              "Furniture selection",
+              "Selección de mobiliario"
+            ],
+            [
+              "Kolorystyka",
+              "Colour palette",
+              "Paleta de colores"
+            ],
+            [
+              "Koncepcja oświetlenia",
+              "Lighting concept",
+              "Concepto de iluminación"
+            ],
+            [
+              "Aranżacja wnętrza",
+              "Interior styling",
+              "Estilismo de interiores"
+            ]
+          ],
+          "cta": [
+            "Porozmawiajmy o Twojej przestrzeni",
+            "Discuss your creative space",
+            "Consulte sobre su espacio creativo"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ceremonial-arrival",
+      "image": "ceremonial-arrival/proposal_01_ornamental.webp",
+      "title": [
+        "Ceremonial Arrival",
+        "Ceremonial Arrival",
+        "Ceremonial Arrival"
+      ],
+      "type": "residential",
+      "editorialGroup": "study",
+      "curatedRank": 7,
+      "isStudy": true,
+      "projectPage": "ceremonial-arrival.html",
+      "project": {
+        "slug": "ceremonial-arrival",
+        "kind": "arrival-study",
+        "subtitle": [
+          "Studium holu w Marbelli",
+          "Marbella Hall Study",
+          "Estudio del vestíbulo en Marbella"
+        ],
+        "tagline": [
+          "Trzy interpretacje reprezentacyjnego holu w Marbelli.",
+          "Three visions for a Marbella entrance hall.",
+          "Tres visiones para un vestíbulo en Marbella."
+        ],
+        "status": [
+          "Wnętrze prywatne / Studium koncepcyjne",
+          "Residential / Concept development",
+          "Residencial / Desarrollo conceptual"
+        ],
+        "shortStatus": [
+          "Studium koncepcyjne / trzy warianty",
+          "Concept study / three proposals",
+          "Estudio conceptual / tres propuestas"
+        ],
+        "location": [
+          "Marbella, Hiszpania",
+          "Marbella, Spain",
+          "Marbella, España"
+        ],
+        "credit": [
+          "Projekt koncepcyjny dla NOVA KASYANOV",
+          "Concept work for NOVA KASYANOV",
+          "Trabajo conceptual para NOVA KASYANOV"
+        ],
+        "seoTitle": [
+          "Ceremonial Arrival, Marbella | Studium koncepcyjne holu",
+          "Ceremonial Arrival, Marbella | Entrance Hall Concept Study",
+          "Ceremonial Arrival, Marbella | Estudio conceptual de vestíbulo"
+        ],
+        "seoDescription": [
+          "Trzy koncepcje reprezentacyjnego holu prywatnej rezydencji w Marbelli. Warianty aranżacji, materiały i wizualizacje przygotowane dla zespołu NOVA KASYANOV przez Magdalenę Babicką.",
+          "Three concept directions for a private villa entrance hall in Marbella, exploring ornament, symmetry and contrast. Concept work for NOVA KASYANOV by Magdalena Babicka.",
+          "Tres propuestas conceptuales para el vestíbulo de una residencia privada en Marbella: ornamentación, simetría y contraste. Trabajo de Magdalena Babicka para NOVA KASYANOV."
+        ],
+        "hero": {
+          "image": "ceremonial-arrival/proposal_01_ornamental.webp",
+          "width": 1920,
+          "height": 1920,
+          "kind": "visualisation",
+          "caption": [
+            "Wyrazisty ornament",
+            "Ornamental statement",
+            "Ornamento expresivo"
+          ],
+          "alt": [
+            "Symetryczne, podwójne schody w koncepcji holu w Marbelli z ornamentalnym dywanem i złotymi detalami",
+            "Symmetrical double staircase in an ornate Marbella hall concept with a patterned rug and gold detailing",
+            "Escalera doble simétrica en la propuesta de vestíbulo de Marbella, con alfombra ornamental y detalles dorados"
+          ]
+        },
+        "opening": {
+          "teaser": [
+            "Hol wejściowy jako doświadczenie. Ornament, symetria i kontrast w trzech propozycjach dla tej samej przestrzeni.",
+            "An entrance conceived as a moment of arrival. Ornament, symmetry and contrast in three proposals for the same space.",
+            "Un vestíbulo concebido como experiencia de llegada. Ornamentación, simetría y contraste en tres propuestas para un mismo espacio."
+          ]
+        },
+        "introduction": {
+          "heading": [
+            "Sztuka pierwszego wrażenia.",
+            "The art of arrival.",
+            "El arte de la llegada."
+          ],
+          "body": [
+            "Trzy interpretacje reprezentacyjnego holu rozwijają ideę włoskiej elegancji: od bogatego ornamentu, przez subtelną symetrię, po wyrazisty kontrast. Monumentalne schody, kamień i złote akcenty tworzą wspólną oś kompozycji.",
+            "Three interpretations of a grand entrance hall explore Italian elegance: from rich ornament and subtle symmetry to expressive contrast. Monumental stairs, stone and gold accents create a shared compositional axis.",
+            "Tres interpretaciones de un gran vestíbulo exploran la elegancia italiana: del ornamento rico y la simetría sutil al contraste expresivo. La escalera monumental, la piedra y los acentos dorados forman un eje común."
+          ],
+          "facts": [
+            {
+              "label": [
+                "Miejsce",
+                "Location",
+                "Ubicación"
+              ],
+              "value": [
+                "Prywatna rezydencja / Marbella, Hiszpania",
+                "Private villa / Marbella, Spain",
+                "Residencia privada / Marbella, España"
+              ]
+            },
+            {
+              "label": [
+                "Współpraca",
+                "Collaboration",
+                "Colaboración"
+              ],
+              "value": [
+                "Koncepcje dla zespołu NOVA KASYANOV",
+                "Concept proposals for the NOVA KASYANOV team",
+                "Propuestas conceptuales para el equipo de NOVA KASYANOV"
+              ]
+            }
+          ]
+        },
+        "sections": [
+          {
+            "id": "trzy-interpretacje",
+            "heading": [
+              "Jeden hol. Trzy interpretacje.",
+              "One hall. Three readings.",
+              "Un vestíbulo. Tres interpretaciones."
+            ],
+            "intro": [
+              "Trzy równorzędne propozycje rozwijają wspólną ideę przestrzenną. Zmieniają akcenty i atmosferę, zachowując istniejące ramy architektoniczne.",
+              "Three equal-weight proposals explore a shared spatial idea. Each changes the emphasis and atmosphere within the established architectural setting.",
+              "Tres propuestas equivalentes exploran una misma idea espacial. Cada una cambia los acentos y la atmósfera dentro del marco arquitectónico existente."
+            ],
+            "visuals": [
+              {
+                "image": "ceremonial-arrival/proposal_01_ornamental.webp",
+                "width": 1920,
+                "height": 1920,
+                "kind": "visualisation",
+                "caption": [
+                  "Wyrazisty ornament",
+                  "Ornamental statement",
+                  "Ornamento expresivo"
+                ],
+                "alt": [
+                  "Symetryczne, podwójne schody w koncepcji holu w Marbelli z ornamentalnym dywanem i złotymi detalami",
+                  "Symmetrical double staircase in an ornate Marbella hall concept with a patterned rug and gold detailing",
+                  "Escalera doble simétrica en la propuesta de vestíbulo de Marbella, con alfombra ornamental y detalles dorados"
+                ]
+              },
+              {
+                "image": "ceremonial-arrival/proposal_02_refined.webp",
+                "width": 1920,
+                "height": 1920,
+                "kind": "visualisation",
+                "caption": [
+                  "Subtelna symetria",
+                  "Refined symmetry",
+                  "Simetría refinada"
+                ],
+                "alt": [
+                  "Alternatywna koncepcja holu z jasnymi wykończeniami, neutralnym dywanem i symetrycznymi schodami",
+                  "Alternative entrance hall concept with lighter finishes, neutral rug and sweeping twin staircase",
+                  "Propuesta alternativa de vestíbulo con acabados claros, alfombra neutra y una escalera doble simétrica"
+                ]
+              },
+              {
+                "image": "ceremonial-arrival/proposal_03_contrast.webp",
+                "width": 1600,
+                "height": 1600,
+                "kind": "visualisation",
+                "caption": [
+                  "Dramatyczny kontrast",
+                  "Dramatic contrast",
+                  "Contraste dramático"
+                ],
+                "alt": [
+                  "Koncepcja holu z ciemnym centralnym tłem, złotymi detalami i ornamentalnym dywanem",
+                  "Entrance hall study with darker central decorative feature, gold detailing and richly patterned floor textile",
+                  "Estudio del vestíbulo con un fondo central oscuro, detalles dorados y una alfombra ornamental"
+                ]
+              }
+            ],
+            "proposals": [
+              {
+                "title": [
+                  "Wyrazisty ornament",
+                  "Ornamental statement",
+                  "Ornamento expresivo"
+                ],
+                "body": [
+                  "Bogaty wzór dywanu wprowadza kolor, ruch i symboliczny motyw centralny. Złote detale wzmacniają teatralny charakter dwukondygnacyjnego holu.",
+                  "A richly patterned floor textile introduces colour, movement and emblematic ornament. Gold-toned detailing strengthens the theatrical character of the double-height entrance.",
+                  "La alfombra ornamental introduce color, movimiento y un motivo central simbólico. Los detalles dorados refuerzan el carácter teatral del vestíbulo de doble altura."
+                ]
+              },
+              {
+                "title": [
+                  "Subtelna symetria",
+                  "Refined symmetry",
+                  "Simetría refinada"
+                ],
+                "body": [
+                  "Neutralne tkaniny, jasna posadzka i oszczędniejsze detale łagodzą intensywność kompozycji. Uwaga skupia się na linii schodów i centralnej osi wnętrza.",
+                  "Neutral textiles, light-toned flooring and restrained detailing soften the composition. Attention shifts to the sweep of the twin staircases and the central architectural axis.",
+                  "Los tejidos neutros, el pavimento claro y los detalles contenidos suavizan la composición. La atención se dirige a las líneas de la escalera doble y al eje central del espacio."
+                ]
+              },
+              {
+                "title": [
+                  "Dramatyczny kontrast",
+                  "Dramatic contrast",
+                  "Contraste dramático"
+                ],
+                "body": [
+                  "Ciemne centralne tło zestawiono z jasnym kamieniem i połyskiem złota. Powrót ornamentalnego dywanu podkreśla napięcie między dekoracją a symetrią.",
+                  "A dark central backdrop is juxtaposed with pale stone and polished gold. The return of the ornamental floor textile emphasises the tension between decoration and symmetry.",
+                  "Un fondo central oscuro contrasta con la piedra clara y los reflejos dorados. La alfombra ornamental subraya la tensión entre decoración y simetría."
+                ]
+              }
+            ]
+          },
+          {
+            "id": "relacje-przestrzenne",
+            "heading": [
+              "Oś i doświadczenie przestrzeni.",
+              "The axis and the experience.",
+              "El eje y la experiencia del espacio."
+            ],
+            "body": [
+              "Materiał referencyjny piętra wskazuje na symetryczną kompozycję: centralną sekwencję schodów oraz boczne strefy łazienek, garderób i tarasów. Schemat porządkuje te relacje; nie określa wymiarów ani rozwiązań wykonawczych.",
+              "The upper-floor reference suggests a symmetrical composition: a central stair sequence framed by lateral bathrooms, dressing and terrace zones. The diagram clarifies these relationships; it does not specify dimensions or construction details.",
+              "La referencia de la planta superior sugiere una composición simétrica: una secuencia central de escaleras y zonas laterales de baños, vestidores y terrazas. El esquema aclara estas relaciones; no define dimensiones ni detalles constructivos."
+            ],
+            "visuals": [
+              {
+                "image": "ceremonial-arrival/upper_floor_spatial_logic_diagram.png",
+                "width": 2100,
+                "height": 1220,
+                "kind": "drawing",
+                "caption": [
+                  "Schemat relacji przestrzennych — bez skali, nie jest rysunkiem wykonawczym",
+                  "Schematic spatial relationships — not to scale, not a construction drawing",
+                  "Esquema de relaciones espaciales — sin escala, no es un plano de ejecución"
+                ],
+                "alt": [
+                  "Ceremonial Arrival — Schemat relacji przestrzennych — bez skali, nie jest rysunkiem wykonawczym",
+                  "Ceremonial Arrival — Schematic spatial relationships — not to scale, not a construction drawing",
+                  "Ceremonial Arrival — Esquema de relaciones espaciales — sin escala, no es un plano de ejecución"
+                ]
+              }
+            ],
+            "supplement": {
+              "image": "ceremonial-arrival/source_upper_floor_reference.png",
+              "width": 352,
+              "height": 217,
+              "kind": "drawing",
+              "caption": [
+                "Oryginalny rzut piętra — materiał referencyjny",
+                "Original upper-floor plan — reference material",
+                "Planta original de la planta superior — material de referencia"
+              ],
+              "alt": [
+                "Ceremonial Arrival — Oryginalny rzut piętra — materiał referencyjny",
+                "Ceremonial Arrival — Original upper-floor plan — reference material",
+                "Ceremonial Arrival — Planta original de la planta superior — material de referencia"
+              ]
+            },
+            "referenceLabel": [
+              "Zobacz oryginalny materiał referencyjny",
+              "View the original reference",
+              "Ver la referencia original"
+            ],
+            "note": [
+              "Schemat poglądowy, bez skali. Nie jest dokumentacją techniczną ani rysunkiem do realizacji.",
+              "Schematic only, not to scale. This is not technical documentation or a construction drawing.",
+              "Esquema orientativo, sin escala. No es documentación técnica ni un plano de ejecución."
+            ]
+          }
+        ],
+        "contribution": {
+          "heading": [
+            "Poszukiwanie języka przestrzeni.",
+            "A study in spatial expression.",
+            "Un estudio de expresión espacial."
+          ],
+          "body": [
+            "Alternatywne aranżacje, palety materiałowe i kolorystyczne oraz wizualizacje architektoniczne.",
+            "Alternative interior directions, material and colour palettes, and architectural visualisations.",
+            "Propuestas alternativas de interiorismo, paletas de materiales y colores y visualizaciones arquitectónicas."
+          ],
+          "byline": [
+            "Magdalena Babicka / opracowanie koncepcji",
+            "Magdalena Babicka / concept development",
+            "Magdalena Babicka / desarrollo conceptual"
+          ],
+          "scope": [
+            [
+              "Rozwój koncepcji",
+              "Concept development",
+              "Desarrollo conceptual"
+            ],
+            [
+              "Alternatywne propozycje aranżacji",
+              "Alternative design proposals",
+              "Propuestas de diseño alternativas"
+            ],
+            [
+              "Palety materiałowe i kolorystyczne",
+              "Material and colour research",
+              "Investigación de materiales y colores"
+            ],
+            [
+              "Moodboardy",
+              "Moodboards",
+              "Moodboards"
+            ],
+            [
+              "Wizualizacje architektoniczne",
+              "Architectural visualisations",
+              "Visualizaciones arquitectónicas"
+            ]
+          ],
+          "affiliationNote": [
+            "Niezależne studium koncepcyjne. Bez oficjalnej współpracy z marką Versace.",
+            "Independent conceptual study. No official collaboration with Versace.",
+            "Estudio conceptual independiente. Sin colaboración oficial con Versace."
+          ],
+          "cta": [
+            "Porozmawiajmy o Twoim wnętrzu",
+            "Discuss your interior project",
+            "Consulte sobre su proyecto de interiorismo"
+          ]
+        }
+      }
+    },
+    {
+      "id": "reception",
+      "image": "interior-reception.png",
+      "title": [
+        "Recepcja z malarskim sufitem",
+        "Reception with a painted ceiling",
+        "Recepción con un techo pintado"
+      ],
+      "type": "commercial"
+    },
+    {
+      "id": "living",
+      "image": "interior-living.png",
+      "title": [
+        "Salon w ciepłym świetle",
+        "A living room in warm light",
+        "Un salón bañado en luz cálida"
+      ],
+      "type": "residential"
+    },
+    {
+      "id": "fresco",
+      "image": "interior-fresco.png",
+      "title": [
+        "Iluzjonistyczny fresk w luksusowym salonie",
+        "An illusionistic fresco in a luxury living room",
+        "Fresco ilusionista en un salón de lujo"
+      ],
+      "type": "residential"
+    },
+    {
+      "id": "patio",
+      "image": "interior-patio.png",
+      "title": [
+        "Od mroku do błękitnego patio",
+        "From darkness to a blue patio",
+        "De la penumbra a un patio azul"
+      ],
+      "type": "commercial"
+    },
+    {
+      "id": "dressing",
+      "image": "interior-dressing.png",
+      "title": [
+        "Garderoba — studium materiałów",
+        "Dressing room — a study of materials",
+        "Vestidor — estudio de materiales"
+      ],
+      "type": "residential"
+    },
+    {
+      "id": "the-space-between",
+      "image": "the-space-between/01_hero_master.webp",
+      "title": [
+        "Przestrzeń pomiędzy",
+        "The Space Between",
+        "El espacio entre"
+      ],
+      "type": "residential",
+      "isStudy": true,
+      "featuredRank": 1,
+      "curatedRank": 1,
+      "projectPage": "the-space-between.html",
+      "project": {
+        "slug": "the-space-between",
+        "kind": "fresco-editorial",
+        "status": [
+          "Koncepcja autorska / wizualizacje koncepcyjne",
+          "Original concept / conceptual visualisations",
+          "Concepto de autor / visualizaciones conceptuales"
+        ],
+        "shortStatus": [
+          "Wnętrza prywatne · Studium koncepcyjne",
+          "Residential · Concept study",
+          "Residencial · Estudio conceptual"
+        ],
+        "credit": "Art of Meaning · Magdalena Babicka",
+        "seoTitle": [
+          "Przestrzeń pomiędzy",
+          "The Space Between",
+          "El espacio entre"
+        ],
+        "seoDescription": [
+          "The Space Between — autorska koncepcja salonu z monumentalnym malowidłem sufitowym. Integracja sztuki klasycznej i współczesnego wnętrza. Art of Meaning.",
+          "The Space Between — an art-led living room concept with monumental classical ceiling artwork. Fine art and contemporary interior design by Art of Meaning.",
+          "El espacio entre — un salón conceptual con pintura monumental de inspiración clásica en el techo. Arte e interiorismo contemporáneo de Art of Meaning."
+        ],
+        "hero": {
+          "image": "the-space-between/01_hero_master.webp",
+          "width": 2048,
+          "height": 1143,
+          "kind": "visualisation",
+          "caption": [
+            "Wnętrza prywatne · Studium koncepcyjne",
+            "Residential · Concept study",
+            "Residencial · Estudio conceptual"
+          ],
+          "alt": [
+            "Główny kadr hero całego salonu i malowidła",
+            "Master hero: full living room and ceiling artwork",
+            "Hero principal: salón y pintura del techo"
+          ]
+        },
+        "sections": [
+          {
+            "visuals": [
+              {
+                "image": "the-space-between/03_fresco_detail.webp",
+                "width": 2048,
+                "height": 1373,
+                "kind": "visualisation",
+                "caption": [
+                  "Malarstwo jako architektura",
+                  "Painting as Architecture",
+                  "La pintura como arquitectura"
+                ],
+                "alt": [
+                  "Zbliżenie monumentalnego malowidła i niemal stykających się dłoni",
+                  "Close-up of classical ceiling artwork and reaching hands",
+                  "Detalle de las figuras clásicas y las manos extendidas"
+                ]
+              },
+              {
+                "image": "the-space-between/02_editorial_perspective.webp",
+                "width": 1672,
+                "height": 941,
+                "kind": "visualisation",
+                "caption": [
+                  "Perspektywa wnętrza",
+                  "Architectural perspective",
+                  "Perspectiva arquitectónica"
+                ],
+                "alt": [
+                  "Szerokie ujęcie perspektywiczne od strony okien",
+                  "Editorial angle from the windows",
+                  "Vista editorial desde las ventanas"
+                ]
+              },
+              {
+                "image": "the-space-between/04_material_detail.webp",
+                "width": 1649,
+                "height": 2048,
+                "kind": "visualisation",
+                "caption": [
+                  "Spokojna materia, wyrazista sztuka",
+                  "Quiet Materials, Expressive Art",
+                  "Materiales serenos, arte expresivo"
+                ],
+                "alt": [
+                  "Detal sofy, trawertynowego stolika, tkanin i fragmentu sufitu",
+                  "Detail of curved sofa, travertine table, fabrics and ceiling",
+                  "Detalle del sofá curvo, mesa de travertino, telas y techo"
+                ]
+              },
+              {
+                "image": "the-space-between/05_second_hero.webp",
+                "width": 2048,
+                "height": 1143,
+                "kind": "visualisation",
+                "caption": [
+                  "Wnętrze staje się opowieścią",
+                  "When Space Becomes a Story",
+                  "Cuando el espacio se convierte en relato"
+                ],
+                "alt": [
+                  "Drugie szerokie ujęcie salonu z freskiem i kamiennym kominkiem",
+                  "Secondary wide view with fresco and stone fireplace",
+                  "Vista panorámica secundaria con pintura y chimenea de piedra"
+                ]
+              }
+            ]
+          }
+        ],
+        "editorial": {
+          "projectId": "the-space-between",
+          "slug": "the-space-between.html",
+          "editorialType": "art-led-residential-concept",
+          "status": {
+            "pl": "Koncepcja autorska / wizualizacje koncepcyjne",
+            "en": "Original concept / conceptual visualisations",
+            "es": "Concepto de autor / visualizaciones conceptuales"
+          },
+          "title": {
+            "pl": "Przestrzeń pomiędzy",
+            "en": "The Space Between",
+            "es": "El espacio entre"
+          },
+          "subtitle": {
+            "pl": "Monumentalne malowidło w dialogu z architekturą",
+            "en": "A Monumental Fresco in Dialogue with Architecture",
+            "es": "Una pintura monumental en diálogo con la arquitectura"
+          },
+          "category": {
+            "pl": "Wnętrza prywatne · Studium koncepcyjne",
+            "en": "Residential · Concept study",
+            "es": "Residencial · Estudio conceptual"
+          },
+          "credit": "Art of Meaning · Magdalena Babicka",
+          "scope": {
+            "pl": [
+              "Koncepcja artystyczna",
+              "Integracja malowidła sufitowego z wnętrzem",
+              "Art direction wnętrza",
+              "Kompozycja kolorystyczna i materiałowa",
+              "Wizualizacje koncepcyjne"
+            ],
+            "en": [
+              "Artistic concept",
+              "Ceiling artwork integration",
+              "Interior art direction",
+              "Colour and material composition",
+              "Conceptual visualisations"
+            ],
+            "es": [
+              "Concepto artístico",
+              "Integración de la pintura del techo",
+              "Dirección artística de interiores",
+              "Composición cromática y de materiales",
+              "Visualizaciones conceptuales"
+            ]
+          },
+          "heroLead": {
+            "pl": "Są wnętrza, w których sztuka jest dodatkiem. Tutaj stała się początkiem całej opowieści.",
+            "en": "Some interiors make room for art. Here, art becomes the starting point for the entire story.",
+            "es": "Hay interiores que reservan un espacio para el arte. Aquí, el arte es el punto de partida de toda la historia."
+          },
+          "intro": {
+            "pl": "Przestrzeń pomiędzy to autorska koncepcja salonu, w którym monumentalne malowidło sufitowe wyznacza emocjonalną i wizualną oś wnętrza. Klasyczna kompozycja dwóch postaci, zbliżających ku sobie dłonie, zestawiona została z miękkimi, rzeźbiarskimi formami współczesnych mebli. Architektura nie konkuruje z obrazem — daje mu skalę, światło i oddech.",
+            "en": "The Space Between is an original living-room concept in which a monumental ceiling artwork creates the emotional and visual axis of the interior. A classical composition of two figures reaching towards one another is set against soft, sculptural contemporary furnishings. Architecture does not compete with the painting; it gives the work scale, light and space to breathe.",
+            "es": "El espacio entre es un concepto original de salón en el que una pintura monumental de techo define el eje visual y emocional. La composición clásica de dos figuras que extienden las manos dialoga con muebles contemporáneos de formas suaves y escultóricas. La arquitectura no compite con la pintura: le aporta escala, luz y espacio."
+          },
+          "statement": {
+            "pl": "Między dwoma gestami rodzi się opowieść o bliskości, napięciu i przestrzeni.",
+            "en": "Between two gestures, a story of connection, tension and space emerges.",
+            "es": "Entre dos gestos nace una historia de conexión, tensión y espacio."
+          },
+          "artSectionTitle": {
+            "pl": "Malarstwo jako architektura",
+            "en": "Painting as Architecture",
+            "es": "La pintura como arquitectura"
+          },
+          "artSection": {
+            "pl": "Kompozycja inspirowana tradycją malarstwa klasycznego została pomyślana jako integralna część sufitu, a nie obraz zawieszony we wnętrzu. Gesty, draperie i miękkie przejścia sfumato budują poczucie ruchu nad spokojną strefą wypoczynku. To studium pokazuje, jak autorska sztuka może zmienić sposób odbierania całej przestrzeni.",
+            "en": "Inspired by the language of classical painting, the composition was conceived as an integral part of the ceiling rather than an artwork placed in a room. Gesture, drapery and soft sfumato transitions introduce movement above a calm living area. This study explores how original art can transform the experience of an entire space.",
+            "es": "Inspirada en el lenguaje de la pintura clásica, la composición se concibió como parte integral del techo, no como una obra añadida. Los gestos, los pliegues y las suaves transiciones sfumato aportan movimiento sobre una zona de estar serena. Este estudio explora cómo el arte de autor puede transformar la percepción de todo un espacio."
+          },
+          "materialsTitle": {
+            "pl": "Spokojna materia, wyrazista sztuka",
+            "en": "Quiet Materials, Expressive Art",
+            "es": "Materiales serenos, arte expresivo"
+          },
+          "materials": {
+            "pl": "Stonowana paleta szałwii, ciepłego kamienia i burgundu pozwala freskowi pozostać głównym bohaterem. Obłe obicie sofy, miękki dywan, trawertynowy stolik, lniane zasłony i ciepłe drewno tworzą współczesne tło o zmysłowej, niemal dotykalnej jakości.",
+            "en": "A restrained palette of sage, warm stone and burgundy allows the ceiling artwork to remain the protagonist. The rounded upholstered sofa, tactile rug, travertine coffee table, linen curtains and warm timber create a contemporary setting with quiet, almost tangible richness.",
+            "es": "Una paleta contenida de salvia, piedra cálida y burdeos permite que la pintura sea protagonista. El sofá de formas redondeadas, la alfombra texturizada, la mesa de travertino, las cortinas de lino y la madera cálida crean un escenario contemporáneo y táctil."
+          },
+          "closingTitle": {
+            "pl": "Wnętrze staje się opowieścią",
+            "en": "When Space Becomes a Story",
+            "es": "Cuando el espacio se convierte en relato"
+          },
+          "closing": {
+            "pl": "The Space Between to studium spotkania sztuki monumentalnej i komfortu codzienności. Koncepcja pokazuje kierunek Art of Meaning: wnętrza, w których obraz nie stanowi ostatniego akcentu, lecz jest punktem wyjścia do projektowania.",
+            "en": "The Space Between explores the meeting point of monumental art and everyday comfort. It expresses the Art of Meaning approach: spaces in which painting is not the final decorative accent, but the starting point of the design.",
+            "es": "El espacio entre explora el encuentro entre el arte monumental y el confort cotidiano. Expresa el enfoque de Art of Meaning: espacios en los que la pintura no es el último detalle decorativo, sino el punto de partida del diseño."
+          },
+          "cta": {
+            "pl": "Porozmawiajmy o sztuce stworzonej dla Twojej przestrzeni",
+            "en": "Let’s discuss art created for your space",
+            "es": "Hablemos de arte creado para tu espacio"
+          },
+          "ctaAction": {
+            "pl": "Opowiedz mi o projekcie",
+            "en": "Discuss your project",
+            "es": "Hablemos de tu proyecto"
+          },
+          "footerDisclosure": {
+            "pl": "Studium koncepcyjne. Prezentowane obrazy są wizualizacjami projektu, nie dokumentacją zrealizowanego wnętrza ani wykonanego malowidła.",
+            "en": "Concept study. Images show a design visualisation, not a completed interior or an executed ceiling painting.",
+            "es": "Estudio conceptual. Las imágenes son visualizaciones de diseño, no fotografías de una obra construida ni de una pintura ejecutada."
+          },
+          "seoDescription": {
+            "pl": "The Space Between — autorska koncepcja salonu z monumentalnym malowidłem sufitowym. Integracja sztuki klasycznej i współczesnego wnętrza. Art of Meaning.",
+            "en": "The Space Between — an art-led living room concept with monumental classical ceiling artwork. Fine art and contemporary interior design by Art of Meaning.",
+            "es": "El espacio entre — un salón conceptual con pintura monumental de inspiración clásica en el techo. Arte e interiorismo contemporáneo de Art of Meaning."
+          },
+          "images": [
+            {
+              "id": "01_hero_master",
+              "role": "hero",
+              "original": "assets/originals/01_hero_master.png",
+              "web": "assets/web/01_hero_master.webp",
+              "width": 2048,
+              "height": 1143,
+              "alt": {
+                "pl": "Główny kadr hero całego salonu i malowidła",
+                "en": "Master hero: full living room and ceiling artwork",
+                "es": "Hero principal: salón y pintura del techo"
+              },
+              "original_sha256": "d16eae404de09b31c88aab409913abc24e5f66629817501ef6e28cc5e376c341"
+            },
+            {
+              "id": "02_editorial_perspective",
+              "role": "perspective",
+              "original": "assets/originals/02_editorial_perspective.png",
+              "web": "assets/web/02_editorial_perspective.webp",
+              "width": 1672,
+              "height": 941,
+              "alt": {
+                "pl": "Szerokie ujęcie perspektywiczne od strony okien",
+                "en": "Editorial angle from the windows",
+                "es": "Vista editorial desde las ventanas"
+              },
+              "original_sha256": "baacd1eb3f48442e102eba3206c8ce870ccf0812df8a07bc3d4a41a4928fe3a5"
+            },
+            {
+              "id": "03_fresco_detail",
+              "role": "fresco",
+              "original": "assets/originals/03_fresco_detail.png",
+              "web": "assets/web/03_fresco_detail.webp",
+              "width": 2048,
+              "height": 1373,
+              "alt": {
+                "pl": "Zbliżenie monumentalnego malowidła i niemal stykających się dłoni",
+                "en": "Close-up of classical ceiling artwork and reaching hands",
+                "es": "Detalle de las figuras clásicas y las manos extendidas"
+              },
+              "original_sha256": "7b3e6de37e6cac9bd0ef33400c19c8c0df1850cc989c3281edf13c7101f777bf"
+            },
+            {
+              "id": "04_material_detail",
+              "role": "material",
+              "original": "assets/originals/04_material_detail.png",
+              "web": "assets/web/04_material_detail.webp",
+              "width": 1649,
+              "height": 2048,
+              "alt": {
+                "pl": "Detal sofy, trawertynowego stolika, tkanin i fragmentu sufitu",
+                "en": "Detail of curved sofa, travertine table, fabrics and ceiling",
+                "es": "Detalle del sofá curvo, mesa de travertino, telas y techo"
+              },
+              "original_sha256": "bcac4180fe3eaae5cca7b857cf40f7cd619f10bdb0e95907d4e878ebee1a6d7a"
+            },
+            {
+              "id": "05_second_hero",
+              "role": "perspective",
+              "original": "assets/originals/05_second_hero.png",
+              "web": "assets/web/05_second_hero.webp",
+              "width": 2048,
+              "height": 1143,
+              "alt": {
+                "pl": "Drugie szerokie ujęcie salonu z freskiem i kamiennym kominkiem",
+                "en": "Secondary wide view with fresco and stone fireplace",
+                "es": "Vista panorámica secundaria con pintura y chimenea de piedra"
+              },
+              "original_sha256": "ec0b98a57f049a27f66073704758073b136b4b4143f90a2050d6609e6af5444c"
+            }
+          ],
+          "recommendedSequence": [
+            {
+              "asset": "01_hero_master",
+              "purpose": "full-bleed hero"
+            },
+            {
+              "asset": "03_fresco_detail",
+              "purpose": "art-led statement / full detail"
+            },
+            {
+              "asset": "02_editorial_perspective",
+              "purpose": "spatial editorial overview"
+            },
+            {
+              "asset": "04_material_detail",
+              "purpose": "portrait materials detail"
+            },
+            {
+              "asset": "05_second_hero",
+              "purpose": "closing full width"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "missing": {
+    "offerPdf": null,
+    "briefPdf": null,
+    "formActivationConfirmed": false
+  },
+  "contact": {
+    "endpoint": "https://formsubmit.co/ajax/contact@artofmeaning.art",
+    "recipient": "contact@artofmeaning.art",
+    "service": "FormSubmit",
+    "activationConfirmed": false
+  },
+  "paintingIntroduction": {
+    "heading": [
+      "Odkryj moje prace",
+      "Discover my work",
+      "Descubra mis obras"
+    ],
+    "description": [
+      "W tej galerii znajdziesz wybrane dzieła, które powstały z połączenia intuicji, emocji i pasji do malarstwa. Każdy obraz jest unikalny i opowiada swoją historię. Zapraszam Cię do zatrzymania się przy tym, który porusza Twoją wrażliwość. Jeśli któreś z dzieł szczególnie Cię zainteresuje, napisz do mnie — chętnie opowiem o jego historii i pomogę Ci wybrać obraz do Twojej przestrzeni.",
+      "In this gallery you will find selected works created from a combination of intuition, emotion and a passion for painting. Each painting is unique and tells its own story. I invite you to pause at the one that speaks to your sensibility. If a particular work interests you, write to me — I will gladly share its story and help you choose a painting for your space.",
+      "En esta galería encontrará una selección de obras nacidas de la intuición, la emoción y la pasión por la pintura. Cada cuadro es único y cuenta su propia historia. Le invito a detenerse ante el que conecte con su sensibilidad. Si alguna obra le interesa, escríbame; estaré encantada de contarle su historia y ayudarle a elegir un cuadro para su espacio."
+    ]
+  },
+  "youtubePlaylists": "https://www.youtube.com/@artofmeaning_YT/playlists",
+  "artistPortrait": "magdalena-babicka-portrait.jpg"
+};

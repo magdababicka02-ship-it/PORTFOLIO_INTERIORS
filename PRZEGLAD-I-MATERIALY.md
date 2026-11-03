@@ -1,6 +1,18 @@
 # Art of Meaning — wdrożenie i materiały
 Stan: 3 listopada 2026 r.
 
+## Reorganizacja portfolio i kolekcje Art & Design — 3 listopada 2026
+
+- Filtry: Wybrane (domyślnie), Wszystkie, Wnętrza prywatne, Hospitality, Sztuka i design; pełne tłumaczenia PL/EN/ES. Kategoria i boolean `featured` są niezależne. Filtr pozostaje w URL i przy zmianie języka. Jeden projekt = jeden kafel w widoku.
+- Wybrane: The Space Between, Midnight Garden / Nocturne, Światło i materia, Grzejniki artystyczne oraz Natura w reliefie. Standardowe projekty mieszkalne pozostają w Residential i All. Spisak Studio jest studiem fotograficznym w Art & Design; nie przypisano mu funkcji mieszkalnej lub hospitality. Puerto Banús jest w Residential zgodnie z charakterem projektu i nową organizacją.
+- Osobny wpis patio usunięto z aktywnego katalogu. Midnight Garden i jego strona pozostają. Garderobę scalono z salonem: jedna podstrona `light-and-matter.html`, dwa oryginalne obrazy, okładka salonu. Garderoba nie miała własnego działającego adresu wymagającego przekierowania. Źródła i poprzedni katalog zachowano.
+- ArtisHeat: sześć oryginalnych JPEG i prawdziwa oferta PDF, bez zmiany bajtów. Sztuka, ciepło, opcjonalne światło, rzeczywisty podział ról, zakres ustalany indywidualnie i kompozycje od 10 000 € zgodnie z ofertą. Całość jest prezentowana jako współpraca koncepcyjna; nie jako sześć ukończonych realizacji.
+- Natura w reliefie: druga paczka dostarczyła komplet sześciu koncepcji drewna, mchu i malarstwa. Aktywna osobna pozycja, zamiast wcześniejszego szkicu do uzupełnienia. Podpis neutralnej współpracy zachowany. Brak identyfikacji partnera, ceny, PDF, parametrów materiałowych i deklaracji wykonania.
+- Łącznie 12 pozycji: 5 Wybranych, 7 Residential, 2 Hospitality, 3 Art & Design. Dziesięć osobnych podstron projektów i dwa zachowane studia w oknie dialogowym. Wszystkie wcześniejsze działające podstrony, nawigacja, branding i materiały są zachowane.
+- Jedyne zaplanowane braki medialne: pionowe filmy 9:16 dla ArtisHeat i Natury w reliefie. Do czasu ich dostarczenia pokazywane są postery bez fałszywego odtwarzacza. Ceny i parametry nieznane pozostają puste w danych.
+- Podglądy: `previews/organised-*-desktop.png`, `previews/organised-*-mobile.png`. Raport: `previews/portfolio-organisation-checks.json`.
+- Testy końcowe: 30 kontroli pięciu filtrów na komputerze i telefonie w PL/EN/ES, 60 kombinacji czterech nowych widoków / trzech języków / pięciu szerokości 320–1920 px, 42 powiększenia z klawiaturą i oddaniem fokusu, 23 linki nowych stron. Dodatkowo 30 kontroli jednokolumnowej siatki telefonu. Ogólne testy: 30 widoków stron głównych, 26 tras szczegółowych i 50 linków lokalnych; ES: 64 kontrole dla 32 stron. Brak błędów JS i brakujących tłumaczeń. Oba przyszłe odtwarzacze sprawdzono z istniejącym klipem wstrzykniętym tylko w teście; publicznie nadal są same postery. Parametry formularza przechwycone, bez rzeczywistych e-maili. Dwanaście nowych JPEG ma sumy SHA-256 zgodne z manifestami; siedem dotychczasowych rekordów podstron projektów zachowało identyczną treść. Dalsze sekcje dokumentują wcześniejsze etapy; bieżąca organizacja zastępuje poprzednie kategorie i grupy.
+
 ## Aktualizacja premium — 3 listopada 2026
 
 - Usunięto wskazane powtórzenia: końcowy blok kontaktowy i disclaimer The Space Between, instrukcję pod suwakiem oraz podpisy powtarzające status wizualizacji. Zostaje jedna etykieta koncepcji w otwarciu The Space Between, właściwe statusy innych projektów i wspólna stopka z kontaktem.

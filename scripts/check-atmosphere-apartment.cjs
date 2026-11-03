@@ -13,8 +13,8 @@ const out=path.resolve(__dirname,'../previews');
   page.on('console',message=>{if(message.text().startsWith('Missing Spanish translation:'))errors.push(message.text());});
   for(const lang of ['pl','en','es']){
    await page.goto(new URL('wnetrza.html?lang='+lang,base).href);
-   assert.equal(await page.locator('.interior-card').count(),7);
-   await page.locator('[data-interior-filter=commercial]').click();
+   assert.equal(await page.locator('.interior-card').count(),5);
+   await page.locator('[data-interior-filter=hospitality]').click();
    assert.equal(await page.locator('.interior-card[data-interior-id=atmosphere-driven-apartment]').count(),0);
    await page.locator('[data-interior-filter=residential]').click();
    const tile=page.locator('.interior-card[data-interior-id=atmosphere-driven-apartment]');assert.equal(await tile.count(),1);
@@ -71,10 +71,10 @@ const out=path.resolve(__dirname,'../previews');
     responsiveChecks++;
    }
   }
-  await page.goto(new URL('wnetrza.html?lang=en',base).href);await page.locator('#more-interiors').click();
+  await page.goto(new URL('wnetrza.html?lang=en',base).href);await page.locator('[data-interior-filter=all]').click();
   assert.equal(await page.locator('.interior-card').count(),12);
   assert.deepEqual(errors,[]);
-  const result={date:new Date().toISOString(),languages:['pl','en','es'],residentialTile:'passed; excluded from Commercial',approvedKitchen:'passed',keyboardNavigation:'passed',responsiveChecks,displayedSourceImages:4,retainedSourceImages:9,lightboxChecks,projectStatus:'implementation in progress',curatedBoard:'one original plan available on demand',weakMaterialCrops:'removed',technicalExcerpts:'removed from presentation',brandRefinements:'passed',portfolioProjects:12,browserErrors:errors};
+  const result={date:new Date().toISOString(),languages:['pl','en','es'],residentialTile:'passed; excluded from Hospitality',approvedKitchen:'passed',keyboardNavigation:'passed',responsiveChecks,displayedSourceImages:4,retainedSourceImages:9,lightboxChecks,projectStatus:'implementation in progress',curatedBoard:'one original plan available on demand',weakMaterialCrops:'removed',technicalExcerpts:'removed from presentation',brandRefinements:'passed',portfolioProjects:12,browserErrors:errors};
   fs.writeFileSync(path.join(out,'atmosphere-apartment-checks.json'),JSON.stringify(result,null,2));console.log(JSON.stringify(result));
  }finally{await browser.close();}
 })().catch(error=>{console.error(error);process.exit(1)});

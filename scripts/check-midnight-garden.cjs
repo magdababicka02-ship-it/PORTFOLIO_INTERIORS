@@ -16,7 +16,7 @@ const languages=['pl','en','es'];
    await page.goto(new URL('wnetrza.html?lang='+lang,base).href,{waitUntil:'domcontentloaded'});
    assert.equal(await page.locator('.interior-card').first().locator('p>a').textContent(),'Midnight Garden');
    assert.equal(await page.locator('.interior-card').first().locator('.interior-open').count(),0,'Midnight Garden uses a real project link');
-   await page.locator('[data-interior-filter=commercial]').click();
+   await page.locator('[data-interior-filter=hospitality]').click();
    const tile=page.locator('.interior-card[data-interior-id=nocturne]');
    assert.equal(await tile.count(),1);
    const anchor=tile.locator('a.interior-overlay');
@@ -92,7 +92,7 @@ const languages=['pl','en','es'];
    assert.ok(Math.abs(ratio[0]-ratio[1])<.005,'Interiors comparison shows the full room, without ceiling-only cropping');
    await page.evaluate(()=>new Promise(resolve=>requestAnimationFrame(()=>requestAnimationFrame(resolve))));
    await page.locator('.comparison-section').screenshot({path:path.join(out,'midnight-comparison-'+(width===390?'mobile':'desktop')+'.png')});
-   await page.locator('#more-interiors').click();assert.equal(await page.locator('.interior-card').count(),12,'Other projects retained alongside Puerto Banús and Private Spa Bathroom');
+   await page.locator('[data-interior-filter=all]').click();assert.equal(await page.locator('.interior-card').count(),12,'Other projects retained alongside Puerto Banús and Private Spa Bathroom');
   }
   assert.deepEqual(errors,[]);
   const result={date:new Date().toISOString(),languages,projectLinkNavigation:'passed, including keyboard',responsiveChecks,sourceVisuals:5,projectImages:6,conceptStatusVisible:true,lightboxAndFocus:'passed',comparisonKeyboardAndExtremes:'passed',portfolioProjects:12,contactLinks:2,browserErrors:errors};
