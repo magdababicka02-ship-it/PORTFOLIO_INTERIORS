@@ -3517,38 +3517,6 @@ window.AOM = {
                   "Lobby concept featuring a figure, an organic wooden form and moss accents.",
                   "Concepto de vestíbulo con una figura, una forma orgánica de madera y acentos de musgo."
                 ]
-              },
-              {
-                "image": "nature-relief/05-jadalnia-drzewo.jpg",
-                "width": 2048,
-                "height": 2048,
-                "kind": "visualisation",
-                "caption": [
-                  "Drzewo w jadalni",
-                  "A tree in the dining room",
-                  "Un árbol en el comedor"
-                ],
-                "alt": [
-                  "Koncepcja jadalni z kompozycją ścienną inspirowaną drzewem, łączącą malarstwo, drewno i mech.",
-                  "Dining room concept with a tree-inspired wall composition combining painting, wood and moss.",
-                  "Concepto de comedor con una composición mural inspirada en un árbol que combina pintura, madera y musgo."
-                ]
-              },
-              {
-                "image": "nature-relief/06-sypialnia-drzewo.jpg",
-                "width": 2048,
-                "height": 2048,
-                "kind": "visualisation",
-                "caption": [
-                  "Gałęzie i światło",
-                  "Branches and light",
-                  "Ramas y luz"
-                ],
-                "alt": [
-                  "Koncepcja sypialni z motywem drzewa, delikatnym malarstwem i przestrzennymi akcentami drewna i mchu.",
-                  "Bedroom concept featuring a tree motif, delicate painting and sculptural accents of wood and moss.",
-                  "Concepto de dormitorio con motivo de árbol, pintura delicada y acentos escultóricos de madera y musgo."
-                ]
               }
             ]
           }
@@ -3563,7 +3531,7 @@ window.AOM = {
           "playsInline": true,
           "autoplay": false,
           "preload": "metadata",
-          "maxWidthPx": 360,
+          "maxWidthPx": 720,
           "emptyState": "poster_without_play_button",
           "caption": {
             "pl": "Wideo o kolekcji",

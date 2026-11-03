@@ -95,8 +95,8 @@ const ids=page=>page.locator('.interior-card').evaluateAll(cards=>cards.map(c=>c
    assert.equal(await page.locator('.nature-film video[controls][playsinline]').count(),1);assert.equal(await page.locator('.nature-film button,.nature-film video[autoplay]').count(),0);
    assert.equal(await page.locator('main a[href$=".pdf"]').count(),0);
    assert.doesNotMatch(await page.locator('main').innerText(),/ArtisHeat|NOVA KASYANOV|€|netto|brutto|acoustic|akust|certyf|stabiliz|gwarancj|warranty|turnkey/i);
-   assert.deepEqual(await page.locator('.nature-gallery img').evaluateAll(images=>images.map(i=>new URL(i.src).pathname.split('/').pop())),natureSource.gallery.map(i=>i.src.split('/').pop()));
-   for(let i=0;i<6;i++){const button=page.locator('.project-image-open').nth(i);await button.focus();await page.keyboard.press('Enter');await page.locator('dialog img').evaluate(i=>i.decode());assert.ok((await page.locator('dialog img').getAttribute('src')).endsWith(natureSource.gallery[i].src.split('/').pop()));await page.keyboard.press('Escape');await page.locator('dialog img').waitFor({state:'detached'});assert.ok(await button.evaluate(b=>b===document.activeElement));lightboxChecks++;}
+   assert.deepEqual(await page.locator('.nature-gallery img').evaluateAll(images=>images.map(i=>new URL(i.src).pathname.split('/').pop())),natureSource.gallery.slice(0,4).map(i=>i.src.split('/').pop()));
+   for(let i=0;i<4;i++){const button=page.locator('.project-image-open').nth(i);await button.focus();await page.keyboard.press('Enter');await page.locator('dialog img').evaluate(i=>i.decode());assert.ok((await page.locator('dialog img').getAttribute('src')).endsWith(natureSource.gallery[i].src.split('/').pop()));await page.keyboard.press('Escape');await page.locator('dialog img').waitFor({state:'detached'});assert.ok(await button.evaluate(b=>b===document.activeElement));lightboxChecks++;}
   }
   for(const width of [320,390,768,1440,1920])for(const lang of ['pl','en','es'])for(const slug of ['wnetrza','light-and-matter','murale-3d-z-funkcja-ogrzewania','natura-w-reliefie']){
    await page.setViewportSize({width,height:1000});await page.goto(new URL(slug+'.html?lang='+lang,base).href);
@@ -108,7 +108,7 @@ const ids=page=>page.locator('.interior-card').evaluateAll(cards=>cards.map(c=>c
     for(const image of await page.locator('.project-visual img').evaluateAll(images=>images.map(i=>{const r=i.getBoundingClientRect();return{alt:i.alt,w:i.naturalWidth,h:i.naturalHeight,ratio:r.width/r.height,fit:getComputedStyle(i).objectFit,width:r.width};}))){assert.ok(image.alt);assert.equal(image.fit,'contain');assert.ok(Math.abs(image.ratio-image.w/image.h)<.005);assert.ok(image.width<=image.w+1);}
    }
    if(slug.startsWith('murale-3d')||slug==='natura-w-reliefie'){
-    const r=await page.locator('.heat-film,.nature-film').boundingBox();assert.ok(Math.abs(r.width/r.height-(slug==='natura-w-reliefie'?1:9/16))<.005);assert.ok(r.width<=360);
+    const r=await page.locator('.heat-film,.nature-film').boundingBox();assert.ok(Math.abs(r.width/r.height-(slug==='natura-w-reliefie'?1:9/16))<.005);assert.ok(r.width<=(slug==='natura-w-reliefie'?720:360));if(slug==='natura-w-reliefie'&&width>=1440)assert.ok(r.width>=600,'Nature film enlarged on desktop');
    }
    if(lang==='pl'&&[390,1440].includes(width)){
     await page.evaluate(()=>{document.activeElement.blur();window.scrollTo(0,0);});await page.mouse.move(0,0);
@@ -132,7 +132,7 @@ const ids=page=>page.locator('.interior-card').evaluateAll(cards=>cards.map(c=>c
   }
   for(const url of urls){assert.ok((await page.request.get(url)).ok(),url);localLinks++;}
   assert.deepEqual(errors,[]);
-  const result={date:new Date().toISOString(),languages:['pl','en','es'],featuredSeparateFromCategory:true,filterChecks,expected,visibleProjectCount:12,natureRelief:'six concepts, neutral collaboration credit, no price or PDF',removedTile:'patio',mergedTile:'dressing → living / light-and-matter.html',existingProjectData:'all seven existing detail records unchanged',artisHeatAssets:hashes,natureAssets:natureHashes,price:'composition from EUR 10,000; no invented tax or technical parameters',video:'Both collections use supplied films; Nature is encoded at 0.8×. Controls and playsinline checked.',responsiveChecks,lightboxChecks,localLinks,browserErrors:errors};
+  const result={date:new Date().toISOString(),languages:['pl','en','es'],featuredSeparateFromCategory:true,filterChecks,expected,visibleProjectCount:12,natureRelief:'four selected concepts, original photographs retained, enlarged film, neutral collaboration credit, no price or PDF',removedTile:'patio',mergedTile:'dressing → living / light-and-matter.html',existingProjectData:'all seven existing detail records unchanged',artisHeatAssets:hashes,natureAssets:natureHashes,price:'composition from EUR 10,000; no invented tax or technical parameters',video:'Both collections use supplied films; Nature is encoded at 0.8×. Controls and playsinline checked.',responsiveChecks,lightboxChecks,localLinks,browserErrors:errors};
   fs.writeFileSync(path.join(out,'portfolio-organisation-checks.json'),JSON.stringify(result,null,2));console.log(JSON.stringify(result));
  }finally{await browser.close();}
 })().catch(error=>{console.error(error);process.exit(1)});

@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-03T22:40:59.030Z",
+  "date": "2026-11-03T23:31:32.980Z",
   "processedSha256": "a2b2fe539d18d7f7a6d231d8844d3055d2a0fa0cc2446529eec9d29fc329b474",
   "originalRetained": true,
   "encodedSpeed": 0.8,
@@ -10,6 +10,7 @@
     {
       "width": 390,
       "lang": "pl",
+      "displayWidth": 346,
       "duration": 6.458333,
       "playback": "passed",
       "seeking": "passed",
@@ -18,6 +19,7 @@
     {
       "width": 390,
       "lang": "en",
+      "displayWidth": 346,
       "duration": 6.458333,
       "playback": "passed",
       "seeking": "passed",
@@ -26,6 +28,7 @@
     {
       "width": 390,
       "lang": "es",
+      "displayWidth": 346,
       "duration": 6.458333,
       "playback": "passed",
       "seeking": "passed",
@@ -34,6 +37,7 @@
     {
       "width": 1440,
       "lang": "pl",
+      "displayWidth": 720,
       "duration": 6.458333,
       "playback": "passed",
       "seeking": "passed",
@@ -42,6 +46,7 @@
     {
       "width": 1440,
       "lang": "en",
+      "displayWidth": 720,
       "duration": 6.458333,
       "playback": "passed",
       "seeking": "passed",
@@ -50,6 +55,7 @@
     {
       "width": 1440,
       "lang": "es",
+      "displayWidth": 720,
       "duration": 6.458333,
       "playback": "passed",
       "seeking": "passed",

@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-03T22:14:30.850Z",
+  "date": "2026-11-03T23:32:36.764Z",
   "languages": [
     "pl",
     "en",
@@ -49,7 +49,7 @@
     ]
   },
   "visibleProjectCount": 12,
-  "natureRelief": "six concepts, neutral collaboration credit, no price or PDF",
+  "natureRelief": "four selected concepts, original photographs retained, enlarged film, neutral collaboration credit, no price or PDF",
   "removedTile": "patio",
   "mergedTile": "dressing → living / light-and-matter.html",
   "existingProjectData": "all seven existing detail records unchanged",
@@ -106,10 +106,9 @@
     }
   ],
   "price": "composition from EUR 10,000; no invented tax or technical parameters",
-  "video": "Both future video branches checked with injected existing local clip: one player, controls, playsinline, metadata and paused; public pages remain poster-only.",
+  "video": "Both collections use supplied films; Nature is encoded at 0.8×. Controls and playsinline checked.",
   "responsiveChecks": 60,
-  "lightboxChecks": 42,
+  "lightboxChecks": 36,
   "localLinks": 23,
-  "browserErrors": [],
-  "mobileSingleColumnChecks": 30
+  "browserErrors": []
 }

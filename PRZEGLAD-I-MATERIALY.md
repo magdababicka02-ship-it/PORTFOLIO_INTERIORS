@@ -1,4 +1,13 @@
 # Art of Meaning — wdrożenie i materiały
+
+## Natura w reliefie — selekcja i większy film, 4 listopada 2026
+
+- Film ma teraz większą kolumnę i limit 720 px zamiast 360 px; na tablecie i telefonie jest nad tekstem, na pełną dostępną szerokość. Zachowano pełny kwadratowy kadr, odtwarzanie 0,8× zapisane w pliku, sterowanie i brak autoplay.
+- W publicznej galerii pozostają cztery najmocniejsze, różnorodne kompozycje: Portal natury, Leśny pejzaż, Rytm fal oraz Postać i natura. Dwa motywy drzewa wycofano z prezentacji; ich obrazy i metadane zachowano w źródłach oraz `archive/nature-relief-originals/unselected-visuals.json`.
+- Na życzenie właścicielki sprawdzono usuwanie nakładek logo i znaków wodnych w obu nowych kolekcjach. Próba generatywnego retuszu pierwszego kadru zmieniła także kształty kompozycji i wyposażenia. Wynik odrzucono, nie trafił do repozytorium ani na stronę. Wszystkie źródłowe JPEG pozostały niezmienione.
+- Do dokończenia: czyste eksporty bez nałożonych znaków wodnych sześciu zdjęć ArtisHeat oraz czterech wybranych zdjęć Natury w reliefie. W paczkach są tylko wersje ze znakami wpisanymi w piksele; usunięcie elementów HTML/CSS nie usuwa tych nakładek. Globalne logo witryny pozostaje bez zmian.
+- Weryfikacja bieżącej zmiany: 60 widoków responsywnych (320–1920 px, PL/EN/ES), 30 kontroli filtrów, 36 otwarć galerii z klawiatury, 23 linki lokalne oraz sześć prób odtwarzania i przewijania filmu. Bez błędów JavaScript. Raporty i podglądy w `previews/portfolio-organisation-checks.json`, `previews/nature-video-checks.json`, `previews/nature-video-{desktop,mobile}.png` i `previews/organised-natura-w-reliefie-{desktop,mobile}.png`.
+
 Stan: 3 listopada 2026 r.
 
 ## Film Natury w reliefie — 3 listopada 2026

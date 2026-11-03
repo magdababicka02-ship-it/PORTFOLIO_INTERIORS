@@ -31,14 +31,14 @@ const processedSha256='a2b2fe539d18d7f7a6d231d8844d3055d2a0fa0cc2446529eec9d29fc
    const initial=await video.evaluate(v=>({paused:v.paused,width:v.videoWidth,height:v.videoHeight,duration:v.duration,src:v.currentSrc}));
    assert.ok(initial.paused);assert.equal(initial.width,1440);assert.equal(initial.height,1440);
    assert.ok(Math.abs(initial.duration-6.458333)<.1);assert.ok(initial.src.endsWith('/assets/videos/nature-relief/intro-slow.mp4'));
-   const box=await page.locator('.nature-film').boundingBox();assert.ok(Math.abs(box.width/box.height-1)<.005);
+   const box=await page.locator('.nature-film').boundingBox();assert.ok(Math.abs(box.width/box.height-1)<.005);assert.ok(box.width<=720);if(width===1440)assert.ok(box.width>=600,'Film is larger than the previous 310px column');
    assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1));
    await video.evaluate(async v=>{v.muted=true;await v.play();});
    await page.waitForFunction(()=>document.querySelector('main video').currentTime>.3);
    await video.evaluate(v=>{v.pause();v.currentTime=2;});
    await page.waitForFunction(()=>Math.abs(document.querySelector('main video').currentTime-2)<.1&&!document.querySelector('main video').seeking);
    if(lang==='pl')await page.locator('.nature-introduction').screenshot({path:path.join(root,'previews/nature-video-'+(width===390?'mobile':'desktop')+'.png')});
-   results.push({width,lang,duration:initial.duration,playback:'passed',seeking:'passed',noAutoplay:true});
+   results.push({width,lang,displayWidth:box.width,duration:initial.duration,playback:'passed',seeking:'passed',noAutoplay:true});
   }
   await page.goto(new URL('murale-3d-z-funkcja-ogrzewania.html?lang=pl',base).href);
   assert.equal(await page.locator('.heat-film video[controls][playsinline]').count(),1);
