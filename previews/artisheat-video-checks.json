@@ -1,0 +1,59 @@
+{
+  "date": "2026-11-03T22:31:34.999Z",
+  "sourceSha256": "19519ad33cb88b3d0a9f9853dddcdab45252278cec830656a63f0abcd922a4c6",
+  "byteIdentical": true,
+  "sizeBytes": 3857656,
+  "rangeHandling": "actual file bytes served with HTTP Range in test",
+  "results": [
+    {
+      "width": 390,
+      "lang": "pl",
+      "duration": 19.458322,
+      "playback": "passed",
+      "seeking": "passed",
+      "noAutoplay": true
+    },
+    {
+      "width": 390,
+      "lang": "en",
+      "duration": 19.458322,
+      "playback": "passed",
+      "seeking": "passed",
+      "noAutoplay": true
+    },
+    {
+      "width": 390,
+      "lang": "es",
+      "duration": 19.458322,
+      "playback": "passed",
+      "seeking": "passed",
+      "noAutoplay": true
+    },
+    {
+      "width": 1440,
+      "lang": "pl",
+      "duration": 19.458322,
+      "playback": "passed",
+      "seeking": "passed",
+      "noAutoplay": true
+    },
+    {
+      "width": 1440,
+      "lang": "en",
+      "duration": 19.458322,
+      "playback": "passed",
+      "seeking": "passed",
+      "noAutoplay": true
+    },
+    {
+      "width": 1440,
+      "lang": "es",
+      "duration": 19.458322,
+      "playback": "passed",
+      "seeking": "passed",
+      "noAutoplay": true
+    }
+  ],
+  "naturePosterPreserved": true,
+  "browserErrors": []
+}

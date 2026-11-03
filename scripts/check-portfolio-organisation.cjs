@@ -29,7 +29,7 @@ const ids=page=>page.locator('.interior-card').evaluateAll(cards=>cards.map(c=>c
  const nature=data.interiors.find(p=>p.id===natureSource.id);
  assert.equal(nature.project.price,null);assert.equal(nature.project.productionLeadTime,null);assert.equal(nature.project.technicalSpecification,null);assert.equal(nature.project.introVideo.src,null);assert.ok(!nature.project.partner);
  const heat=data.interiors.find(p=>p.id===source.id);
- assert.equal(heat.project.introVideo.src,null);assert.equal(heat.project.pricing.compositionFrom,10000);assert.equal(heat.project.pricing.taxTreatment,null);
+ assert.equal(heat.project.introVideo.src,'videos/artisheat/intro-9x16.mp4');assert.equal(heat.project.pricing.compositionFrom,10000);assert.equal(heat.project.pricing.taxTreatment,null);
  assert.ok(Object.values(heat.project.technicalParameters).every(value=>value===null));
  const csv=fs.readFileSync(path.join(root,'archive/artisheat-originals/MAPA_PLIKOW.csv'),'utf8').replace(/^\uFEFF/,'').trim().split(/\r?\n/).slice(1);
  const hashes=[];
@@ -79,7 +79,7 @@ const ids=page=>page.locator('.interior-card').evaluateAll(cards=>cards.map(c=>c
     const contact=new URL(await page.locator('main a[href*=kontakt]').first().getAttribute('href'));
     assert.equal(contact.searchParams.get('project'),'interior');assert.equal(contact.searchParams.get('lang'),lang);assert.ok(contact.searchParams.get('artwork'));
    }
-   assert.equal(await page.locator('.heat-film').count(),1);assert.equal(await page.locator('.heat-film video,.heat-film button').count(),0);
+   assert.equal(await page.locator('.heat-film').count(),1);assert.equal(await page.locator('.heat-film video[controls][playsinline]').count(),1);assert.equal(await page.locator('.heat-film button,.heat-film video[autoplay]').count(),0);
    assert.deepEqual(await page.locator('.heat-gallery img').evaluateAll(images=>images.map(i=>new URL(i.src).pathname.split('/').pop())),source.gallery.map(i=>i.src.split('/').pop()));
    assert.equal(await page.locator('.heat-functions-grid>div').count(),3);assert.equal(await page.locator('.heat-process li').count(),4);
    assert.match(await page.locator('.heat-price').innerText(),/10[\s,.]?000/);
@@ -132,7 +132,7 @@ const ids=page=>page.locator('.interior-card').evaluateAll(cards=>cards.map(c=>c
   }
   for(const url of urls){assert.ok((await page.request.get(url)).ok(),url);localLinks++;}
   assert.deepEqual(errors,[]);
-  const result={date:new Date().toISOString(),languages:['pl','en','es'],featuredSeparateFromCategory:true,filterChecks,expected,visibleProjectCount:12,natureRelief:'six concepts, neutral collaboration credit, no price or PDF',removedTile:'patio',mergedTile:'dressing → living / light-and-matter.html',existingProjectData:'all seven existing detail records unchanged',artisHeatAssets:hashes,natureAssets:natureHashes,price:'composition from EUR 10,000; no invented tax or technical parameters',video:'poster only; future controls/playsinline branch checked with injected existing clip',responsiveChecks,lightboxChecks,localLinks,browserErrors:errors};
+  const result={date:new Date().toISOString(),languages:['pl','en','es'],featuredSeparateFromCategory:true,filterChecks,expected,visibleProjectCount:12,natureRelief:'six concepts, neutral collaboration credit, no price or PDF',removedTile:'patio',mergedTile:'dressing → living / light-and-matter.html',existingProjectData:'all seven existing detail records unchanged',artisHeatAssets:hashes,natureAssets:natureHashes,price:'composition from EUR 10,000; no invented tax or technical parameters',video:'ArtisHeat uses the supplied MP4; Nature remains poster-only. Controls and playsinline checked.',responsiveChecks,lightboxChecks,localLinks,browserErrors:errors};
   fs.writeFileSync(path.join(out,'portfolio-organisation-checks.json'),JSON.stringify(result,null,2));console.log(JSON.stringify(result));
  }finally{await browser.close();}
 })().catch(error=>{console.error(error);process.exit(1)});

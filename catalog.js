@@ -3229,7 +3229,7 @@ window.AOM = {
           }
         ],
         "introVideo": {
-          "src": null,
+          "src": "videos/artisheat/intro-9x16.mp4",
           "targetPath": "videos/artisheat/intro-9x16.mp4",
           "aspectRatio": "9:16",
           "placement": "after_title_before_gallery",

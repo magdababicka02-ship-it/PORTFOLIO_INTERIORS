@@ -1,6 +1,12 @@
 # Art of Meaning — wdrożenie i materiały
 Stan: 3 listopada 2026 r.
 
+## Film ArtisHeat — 3 listopada 2026
+
+- Podłączono oryginalny film właścicielki w istniejącym module ArtisHeat. Plik H.264/AAC, 576 × 1024, 19,458 s, zachowuje identyczne bajty i dźwięk. Odtwarzanie po kliknięciu, z kontrolkami i playsinline. Bez autoplay.
+- Ścieżka: `assets/videos/artisheat/intro-9x16.mp4`. Do uzupełnienia pozostaje wyłącznie film dla Natury w reliefie; jej poster i pozostałe projekty pozostają bez zmian.
+- Testy: sześć widoków 390/1440 px × PL/EN/ES; rzeczywiste dekodowanie filmu, start/pauza, przewijanie, proporcje 9:16 i brak autoplay. W teście zapewniono poprawną obsługę HTTP Range dla oryginalnych bajtów pliku. Wyniki: `previews/artisheat-video-checks.json`; podglądy: `previews/artisheat-video-{desktop,mobile}.png`.
+
 ## Reorganizacja portfolio i kolekcje Art & Design — 3 listopada 2026
 
 - Filtry: Wybrane (domyślnie), Wszystkie, Wnętrza prywatne, Hospitality, Sztuka i design; pełne tłumaczenia PL/EN/ES. Kategoria i boolean `featured` są niezależne. Filtr pozostaje w URL i przy zmianie języka. Jeden projekt = jeden kafel w widoku.
