@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-25T22:01:54.197Z",
+  "date": "2026-11-03T20:33:31.948Z",
   "languages": [
     "pl",
     "en",
@@ -7,14 +7,15 @@
   ],
   "residentialTile": "passed; excluded from Commercial",
   "keyboardNavigation": "passed",
-  "editorialHierarchy": "six sections, materiality before existing photos and technical board",
-  "technicalDrawings": "five originals collapsed by default",
+  "editorialHierarchy": "materiality, existing photos, one optional board and concise scope",
+  "technicalDrawings": "raw excerpts removed from presentation; source files retained",
   "responsiveChecks": 15,
-  "sourceImages": 9,
+  "displayedSourceImages": 4,
+  "retainedSourceImages": 9,
   "originalTechnicalDrawings": 5,
-  "lightboxChecks": 30,
+  "lightboxChecks": 15,
   "projectStatus": "implementation in progress, visualisation and existing photos labelled",
   "pdfLink": "passed",
-  "portfolioProjects": 9,
+  "portfolioProjects": 12,
   "browserErrors": []
 }

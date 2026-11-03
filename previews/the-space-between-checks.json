@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-27T00:27:57.605Z",
+  "date": "2026-11-03T20:32:13.273Z",
   "languages": [
     "pl",
     "en",
@@ -7,7 +7,7 @@
   ],
   "responsiveChecks": 18,
   "lightboxChecks": 15,
-  "approvedCopy": "exact PL/EN/ES",
+  "approvedCopy": "retained narrative PL/EN/ES; repeated invitation, scope and explanatory footer removed",
   "approvedSequence": [
     "01_hero_master",
     "03_fresco_detail",
@@ -50,7 +50,7 @@
   "source": "Supplied WebP files; light package contains no original PNG files",
   "fullFrames": true,
   "heroPriority": "high",
-  "conceptStatus": "visible in opening, card and disclosure",
+  "conceptStatus": "one discreet opening label and portfolio card",
   "individualLayout": true,
   "featuredOrder": [
     "the-space-between",
@@ -63,6 +63,6 @@
   ],
   "portfolioEntries": 12,
   "existingModalStudies": 5,
-  "localLinks": 30,
+  "localLinks": 27,
   "browserErrors": []
 }

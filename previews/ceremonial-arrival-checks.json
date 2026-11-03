@@ -1,21 +1,22 @@
 {
-  "date": "2026-10-25T23:03:57.358Z",
+  "date": "2026-11-03T20:34:37.029Z",
   "languages": [
     "pl",
     "en",
     "es"
   ],
   "residentialStudy": "passed",
-  "featuredOrderUnchanged": true,
+  "existingRelativeOrderPreserved": true,
   "responsiveChecks": 18,
   "alternativeProposals": 3,
   "equalTriptychWeight": true,
-  "sourceAssets": 5,
-  "lightboxChecks": 18,
+  "displayedAssets": 3,
+  "retainedSourceAssets": 5,
+  "lightboxChecks": 12,
   "conceptStatusAndNovaCredit": "visible",
-  "spatialDiagram": "schematic, not to scale",
-  "lowResolutionReference": "collapsed and native width capped",
+  "spatialDiagram": "removed from public presentation",
+  "lowResolutionReference": "removed from public presentation",
   "existingStudiesRetained": 5,
-  "portfolioEntries": 11,
+  "portfolioEntries": 12,
   "browserErrors": []
 }

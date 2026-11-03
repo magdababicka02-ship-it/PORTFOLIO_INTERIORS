@@ -1047,9 +1047,9 @@ window.AOM = {
           "Un estudio de transformación espacial."
         ],
         "status": [
-          "Wizualizacja koncepcji · Realizacja w toku",
-          "Design Visualization · Implementation in Progress",
-          "Visualización del proyecto · Obra en curso"
+          "Realizacja w toku",
+          "Implementation in progress",
+          "Obra en curso"
         ],
         "shortStatus": [
           "Realizacja w toku / projekt wnętrza",
@@ -1072,9 +1072,9 @@ window.AOM = {
           "height": 2048,
           "kind": "visualisation",
           "caption": [
-            "Wizualizacja koncepcji — realizacja w toku",
-            "Design visualisation — implementation in progress",
-            "Visualización del proyecto — obra en curso"
+            "Private Spa Bathroom",
+            "Private Spa Bathroom",
+            "Private Spa Bathroom"
           ],
           "alt": [
             "Private Spa Bathroom — Wizualizacja koncepcji — realizacja w toku",
@@ -1117,18 +1117,6 @@ window.AOM = {
               "Magdalena Babicka · główna projektantka wnętrza",
               "Magdalena Babicka · Lead Interior Designer",
               "Magdalena Babicka · diseñadora de interiores principal"
-            ]
-          },
-          {
-            "label": [
-              "Status",
-              "Status",
-              "Estado"
-            ],
-            "value": [
-              "Realizacja w toku",
-              "Implementation in progress",
-              "Obra en curso"
             ]
           }
         ],
@@ -1226,9 +1214,9 @@ window.AOM = {
                 "height": 1516,
                 "kind": "drawing",
                 "caption": [
-                  "Plansza projektowa — schemat funkcjonalny i fragmenty oryginalnej dokumentacji",
-                  "Project board — spatial diagram and original drawing excerpts",
-                  "Panel del proyecto — esquema funcional y extractos de la documentación original"
+                  "Układ przestrzeni",
+                  "Spatial layout",
+                  "Distribución del espacio"
                 ],
                 "alt": [
                   "Private Spa Bathroom — Plansza projektowa — schemat funkcjonalny i fragmenty oryginalnej dokumentacji",
@@ -1239,9 +1227,9 @@ window.AOM = {
             ],
             "document": "private-spa-bathroom-board.pdf",
             "documentLabel": [
-              "Otwórz planszę projektową — PDF (PL / EN)",
-              "Open the project board — PDF (PL / EN)",
-              "Abrir el panel del proyecto — PDF (PL / EN)"
+              "Zobacz planszę — PDF",
+              "View the board — PDF",
+              "Ver la lámina — PDF"
             ]
           },
           {
@@ -1445,9 +1433,9 @@ window.AOM = {
               "Una nueva mirada al ritual cotidiano."
             ],
             "body": [
-              "Private Spa Bathroom zmienia niewielkie wnętrze mieszkalne w spokojną, współczesną strefę wyciszenia. Ciepłe, naturalne odcienie, przemyślana zabudowa i miękkie światło architektoniczne tworzą atmosferę dyskretnej elegancji.\n\nZa oszczędną estetyką stoi starannie opracowana koncepcja przestrzenna, łącząca funkcjonalność, detale na wymiar i precyzję techniczną.",
-              "Private Spa Bathroom transforms a compact residential interior into a calm, contemporary retreat. Warm natural tones, thoughtfully integrated storage and soft architectural lighting establish an atmosphere of understated elegance.\n\nBehind the restrained aesthetic lies a carefully developed spatial concept, combining functionality, bespoke detailing and technical precision.",
-              "Private Spa Bathroom transforma un interior residencial compacto en un refugio sereno y contemporáneo. Los tonos naturales cálidos, el almacenaje cuidadosamente integrado y una iluminación arquitectónica suave crean una atmósfera de elegancia discreta.\n\nTras esta estética contenida hay un concepto espacial cuidadosamente desarrollado que combina funcionalidad, detalles a medida y precisión técnica."
+              "Ciepłe, naturalne odcienie, zabudowa na wymiar i miękkie światło tworzą kameralną przestrzeń codziennych rytuałów. Niewielka łazienka zyskuje spokojny, spójny rytm i atmosferę dyskretnej elegancji.",
+              "Warm natural tones, bespoke joinery and soft lighting create an intimate setting for daily rituals. The compact bathroom gains a calm, coherent rhythm and an atmosphere of understated elegance.",
+              "Los tonos cálidos y naturales, el mobiliario a medida y la luz suave crean un espacio íntimo para los rituales diarios. El pequeño baño adquiere un ritmo sereno y una elegancia discreta."
             ]
           },
           "materiality": {
@@ -1457,14 +1445,14 @@ window.AOM = {
               "La calma a través de la luz."
             ],
             "body": [
-              "Beżowe wykończenia o kamiennym charakterze spotykają się z naturalnymi odcieniami drewna i detalami w kolorze szczotkowanego złota. Ukryte oświetlenie LED miękko podkreśla architekturę wnętrza.\n\nZabudowa na wymiar porządkuje codzienne funkcje, a łagodne przejścia między materiałami pozwalają całości zachować spokojny, spójny rytm.",
-              "Warm beige, stone-inspired finishes meet natural timber tones and brushed-gold details. Concealed architectural LED lighting softly defines the space.\n\nBespoke cabinetry brings order to everyday functions, while gentle transitions between materials create a calm, cohesive rhythm.",
-              "Los acabados beige de inspiración pétrea se combinan con tonos naturales de madera y detalles en dorado cepillado. La iluminación LED oculta define suavemente la arquitectura del espacio.\n\nEl mobiliario a medida organiza las funciones cotidianas, mientras las transiciones suaves entre materiales crean un ritmo sereno y coherente."
+              "Kamienne beże, odcienie drewna i szczotkowane złoto budują ciepłą paletę. Ukryte światło podkreśla płaszczyzny, a łagodne przejścia między materiałami nadają wnętrzu lekkość.",
+              "Stone-inspired beiges, wood tones and brushed gold form a warm palette. Concealed lighting defines the planes, while gentle transitions between materials give the interior a sense of ease.",
+              "Los beiges de carácter pétreo, los tonos de madera y el oro cepillado forman una paleta cálida. La luz oculta define los planos y las transiciones suaves entre materiales aportan ligereza."
             ],
             "caption": [
-              "Wizualizacja koncepcji — detal materiałów i światła",
-              "Design visualisation — material and lighting detail",
-              "Visualización del proyecto — detalle de materiales e iluminación"
+              "Materiały i światło",
+              "Materials and light",
+              "Materiales y luz"
             ]
           },
           "transformation": {
@@ -1474,9 +1462,9 @@ window.AOM = {
               "Una nueva perspectiva del espacio."
             ],
             "body": [
-              "Punktem wyjścia była łazienka o przestarzałym, wizualnie rozdrobnionym układzie. Projekt porządkuje relacje między wyposażeniem, przechowywaniem i światłem, proponując spójną przestrzeń do codziennych rytuałów.\n\nOryginalne fotografie dokumentują stan przed remontem. Realizacja trwa; wizualizacja przedstawia kierunek projektowy.",
-              "The starting point was an outdated bathroom with a visually fragmented layout. The design brings fittings, storage and lighting into a cohesive composition for everyday rituals.\n\nThe original photographs document the existing conditions. Implementation is in progress; the visualisation presents the design intent.",
-              "El punto de partida era un baño anticuado con una distribución visualmente fragmentada. El diseño ordena la relación entre equipamiento, almacenaje e iluminación y propone un espacio coherente para los rituales cotidianos.\n\nLas fotografías originales documentan el estado previo a la reforma. La obra está en curso; la visualización presenta la propuesta de diseño."
+              "Nowy układ porządkuje relacje między wyposażeniem, przechowywaniem i światłem, zamieniając rozdrobnione wnętrze w spójną strefę wyciszenia.",
+              "The new layout brings fixtures, storage and lighting into balance, turning a fragmented interior into a coherent retreat.",
+              "La nueva distribución equilibra equipamiento, almacenaje y luz, transformando un interior fragmentado en un refugio coherente."
             ]
           },
           "technical": {
@@ -1491,9 +1479,9 @@ window.AOM = {
               "La planta original y una sección seleccionada del mobiliario muestran cómo el concepto se traduce en soluciones a medida. El panel combina estos extractos con un esquema explicativo; la documentación de ejecución sigue siendo la referencia para las dimensiones y los detalles."
             ],
             "detailsLabel": [
-              "Zobacz oryginalną dokumentację techniczną",
-              "View the original technical documentation",
-              "Ver la documentación técnica original"
+              "Układ przestrzeni",
+              "Spatial layout",
+              "Distribución del espacio"
             ],
             "detailsNote": [
               "Oryginalne rysunki zachowują polskie opisy. Schemat na planszy służy objaśnieniu projektu i nie jest rysunkiem wykonawczym.",
@@ -1503,50 +1491,30 @@ window.AOM = {
           },
           "responsibilities": {
             "heading": [
-              "Projektowanie poza estetyką.",
-              "Design Beyond Aesthetics.",
-              "El diseño más allá de la estética."
+              "Spójność od pierwszej idei.",
+              "Coherence from the first idea.",
+              "Coherencia desde la primera idea."
             ],
             "body": [
-              "Zakres Magdaleny Babickiej obejmuje koncepcję, opracowanie rozwiązań i wsparcie technicznego wdrożenia we współpracy z wykonawcami.",
-              "Magdalena Babicka’s scope connects the design concept, detailed development and technical implementation support in collaboration with contractors.",
-              "El alcance de Magdalena Babicka conecta el concepto, el desarrollo de soluciones y el apoyo a la ejecución técnica en colaboración con los contratistas."
+              "Projekt Magdaleny Babickiej łączy autorską koncepcję, funkcjonalny układ i dopracowane rozwiązania na wymiar.",
+              "Magdalena Babicka’s design combines an original concept, a functional layout and carefully considered bespoke elements.",
+              "El diseño de Magdalena Babicka combina un concepto propio, una distribución funcional y elementos a medida cuidadosamente resueltos."
             ],
             "items": [
               [
-                "Koncepcja wnętrza",
-                "Interior Concept",
-                "Concepto de interiorismo"
+                "Projekt wnętrza",
+                "Interior design",
+                "Diseño de interiores"
               ],
               [
-                "Planowanie funkcjonalne",
-                "Spatial Planning",
-                "Distribución del espacio"
+                "Materiały i światło",
+                "Materials and lighting",
+                "Materiales e iluminación"
               ],
               [
-                "Projekt zabudowy na wymiar",
-                "Bespoke Joinery Design",
-                "Diseño de mobiliario a medida"
-              ],
-              [
-                "Projekt oświetlenia",
-                "Lighting Design",
-                "Diseño de iluminación"
-              ],
-              [
-                "Dokumentacja techniczna",
-                "Technical Documentation",
-                "Documentación técnica"
-              ],
-              [
-                "Koordynacja instalacji wodno-kanalizacyjnej i elektrycznej",
-                "Plumbing & Electrical Coordination",
-                "Coordinación de fontanería e instalación eléctrica"
-              ],
-              [
-                "Współpraca z wykonawcami i wsparcie realizacji",
-                "Contractor Collaboration / Execution Support",
-                "Colaboración con contratistas / Apoyo a la ejecución"
+                "Zabudowa na wymiar",
+                "Bespoke joinery",
+                "Mobiliario a medida"
               ]
             ]
           },
@@ -1593,14 +1561,14 @@ window.AOM = {
           "Gliwice · Polonia · aproximadamente 60 m²"
         ],
         "status": [
-          "Koncepcja i dokumentacja · Wsparcie realizacji",
-          "Design & Technical Development · Execution Support",
-          "Concepto y desarrollo técnico · Apoyo a la ejecución"
+          "Realizacja w toku",
+          "Implementation in progress",
+          "Obra en curso"
         ],
         "shortStatus": [
-          "Koncepcja / opracowanie techniczne",
-          "Design concept / technical development",
-          "Concepto / desarrollo técnico"
+          "Realizacja w toku",
+          "Implementation in progress",
+          "Obra en curso"
         ],
         "seoTitle": [
           "Atmosphere-Driven Apartment, Gliwice | Projekt wnętrza",
@@ -1608,9 +1576,9 @@ window.AOM = {
           "Atmosphere-Driven Apartment, Gliwice | Diseño de interiores"
         ],
         "seoDescription": [
-          "Koncepcja mieszkania około 60 m² w Gliwicach: jasna zabudowa, drewno, ciemny marmur i przemyślane światło. Projekt Magdaleny Babickiej, dokumentacja i wsparcie realizacji.",
-          "A residential concept for approximately 60 m² in Gliwice: ivory cabinetry, warm wood and dark marble. Interior design, technical development and Execution Support by Magdalena Babicka.",
-          "Una propuesta residencial de aproximadamente 60 m² en Gliwice: muebles marfil, madera y mármol oscuro. Diseño de Magdalena Babicka, desarrollo técnico y apoyo a la ejecución."
+          "Mieszkanie około 60 m² w Gliwicach: jasna zabudowa, naturalne drewno i ciemny marmur. Projekt Magdaleny Babickiej. Realizacja w toku.",
+          "An approximately 60 m² apartment in Gliwice: ivory cabinetry, natural wood and dark marble. Interior design by Magdalena Babicka. Implementation in progress.",
+          "Un apartamento de aproximadamente 60 m² en Gliwice: muebles claros, madera natural y mármol oscuro. Diseño de Magdalena Babicka. Obra en curso."
         ],
         "hero": {
           "image": "atmosphere-driven-apartment/01_approved_kitchen_white_wood_dark_stone.jpg",
@@ -1618,9 +1586,9 @@ window.AOM = {
           "height": 1200,
           "kind": "visualisation",
           "caption": [
-            "Zatwierdzona koncepcja kuchni — wizualizacja",
-            "Approved kitchen concept — design visualisation",
-            "Propuesta aprobada de cocina — visualización"
+            "Kuchnia",
+            "Kitchen",
+            "Cocina"
           ],
           "alt": [
             "Jasna kuchnia z kremowymi frontami, drewnianymi szafkami górnymi i ciemnym kamieniem",
@@ -1676,18 +1644,6 @@ window.AOM = {
               "Magdalena Babicka · Lead Interior Designer / Art Direction",
               "Magdalena Babicka · diseñadora de interiores principal / dirección artística"
             ]
-          },
-          {
-            "label": [
-              "Status",
-              "Status",
-              "Estado"
-            ],
-            "value": [
-              "Koncepcja, dokumentacja techniczna i wsparcie realizacji",
-              "Design concept, technical development and Execution Support",
-              "Concepto, desarrollo técnico y apoyo a la ejecución"
-            ]
           }
         ],
         "introduction": {
@@ -1697,9 +1653,9 @@ window.AOM = {
             "Un enfoque cuidado de la vida cotidiana."
           ],
           "body": [
-            "Atmosphere-Driven Apartment to autorska koncepcja wnętrza mieszkania o powierzchni około 60 m² w Gliwicach. Projekt łączy spokój naturalnych materiałów z wyrazistym kontrastem jasnej zabudowy, drewna i ciemnego marmuru.\n\nPrzemyślany układ funkcjonalny, zabudowy na wymiar i wielowarstwowe oświetlenie podporządkowano codziennym potrzebom mieszkańca. Za estetyką stoi również kompleksowe opracowanie projektu — od koncepcji po dokumentację techniczną.\n\nMój zakres obejmował projektowanie wnętrza, dokumentację, uzgodnienia instalacyjne oraz wsparcie na etapie realizacji (Execution Support).",
-            "Atmosphere-Driven Apartment is a residential interior concept for a private approximately 60 m² home in Gliwice, Poland.\n\nDeveloped from a developer-standard space, the project brings together warm ivory cabinetry, natural wood finishes, expressive dark marble and carefully considered lighting. The composition is restrained but distinctive, balancing everyday comfort with a confident architectural identity.\n\nThe design process encompassed spatial planning, material direction, bespoke joinery and detailed technical development, with electrical and plumbing coordination and Execution Support during implementation.",
-            "Atmosphere-Driven Apartment es una propuesta de interiorismo para una vivienda privada de aproximadamente 60 m² en Gliwice, Polonia.\n\nDesarrollado a partir de un espacio sin acabados, el proyecto combina muebles marfil, acabados de madera natural, mármol oscuro y una iluminación cuidadosamente estudiada. La composición es contenida y distintiva, equilibrando la comodidad cotidiana con una identidad arquitectónica definida.\n\nEl proceso abarcó distribución funcional, dirección de materiales, mobiliario a medida y documentación técnica, con coordinación de instalaciones eléctricas y de fontanería y apoyo durante la ejecución."
+            "Mieszkanie o powierzchni około 60 m² w Gliwicach łączy jasną zabudowę, naturalne drewno i ciemny marmur. Miękkie światło wydobywa faktury, a przemyślane proporcje nadają wnętrzu spokojny, współczesny charakter.\n\nUkład i rozwiązania na wymiar powstały z myślą o codziennym komforcie mieszkańca.",
+            "This approximately 60 m² apartment in Gliwice brings together ivory cabinetry, natural wood and dark marble. Soft light reveals the textures, while considered proportions give the interior a calm, contemporary character.\n\nThe layout and bespoke elements are designed around the resident’s everyday comfort.",
+            "Este apartamento de aproximadamente 60 m² en Gliwice combina muebles claros, madera natural y mármol oscuro. La luz suave realza las texturas y las proporciones cuidadas aportan un carácter sereno y contemporáneo.\n\nLa distribución y los elementos a medida responden al confort cotidiano de quien lo habita."
           ]
         },
         "sections": [
@@ -1784,9 +1740,9 @@ window.AOM = {
               "Dos estancias. Un mismo lenguaje arquitectónico."
             ],
             "body": [
-              "Jasna kuchnia otwiera opowieść o mieszkaniu. Łazienka rozwija ją w bardziej kameralnej odsłonie, zachowując relację drewna, kamiennych płaszczyzn i ciepłego światła. Oba ujęcia przedstawiają koncepcję, nie fotografie ukończonej realizacji.",
-              "The approved bright kitchen opens the story of the apartment. The bathroom offers a more intimate expression of the same relationship between timber, stone surfaces and warm light. Both images are design visualisations, not photographs of completed construction.",
-              "La cocina clara aprobada abre el relato de la vivienda. El baño ofrece una expresión más íntima de la misma relación entre madera, superficies pétreas y luz cálida. Ambas imágenes son visualizaciones del proyecto, no fotografías de una obra terminada."
+              "Jasna kuchnia i kameralna łazienka rozwijają wspólną paletę drewna, kamienia i ciepłego światła.",
+              "The bright kitchen and intimate bathroom share a palette of wood, stone and warm light.",
+              "La cocina luminosa y el baño íntimo comparten una paleta de madera, piedra y luz cálida."
             ],
             "visuals": [
               {
@@ -1795,9 +1751,9 @@ window.AOM = {
                 "height": 1200,
                 "kind": "visualisation",
                 "caption": [
-                  "Zatwierdzona koncepcja kuchni — wizualizacja",
-                  "Approved kitchen concept — design visualisation",
-                  "Propuesta aprobada de cocina — visualización"
+                  "Kuchnia",
+                  "Kitchen",
+                  "Cocina"
                 ],
                 "alt": [
                   "Jasna kuchnia z kremowymi frontami, drewnianymi szafkami górnymi i ciemnym kamieniem",
@@ -1811,9 +1767,9 @@ window.AOM = {
                 "height": 1200,
                 "kind": "visualisation",
                 "caption": [
-                  "Łazienka — wizualizacja koncepcji",
-                  "Bathroom — design visualisation",
-                  "Baño — visualización del proyecto"
+                  "Łazienka",
+                  "Bathroom",
+                  "Baño"
                 ],
                 "alt": [
                   "Atmosphere-Driven Apartment — Łazienka — wizualizacja koncepcji",
@@ -1847,9 +1803,9 @@ window.AOM = {
                 "height": 1358,
                 "kind": "drawing",
                 "caption": [
-                  "Oryginalny rzut mieszkania",
-                  "Original apartment plan",
-                  "Planta original de la vivienda"
+                  "Układ przestrzeni",
+                  "Spatial layout",
+                  "Distribución del espacio"
                 ],
                 "alt": [
                   "Atmosphere-Driven Apartment — Oryginalny rzut mieszkania",
@@ -1909,9 +1865,9 @@ window.AOM = {
               "Antes de dar forma a la atmósfera."
             ],
             "body": [
-              "Oryginalne zdjęcia pokazują mieszkanie w stanie deweloperskim — punkt wyjścia dla planowania funkcji, materiałów i oświetlenia. Stan istniejący stanowi kontekst dla wizualizacji projektu.",
-              "The original photographs show the developer-standard apartment: the starting point for spatial planning, materials and lighting. These existing conditions provide context for the design visualisations.",
-              "Las fotografías originales muestran la vivienda sin acabados: el punto de partida para la distribución, los materiales y la iluminación. Este estado previo aporta el contexto para las visualizaciones del proyecto."
+              "Stan deweloperski — punkt wyjścia dla nowej kompozycji wnętrza.",
+              "The original shell — the starting point for a new interior composition.",
+              "El estado inicial de obra — el punto de partida para una nueva composición interior."
             ],
             "visuals": [
               {
@@ -1920,9 +1876,9 @@ window.AOM = {
                 "height": 881,
                 "kind": "photo",
                 "caption": [
-                  "Stan istniejący — oryginalne zdjęcia mieszkania w stanie deweloperskim",
-                  "Existing conditions — original developer-standard photographs",
-                  "Estado previo — fotografías originales de la vivienda sin acabados"
+                  "Przed zmianą",
+                  "Before",
+                  "Antes"
                 ],
                 "alt": [
                   "Atmosphere-Driven Apartment — Stan istniejący — oryginalne zdjęcia mieszkania w stanie deweloperskim",
@@ -1945,46 +1901,26 @@ window.AOM = {
               "Coherencia desde el concepto hasta el detalle."
             ],
             "body": [
-              "Kierunek artystyczny łączę z opracowaniem funkcjonalnym i technicznym. Wsparcie realizacji obejmuje uzgodnienia i współpracę z wykonawcami przy wdrażaniu rozwiązań projektowych.",
-              "I connect art direction with spatial and technical development. Execution Support includes coordination and collaboration with contractors as the design is implemented.",
-              "Conecto la dirección artística con el desarrollo funcional y técnico. El apoyo a la ejecución incluye la coordinación y la colaboración con contratistas para llevar a cabo las soluciones del proyecto."
+              "Autorski projekt Magdaleny Babickiej obejmuje kierunek artystyczny, układ wnętrza oraz dobór materiałów, światła i zabudowy na wymiar.",
+              "Magdalena Babicka’s design brings together art direction, spatial planning, materials, lighting and bespoke joinery.",
+              "El diseño de Magdalena Babicka reúne dirección artística, distribución, materiales, iluminación y mobiliario a medida."
             ],
             "visuals": [],
             "items": [
               [
-                "Koncepcja i kierunek artystyczny",
-                "Concept and art direction",
-                "Concepto y dirección artística"
+                "Projekt wnętrza",
+                "Interior design",
+                "Diseño de interiores"
               ],
               [
-                "Układ funkcjonalny",
-                "Space planning",
-                "Distribución del espacio"
-              ],
-              [
-                "Strategia materiałów i oświetlenia",
-                "Material and lighting strategy",
-                "Estrategia de materiales e iluminación"
+                "Materiały i światło",
+                "Materials and lighting",
+                "Materiales e iluminación"
               ],
               [
                 "Zabudowa na wymiar",
                 "Bespoke joinery",
                 "Mobiliario a medida"
-              ],
-              [
-                "Dokumentacja techniczna",
-                "Technical documentation",
-                "Documentación técnica"
-              ],
-              [
-                "Koordynacja instalacji wodno-kanalizacyjnej i elektrycznej",
-                "Plumbing and electrical coordination",
-                "Coordinación de fontanería e instalación eléctrica"
-              ],
-              [
-                "Wsparcie realizacji",
-                "Execution Support",
-                "Apoyo a la ejecución"
               ]
             ]
           }
@@ -2000,7 +1936,12 @@ window.AOM = {
             "Discuss an interior where aesthetics, function and everyday comfort form a considered whole.",
             "Hablemos de un interior en el que estética, función y comodidad cotidiana formen un conjunto cuidado."
           ]
-        }
+        },
+        "planLabel": [
+          "Układ przestrzeni",
+          "Spatial layout",
+          "Distribución del espacio"
+        ]
       },
       "curatedRank": 4,
       "featuredRank": 4
@@ -2392,9 +2333,9 @@ window.AOM = {
           "height": 1920,
           "kind": "visualisation",
           "caption": [
-            "Wariant 01 — wizualizacja koncepcyjna",
-            "Proposal 01 — concept visualisation",
-            "Propuesta 01 — visualización conceptual"
+            "Wyrazisty ornament",
+            "Ornamental statement",
+            "Ornamento expresivo"
           ],
           "alt": [
             "Symetryczne, podwójne schody w koncepcji holu w Marbelli z ornamentalnym dywanem i złotymi detalami",
@@ -2416,9 +2357,9 @@ window.AOM = {
             "El arte de la llegada."
           ],
           "body": [
-            "Studium koncepcyjne przygotowane dla zespołu NOVA KASYANOV na potrzeby prywatnej rezydencji w Marbelli obejmowało trzy warianty aranżacji inspirowanej włoskim luksusem — od bogatego ornamentu, przez subtelną symetrię, po wyrazisty kontrast.\n\nMonumentalna klatka schodowa, kamień, złote akcenty i dekoracyjne motywy stanowią wspólną bazę kompozycyjną. Projekt dokumentuje etap poszukiwania kierunku artystycznego, a nie ukończoną realizację.",
-            "Developed during the concept phase for the NOVA KASYANOV design team, this private residential study explores three interpretations of Italian-inspired grandeur — from expressive ornament to restrained symmetry and dramatic contrast.\n\nThe proposals investigate a monumental double staircase, architectural symmetry and decorative identity through warm stone, metallic accents and contrasting textiles. The project documents a creative exploration of spatial character and atmosphere, rather than a completed interior.",
-            "Desarrollado durante la fase conceptual para el equipo de NOVA KASYANOV, este estudio de una residencia privada en Marbella explora tres interpretaciones del lujo de inspiración italiana: ornamentación expresiva, simetría contenida y contraste dramático.\n\nLa escalera doble monumental, la simetría y la identidad decorativa se estudian a través de piedra cálida, acentos metálicos y tejidos de contraste. El proyecto documenta una exploración creativa del carácter y la atmósfera del espacio, no un interior construido."
+            "Trzy interpretacje reprezentacyjnego holu rozwijają ideę włoskiej elegancji: od bogatego ornamentu, przez subtelną symetrię, po wyrazisty kontrast. Monumentalne schody, kamień i złote akcenty tworzą wspólną oś kompozycji.",
+            "Three interpretations of a grand entrance hall explore Italian elegance: from rich ornament and subtle symmetry to expressive contrast. Monumental stairs, stone and gold accents create a shared compositional axis.",
+            "Tres interpretaciones de un gran vestíbulo exploran la elegancia italiana: del ornamento rico y la simetría sutil al contraste expresivo. La escalera monumental, la piedra y los acentos dorados forman un eje común."
           ],
           "facts": [
             {
@@ -2431,18 +2372,6 @@ window.AOM = {
                 "Prywatna rezydencja / Marbella, Hiszpania",
                 "Private villa / Marbella, Spain",
                 "Residencia privada / Marbella, España"
-              ]
-            },
-            {
-              "label": [
-                "Etap",
-                "Stage",
-                "Fase"
-              ],
-              "value": [
-                "Studium koncepcyjne / trzy alternatywne kierunki",
-                "Concept study / three alternative directions",
-                "Estudio conceptual / tres alternativas"
               ]
             },
             {
@@ -2479,9 +2408,9 @@ window.AOM = {
                 "height": 1920,
                 "kind": "visualisation",
                 "caption": [
-                  "Wariant 01 — wizualizacja koncepcyjna",
-                  "Proposal 01 — concept visualisation",
-                  "Propuesta 01 — visualización conceptual"
+                  "Wyrazisty ornament",
+                  "Ornamental statement",
+                  "Ornamento expresivo"
                 ],
                 "alt": [
                   "Symetryczne, podwójne schody w koncepcji holu w Marbelli z ornamentalnym dywanem i złotymi detalami",
@@ -2495,9 +2424,9 @@ window.AOM = {
                 "height": 1920,
                 "kind": "visualisation",
                 "caption": [
-                  "Wariant 02 — wizualizacja koncepcyjna",
-                  "Proposal 02 — concept visualisation",
-                  "Propuesta 02 — visualización conceptual"
+                  "Subtelna symetria",
+                  "Refined symmetry",
+                  "Simetría refinada"
                 ],
                 "alt": [
                   "Alternatywna koncepcja holu z jasnymi wykończeniami, neutralnym dywanem i symetrycznymi schodami",
@@ -2511,9 +2440,9 @@ window.AOM = {
                 "height": 1600,
                 "kind": "visualisation",
                 "caption": [
-                  "Wariant 03 — wizualizacja koncepcyjna",
-                  "Proposal 03 — concept visualisation",
-                  "Propuesta 03 — visualización conceptual"
+                  "Dramatyczny kontrast",
+                  "Dramatic contrast",
+                  "Contraste dramático"
                 ],
                 "alt": [
                   "Koncepcja holu z ciemnym centralnym tłem, złotymi detalami i ornamentalnym dywanem",
@@ -2626,9 +2555,9 @@ window.AOM = {
             "Un estudio de expresión espacial."
           ],
           "body": [
-            "Moja praca obejmowała opracowanie alternatywnych koncepcji, propozycje materiałowe i kolorystyczne, moodboardy oraz wizualizacje architektoniczne. Studium powstało w fazie koncepcyjnej dla zespołu NOVA KASYANOV.",
-            "My contribution covered alternative concept proposals, material and colour research, moodboards and architectural visualisations. The study was prepared during the concept phase for the NOVA KASYANOV design team.",
-            "Mi contribución abarcó propuestas conceptuales alternativas, investigación de materiales y colores, moodboards y visualizaciones arquitectónicas. El estudio se preparó durante la fase conceptual para el equipo de NOVA KASYANOV."
+            "Alternatywne aranżacje, palety materiałowe i kolorystyczne oraz wizualizacje architektoniczne.",
+            "Alternative interior directions, material and colour palettes, and architectural visualisations.",
+            "Propuestas alternativas de interiorismo, paletas de materiales y colores y visualizaciones arquitectónicas."
           ],
           "byline": [
             "Magdalena Babicka / opracowanie koncepcji",

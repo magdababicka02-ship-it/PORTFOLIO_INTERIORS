@@ -1,5 +1,15 @@
 # Art of Meaning — wdrożenie i materiały
-Stan: 27 października 2026 r.
+Stan: 3 listopada 2026 r.
+
+## Aktualizacja premium — 3 listopada 2026
+
+- Usunięto wskazane powtórzenia: końcowy blok kontaktowy i disclaimer The Space Between, instrukcję pod suwakiem oraz podpisy powtarzające status wizualizacji. Zostaje jedna etykieta koncepcji w otwarciu The Space Between, właściwe statusy innych projektów i wspólna stopka z kontaktem.
+- Atmosphere-Driven Apartment: „Realizacja w toku” w PL/EN/ES na stronie, karcie i w SEO. Brak słabych wycinków materiałów; zewnętrzne zdjęcia nie były dostępne, więc wybrano dopuszczone usunięcie sekcji. Opis i zakres skrócono. Tylko jeden wybrany rzut jest dostępny po rozwinięciu.
+- Private Spa Bathroom: krótsze opisy, trzy elementy zakresu, jedna plansza i PDF po rozwinięciu; pięć surowych rysunków pozostaje w plikach źródłowych.
+- Ceremonial Arrival: usunięto schemat, mały rzut referencyjny i rozbudowane dopiski; zachowano trzy koncepcje i istotne przypisanie współpracy, ograniczone do dwóch miejsc.
+- Wszystkie 12 wpisów portfolio, kolejność, kategorie, oryginalne wizualizacje i zdjęcia oraz dotychczasowe materiały pozostają zachowane. Nie wygenerowano ani nie edytowano grafik.
+- Podglądy i testy bieżącej wersji: `previews/refined-*-desktop.png`, `previews/refined-*-mobile.png`, `previews/premium-refinement-checks.json`. Historyczne opisy dalszych etapów raportu należy czytać z uwzględnieniem tej aktualizacji.
+- Weryfikacja: 48 widoków Wnętrz i siedmiu projektów × PL/EN/ES × telefon/komputer; dodatkowo 66 kombinacji rozmiar/język w czterech testach projektowych i 57 powiększeń z oddawaniem fokusu. Test ogólny: 30 widoków, 23 trasy szczegółowe, 52 linki lokalne, filtry, menu, suwak, filmy i formularz z przechwyconą wysyłką. Brak błędów JS i brakujących tłumaczeń. Wszystkie pliki obrazów i filmów pozostały niezmienione. Nie wysłano rzeczywistych e-maili.
 
 ## Wdrożone strony
 - `index.html` — Portfolio / strona główna: film, trzy obszary twórczości, sekcja Magdaleny, stopka.

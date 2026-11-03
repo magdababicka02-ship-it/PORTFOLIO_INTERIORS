@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-25T22:01:49.131Z",
+  "date": "2026-11-03T20:33:29.016Z",
   "languages": [
     "pl",
     "en",
@@ -9,12 +9,14 @@
   "approvedKitchen": "passed",
   "keyboardNavigation": "passed",
   "responsiveChecks": 15,
-  "sourceImages": 9,
-  "lightboxChecks": 30,
-  "projectStatus": "design concept, technical development and Execution Support",
-  "curatedBoard": "one group with real plan and joinery",
-  "optionalCoordinationDetail": "collapsed by default",
+  "displayedSourceImages": 4,
+  "retainedSourceImages": 9,
+  "lightboxChecks": 15,
+  "projectStatus": "implementation in progress",
+  "curatedBoard": "one original plan available on demand",
+  "weakMaterialCrops": "removed",
+  "technicalExcerpts": "removed from presentation",
   "brandRefinements": "passed",
-  "portfolioProjects": 9,
+  "portfolioProjects": 12,
   "browserErrors": []
 }

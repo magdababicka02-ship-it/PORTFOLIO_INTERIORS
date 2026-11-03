@@ -24,26 +24,23 @@ const out=path.resolve(__dirname,'../previews');
    assert.equal(new URL(page.url()).searchParams.get('lang'),lang);
    assert.equal(await page.locator('h1').textContent(),'Ceremonial Arrival');
    assert.equal(await page.locator('.arrival-scope li').count(),5);
-   assert.equal(await page.locator('.project-image-open').count(),6);
+   assert.equal(await page.locator('.project-image-open').count(),4);
    assert.equal(await page.locator('.arrival-proposal').count(),3);
    assert.match(await page.locator('.arrival-hero .arrival-credit').innerText(),/NOVA KASYANOV/);
    assert.match(await page.locator('.arrival-authorship .arrival-credit').innerText(),/NOVA KASYANOV/);
-   assert.match(await page.locator('.arrival-facts').innerText(),/Marbella/);
+   assert.match(await page.locator('.arrival-location').innerText(),/Marbella/);
    assert.match(await page.locator('.arrival-index').first().innerText(),/koncepcyjne|Concept|conceptual/i);
-   assert.match(await page.locator('.arrival-schematic-note').innerText(),/bez skali|not to scale|sin escala/i);
-   assert.match(await page.locator('.arrival-affiliation').innerText(),/Versace/);
+   assert.equal(await page.locator('.arrival-spatial,.arrival-schematic-note,.arrival-reference,.arrival-affiliation').count(),0,'Technical and affiliation explanations removed');
    assert.equal(await page.locator('.arrival-reference img:visible').count(),0);
    assert.equal(await page.locator('.comparison').count(),0,'Alternative concepts, no before/after');
-   assert.deepEqual(await page.locator('.arrival-project>section[id]').evaluateAll(sections=>sections.map(section=>section.id)),['koncepcja','trzy-interpretacje','relacje-przestrzenne','zakres-i-wspolpraca']);
+   assert.deepEqual(await page.locator('.arrival-project>section[id]').evaluateAll(sections=>sections.map(section=>section.id)),['koncepcja','trzy-interpretacje','zakres-i-wspolpraca']);
    assert.equal(await page.locator('.arrival-hero-visual img').getAttribute('loading'),'eager');
    for(const code of ['pl','en','es']){
     const url=new URL(await page.locator('#main-nav .languages [lang='+code+']').getAttribute('href'));
     assert.ok(url.pathname.endsWith('/ceremonial-arrival.html'));assert.equal(url.searchParams.get('lang'),code);
    }
-   await page.locator('.arrival-reference summary').focus();await page.keyboard.press('Enter');
-   assert.equal(await page.locator('.arrival-reference').getAttribute('open'),'');
    const buttons=page.locator('.project-image-open');
-   for(let i=0;i<6;i++){
+   for(let i=0;i<4;i++){
     const button=buttons.nth(i),source=await button.getAttribute('data-project-image');await button.click();
     await page.locator('dialog img').evaluate(image=>image.decode());
     assert.ok((await page.locator('dialog .arrow-link').getAttribute('href')).endsWith(source));
@@ -62,7 +59,7 @@ const out=path.resolve(__dirname,'../previews');
     await page.evaluate(async()=>{await document.fonts.ready;document.querySelectorAll('img').forEach(image=>image.loading='eager');await Promise.all([...document.images].map(image=>image.decode()));});
     assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1),'Overflow '+width+' '+lang);
     const images=await page.locator('main img').evaluateAll(images=>images.map(image=>{const r=image.getBoundingClientRect();return {src:image.src,w:image.naturalWidth,h:image.naturalHeight,ratio:r.width/r.height,visible:!!(r.width&&r.height),alt:image.alt}}));
-    assert.equal(images.length,6);assert.equal(new Set(images.map(i=>i.src)).size,5);
+    assert.equal(images.length,4);assert.equal(new Set(images.map(i=>i.src)).size,3);
     for(const image of images){assert.ok(image.alt);if(image.visible)assert.ok(Math.abs(image.ratio-image.w/image.h)<.005,'Original frame proportions');}
     if(width>=1024){
      const widths=await page.locator('.arrival-proposal img').evaluateAll(images=>images.map(image=>image.getBoundingClientRect().width));
@@ -78,7 +75,7 @@ const out=path.resolve(__dirname,'../previews');
   assert.equal(await page.locator('.interior-card').count(),12);
   assert.equal(await page.locator('.interior-open').count(),5,'Existing studies retained');
   assert.deepEqual(errors,[]);
-  const result={date:new Date().toISOString(),languages:['pl','en','es'],residentialStudy:'passed',existingRelativeOrderPreserved:true,responsiveChecks,alternativeProposals:3,equalTriptychWeight:true,sourceAssets:5,lightboxChecks,conceptStatusAndNovaCredit:'visible',spatialDiagram:'schematic, not to scale',lowResolutionReference:'collapsed and native width capped',existingStudiesRetained:5,portfolioEntries:12,browserErrors:errors};
+  const result={date:new Date().toISOString(),languages:['pl','en','es'],residentialStudy:'passed',existingRelativeOrderPreserved:true,responsiveChecks,alternativeProposals:3,equalTriptychWeight:true,displayedAssets:3,retainedSourceAssets:5,lightboxChecks,conceptStatusAndNovaCredit:'visible',spatialDiagram:'removed from public presentation',lowResolutionReference:'removed from public presentation',existingStudiesRetained:5,portfolioEntries:12,browserErrors:errors};
   fs.writeFileSync(path.join(out,'ceremonial-arrival-checks.json'),JSON.stringify(result,null,2));console.log(JSON.stringify(result));
  }finally{await browser.close();}
 })().catch(error=>{console.error(error);process.exit(1)});

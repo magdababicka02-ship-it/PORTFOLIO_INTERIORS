@@ -43,15 +43,13 @@ const loadCatalog=source=>{const context={window:{}};vm.runInNewContext(source,c
    await page.waitForURL(url=>url.pathname.endsWith('/the-space-between.html'));
    assert.equal(new URL(page.url()).searchParams.get('lang'),lang);
    assert.equal(await page.locator('h1').textContent(),copy.title[lang]);
-   for(const [key,selector] of Object.entries({subtitle:'.space-subtitle',heroLead:'.space-lead',intro:'.space-manifesto-copy .space-body',statement:'.space-statement p',artSectionTitle:'.space-art-reading h2',artSection:'.space-art-reading .space-body',materialsTitle:'.space-material-copy h2',materials:'.space-material-copy .space-body',closingTitle:'.space-closing-copy h2',closing:'.space-closing-copy .space-body',cta:'.space-invitation h2',footerDisclosure:'.space-disclosure'}))assert.equal(await page.locator(selector).textContent(),copy[key][lang],key+' approved copy');
-   assert.deepEqual(await page.locator('.space-scope li').allTextContents(),copy.scope[lang]);
+   for(const [key,selector] of Object.entries({subtitle:'.space-subtitle',heroLead:'.space-lead',intro:'.space-manifesto-copy .space-body',statement:'.space-statement p',artSectionTitle:'.space-art-reading h2',artSection:'.space-art-reading .space-body',materialsTitle:'.space-material-copy h2',materials:'.space-material-copy .space-body',closingTitle:'.space-closing-copy h2',closing:'.space-closing-copy .space-body'}))assert.equal(await page.locator(selector).textContent(),copy[key][lang],key+' approved copy');
+   assert.equal(await page.locator('.space-scope,.space-invitation,.space-disclosure').count(),0,'Repeated invitation and explanatory footer removed');
    assert.equal(await page.locator('meta[name=description]').getAttribute('content'),copy.seoDescription[lang]);
    assert.equal(await page.locator('meta[property="og:description"]').getAttribute('content'),copy.seoDescription[lang]);
    assert.equal(await page.locator('meta[property="og:title"]').getAttribute('content'),await page.title());
    assert.ok((await page.locator('meta[property="og:image"]').getAttribute('content')).endsWith('/the-space-between/01_hero_master.webp'));
-   const request=new URL(await page.locator('.space-actions a[href*=kontakt]').getAttribute('href'));
-   assert.equal(request.searchParams.get('artwork'),copy.title[lang]);assert.equal(request.searchParams.get('project'),'interior');assert.equal(request.searchParams.get('lang'),lang);
-   assert.equal(normalize(await page.locator('.space-actions .outline').innerText()),copy.ctaAction[lang]+' →');
+   assert.ok((await page.locator('.footer-contact a[href*=kontakt]').getAttribute('href')).includes('lang='+lang));
    for(const code of ['en','es','pl']){
     await page.locator('.site-footer .languages [lang='+code+']').click();
     assert.ok(new URL(page.url()).pathname.endsWith('/the-space-between.html'));
@@ -103,7 +101,7 @@ const loadCatalog=source=>{const context={window:{}};vm.runInNewContext(source,c
   }
   for(const url of urls){const response=await page.request.get(url);assert.ok(response.ok(),url+' returns '+response.status());localLinks++;}
   assert.deepEqual(errors,[]);
-  const result={date:new Date().toISOString(),languages:['pl','en','es'],responsiveChecks,lightboxChecks,approvedCopy:'exact PL/EN/ES',approvedSequence:copy.recommendedSequence.map(i=>i.asset),assets:integrity,source:'Supplied WebP files; light package contains no original PNG files',fullFrames:true,heroPriority:'high',conceptStatus:'visible in opening, card and disclosure',individualLayout:true,featuredOrder:ordered,portfolioEntries:12,existingModalStudies:5,localLinks,browserErrors:errors};
+  const result={date:new Date().toISOString(),languages:['pl','en','es'],responsiveChecks,lightboxChecks,approvedCopy:'retained narrative PL/EN/ES; repeated invitation, scope and explanatory footer removed',approvedSequence:copy.recommendedSequence.map(i=>i.asset),assets:integrity,source:'Supplied WebP files; light package contains no original PNG files',fullFrames:true,heroPriority:'high',conceptStatus:'one discreet opening label and portfolio card',individualLayout:true,featuredOrder:ordered,portfolioEntries:12,existingModalStudies:5,localLinks,browserErrors:errors};
   fs.writeFileSync(path.join(out,'the-space-between-checks.json'),JSON.stringify(result,null,2));console.log(JSON.stringify(result));
  }finally{await browser.close();}
 })().catch(error=>{console.error(error);process.exit(1)});

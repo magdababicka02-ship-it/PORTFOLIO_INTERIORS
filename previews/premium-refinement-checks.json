@@ -1,0 +1,29 @@
+{
+  "date": "2026-11-03T20:35:10.789Z",
+  "pageChecks": 48,
+  "languages": [
+    "pl",
+    "en",
+    "es"
+  ],
+  "viewports": [
+    390,
+    1440
+  ],
+  "routes": [
+    "wnetrza",
+    "midnight-garden",
+    "puerto-banus-residence",
+    "private-spa-bathroom",
+    "atmosphere-driven-apartment",
+    "spisak-studio",
+    "ceremonial-arrival",
+    "the-space-between"
+  ],
+  "removed": "repeated invitation and disclaimers, comparison instructions, visualisation captions, weak kitchen material crops and raw technical galleries",
+  "selectedPlans": "one per project, collapsed; keyboard checked",
+  "implementationStatus": "PL/EN/ES visible for apartment and spa",
+  "comparisonKeyboard": "passed",
+  "projectCount": 12,
+  "browserErrors": []
+}
