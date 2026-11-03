@@ -1,0 +1,61 @@
+{
+  "date": "2026-11-03T22:40:59.030Z",
+  "processedSha256": "a2b2fe539d18d7f7a6d231d8844d3055d2a0fa0cc2446529eec9d29fc329b474",
+  "originalRetained": true,
+  "encodedSpeed": 0.8,
+  "fullFrame": true,
+  "sizeBytes": 5852090,
+  "rangeHandling": "actual file bytes served with HTTP Range in test",
+  "results": [
+    {
+      "width": 390,
+      "lang": "pl",
+      "duration": 6.458333,
+      "playback": "passed",
+      "seeking": "passed",
+      "noAutoplay": true
+    },
+    {
+      "width": 390,
+      "lang": "en",
+      "duration": 6.458333,
+      "playback": "passed",
+      "seeking": "passed",
+      "noAutoplay": true
+    },
+    {
+      "width": 390,
+      "lang": "es",
+      "duration": 6.458333,
+      "playback": "passed",
+      "seeking": "passed",
+      "noAutoplay": true
+    },
+    {
+      "width": 1440,
+      "lang": "pl",
+      "duration": 6.458333,
+      "playback": "passed",
+      "seeking": "passed",
+      "noAutoplay": true
+    },
+    {
+      "width": 1440,
+      "lang": "en",
+      "duration": 6.458333,
+      "playback": "passed",
+      "seeking": "passed",
+      "noAutoplay": true
+    },
+    {
+      "width": 1440,
+      "lang": "es",
+      "duration": 6.458333,
+      "playback": "passed",
+      "seeking": "passed",
+      "noAutoplay": true
+    }
+  ],
+  "artisHeatVideo": "unchanged",
+  "browserErrors": []
+}

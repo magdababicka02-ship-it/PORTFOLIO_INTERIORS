@@ -68,6 +68,7 @@ CHROMIUM_PATH=/usr/bin/chromium node scripts/check-the-space-between.cjs
 CHROMIUM_PATH=/usr/bin/chromium node scripts/check-premium-refinement.cjs
 CHROMIUM_PATH=/usr/bin/chromium node scripts/check-portfolio-organisation.cjs
 CHROMIUM_PATH=/usr/bin/chromium node scripts/check-artisheat-video.cjs
+CHROMIUM_PATH=/usr/bin/chromium node scripts/check-nature-video.cjs
 ```
 
 Opcjonalny `AOM_BASE_URL` pozwala wskazać inny adres serwera.
@@ -112,10 +113,12 @@ Bieżące zasady zastępują wcześniejsze grupy featured/creative/studies i prz
 
 `natura-w-reliefie.html`: odrębna kolekcja „Natura w reliefie / Nature in Relief”, drewno, mech i malarstwo. Sześć JPEG zachowuje źródłowe bajty, kolejność oraz znaki wodne. Podpis współpracy jest neutralny; publiczna prezentacja, alt i metadane tej kolekcji nie zawierają marki ani linku partnera. Brak ceny i PDF jest celowy, zgodny z paczką. Nie przypisano wyłącznego autorstwa, klienta, lokalizacji ani wykonania wnętrz.
 
-ArtisHeat ma podłączony film właścicielki przez `project.introVideo.src: videos/artisheat/intro-9x16.mp4`. Natura w reliefie nadal ma `src: null` i pokazuje poster bez przycisku Play. Ścieżki docelowe: `assets/videos/artisheat/intro-9x16.mp4` i `assets/videos/nature-relief/intro-9x16.mp4`. Po dostarczeniu pliku wystarczy ustawić odpowiednio `project.introVideo.src` na `videos/artisheat/intro-9x16.mp4` lub `videos/nature-relief/intro-9x16.mp4` (albo poprawny HTTPS URL). Wideo ma controls, playsinline, preload metadata i nie odtwarza się automatycznie. Nie utworzono pustych MP4.
+ArtisHeat ma podłączony film właścicielki przez `project.introVideo.src: videos/artisheat/intro-9x16.mp4`. Natura w reliefie ma film w `videos/nature-relief/intro-slow.mp4`, spowolniony do 0,8×, wyświetlany w pełnym kwadratowym kadrze. Ścieżki docelowe: `assets/videos/artisheat/intro-9x16.mp4` i `assets/videos/nature-relief/intro-slow.mp4`. Po dostarczeniu pliku wystarczy ustawić odpowiednio `project.introVideo.src` na `videos/artisheat/intro-9x16.mp4` lub `videos/nature-relief/intro-slow.mp4` (albo poprawny HTTPS URL). Wideo ma controls, playsinline, preload metadata i nie odtwarza się automatycznie. Nie utworzono pustych MP4.
 
 Aktualne źródła: `archive/artisheat-originals/`, `archive/nature-relief-originals/` (wyłączone z Pages). PL/EN pochodzą z paczek; ES opracowano na podstawie tych samych treści, aby zachować działającą trzecią wersję witryny. Podglądy: `previews/organised-{wnetrza,light-and-matter,murale-3d-z-funkcja-ogrzewania,natura-w-reliefie}-{desktop,mobile}.png`. Wyniki: `previews/portfolio-organisation-checks.json`.
 
-Do uzupełnienia: właściwy film 9:16 dla Natury w reliefie. Parametry i warunki poszczególnych zamówień pozostają ustalane indywidualnie; nie są niezbędnym brakującym materiałem do prezentacji kolekcji.
+Oba filmy kolekcji są już podłączone. Parametry i warunki poszczególnych zamówień pozostają ustalane indywidualnie; nie są niezbędnym brakującym materiałem do prezentacji kolekcji.
 
 Film ArtisHeat: oryginalny „WhatsApp Video 2026-04-16 at 15.13.20.mp4”, skopiowany bez zmiany bajtów do `assets/videos/artisheat/intro-9x16.mp4`. 576 × 1024 px, 19,458 s, H.264 / AAC, 3 857 656 bajtów; SHA-256 `19519ad33cb88b3d0a9f9853dddcdab45252278cec830656a63f0abcd922a4c6`. Jeden odtwarzacz w przygotowanym module 9:16, controls i playsinline, bez autoplay.
+
+Film Natury w reliefie: oryginał „WhatsApp Video 2026-01-23 at 12.55.28.mp4” zachowano bez zmiany bajtów w `archive/nature-relief-originals/video/intro-original.mp4` (SHA-256 `1a447eaa6033a90646c18d48ec2b003d036e35c00dafc81f94859bc16c452991`). Publiczna wersja `assets/videos/nature-relief/intro-slow.mp4` ma tempo 0,8×, 1440 × 1440 px i ok. 6,46 s. Zachowano cały kadr i kolory, bez interpolacji ruchu; dźwięk spowolniono z zachowaniem wysokości tonu. Transformacja: `setpts=PTS/0.8`, `atempo=0.8`, H.264 CRF 17 / AAC 192 kb/s, 24 fps i faststart. `introVideo.encodedPlaybackSpeed: 0.8` opisuje tempo zapisane w pliku, więc odtwarzacz nie spowalnia go drugi raz. `aspectRatio: 1:1` dopasowuje moduł do dostarczonego kwadratowego filmu. Brak autoplay.

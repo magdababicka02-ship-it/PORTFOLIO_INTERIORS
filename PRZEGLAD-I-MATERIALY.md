@@ -1,6 +1,12 @@
 # Art of Meaning — wdrożenie i materiały
 Stan: 3 listopada 2026 r.
 
+## Film Natury w reliefie — 3 listopada 2026
+
+- Podłączono film właścicielki do projektu z drewnem i mchem, z tempem 0,8×. Pełny kwadratowy kadr 1440 × 1440 dopasowano do modułu bez przycinania ani rozciągania. Około 6,46 s po spowolnieniu; dźwięk zachowuje wysokość tonu.
+- Oryginał jest zachowany w archiwum wyłączonym z Pages; publiczny plik to `assets/videos/nature-relief/intro-slow.mp4`. Oba filmy kolekcji są już podłączone, ArtisHeat pozostaje bez zmian. Kontrolki, playsinline, bez autoplay.
+- Sześć testów 390/1440 px × PL/EN/ES: odtwarzanie, pauza, przewijanie i proporcje 1:1; brak błędów JS. Raport: `previews/nature-video-checks.json`; podglądy: `previews/nature-video-{desktop,mobile}.png`. Test używa rzeczywistych bajtów przetworzonego filmu z prawidłową obsługą HTTP Range.
+
 ## Film ArtisHeat — 3 listopada 2026
 
 - Podłączono oryginalny film właścicielki w istniejącym module ArtisHeat. Plik H.264/AAC, 576 × 1024, 19,458 s, zachowuje identyczne bajty i dźwięk. Odtwarzanie po kliknięciu, z kontrolkami i playsinline. Bez autoplay.

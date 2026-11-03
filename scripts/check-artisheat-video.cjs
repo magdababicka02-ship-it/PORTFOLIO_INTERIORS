@@ -40,10 +40,10 @@ const sourceSha256='19519ad33cb88b3d0a9f9853dddcdab45252278cec830656a63f0abcd922
    results.push({width,lang,duration:initial.duration,playback:'passed',seeking:'passed',noAutoplay:true});
   }
   await page.goto(new URL('natura-w-reliefie.html?lang=pl',base).href);
-  assert.equal(await page.locator('main video').count(),0);assert.equal(await page.locator('.nature-film img').count(),1);
+  assert.equal(await page.locator('.nature-film video[controls][playsinline]').count(),1);
   assert.deepEqual(errors,[]);
-  const report={date:new Date().toISOString(),sourceSha256,byteIdentical:true,sizeBytes:data.length,rangeHandling:'actual file bytes served with HTTP Range in test',results,naturePosterPreserved:true,browserErrors:errors};
+  const report={date:new Date().toISOString(),sourceSha256,byteIdentical:true,sizeBytes:data.length,rangeHandling:'actual file bytes served with HTTP Range in test',results,natureVideo:'connected separately',browserErrors:errors};
   fs.writeFileSync(path.join(root,'previews/artisheat-video-checks.json'),JSON.stringify(report,null,2));
-  console.log(JSON.stringify({videoChecks:results.length,playback:'passed',seeking:'passed',sourceBytes:'unchanged',naturePoster:'unchanged',browserErrors:errors}));
+  console.log(JSON.stringify({videoChecks:results.length,playback:'passed',seeking:'passed',sourceBytes:'unchanged',natureVideo:'connected separately',browserErrors:errors}));
  }finally{await browser.close();}
 })().catch(e=>{console.error(e);process.exit(1)});

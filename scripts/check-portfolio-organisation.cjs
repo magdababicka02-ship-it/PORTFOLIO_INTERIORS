@@ -27,7 +27,7 @@ const ids=page=>page.locator('.interior-card').evaluateAll(cards=>cards.map(c=>c
  const source=JSON.parse(fs.readFileSync(path.join(root,'archive/artisheat-originals/content/project.json')));
  const natureSource=JSON.parse(fs.readFileSync(path.join(root,'archive/nature-relief-originals/content/project.json')));
  const nature=data.interiors.find(p=>p.id===natureSource.id);
- assert.equal(nature.project.price,null);assert.equal(nature.project.productionLeadTime,null);assert.equal(nature.project.technicalSpecification,null);assert.equal(nature.project.introVideo.src,null);assert.ok(!nature.project.partner);
+ assert.equal(nature.project.price,null);assert.equal(nature.project.productionLeadTime,null);assert.equal(nature.project.technicalSpecification,null);assert.equal(nature.project.introVideo.src,'videos/nature-relief/intro-slow.mp4');assert.ok(!nature.project.partner);
  const heat=data.interiors.find(p=>p.id===source.id);
  assert.equal(heat.project.introVideo.src,'videos/artisheat/intro-9x16.mp4');assert.equal(heat.project.pricing.compositionFrom,10000);assert.equal(heat.project.pricing.taxTreatment,null);
  assert.ok(Object.values(heat.project.technicalParameters).every(value=>value===null));
@@ -92,7 +92,7 @@ const ids=page=>page.locator('.interior-card').evaluateAll(cards=>cards.map(c=>c
   for(const lang of ['pl','en','es']){
    await page.goto(new URL('natura-w-reliefie.html?lang='+lang,base).href);
    assert.equal(await page.locator('.nature-credit').textContent(),nature.project.credit[{pl:0,en:1,es:2}[lang]]);
-   assert.equal(await page.locator('.nature-film video,.nature-film button').count(),0);
+   assert.equal(await page.locator('.nature-film video[controls][playsinline]').count(),1);assert.equal(await page.locator('.nature-film button,.nature-film video[autoplay]').count(),0);
    assert.equal(await page.locator('main a[href$=".pdf"]').count(),0);
    assert.doesNotMatch(await page.locator('main').innerText(),/ArtisHeat|NOVA KASYANOV|€|netto|brutto|acoustic|akust|certyf|stabiliz|gwarancj|warranty|turnkey/i);
    assert.deepEqual(await page.locator('.nature-gallery img').evaluateAll(images=>images.map(i=>new URL(i.src).pathname.split('/').pop())),natureSource.gallery.map(i=>i.src.split('/').pop()));
@@ -108,7 +108,7 @@ const ids=page=>page.locator('.interior-card').evaluateAll(cards=>cards.map(c=>c
     for(const image of await page.locator('.project-visual img').evaluateAll(images=>images.map(i=>{const r=i.getBoundingClientRect();return{alt:i.alt,w:i.naturalWidth,h:i.naturalHeight,ratio:r.width/r.height,fit:getComputedStyle(i).objectFit,width:r.width};}))){assert.ok(image.alt);assert.equal(image.fit,'contain');assert.ok(Math.abs(image.ratio-image.w/image.h)<.005);assert.ok(image.width<=image.w+1);}
    }
    if(slug.startsWith('murale-3d')||slug==='natura-w-reliefie'){
-    const r=await page.locator('.heat-film,.nature-film').boundingBox();assert.ok(Math.abs(r.width/r.height-9/16)<.005);assert.ok(r.width<=360);
+    const r=await page.locator('.heat-film,.nature-film').boundingBox();assert.ok(Math.abs(r.width/r.height-(slug==='natura-w-reliefie'?1:9/16))<.005);assert.ok(r.width<=360);
    }
    if(lang==='pl'&&[390,1440].includes(width)){
     await page.evaluate(()=>{document.activeElement.blur();window.scrollTo(0,0);});await page.mouse.move(0,0);
@@ -132,7 +132,7 @@ const ids=page=>page.locator('.interior-card').evaluateAll(cards=>cards.map(c=>c
   }
   for(const url of urls){assert.ok((await page.request.get(url)).ok(),url);localLinks++;}
   assert.deepEqual(errors,[]);
-  const result={date:new Date().toISOString(),languages:['pl','en','es'],featuredSeparateFromCategory:true,filterChecks,expected,visibleProjectCount:12,natureRelief:'six concepts, neutral collaboration credit, no price or PDF',removedTile:'patio',mergedTile:'dressing → living / light-and-matter.html',existingProjectData:'all seven existing detail records unchanged',artisHeatAssets:hashes,natureAssets:natureHashes,price:'composition from EUR 10,000; no invented tax or technical parameters',video:'ArtisHeat uses the supplied MP4; Nature remains poster-only. Controls and playsinline checked.',responsiveChecks,lightboxChecks,localLinks,browserErrors:errors};
+  const result={date:new Date().toISOString(),languages:['pl','en','es'],featuredSeparateFromCategory:true,filterChecks,expected,visibleProjectCount:12,natureRelief:'six concepts, neutral collaboration credit, no price or PDF',removedTile:'patio',mergedTile:'dressing → living / light-and-matter.html',existingProjectData:'all seven existing detail records unchanged',artisHeatAssets:hashes,natureAssets:natureHashes,price:'composition from EUR 10,000; no invented tax or technical parameters',video:'Both collections use supplied films; Nature is encoded at 0.8×. Controls and playsinline checked.',responsiveChecks,lightboxChecks,localLinks,browserErrors:errors};
   fs.writeFileSync(path.join(out,'portfolio-organisation-checks.json'),JSON.stringify(result,null,2));console.log(JSON.stringify(result));
  }finally{await browser.close();}
 })().catch(error=>{console.error(error);process.exit(1)});

@@ -3554,9 +3554,9 @@ window.AOM = {
           }
         ],
         "introVideo": {
-          "src": null,
-          "targetPath": "videos/nature-relief/intro-9x16.mp4",
-          "aspectRatio": "9:16",
+          "src": "videos/nature-relief/intro-slow.mp4",
+          "targetPath": "videos/nature-relief/intro-slow.mp4",
+          "aspectRatio": "1:1",
           "placement": "after_title_before_gallery",
           "poster": "nature-relief/01-lobby-portal.jpg",
           "controls": true,
@@ -3568,7 +3568,8 @@ window.AOM = {
           "caption": {
             "pl": "Wideo o kolekcji",
             "en": "Collection video"
-          }
+          },
+          "encodedPlaybackSpeed": 0.8
         },
         "price": null,
         "productionLeadTime": null,
